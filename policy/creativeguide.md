@@ -1,3 +1,22 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+---
+
 # 소재 심사 규정
 
 토스 앱 지면에 노출되는 광고 소재에 공통으로 적용되는 기준이에요.

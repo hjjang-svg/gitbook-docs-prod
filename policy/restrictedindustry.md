@@ -1,10 +1,29 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+---
+
 # 광고 불가 업종 안내
 
 ## 광고 제한 업종
 
 아래의 경우 토스에서 광고 집행이 불가하거나 제한될 수 있으며, 플랫폼 정책 또는 법령 위반 여부가 추가 확인될 경우, 광고 집행이 중단될 수 있습니다.
 
-
+***
 
 1. 공개 자료실 및 불법 프로그램 업종에서 제현행 법령을 위반하거나 위반의 우려가 있는 서비스는 광고 집행이 불가하며, 정부기관 등의 가이드라인 및 권고사항을 벗어나는 광고의 경우 광고 집행이 제한될 수 있습니다.
 2. [불법사금융](https://www.fss.or.kr/fss/main/contents.do?menuNo=201221), 다단계, 대부업 서비스는 광고 집행이 불가합니다.

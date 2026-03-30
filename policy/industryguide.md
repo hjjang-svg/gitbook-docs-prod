@@ -1,3 +1,22 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+---
+
 # 업종별 심사 가이드
 
 ## 1. **심의필 제출 필수 카테고리 가이드**
@@ -421,10 +440,3 @@
 {% endhint %}
 {% endtab %}
 {% endtabs %}
-
-
-
-
-
-
-
