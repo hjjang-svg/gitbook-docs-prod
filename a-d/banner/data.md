@@ -101,6 +101,8 @@
 
 ## 4. 노출제어
 
+텍스트 테스트
+
 * [x] **단일 노출 제어**
 
 <figure><img src="../../.gitbook/assets/노출 제어 (1).png" alt=""><figcaption></figcaption></figure>
