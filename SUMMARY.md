@@ -97,8 +97,8 @@
 
 * [광고 위약금 안내](adjustment/penaltyguide.md)
 * [광고 머니 관리](adjustment/ad_money.md)
-* [Page 1](adjustment/page-1.md)
+* [연습 페이지](adjustment/undefined.md)
 * [정산하기](adjustment/settlement/README.md)
-  * [선불 계정의 정산](adjustment/settlement/prepay.md)
-  * [후불 계정의 정산](adjustment/settlement/postpay.md)
   * [대행수수료 정산](adjustment/settlement/agency.md)
+  * [후불 계정의 정산](adjustment/settlement/postpay.md)
+  * [선불 계정의 정산](adjustment/settlement/prepay.md)
