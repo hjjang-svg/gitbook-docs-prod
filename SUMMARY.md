@@ -93,12 +93,13 @@
   * [고객 목록 타겟](resources/target/list.md)
   * [타겟 조합 기능](resources/target/undefined.md)
 
-## 광고비 정산 <a href="#adjustment" id="adjustment"></a>
+## 광고비 관리 및 정산 <a href="#adjustment" id="adjustment"></a>
 
 * [광고 위약금 안내](adjustment/penaltyguide.md)
 * [광고 머니 관리](adjustment/ad_money.md)
-* [연습 페이지](adjustment/undefined.md)
 * [정산하기](adjustment/settlement/README.md)
   * [대행수수료 정산](adjustment/settlement/agency.md)
-  * [후불 계정의 정산](adjustment/settlement/postpay.md)
+  * [선불 계정의 정산](https://business-wallet.gitbook.io/guide/settlement/prepaid)
+  * [후불 계정의 정산](https://business-wallet.gitbook.io/guide/settlement/postpaid)
   * [선불 계정의 정산](adjustment/settlement/prepay.md)
+  * [후불 계정의 정산](adjustment/settlement/postpay.md)
