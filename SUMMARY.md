@@ -41,10 +41,6 @@
   * [유용한 기능](a-d/banner/tip.md)
   * [성과 대시보드](a-d/banner/data.md)
   * [맞춤 보고서](a-d/banner/report.md)
-* [신용점수 보드](a-d/creditboard/README.md)
-  * [광고 생성하기](a-d/creditboard/campaign.md)
-  * [소재 가이드](a-d/creditboard/creative.md)
-  * [성과 확인하기](a-d/creditboard/data.md)
 * [머니알림](a-d/money-notifications/README.md)
   * [일반형](a-d/money-notifications/basic.md)
   * [라이브형](a-d/money-notifications/live.md)
@@ -67,6 +63,10 @@
   * [성과 확인하기](a-d/catalog_vote/data.md)
 * [이번 주 미션](a-d/weeklymission.md)
 * [일주일 방문 미션](a-d/visitmission.md)
+* [신용점수 보드](a-d/creditboard/README.md)
+  * [광고 생성하기](a-d/creditboard/campaign.md)
+  * [소재 가이드](a-d/creditboard/creative.md)
+  * [성과 확인하기](a-d/creditboard/data.md)
 
 ## 광고 도구 및 자산 <a href="#resources" id="resources"></a>
 
@@ -95,7 +95,6 @@
 
 ## 광고비 관리 및 정산 <a href="#adjustment" id="adjustment"></a>
 
-* [광고 위약금 안내](adjustment/penaltyguide.md)
 * [광고 머니 관리](adjustment/ad_money.md)
 * [정산하기](adjustment/settlement/README.md)
   * [대행수수료 정산](adjustment/settlement/agency.md)
@@ -103,3 +102,4 @@
   * [후불 계정의 정산](https://business-wallet.gitbook.io/guide/settlement/postpaid)
   * [선불 계정의 정산](adjustment/settlement/prepay.md)
   * [후불 계정의 정산](adjustment/settlement/postpay.md)
+* [광고 위약금 안내](adjustment/penaltyguide.md)
