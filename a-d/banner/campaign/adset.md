@@ -161,7 +161,7 @@
 {% endstep %}
 
 {% step %}
-### 타겟 최적화(bata)
+### 타겟 최적화(beta)
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
