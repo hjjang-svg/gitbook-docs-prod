@@ -124,8 +124,6 @@ layout:
 
 #### **게임**
 
-<figure><img src="../.gitbook/assets/image 62 (1) (1).png" alt=""><figcaption><p> 게임 업종 입력 예시 </p></figcaption></figure>
-
 * <mark style="color:blue;">이용등급 제한이 없는 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**'이용등급 제한없음' or '전체이용가'**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">로 기재하여 제출</mark>
 * <mark style="color:blue;">게임 내에 확률형 아이템이 포함된 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**'확률형 아이템 포함'**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">기재 필수</mark>&#x20;
 * <mark style="color:blue;">청소년 이용불가 또는 성인물로 분류된 콘텐츠는 만 19세 이상 연령 타겟팅 설정 필수</mark>&#x20;
@@ -161,8 +159,6 @@ layout:
 
 #### **엔터테인먼트/미디어**
 
-<figure><img src="../.gitbook/assets/image (244).png" alt=""><figcaption><p>엔터테인먼트/미디어 업종 입력 예시</p></figcaption></figure>
-
 * <mark style="color:blue;">이용등급 제한이 없는 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**'이용등급 제한없음'**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">or</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**'전체관람가'**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">로 기재하여 제출</mark>
 * <mark style="color:blue;">청소년 관람 불가 또는 성인물로 분류된 콘텐츠(예고편 포함)는 만 19세 이상 연령 타겟팅 설정 필수</mark>&#x20;
 
@@ -195,9 +191,7 @@ layout:
 
 #### **술 / 유흥 (주류)**
 
-<figure><img src="../.gitbook/assets/image 60.png" alt=""><figcaption><p>술/유흥 업종 입력 예시 </p></figcaption></figure>
-
-* <mark style="color:blue;">**과음경고문구 표기 의무**</mark><mark style="color:blue;">에 따라 아래 문구 중  한 가지를 선택하여 광고 소재 내에 기재 하여 제출</mark>
+* <mark style="color:blue;">**과음경고문구 표기 의무**</mark><mark style="color:blue;">에 따라 아래 문구 중 한 가지를 선택하여 광고 소재 내에 기재 하여 제출</mark>
 
 - [x] 알코올은 발암물질로 지나친 음주는 간암, 위암 등을 일으킵니다.임신 중 음주는 기형아 출생 위험을 높입니다.
 - [x] 지나친 음주는 암 발생의 원인이 됩니다. 청소년 음주는 성장과 뇌 발달을 저해하며, 임신 중 음주는 태아의 기형 발생이나 유산의 위험을 높입니다.
@@ -235,8 +229,6 @@ layout:
 
 #### **법 (변호사,법률사무소)**&#x20;
 
-<figure><img src="../.gitbook/assets/image (242).png" alt=""><figcaption><p>법률 업종 입력예시</p></figcaption></figure>
-
 * <mark style="color:blue;">법무법인 / 법률사무소의 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**광고 주체 변호사 혹은 광고책임변호사**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">기재 필수</mark>
 * <mark style="color:blue;">법무사무소의 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**법무사 성명 혹은 정확한 명칭**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">기재 필수</mark>
 
@@ -249,30 +241,21 @@ layout:
 * **광고 카테고리는 반드시 광고 집행 업종과 일치한 카테고리를 선택해주세요.**
   * 선택한 카테고리와 광고 업종이 상이한 경우 심사 반려될 수 있어요.
 * **심의필 제출이 필수인 카테고리 선택 시 안내 문구 입력란이 자동 활성화 돼요.**
-  * 심의 기관에서 받은 심의필 번호 또는 필수 기재 문구를 입력해주세요.
-* <mark style="color:$danger;">관련 법령에 따라 소재 내에 필수 기재 되어야 하는 심의 문구가 아닌 광고 문구 또는 단순 정보 전달성 문구 입력 시 심사 반려될 수 있어요.</mark>
-  * 심의 문구가 아닌 기타 문구가 입력된 경우, 필수 기재 되어야 하는 심의 문구가 맞는지 확인 가능한 관련 증빙자료 제출을 요구할 수 있어요.
-* **광고 상품 별 심의 문구 기재 상세 가이드는 아래와 같아요.**
-  * 라이브 쇼핑, 숏폼은 카테고리 선택 후 안내 문구 내에 심의 문구를 입력해주세요.
-    * 위 두가지 광고 상품은 실제 광고 집행 시 심의 문구가 노출되지 않아요.
-
-{% hint style="success" %}
-안내 문구 입력란 기재 시 광고 소재 자동 반영 광고 상품&#x20;
-
-* 리스트 배너 (문구 강조,이미지 강조)
-* 보드 (부분/전체 이미지)
-* 페이지(세로 영상)
-{% endhint %}
-
-{% hint style="warning" %}
-&#x20;안내 문구 입력란 + 광고 소재 직접 입력 필요 상품  (삽입 위치)
-
-* 잠재 고객 모으기 (정보 입력 양식 내 소개화면 이미지)&#x20;
-* 페이지 배너 (1:1 이미지 유형 광고 이미지 하단)
-* 보드 (비디오 유형)&#x20;
-* 머니알림 (이벤트 이미지, 이벤트 안내 액션 영역)
-* 행운퀴즈 (대표 이미지 좌측 하단 제외 모서리 영역)
-{% endhint %}
+  * 심의기관에서 받은 심의필 번호 또는 관련 법령에 따라 표기가 필요한 고지 문구를 입력해주세요.
+  * 안내 문구 입력란에 광고 문구 또는 단순 정보 전달성 문구 입력 시 심사 승인이 불가합니다.&#x20;
+* 광고 상품 별 안내 문구 기재 상세 가이드는 다음과 같아요.
+  * **안내 문구 입력란 기재 시 광고 소재 자동 반영 광고 상품**&#x20;
+    * 리스트 배너 (문구 강조,이미지 강조)
+    * 보드 배너(부분/전체 이미지)
+    * 페이지(세로 영상)
+  * **안내 문구 입력란 기재 및 광고 소재 내에 직접 입력 필요 상품 (삽입 위치)**
+    * 잠재 고객 모으기(정보 입력 양식 내 소개화면 이미지)&#x20;
+    * 페이지 배너(1:1 이미지 유형 광고 이미지 하단)
+    * 보드(비디오 유형)&#x20;
+    * 머니알림(이벤트 이미지, 이벤트 안내 액션 영역)
+    * 행운퀴즈(대표 이미지 좌측 하단 제외 모서리 영역)
+* **라이브 쇼핑**, **숏폼**은 카테고리 선택 후 안내 문구 내에 심의 문구를 입력해주세요.
+  * 위 두가지 광고 상품은 실제 광고 집행 시 심의 문구가 노출되지 않아요.
 
 ## 3. 기타 업종 가이드&#x20;
 
@@ -295,10 +278,6 @@ layout:
   * 보상을 대가로 교제, 데이트 또는 성행위를 암시하는 경우
   * AI로 합성된 프로필, 이미지 사용하는 경우
   * 다른 데이트 사이트 광고 또는 프로모션을 포함하는 집계형 랜딩 페이지를 사용하는 경우
-
-{% hint style="danger" %}
-광고 집행 중, 승인 이후 유저의 CS 인입 혹은 유저가 피해를 입을 수 있다고 판단되거나 법률 리스크 발생 시 토스 내부 정책에 따라 즉시 광고 집행이 중단될 수 있습니다.&#x20;
-{% endhint %}
 {% endtab %}
 
 {% tab title="결혼 중개업" %}
@@ -411,10 +390,6 @@ layout:
     * _<mark style="color:orange;">예시) “흡연 대체”, “흡입 만족감”, “부드러운 타격감”</mark>_
   * 특정 맛을 연상시키는 가향물질 강조 표현 금지
     * _<mark style="color:orange;">예시) 포도맛, 민트맛, 메론맛 ,딸기맛 등</mark>_
-
-{% hint style="danger" %}
-광고 집행 중, 승인 이후 유저의 CS 인입 혹은 유저가 피해를 입을 수 있다고 판단되거나 법률 리스크 발생 시 토스 내부 정책에 따라 즉시 광고 집행이 중단될 수 있습니다.&#x20;
-{% endhint %}
 {% endtab %}
 
 {% tab title="부업 · 재테크 온라인 교육" %}
@@ -448,10 +423,13 @@ layout:
 {% hint style="info" %}
 기타 유의 사항
 
-* 광고 집행 중, 승인 이후 유저의 CS 인입 혹은 유저가 피해를 입을 수 있다고 판단되거나 법률 리스크 발생 시 토스 내부 정책에 따라 즉시 광고 집행이 중단될 수 있습니다.&#x20;
-* 광고 소재 내에 제공하는 사항은 토스와 관련성이 없고, 광고 플랫폼을 통해 제공하는 단순 광고인 점을 인지할 수 있도록 구성되어야 해요
-  * 광고 심사 과정에 소재 구성 (랜딩 페이지 포함) 토스 서비스와의 연관성을 암시하는 경우 광고 집행 제한될 수 있어요
-* 광고 소재에 따라 위험성에 대한 소명 자료 제출을 요구할 수 있습니다.
+* 광고 소재 내에 제공하는 사항은 토스와 관련성이 없고, 광고 플랫폼을 통해 제공하는 단순 광고인 점을 인지할 수 있도록 구성되어야 해요.
+  * 광고 심사 과정에 소재 구성(랜딩 페이지 포함)에 토스 서비스와의 연관성을 암시하는 경우 별도 고지 없이 광고 집행 제한될 수 있어요.
+* 플랫폼 리스크 예방과 원활한 광고 집행을 위해 심사 과정에 필요한 소명 자료 제출을 추가 요구할 수 있습니다.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
+
+{% hint style="danger" %}
+광고 집행 중, 승인 이후 유저의 CS 인입 혹은 유저가 피해를 입을 수 있다고 판단되거나 법률 리스크 발생 시 토스 내부 정책에 따라 즉시 광고 집행이 중단될 수 있습니다.&#x20;
+{% endhint %}
