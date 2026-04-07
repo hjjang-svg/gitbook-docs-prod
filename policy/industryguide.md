@@ -19,16 +19,16 @@ layout:
 
 # 업종별 심사 가이드
 
-## 1. **심의필 제출 필수 카테고리 가이드**
+## **심의필 제출 필수 카테고리 가이드**
 
-* 아래 카테고리는 토스애즈에 심의필 번호 제출과 광고 소재 내 기재가 필수예요 카테고리별 가이드에 따라 심의 정보를 정확하게 입력해 주세요.
 * 업종에 맞는 카테고리를 정확히 선택해야 하며, 실제 업종과 다른 카테고리로 심사를 신청하면 승인되지 않아요.
 * 집행 중이거나 승인된 광고라도, 이용자 민원·사회적 논란·법령 위반이 확인되면 내부 정책에 따라 집행이 중단될 수 있어요.
+* 심의필 및 고지 문구가 필수인 카테고리는 안내 문구 입력란과 광고 소재 내에 정확하게 입력해주세요.&#x20;
+  * 관련 법률 또는 광고 심사정책상 요구하는 심의필 및 고지 문구는 광고주가 직접 확인하고 준수할 의무가 있어요.&#x20;
 
 #### **의료(의료기기,의약품)**&#x20;
 
-* <mark style="color:blue;">**\[의료법]**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">에 따라 의료광고심의위원회에 심의 결과에  따라 심의필 기재 필수</mark>&#x20;
-  * <mark style="color:blue;">심의 받은 내용과 상이한 소재, 심의 정보 기재 불가</mark>&#x20;
+* <mark style="color:blue;">의료광고심의위원회에 심의 결과 따라, 심의필 기재 필수</mark>&#x20;
 
 <details>
 
@@ -96,7 +96,7 @@ layout:
 
 #### **금융 업종(은행,증권/투자,대출,보험,카드)**&#x20;
 
-* <mark style="color:blue;">축약형 심의필 허용 불가 반드시</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**원본 심의필**</mark><mark style="color:blue;">을 기재하여 제출</mark>&#x20;
+* <mark style="color:blue;">축약형 심의필이 아닌,</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**원본 심의필**</mark><mark style="color:blue;">을 기재하여 제출</mark>&#x20;
 * <mark style="color:blue;">금융 업종은</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**\[은행],\[증권/투자],\[대출],\[보험],\[카드] 5가지**</mark><mark style="color:blue;">로 구분되며 심의 기관 및 업종 정보에 따라</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**정확하게 구분**</mark><mark style="color:blue;">하여 선택 필요</mark>&#x20;
 
 <details>
@@ -124,7 +124,7 @@ layout:
 
 #### **게임**
 
-* <mark style="color:blue;">이용등급 제한이 없는 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**'이용등급 제한없음' or '전체이용가'**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">로 기재하여 제출</mark>
+* <mark style="color:blue;">이용등급 제한이 없는 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**'이용등급 제한없음'**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">or</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**'전체이용가'**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">로 기재하여 제출</mark>
 * <mark style="color:blue;">게임 내에 확률형 아이템이 포함된 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**'확률형 아이템 포함'**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">기재 필수</mark>&#x20;
 * <mark style="color:blue;">청소년 이용불가 또는 성인물로 분류된 콘텐츠는 만 19세 이상 연령 타겟팅 설정 필수</mark>&#x20;
 
@@ -160,7 +160,7 @@ layout:
 #### **엔터테인먼트/미디어**
 
 * <mark style="color:blue;">이용등급 제한이 없는 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**'이용등급 제한없음'**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">or</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**'전체관람가'**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">로 기재하여 제출</mark>
-* <mark style="color:blue;">청소년 관람 불가 또는 성인물로 분류된 콘텐츠(예고편 포함)는 만 19세 이상 연령 타겟팅 설정 필수</mark>&#x20;
+* <mark style="color:blue;">청소년 관람 불가 또는 성인물로 분류된 콘텐츠(예고편 포함)는</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**만 19세 이상 연령 타겟팅 설정 필수**</mark>&#x20;
 
 <details>
 
@@ -230,7 +230,7 @@ layout:
 #### **법 (변호사,법률사무소)**&#x20;
 
 * <mark style="color:blue;">법무법인 / 법률사무소의 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**광고 주체 변호사 혹은 광고책임변호사**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">기재 필수</mark>
-* <mark style="color:blue;">법무사무소의 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**법무사 성명 혹은 정확한 명칭**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">기재 필수</mark>
+* <mark style="color:blue;">법무 사무소의 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**법무사 성명 혹은 정확한 명칭**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">기재 필수</mark>
 
 ***
 
@@ -256,6 +256,8 @@ layout:
     * 행운퀴즈(대표 이미지 좌측 하단 제외 모서리 영역)
 * **라이브 쇼핑**, **숏폼**은 카테고리 선택 후 안내 문구 내에 심의 문구를 입력해주세요.
   * 위 두가지 광고 상품은 실제 광고 집행 시 심의 문구가 노출되지 않아요.
+
+***
 
 ## 3. 기타 업종 가이드&#x20;
 
