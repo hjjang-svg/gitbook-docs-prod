@@ -4,7 +4,7 @@
 
 {% stepper %}
 {% step %}
-#### 광고 세트 정보
+**광고 세트 정보**
 
 <figure><img src="../../../.gitbook/assets/광고세트_세트 설정.png" alt=""><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@
 {% endstep %}
 
 {% step %}
-#### 광고 타겟 설정하기
+**광고 타겟 설정하기**
 
 * **타겟이란?**
   * 배너 광고가 노출 될 대상 사용자 (오디언스) 그룹을 의미해요.
@@ -43,7 +43,7 @@
 
 <figure><img src="../../../.gitbook/assets/광고세트_데모그래피.png" alt=""><figcaption></figcaption></figure>
 
-#### 데모그래피
+**데모그래피**
 
 1. **성별**
 
@@ -74,7 +74,7 @@
 
 ***
 
-#### 광고 타겟 정보 설정하기
+**광고 타겟 정보 설정하기**
 
 <figure><img src="../../../.gitbook/assets/맞춤 타겟.png" alt=""><figcaption></figcaption></figure>
 
@@ -112,9 +112,9 @@
 
 ***
 
-#### 광고 반응 가져오기
+**광고 반응 가져오기**
 
-#### 광고 반응 가져오기
+**광고 반응 가져오기**
 
 <figure><img src="../../../.gitbook/assets/내 타겟 가져오기.png" alt=""><figcaption></figcaption></figure>
 
@@ -122,14 +122,14 @@
 * 기존 집행한 광고 타겟을 선택하고, 해당 타겟의 상세 행동 (예, 클릭한 유저) 조건을 선택하여 포함하거나 제외할 수 있어요.
 * **광고 반응 타겟은 3개까지 적용 가능하고 동일한 조건의 타겟은 중복 설정할 수 없어요.**<br>
 
-#### 전환 추적 가져오기
+**전환 추적 가져오기**
 
 <figure><img src="../../../.gitbook/assets/내 타겟 가져오기_전추.png" alt=""><figcaption></figcaption></figure>
 
 * 상세한 내용은 [전환 추적 타겟](https://toss-ads.gitbook.io/guide/resources/target/switch) 페이지에서 확인할 수 있어요.
 * **전환 추적 타겟은 최대 10개까지 적용 가능해요.**
 
-#### 고객 목록 가져오기
+**고객 목록 가져오기**
 
 <figure><img src="../../../.gitbook/assets/내 타겟 가져오기_고객.png" alt=""><figcaption></figcaption></figure>
 
@@ -140,7 +140,7 @@
 {% endstep %}
 
 {% step %}
-### 광고 타겟 정보 확인하기
+#### 광고 타겟 정보 확인하기
 
 <figure><img src="../../../.gitbook/assets/타겟수 확인.png" alt=""><figcaption></figcaption></figure>
 
@@ -161,7 +161,7 @@
 {% endstep %}
 
 {% step %}
-### 타겟 최적화(beta)
+#### 타겟 최적화(beta)
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -173,7 +173,7 @@
 {% endstep %}
 
 {% step %}
-### 광고 세트 삭제
+#### 광고 세트 삭제
 
 * 광고 세트는 삭제 후 되돌릴 수 없어요.
   * 노출 (광고 집행) 이력이 없는 캠페인 및 광고 세트는 삭제할 수 있어요.
