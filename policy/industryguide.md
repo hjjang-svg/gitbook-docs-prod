@@ -126,7 +126,7 @@ layout:
 * 이용등급 제한이 없는 경우 **'이용등급 제한없음'** or **'전체이용가'** 로 기재하여 심사 제출해야 합니다.&#x20;
 * 청소년 이용불가 또는 성인물로 분류된 콘텐츠(예고편 포함)는 만 19세 이상 연령 타겟팅을 적용해야 합니다.
 
-#### **술 / 유흥**
+#### **\[술 / 유흥]**
 
 * <mark style="color:blue;">**과음경고문구 표기 의무**</mark><mark style="color:blue;">에 따라 아래 문구 중 한 가지를 선택하여 광고 소재 내에 기재 하여 제출</mark>
 
@@ -164,7 +164,7 @@ layout:
 
 </details>
 
-#### **\[법] (변호사,법률사무소)**&#x20;
+#### **\[법]**
 
 * <mark style="color:blue;">법무법인 / 법률사무소의 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**광고 주체 변호사 혹은 광고책임변호사**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">기재 필수</mark>
 * <mark style="color:blue;">법무 사무소의 경우</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**법무사 성명 혹은 정확한 명칭**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">기재 필수</mark>
