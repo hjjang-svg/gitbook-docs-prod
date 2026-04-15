@@ -6,7 +6,7 @@ icon: icons
 
 광고를 직접 운영하기 어려운 경우 에이전시를 통해 도움을 받을 수 있어요 토스애즈 집행부터 정산까지 전문가에게 도움을 구해보세요.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### TEP는 토스애즈가 퍼포먼스와 성장 지표를 기반으로 선정한 에이전시로, 안정적이고 효율적인 광고 운영을 돕는 파트너예요.
 

@@ -18,7 +18,7 @@
 
     * **캠페인 생성 페이지:** 배너 탭 → 상단 \[캠페인 생성]  버튼 클릭 → 광고 세트에서 타겟 조건 설정 → \[이 조건을 내 타겟에 저장] 버튼 클릭 →  생성 &#x20;
 
-    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>타겟 조합 추가 클릭 시 이동하는 화면이에요.</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>타겟 조합 추가 클릭 시 이동하는 화면이에요.</p></figcaption></figure>
 
 
 
