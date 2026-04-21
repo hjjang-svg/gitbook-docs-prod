@@ -294,7 +294,7 @@
 
 #### 커스텀 프로퍼티
 
-* 모든 이벤트(표준 이벤트, 커스텀 이벤트)에 custom\_param\_1 \~ custom\_param\_5를 추가할 수 있어요.
+* 모든 이벤트(표준 이벤트, 커스텀 이벤트)에 custom\_param1 \~ custom\_param5를 추가할 수 있어요.
 * product\_id, price 같은 표준 파라미터로 표현하기 어려운 추가 정보를 전달할 때 사용해요.
   * 예를 들어, 캠페인 구분값, 프로모션 코드, A/B 테스트 그룹, 유입 경로 등 필요에 따라 정의한 값을 담을 수 있어요.
 
@@ -304,8 +304,8 @@
     TossPixel('전환 코드').purchase({
         total_price: 78000,
         currency: "KRW",
-        custom_param_1: "summer_sale",
-        custom_param_2: "landing_A"
+        custom_param1: "summer_sale",
+        custom_param2: "landing_A"
     });
 </script>
 
@@ -313,21 +313,21 @@
 <script>
     new TossPixel('전환 코드').custom('BUTTON_CLICK', {
         product_id: "P12345",
-        custom_param_1: "cta_top",
-        custom_param_2: "variant_B"
+        custom_param1: "cta_top",
+        custom_param2: "variant_B"
     });
 </script>
 ```
 
 * 커스텀 프로퍼티는 최대 5개까지 사용할 수 있고, 표준 파라미터와 함께 하나의 객체로 전달해 주세요.
 
-| 프로퍼티             | 타입     | 설명         |
-| ---------------- | ------ | ---------- |
-| custom\_param\_1 | string | 커스텀 프로퍼티 1 |
-| custom\_param\_2 | string | 커스텀 프로퍼티 2 |
-| custom\_param\_3 | string | 커스텀 프로퍼티 3 |
-| custom\_param\_4 | string | 커스텀 프로퍼티 4 |
-| custom\_param\_5 | string | 커스텀 프로퍼티 5 |
+| 프로퍼티           | 타입     | 설명         |
+| -------------- | ------ | ---------- |
+| custom\_param1 | string | 커스텀 프로퍼티 1 |
+| custom\_param2 | string | 커스텀 프로퍼티 2 |
+| custom\_param3 | string | 커스텀 프로퍼티 3 |
+| custom\_param4 | string | 커스텀 프로퍼티 4 |
+| custom\_param5 | string | 커스텀 프로퍼티 5 |
 
 ***
 
