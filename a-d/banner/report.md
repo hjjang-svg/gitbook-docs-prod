@@ -9,6 +9,10 @@
 * [**성과 대시보드**](data.md): 캠페인/세트/소재 단위로 주요 지표로 확인하고 광고 캠페인을 관리・수정
 * **맞춤 보고서**: 광고 집행 이후 데이터를 다각도로 분석하고, 이후 전략을 세우는 데 초점을 둔 분석 도구
 
+맞춤 보고서에서 아래 광고상품의 성과를 확인할 수 있어요.
+
+* 배너, 행운퀴즈
+
 <figure><img src="../../.gitbook/assets/맞춤보고란_ (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/맞춤 보고서 위치 (2).png" alt=""><figcaption></figcaption></figure>
