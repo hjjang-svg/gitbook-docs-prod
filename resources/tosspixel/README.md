@@ -15,17 +15,32 @@ icon: pixelfed
 
 ***
 
-#### 이벤트&#x20;
+#### 이벤트
 
-| **이벤트명** | **이벤트 라벨**  | **설명**          |
-| -------- | ----------- | --------------- |
-| 페이지 방문   | pageView    | 모든 페이지 방문 시     |
-| 회원가입     | signUp      | 회원가입 완료 시       |
-| 상세페이지 조회 | productView | 상품 상세 페이지 조회 시  |
-| 장바구니 담기  | addToCart   | 장바구니 추가 버튼 클릭 시 |
-| 구매 완료    | purchase    | 구매 완료 페이지 도달 시  |
-| 잠재고객 수   | lead        | 리드 제출 완료 시      |
-| 커스텀 이벤트  | customevent | 자유롭게 정의 가능      |
+| Toss Ads 이벤트 라벨     | 리포트 내 이벤트명 | 메서드명               | 설명                |
+| ------------------- | ---------- | ------------------ | ----------------- |
+| PURCHASE            | 구매         | purchase()         | 결제 및 주문 완료(매출 발생) |
+| SIGNUP              | 회원가입       | signUp()           | 회원가입 완료           |
+| LEAD\_COLLECTION    | 잠재 고객      | leadCollection()   | 상담 신청, 양식 제출      |
+| PRODUCT\_VIEW       | 상세페이지 조회   | productView()      | 상품/콘텐츠 상세 페이지 조회  |
+| ADD\_TO\_CART       | 장바구니 담기    | addToCart()        | 장바구니 상품 추가        |
+| INITIATE\_CHECKOUT  | 결제 시작      | initiateCheckout() | 결제/주문 페이지 진입      |
+| INSTALL             | 앱 설치       | install()          | 앱 설치 완료           |
+| APP\_OPEN           | 앱 열기       | appOpen()          | 앱 실행              |
+| SEARCH              | 검색         | search()           | 서비스 내 검색 결과 조회    |
+| SIGNIN              | 로그인        | signIn()           | 로그인 완료            |
+| PAGE\_VIEW          | 페이지 조회     | pageView()         | 페이지 방문            |
+| VIEW\_HOME          | 홈 조회       | viewHome()         | 홈 화면 방문           |
+| FIRST\_PURCHASE     | 첫 구매       | firstPurchase()    | 첫 구매 완료           |
+| GET\_OFFER          | 쿠폰 다운로드    | getOffer()         | 쿠폰 다운로드 / 혜택 수령   |
+| ADD\_TO\_WISHLIST   | 위시리스트 추가   | addToWishlist()    | 상품 위시리스트 추가       |
+| SUBSCRIBE           | 구독         | subscribe()        | 알림 신청 / 구독 시작     |
+| APP\_DEEPLINK\_OPEN | 딥링크 열기     | appDeeplinkOpen()  | 딥링크를 통한 앱 실행      |
+| PRE\_REGISTER       | 사전 예약      | preRegister()      | 사전 예약 / 런칭 전 등록   |
+| VIEW\_LIMIT         | 한도 조회      | viewLimit()        | 대출/보험료 한도 조회      |
+| APPLY\_SCREENING    | 가심사 조회     | applyScreening()   | 가심사 조회 / 적격 확인    |
+| AD\_IMPRESSION      | 인앱 광고 노출   | adImpression()     | 광고 노출 (매출 발생)     |
+| -                   | 커스텀 이벤트    | custom()           | 자유롭게 정의 가능        |
 
 #### 파라미터
 
@@ -34,29 +49,29 @@ icon: pixelfed
 * 지원 파라미터를 함께 보내지 않아도 픽셀 이벤트 자체는 정상 발동해요.
 * currency는 ISO 4217 Currency Code 형식으로 전달해야 (예: KRW, USD)
 
-| **파라미터명**       | **타입** | **설명**                                              |
-| --------------- | ------ | --------------------------------------------------- |
-| order\_id       | String | 주문 ID                                               |
-| product\_id     | String | 상품 ID                                               |
-| product\_name   | String | 상품명                                                 |
-| category\_id    | String | 상품 카테고리 ID                                          |
-| category\_name  | String | 상품 카테고리명                                            |
-| price           | Number | 상품 가격                                               |
-| quantity        | Number | 상품 개수                                               |
-| revenue         | Number | 전체 상품 가격                                            |
-| total\_quantity | Number | 전체 상품 개수                                            |
-| currency        | String | 통화 (ISO 4217 Currency Code 형식으로 전달 필요, 예: KRW, USD) |
-| purchase\_type  | String | 결제 수단                                               |
-| lead\_type      | String | 리드 유형                                               |
-| products        | Array  | 상품 목록                                               |
-| custom\_param1  | String | Custom Parameter 1                                  |
-| custom\_param2  | String | Custom Parameter 2                                  |
-| custom\_param3  | String | Custom Parameter 3                                  |
-| custom\_param4  | String | Custom Parameter 4                                  |
-| custom\_param5  | String | Custom Parameter 5                                  |
+| 파라미터명           | 타입     | 설명                          | 예시                                                |
+| --------------- | ------ | --------------------------- | ------------------------------------------------- |
+| order\_id       | String | 주문 ID                       | "ORDER\_20260423\_0001"                           |
+| product\_id     | String | 상품 ID                       | "P12345"                                          |
+| product\_name   | String | 상품명                         | "오가닉 코튼 티셔츠"                                      |
+| category\_id    | String | 상품 카테고리 ID                  | "C100"                                            |
+| category\_name  | String | 상품 카테고리명                    | "상의"                                              |
+| price           | Number | 상품 가격                       | 39000                                             |
+| quantity        | Number | 상품 개수                       | 2                                                 |
+| revenue         | Number | 전체 상품 가격                    | 78000                                             |
+| total\_quantity | Number | 전체 상품 개수                    | 2                                                 |
+| currency        | String | 통화 (ISO 4217 Currency Code) | "KRW"                                             |
+| purchase\_type  | String | 결제 수단                       | "naverpay"                                        |
+| lead\_type      | String | 리드 유형                       | "Consultation"                                    |
+| products        | Array  | 상품 목록                       | \[{ product\_id: "P12345", category\_id: "C100"}] |
+| custom\_param1  | String | Custom Parameter 1          | "summer\_sale"                                    |
+| custom\_param2  | String | Custom Parameter 2          | "landing\_A"                                      |
+| custom\_param3  | String | Custom Parameter 3          | "variant\_B"                                      |
+| custom\_param4  | String | Custom Parameter 4          | "member"                                          |
+| custom\_param5  | String | Custom Parameter 5          | "campaign\_01"                                    |
 
 {% hint style="success" %}
-&#x20;참고 사항
+참고 사항
 
 모든 파라미터는 선택사항이므로, 파라미터 없이 메서드만 호출해도 이벤트는 정상적으로 수집되지만,
 
