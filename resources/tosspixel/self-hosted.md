@@ -1,10 +1,8 @@
 # 자사몰 픽셀 연동
 
+아래 가이드는 직접 구축한 자사몰에 토스 픽셀을 설치하는 방법을 안내해요.
 
-
-&#x20;아래 가이드는 직접 구축한 자사몰에 토스 픽셀을 설치하는 방법을 안내해요.
-
-&#x20;[카페24](24.md), [메이크샵](makeshop.md) 등 쇼핑몰 솔루션을 사용 중이라면 플랫폼별 설치 가이드를 참고해 주세요.
+[카페24](24.md), [메이크샵](makeshop.md) 등 쇼핑몰 솔루션을 사용 중이라면 플랫폼별 설치 가이드를 참고해 주세요.
 
 ***
 
@@ -18,7 +16,7 @@
 
 {% stepper %}
 {% step %}
-#### SDK 스크립트 설치
+**SDK 스크립트 설치**
 
 모든 페이지에 공통으로 적용되는 레이아웃 파일의 \<head>태그 안에 아래 스크립트를 추가해 주세요.
 
@@ -37,21 +35,63 @@
 {% endstep %}
 
 {% step %}
-#### 이벤트 코드 삽입
+**이벤트 스크립트 삽입**
 
-전환이 발생하는 지점에 아래 이벤트 코드를 추가해 주세요.
+전환이 발생하는 지점에 아래 이벤트 스크립트를 추가해 주세요.
 
-토스 픽셀이 지원하는 이벤트는 다음과 같아요.
+토스 픽셀이 지원하는 이벤트와 파라미터는 아래와 같아요.
 
-| 이벤트      | 메서드명          | 삽입 위치           |
-| -------- | ------------- | --------------- |
-| 페이지 방문   | pageView()    | 모든 페이지          |
-| 회원가입     | signUp()      | 회원가입 완료 페이지     |
-| 상품 상세 조회 | productView() | 상품 상세 페이지       |
-| 장바구니 담기  | addToCart()   | 장바구니 추가 버튼 클릭 시 |
-| 구매       | purchase()    | 구매 완료 페이지       |
-| 리드 수집    | lead()        | 리드 제출 완료 시점     |
-| 커스텀 이벤트  | custom()      | 자유롭게 정의         |
+이벤트
+
+| 리포트 내 이벤트명 | 메서드명               | 설명                |
+| ---------- | ------------------ | ----------------- |
+| 구매         | purchase()         | 결제 및 주문 완료(매출 발생) |
+| 회원가입       | signUp()           | 회원가입 완료           |
+| 잠재 고객      | lead()             | 상담 신청, 양식 제출      |
+| 상세페이지 조회   | productView()      | 상품/콘텐츠 상세 페이지 조회  |
+| 장바구니 담기    | addToCart()        | 장바구니 상품 추가        |
+| 결제 시작      | initiateCheckout() | 결제/주문 페이지 진입      |
+| 앱 설치       | install()          | 앱 설치 완료           |
+| 앱 열기       | appOpen()          | 앱 실행              |
+| 검색         | search()           | 서비스 내 검색 결과 조회    |
+| 로그인        | signIn()           | 로그인 완료            |
+| 페이지 조회     | pageView()         | 페이지 방문            |
+| 홈 조회       | viewHome()         | 홈 화면 방문           |
+| 첫 구매       | firstPurchase()    | 첫 구매 완료           |
+| 쿠폰 다운로드    | getOffer()         | 쿠폰 다운로드 / 혜택 수령   |
+| 위시리스트 추가   | addToWishlist()    | 상품 위시리스트 추가       |
+| 구독         | subscribe()        | 알림 신청 / 구독 시작     |
+| 딥링크 열기     | appDeeplinkOpen()  | 딥링크를 통한 앱 실행      |
+| 사전 예약      | preRegister()      | 사전 예약 / 런칭 전 등록   |
+| 한도 조회      | viewLimit()        | 대출/보험료 한도 조회      |
+| 가심사 조회     | applyScreening()   | 가심사 조회 / 적격 확인    |
+| 인앱 광고 노출   | adImpression()     | 광고 노출 (매출 발생)     |
+| 커스텀 이벤트    | custom()           | 자유롭게 정의 가능        |
+
+파라미터
+
+
+
+| 파라미터명           | 타입     | 설명                          | 예시                                                |
+| --------------- | ------ | --------------------------- | ------------------------------------------------- |
+| order\_id       | String | 주문 ID                       | "ORDER\_20260423\_0001"                           |
+| product\_id     | String | 상품 ID                       | "P12345"                                          |
+| product\_name   | String | 상품명                         | "오가닉 코튼 티셔츠"                                      |
+| category\_id    | String | 상품 카테고리 ID                  | "C100"                                            |
+| category\_name  | String | 상품 카테고리명                    | "상의"                                              |
+| price           | Number | 상품 가격                       | 39000                                             |
+| quantity        | Number | 상품 개수                       | 2                                                 |
+| revenue         | Number | 전체 상품 가격                    | 78000                                             |
+| total\_quantity | Number | 전체 상품 개수                    | 2                                                 |
+| currency        | String | 통화 (ISO 4217 Currency Code) | "KRW"                                             |
+| purchase\_type  | String | 결제 수단                       | "naverpay"                                        |
+| lead\_type      | String | 리드 유형                       | "Consultation"                                    |
+| products        | Array  | 상품 목록                       | \[{ product\_id: "P12345", category\_id: "C100"}] |
+| custom\_param1  | String | Custom Parameter 1          | "summer\_sale"                                    |
+| custom\_param2  | String | Custom Parameter 2          | "landing\_A"                                      |
+| custom\_param3  | String | Custom Parameter 3          | "variant\_B"                                      |
+| custom\_param4  | String | Custom Parameter 4          | "member"                                          |
+| custom\_param5  | String | Custom Parameter 5          | "campaign\_01"                                    |
 
 {% hint style="info" %}
 모든 이벤트의 파라미터는 선택사항이에요.
@@ -65,179 +105,76 @@
 
 ***
 
-#### 페이지 방문 (pageView)
+### 이벤트 스크립트 예시
 
-* 사용자가 접속하는 모든 페이지에 공통으로 추가해 주세요.
+아래 예시는 표준 이벤트 / 표준 파라미터 활용 방식을 이해하기 위한 샘플이에요.
 
-{% code overflow="wrap" %}
+실제 연동 시에는 자사 서비스 구조와 수집 가능한 데이터에 맞게 필요한 파라미터만 선택해서 적용해 주세요.
+
+#### 구매 purchase()
+
+결제 및 주문이 완료된 시점에 호출해 주세요.
+
 ```html
 <script>
-    TossPixel('전환 코드').pageView();
-</script>
-```
-{% endcode %}
-
-***
-
-#### 회원가입 (signUp)
-
-* 회원가입 완료 페이지에 추가해주세요.
-
-{% code overflow="wrap" %}
-```html
-<script>
-    TossPixel('전환 코드').signUp();
-</script>
-```
-{% endcode %}
-
-***
-
-#### 상품 상세 조회 (productView)
-
-* 상품 상세 페이지에 추가해주세요.
-
-{% code overflow="wrap" %}
-```html
-<script>
-    TossPixel('전환 코드').productView({
+  TossPixel('전환 코드').purchase({
+    order_id: "ORDER_20260423_0001",
+    revenue: 78000,
+    total_quantity: 2,
+    currency: "KRW",
+    purchase_type: "CARD",
+    products: [
+      {
         product_id: "P12345",
         product_name: "오가닉 코튼 티셔츠",
         category_id: "C100",
         category_name: "상의",
         price: 39000,
-        currency: "KRW"
-    });
+        quantity: 1
+      },
+      {
+        product_id: "P67890",
+        product_name: "와이드 데님 팬츠",
+        category_id: "C200",
+        category_name: "하의",
+        price: 39000,
+        quantity: 1
+      }
+    ],
+    custom_param1: "member_purchase",
+    custom_param2: "spring_campaign"
+  });
 </script>
 ```
-{% endcode %}
 
-**파라미터**
+#### 회원가입 signUp()
 
-| 파라미터           | 타입     | 설명             | 예시           |
-| -------------- | ------ | -------------- | ------------ |
-| product\_id    | string | 상품 고유 ID       | "P12345"     |
-| product\_name  | string | 상품명            | "오가닉 코튼 티셔츠" |
-| category\_id   | string | 상품 카테고리 ID     | "C100"       |
-| category\_name | string | 상품 카테고리명       | "상의"         |
-| price          | number | 상품 가격          | 39000        |
-| currency       | string | ISO 4217 통화 코드 | "KRW"        |
+회원가입이 완료된 시점에 호출해 주세요.
 
-***
-
-#### 장바구니 담기 (addToCart)
-
-* 장바구니 추가 버튼을 클릭할 때 동적으로 호출해 주세요.
-
-{% code overflow="wrap" %}
 ```html
 <script>
-    TossPixel('전환 코드').addToCart({
-        revenue: 78000,
-        currency: "KRW",
-        total_quantity: 2,
-        products: [
-            {
-                product_id: "P12345",
-                category_id: "C100",
-                category_name: "상의",
-                price: 39000,
-                quantity: 2
-            }
-            // 상품이 여러 개인 경우 같은 형식으로 추가
-        ]
-    });
+  TossPixel('전환 코드').signUp({
+    custom_param1: "email",
+    custom_param2: "normal_signup"
+  });
 </script>
 ```
-{% endcode %}
 
-**파라미터**
+#### 잠재 고객 lead()
 
-| 파라미터            | 타입     | 설명             | 예시    |
-| --------------- | ------ | -------------- | ----- |
-| revenue         | number | 전체 상품 가격 합계    | 78000 |
-| currency        | string | ISO 4217 통화 코드 | "KRW" |
-| total\_quantity | number | 전체 상품 수량       | 2     |
-| products        | array  | 상품 목록 (아래 참조)  | —     |
+상담 신청, 양식 제출 등 리드 수집이 완료된 시점에 호출해 주세요.
 
-**products 배열 내 항목**
-
-| 파라미터           | 타입     | 설명         | 예시       |
-| -------------- | ------ | ---------- | -------- |
-| product\_id    | string | 상품 고유 ID   | "P12345" |
-| category\_id   | string | 상품 카테고리 ID | "C100"   |
-| category\_name | string | 상품 카테고리명   | "상의"     |
-| price          | number | 개별 상품 가격   | 39000    |
-| quantity       | number | 개별 상품 수량   | 2        |
-
-***
-
-#### 구매 (purchase)
-
-* 구매 완료 페이지에 추가해 주세요.
-
-{% code overflow="wrap" %}
 ```html
 <script>
-    TossPixel('전환 코드').purchase({
-        total_price: 78000,
-        currency: "KRW",
-        total_quantity: 2,
-        products: [
-            {
-                product_id: "P12345",
-                category_id: "C100",
-                category_name: "상의",
-                price: 39000,
-                quantity: 2
-            }
-            // 상품이 여러 개인 경우 같은 형식으로 추가
-        ]
-    });
+  TossPixel('전환 코드').lead({
+    lead_type: "Consultation",
+    custom_param1: "insurance",
+    custom_param2: "landing_form"
+  });
 </script>
 ```
-{% endcode %}
 
-**파라미터**
-
-| 파라미터            | 타입     | 설명                        | 예시    |
-| --------------- | ------ | ------------------------- | ----- |
-| total\_price    | number | 전체 결제 금액                  | 78000 |
-| currency        | string | ISO 4217 통화 코드            | "KRW" |
-| total\_quantity | number | 전체 상품 수량                  | 2     |
-| products        | array  | 상품 목록 (addToCart와 동일한 구조) | —     |
-
-{% hint style="info" %}
-중복 호출 주의&#x20;
-
-*   구매 완료 페이지에서 사용자가 새로고침하면 purchase 이벤트가 중복 전송될 수 있어요.
-
-    주문 ID 등을 활용해 동일한 이벤트가 두 번 이상 전송되지 않도록 처리해 주세요.
-{% endhint %}
-
-***
-
-#### 리드 수집 (lead)
-
-* 상담 신청, 보험료 조회 등 리드 제출이 완료된 시점에 동적으로 호출해 주세요.
-
-{% code overflow="wrap" %}
-```html
-<script>
-    TossPixel('전환 코드').lead({
-        lead_type: "Consultation"
-    });
-</script>
-```
-{% endcode %}
-
-**파라미터**
-
-| 파라미터       | 타입     | 설명              |
-| ---------- | ------ | --------------- |
-| lead\_type | string | 리드 유형 (아래 표 참조) |
-
-**lead\_type**&#x20;
+**lead\_type**
 
 * lead\_type 원하는 문자열을 자유롭게 입력할 수 있어요. 아래는 업종별 권장 값이에요.
 
@@ -250,6 +187,315 @@
 | 사전예약    | Preorder     |
 | 보험료 조회  | QuoteCheck   |
 | 대출한도 조회 | LoanCheck    |
+
+#### 상세페이지 조회 productView()
+
+상품 또는 콘텐츠 상세 페이지를 조회한 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').productView({
+    product_id: "P12345",
+    product_name: "오가닉 코튼 티셔츠",
+    category_id: "C100",
+    category_name: "상의",
+    price: 39000,
+    currency: "KRW"
+  });
+</script>
+```
+
+#### 장바구니 담기 addToCart()
+
+상품을 장바구니에 추가한 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').addToCart({
+    revenue: 78000,
+    total_quantity: 2,
+    currency: "KRW",
+    products: [
+      {
+        product_id: "P12345",
+        product_name: "오가닉 코튼 티셔츠",
+        category_id: "C100",
+        category_name: "상의",
+        price: 39000,
+        quantity: 1
+      },
+      {
+        product_id: "P67890",
+        product_name: "와이드 데님 팬츠",
+        category_id: "C200",
+        category_name: "하의",
+        price: 39000,
+        quantity: 1
+      }
+    ],
+    custom_param1: "cart_button"
+  });
+</script>
+```
+
+#### 결제 시작 initiateCheckout()
+
+결제/주문 페이지에 진입한 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').initiateCheckout({
+    order_id: "ORDER_20260423_0001",
+    revenue: 78000,
+    total_quantity: 2,
+    currency: "KRW",
+    products: [
+      {
+        product_id: "P12345",
+        product_name: "오가닉 코튼 티셔츠",
+        category_id: "C100",
+        category_name: "상의",
+        price: 39000,
+        quantity: 1
+      },
+      {
+        product_id: "P67890",
+        product_name: "와이드 데님 팬츠",
+        category_id: "C200",
+        category_name: "하의",
+        price: 39000,
+        quantity: 1
+      }
+    ],
+    custom_param1: "checkout_page"
+  });
+</script>
+```
+
+#### 앱 설치 install()
+
+앱 설치 완료 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').install({
+    custom_param1: "app_install_campaign",
+    custom_param2: "android"
+  });
+</script>
+```
+
+#### 앱 열기 appOpen()
+
+앱이 실행된 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').appOpen({
+    custom_param1: "foreground",
+    custom_param2: "member"
+  });
+</script>
+```
+
+#### 검색 search()
+
+서비스 내 검색 결과를 조회한 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').search({
+    category_id: "C100",
+    category_name: "상의",
+    custom_param1: "오가닉 코튼 티셔츠",
+    custom_param2: "search_result"
+  });
+</script>
+```
+
+#### 로그인 signIn()
+
+로그인이 완료된 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').signIn({
+    custom_param1: "email",
+    custom_param2: "existing_user"
+  });
+</script>
+```
+
+#### 페이지 조회 pageView()
+
+페이지를 방문한 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').pageView({
+    custom_param1: "all_page",
+    custom_param2: "web"
+  });
+</script>
+```
+
+#### 홈 조회 viewHome()
+
+홈 화면을 방문한 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').viewHome({
+    custom_param1: "main_home",
+    custom_param2: "logged_in"
+  });
+</script>
+```
+
+#### 첫 구매 firstPurchase()
+
+첫 구매가 완료된 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').firstPurchase({
+    order_id: "ORDER_20260423_0002",
+    revenue: 39000,
+    total_quantity: 1,
+    currency: "KRW",
+    purchase_type: "CARD",
+    products: [
+      {
+        product_id: "P12345",
+        product_name: "오가닉 코튼 티셔츠",
+        category_id: "C100",
+        category_name: "상의",
+        price: 39000,
+        quantity: 1
+      }
+    ],
+    custom_param1: "new_buyer"
+  });
+</script>
+```
+
+#### 쿠폰 다운로드 getOffer()
+
+쿠폰 다운로드 또는 혜택 수령 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').getOffer({
+    custom_param1: "WELCOME10",
+    custom_param2: "download_coupon"
+  });
+</script>
+```
+
+#### 위시리스트 추가 addToWishlist()
+
+상품을 위시리스트에 추가한 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').addToWishlist({
+    product_id: "P12345",
+    product_name: "오가닉 코튼 티셔츠",
+    category_id: "C100",
+    category_name: "상의",
+    price: 39000,
+    quantity: 1,
+    currency: "KRW"
+  });
+</script>
+```
+
+#### 구독 subscribe()
+
+알림 신청 또는 구독이 시작된 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').subscribe({
+    lead_type: "Newsletter",
+    custom_param1: "push_opt_in",
+    custom_param2: "app"
+  });
+</script>
+```
+
+#### 딥링크 열기 appDeeplinkOpen()
+
+딥링크를 통해 앱이 실행된 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').appDeeplinkOpen({
+    product_id: "P12345",
+    product_name: "오가닉 코튼 티셔츠",
+    custom_param1: "campaign_deeplink",
+    custom_param2: "push"
+  });
+</script>
+```
+
+#### 사전 예약 preRegister()
+
+사전 예약 또는 런칭 전 등록이 완료된 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').preRegister({
+    product_id: "PRD_PRE_001",
+    product_name: "신규 멤버십",
+    lead_type: "Preorder",
+    custom_param1: "launch_campaign"
+  });
+</script>
+```
+
+#### 한도 조회 viewLimit()
+
+대출/보험료 한도 조회가 완료된 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').viewLimit({
+    lead_type: "LoanCheck",
+    custom_param1: "credit_loan",
+    custom_param2: "mobile_web"
+  });
+</script>
+```
+
+#### 가심사 조회 applyScreening()
+
+가심사 조회 또는 적격 확인이 완료된 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').applyScreening({
+    lead_type: "PreScreening",
+    custom_param1: "mortgage",
+    custom_param2: "qualified_check"
+  });
+</script>
+```
+
+#### 인앱 광고 노출 adImpression()
+
+광고 노출이 발생한 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel('전환 코드').adImpression({
+    revenue: 120,
+    currency: "KRW",
+    custom_param1: "rewarded_video",
+    custom_param2: "ad_network_a"
+  });
+</script>
+```
 
 ***
 
@@ -285,8 +531,8 @@
 {% hint style="info" %}
 **표준 이벤트와의 차이**
 
-* 표준 이벤트는 메서드명이 곧 이벤트 이름이에요.&#x20;
-* 커스텀 이벤트는 첫 번째 인자에 이벤트 이름을 직접 입력해요&#x20;
+* 표준 이벤트는 메서드명이 곧 이벤트 이름이에요.
+* 커스텀 이벤트는 첫 번째 인자에 이벤트 이름을 직접 입력해요
   * **그 외 파라미터 사용 방식은 동일해요.**
 {% endhint %}
 
@@ -358,7 +604,7 @@ function usePageView() {
 
 ***
 
-## 설치 확인&#x20;
+## 설치 확인
 
 토스 픽셀이 정상적으로 설치되었는지 아래 방법으로 확인할 수 있어요.
 
@@ -375,19 +621,15 @@ function usePageView() {
 
 ***
 
-## 자주 묻는 질문&#x20;
+## 자주 묻는 질문
 
 **Q. SDK 스크립트 로딩이 실패하면 쇼핑몰에 영향이 있나요?**
 
 A. 영향은 없어요. SDK 로딩이 실패하면 TossPixel 호출만 무시되고, 쇼핑몰의 정상 동작에는 영향을 주지 않아요.
 
-
-
 **Q. 구매 완료 페이지에서 새로고침하면 이벤트가 중복 전송되나요?**
 
 A. 중복 전송될 수 있어요. 주문 완료 여부를 서버에서 한 번 더 확인하거나, 주문 ID 기준으로 중복 호출을 막는 처리가 필요해요.
-
-
 
 **Q. 파라미터를 보내지 않아도 되나요?**
 
