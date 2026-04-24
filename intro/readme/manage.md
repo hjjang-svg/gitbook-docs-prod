@@ -45,14 +45,14 @@
 * 내가 생성한 광고계정 외에, 초대 받은 광고계정 리스트를 왼쪽 상단에서 확인할 수 있어요.
 * 여러 개의 광고계정에 참여할 수 있어요.
 
-<figure><img src="../../.gitbook/assets/Group 212 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 212 (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 광고계정 삭제
 
 * 광고계정을 더 이상 사용하지 않고자 하실 경우 광고계정을 삭제할 수 있어요.
 * 광고계정 삭제는 **광고계정 정보** 메뉴 접속 후 아래쪽에 위치한 **계정 삭제**하기 버튼을 클릭하여 진행하실 수 있어요.
 
-<figure><img src="../../.gitbook/assets/Group 214 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 214 (1).png" alt=""><figcaption></figcaption></figure>
 
 * 광고계정 삭제 시 아래 항목들을 되돌릴 수 없으니 신중히 결정해주세요.
   * 캠페인 데이터

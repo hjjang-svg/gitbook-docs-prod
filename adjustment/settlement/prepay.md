@@ -22,9 +22,9 @@ layout:
 
 #### 광고머니 충전하기
 
-<figure><img src="../../.gitbook/assets/선불계정정산1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/충전하기3.png" alt=""><figcaption></figcaption></figure>
 
-\[광고머니 관리] 메뉴의 우측 상단 \[+충전하기] 버튼을 눌러 희망하는 금액만큼 광고머니를 충전할 수 있어요.&#x20;
+\[광고머니 관리] 메뉴의 우측 상단 \[+충전하기] 버튼을 눌러 희망하는 금액만큼 광고머니를 충전할 수 있어요.
 
 충전 후 사용하지 않은 광고머니는 환불 요청할 수 있어요.
 

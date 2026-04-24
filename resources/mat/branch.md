@@ -1,12 +1,12 @@
 # 브랜치
 
-### 전환 추적 코드 생성하기&#x20;
+### 전환 추적 코드 생성하기
 
 {% stepper %}
 {% step %}
-#### 전환 및 추적 연동
+**전환 및 추적 연동**
 
-<figure><img src="../../.gitbook/assets/Group 335 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 335.png" alt=""><figcaption></figcaption></figure>
 
 전환 및 추적 연동 설정은 아래 경로에서 가능해요.
 
@@ -14,11 +14,11 @@
 {% endstep %}
 
 {% step %}
-#### 전환 추적 코드 생성
+**전환 추적 코드 생성**
 
 <figure><img src="../../.gitbook/assets/동의 및 코드 생성-4.png" alt=""><figcaption></figcaption></figure>
 
-코드 명과 연동 방식, 연동 업체를 선택하여 코드를 생성하고 전환 추적 코드의 ID를 복사해주세요.&#x20;
+코드 명과 연동 방식, 연동 업체를 선택하여 코드를 생성하고 전환 추적 코드의 ID를 복사해주세요.
 {% endstep %}
 {% endstepper %}
 
@@ -28,17 +28,17 @@
 
 {% stepper %}
 {% step %}
-#### 브랜치 연동하기&#x20;
+**브랜치 연동하기**
 
 <figure><img src="../../.gitbook/assets/스크린샷 2025-05-08 오후 6.51.49.png" alt=""><figcaption></figcaption></figure>
 
 브랜치 연동 링크 생성은 아래 경로에서 가능해요.
 
-Ad Partners → \[Toss]앱 검색  → Account Settings 탭 → 활성화
+Ad Partners → \[Toss]앱 검색 → Account Settings 탭 → 활성화
 {% endstep %}
 
 {% step %}
-#### 전환 추적 코드 입력 &#x20;
+**전환 추적 코드 입력**
 
 토스애즈에서 생성하여 복사해둔 전환 추적 코드 ID를 Tracking Code 항목에 입력해주세요
 {% endstep %}
@@ -87,14 +87,14 @@ Ad Partners → \[Toss]앱 검색  → Account Settings 탭 → 활성화
 | -------------- | -------------------- | ----- |
 | \~channel      | {SITE\_ID}           | 매체 ID |
 
-#### &#x20;링크 구성 예시
+#### 링크 구성 예시
 
 모든 <mark style="color:red;">**필수**</mark>**/**<mark style="color:blue;">**권장**</mark> 항목이 포함된 예시 링크
 
 > https://sample.app.link/sampletest?<mark style="color:red;">**3p=a\_toss\&toss\_click\_id={TOSS\_TK\_CLICK\_ID}\&toss\_campaign\_id={TOSS\_CID}\&aaid={aaid}\&idfa={idfa}**</mark>&<mark style="color:blue;">**toss\_creative\_id={TOSS\_CREATIVE\_ID}\&toss\_channel={SITE\_ID}**</mark>
 
 {% hint style="success" %}
-#### **링크 설정 Tip**
+**링크 설정 Tip**
 
 * 브랜치 콘솔에서 제공하는 click attribution link를 그대로 활용하면 필수/권장 항목을 놓치지 않을 수 있어요.
 * 토스애즈 가이드에 있는 표준 이벤트와 파라미터가 들어 있는 링크 템플릿을 사용하는 걸 권장해요.

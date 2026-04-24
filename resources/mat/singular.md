@@ -4,9 +4,9 @@
 
 {% stepper %}
 {% step %}
-#### 전환 및 추적 연동
+**전환 및 추적 연동**
 
-<figure><img src="../../.gitbook/assets/Group 335 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 335.png" alt=""><figcaption></figcaption></figure>
 
 전환 및 추적 연동 설정은 아래 경로에서 가능해요.
 
@@ -14,7 +14,7 @@
 {% endstep %}
 
 {% step %}
-#### 전환 추적 코드 생성
+**전환 추적 코드 생성**
 
 <figure><img src="../../.gitbook/assets/동의 및 코드 생성-3.png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +28,7 @@
 
 {% stepper %}
 {% step %}
-#### 싱귤러 연동 경로&#x20;
+**싱귤러 연동 경로**
 
 싱귤러 연동 링크 생성은 아래 경로에서 가능해요.
 
@@ -36,15 +36,15 @@ Attribution → Partner Management 메뉴 선택 → \[Add a Partner] 버튼 클
 {% endstep %}
 
 {% step %}
-#### 연동 앱 검색&#x20;
+**연동 앱 검색**
 
-\[Toss]앱 검색 하여 추가하고 발급 받은 전환 추적 ID값을 전환 추적 코드 입력 란에 등록해주세요.&#x20;
+\[Toss]앱 검색 하여 추가하고 발급 받은 전환 추적 ID값을 전환 추적 코드 입력 란에 등록해주세요.
 {% endstep %}
 
 {% step %}
-#### 추가 설정&#x20;
+**추가 설정**
 
-Attribution → Manage Links 메뉴를 접속 \[Create Link] 버튼 클릭 → Link Type 항목을 \[Partner] 선택 → Source Name 항목에서 \[Toss]앱 검색 후 선택 → Tracking Link Name 항목에 링크 명칭을 입력  → \[Generate] 버튼 클릭
+Attribution → Manage Links 메뉴를 접속 \[Create Link] 버튼 클릭 → Link Type 항목을 \[Partner] 선택 → Source Name 항목에서 \[Toss]앱 검색 후 선택 → Tracking Link Name 항목에 링크 명칭을 입력 → \[Generate] 버튼 클릭
 {% endstep %}
 {% endstepper %}
 
@@ -86,14 +86,14 @@ Attribution → Manage Links 메뉴를 접속 \[Create Link] 버튼 클릭 → L
 | pcrid    | {TOSS\_CREATIVE\_ID} | 소재 ID |
 | site\_id | {SITE\_ID}           | 매체 ID |
 
-#### &#x20;링크 구성 예시
+#### 링크 구성 예시
 
 모든 <mark style="color:red;">**필수**</mark>**/**<mark style="color:blue;">**권장**</mark> 항목이 포함된 예시 링크
 
 > https://sample.sng.link/sample/sample?<mark style="color:red;">**cl={TOSS\_TK\_CLICK\_ID}\&pcid={TOSS\_CID}\&ad\_id={USER\_ADID}**</mark>&<mark style="color:blue;">**pcrid={TOSS\_CREATIVE\_ID}\&pcrid={TOSS\_CREATIVE\_ID}**</mark>
 
 {% hint style="success" %}
-#### **링크 설정 Tip**
+**링크 설정 Tip**
 
 * 싱귤러 콘솔에서 제공하는 click attribution link를 그대로 활용하면 필수/권장 항목을 놓치지 않을 수 있어요.
   * Tracking Link Name 항목에 링크 명칭을 입력한 후 Generate 버튼을 클릭해서 생성된 링크를 활용해주세요.

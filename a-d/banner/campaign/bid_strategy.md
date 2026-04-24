@@ -1,12 +1,12 @@
 # 입찰 방식 설정하기
 
-<table><thead><tr><th width="157.59765625">캠페인 목적</th><th width="162.2734375">광고 유형</th><th>입찰 방식</th></tr></thead><tbody><tr><td>방문 유도하기</td><td>리스트, 보드, 페이지</td><td>자동 입찰 클릭 최대화, 직접 입찰 CPC, CPM(보드)</td></tr><tr><td>도달률 높이기</td><td>보드</td><td>CPM</td></tr><tr><td>잠재 고객 모으기</td><td>리스트, 보드, 페이지</td><td><p>자동 입찰 전환 최대화, 자동 입찰 전환 최대 목표 비용 설정(tCTA), </p><p>직접 입찰 CPC, CPM(보드)</p></td></tr><tr><td>10대 인지도 높이기</td><td>리스트, 보드, 페이지</td><td>직접 입찰 CPC, CPM(보드)</td></tr></tbody></table>
+<table><thead><tr><th width="157.59765625">캠페인 목적</th><th width="162.2734375">광고 유형</th><th>입찰 방식</th></tr></thead><tbody><tr><td>방문 유도하기</td><td>리스트, 보드, 페이지</td><td>자동 입찰 클릭 최대화, 직접 입찰 CPC, CPM(보드)</td></tr><tr><td>도달률 높이기</td><td>보드</td><td>CPM</td></tr><tr><td>잠재 고객 모으기</td><td>리스트, 보드, 페이지</td><td><p>자동 입찰 전환 최대화, 자동 입찰 전환 최대 목표 비용 설정(tCTA),</p><p>직접 입찰 CPC, CPM(보드)</p></td></tr><tr><td>10대 인지도 높이기</td><td>리스트, 보드, 페이지</td><td>직접 입찰 CPC, CPM(보드)</td></tr></tbody></table>
 
 자동 입찰이 표현되어 있지 않은 입찰 방식은 모두 **직접 입찰**이에요.
 
 {% stepper %}
 {% step %}
-### 자동 입찰 클릭 최대화
+#### 자동 입찰 클릭 최대화
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +28,7 @@
 {% endstep %}
 
 {% step %}
-### 자동 입찰 전환 최대화
+#### 자동 입찰 전환 최대화
 
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -42,7 +42,7 @@
 {% endstep %}
 
 {% step %}
-### 자동 입찰 전환 최대 목표 비용 설정
+#### 자동 입찰 전환 최대 목표 비용 설정
 
 <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -57,7 +57,7 @@
 {% endstep %}
 
 {% step %}
-### 직접 입찰 CPC
+#### 직접 입찰 CPC
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -68,7 +68,7 @@
 {% endstep %}
 
 {% step %}
-### 직접 입찰 CPM
+#### 직접 입찰 CPM
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 

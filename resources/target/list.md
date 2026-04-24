@@ -9,17 +9,17 @@
 
 {% stepper %}
 {% step %}
-### **고객 목록 추가**
+#### **고객 목록 추가**
 
 <figure><img src="../../.gitbook/assets/고객 목록 추가.png" alt=""><figcaption></figcaption></figure>
 
 고객 목록 타겟 설정은 아래 경로에서 가능해요.
 
-타겟 탭 → 상단\[추가] 버튼 클릭 → \[고객목록] 선택&#x20;
+타겟 탭 → 상단\[추가] 버튼 클릭 → \[고객목록] 선택
 {% endstep %}
 
 {% step %}
-### **고객 목록 추가 설정**&#x20;
+#### **고객 목록 추가 설정**
 
 <figure><img src="../../.gitbook/assets/고객 목록 추가 설정.png" alt=""><figcaption></figcaption></figure>
 
@@ -30,14 +30,14 @@
 {% endstep %}
 
 {% step %}
-### 광고 세트에서 가져오기
+#### 광고 세트에서 가져오기
 
 <figure><img src="../../.gitbook/assets/광고 세트에서 가져오기 (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/고객목록 가져오기.png" alt=""><figcaption></figcaption></figure>
 
 * 추가한 고객 목록은 광고세트 설정 화면에서 선택 가능해요.
-  * 경로:  \[내 타겟 가져오기] → \[ 조건 추가] → \[고객 목록 가져오기]&#x20;
+  * 경로: \[내 타겟 가져오기] → \[ 조건 추가] → \[고객 목록 가져오기]
 * 한 번에 1개의 목록만 선택할 수 있어요.
 
 <figure><img src="../../.gitbook/assets/최신 타겟 수 보기.png" alt=""><figcaption></figcaption></figure>
@@ -46,7 +46,7 @@
 {% endstep %}
 {% endstepper %}
 
-### 2. 타겟수 계산 기준&#x20;
+### 2. 타겟수 계산 기준
 
 * 검증된 고객 목록 중 최근 180일 이내 토스 앱을 이용한 고객만 집계에 포함돼요.
 * 업로드한 파일에 있는 ID 수와 실제 타겟수 다를 수 있어요.

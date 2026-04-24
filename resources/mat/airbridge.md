@@ -1,12 +1,12 @@
 # 에어브릿지
 
-### 전환 추적 코드 생성하기&#x20;
+### 전환 추적 코드 생성하기
 
 {% stepper %}
 {% step %}
-#### 전환 및 추적 연동
+**전환 및 추적 연동**
 
-<figure><img src="../../.gitbook/assets/Group 335 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 335.png" alt=""><figcaption></figcaption></figure>
 
 전환 및 추적 연동 설정은 아래 경로에서 가능해요.
 
@@ -14,7 +14,7 @@
 {% endstep %}
 
 {% step %}
-#### 전환 추적 코드 생성
+**전환 추적 코드 생성**
 
 <figure><img src="../../.gitbook/assets/동의 및 코드 생성-1.png" alt=""><figcaption></figcaption></figure>
 
@@ -22,7 +22,7 @@
 {% endstep %}
 
 {% step %}
-#### 생성 여부 확인
+**생성 여부 확인**
 
 <figure><img src="../../.gitbook/assets/스크린샷 2026-02-20 오후 2.20.00 2.png" alt=""><figcaption></figcaption></figure>
 
@@ -36,25 +36,25 @@
 
 {% stepper %}
 {% step %}
-#### 에어브릿지 연동 경로&#x20;
+**에어브릿지 연동 경로**
 
 <figure><img src="../../.gitbook/assets/toss-ads-01.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;에어브릿지 연동 링크 생성은 아래 경로에서 가능해요.&#x20;
+에어브릿지 연동 링크 생성은 아래 경로에서 가능해요.
 
-&#x20;Integrations → Intergrated Ad Channels 선택 → \[Toss]앱 검색
+Integrations → Intergrated Ad Channels 선택 → \[Toss]앱 검색
 {% endstep %}
 
 {% step %}
-#### 연동 앱 선택 및 입력&#x20;
+**연동 앱 선택 및 입력**
 
 <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-* 전송할 이벤트를 선택하고 다음 버튼을 클릭해주세요.&#x20;
-  * 전송 규칙은 `채널 기여와 상관 없이 모든 이벤트 전송`으로 설정해주세요.&#x20;
-* Conversion\_id 수정이 필요하다면 포스트백 전송을 중지한 이후 수정 해주세요.&#x20;
+* 전송할 이벤트를 선택하고 다음 버튼을 클릭해주세요.
+  * 전송 규칙은 `채널 기여와 상관 없이 모든 이벤트 전송`으로 설정해주세요.
+* Conversion\_id 수정이 필요하다면 포스트백 전송을 중지한 이후 수정 해주세요.
 {% endstep %}
 {% endstepper %}
 
@@ -64,27 +64,27 @@
 
 {% stepper %}
 {% step %}
-#### &#x20;미디어 파트너 권한 부여&#x20;
+**미디어 파트너 권한 부여**
 
 <figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;에어브릿지를 연동한 후 데이터 관리 및 최적화를 위해 toss-ads@toss.im 계정에 미디어 파트너 권한을 부여해주세요.&#x20;
+에어브릿지를 연동한 후 데이터 관리 및 최적화를 위해 toss-ads@toss.im 계정에 미디어 파트너 권한을 부여해주세요.
 
-&#x20;권한 부여 경로는 아래와 같아요.
+권한 부여 경로는 아래와 같아요.
 
 에어브릿지 접속 → \[Settings] → \[User Management] 접속
 {% endstep %}
 
 {% step %}
-#### &#x20;앱 접근 권한 부여
+**앱 접근 권한 부여**
 
 <figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
-\[앱 접근 권한 부여] 버튼을 클릭해주세요.&#x20;
+\[앱 접근 권한 부여] 버튼을 클릭해주세요.
 
-팝업창에서 toss-ads@toss.im 계정을 입력하고 앱 역할을 "미디어 파트너"로 설정해주세요.&#x20;
+팝업창에서 toss-ads@toss.im 계정을 입력하고 앱 역할을 "미디어 파트너"로 설정해주세요.
 
-자세한 가이드는 [에어브릿지 > 앱에서 앱 접근 권한 관리하기 가이드](https://help.airbridge.io/ko/guides/app-access-management)를 참고해주세요.&#x20;
+자세한 가이드는 [에어브릿지 > 앱에서 앱 접근 권한 관리하기 가이드](https://help.airbridge.io/ko/guides/app-access-management)를 참고해주세요.
 {% endstep %}
 {% endstepper %}
 
@@ -130,14 +130,14 @@
 | sub\_id          | {SITE\_ID}           | 매체 ID |
 | ad\_creative\_id | {TOSS\_CREATIVE\_ID} | 소재 ID |
 
-### &#x20;링크 구성 예시
+### 링크 구성 예시
 
 모든 <mark style="color:red;">**필수**</mark>**/**<mark style="color:blue;">**권장**</mark> 항목이 포함된 예시 링크
 
 > https://abr.ge/@demolv4xh8pxqh/toss?<mark style="color:red;">**ad\_id={USER\_ADID}\&campaign\_id={TOSS\_CID}\&click\_id={TOSS\_TK\_CLICK\_ID}**</mark>&<mark style="color:blue;">**sub\_id={SITE\_ID}\&ad\_creative\_id={TOSS\_CREATIVE\_ID}**</mark>
 
 {% hint style="success" %}
-#### **링크 설정 Tip**
+**링크 설정 Tip**
 
 * 에어브릿지 콘솔에서 제공하는 트래킹 링크를 그대로 활용하면 필수/권장 항목을 놓치지 않을 수 있어요.
 * 토스애즈 가이드에 있는 표준 이벤트와 파라미터가 들어 있는 링크 템플릿을 사용하는 걸 권장해요.

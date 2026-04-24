@@ -1,13 +1,13 @@
 # 키워드형
 
-<figure><img src="../../.gitbook/assets/머니알림 키워드형_영역 안내.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/머니알림 일반형_영역 안내.png" alt=""><figcaption></figcaption></figure>
 
 * **소재 공통 가이드에 따라 메인/서브 카피에 평어체(반말)을 사용할 수 없어요.**
 * **랜딩 페이지에서 확인 불가한 혜택 및 이벤트 정보는 소재 내에 기재할 수 없어요. 반드시 연결되는 랜딩 페이지에서 확인 가능한 정보로 소재를 구성해주세요.**
 * 소재 검수 시간은 **평일 10:00 \~ 19:00**이며, 모든 소재는 순차적으로 검수되고 있어요.
 
 {% hint style="info" %}
-- 소재  심사 가이드에 따라 심사 기간이 소요될 수 있어 광고 집행일 기준 2-3 영업일 전 소재를 제출해주세요. 광고 집행일 기준 1영업일 전 또는 몇 시간 전 제출된 소재는 광고 집행 전까지 승인을 보장할 수 없어요.
+- 소재 심사 가이드에 따라 심사 기간이 소요될 수 있어 광고 집행일 기준 2-3 영업일 전 소재를 제출해주세요. 광고 집행일 기준 1영업일 전 또는 몇 시간 전 제출된 소재는 광고 집행 전까지 승인을 보장할 수 없어요.
 - 집행 상태가 **\[집행 예정]**, \[**집행 중], \[집행 완료], \[집행 중단]** 이거나 소재 상태가 **\[심사중] ,\[승인]** 상태인 경우에는 소재 수정이 불가해요.
   * 방송 혜택이 변경된 경우에만 내부 심사 및 정책 기준에 따라 예외적으로 수정 도움 드리고 있어요.
 - 그 외 소재 수정이 필요한 경우 소재 집행 중단 처리 후 소재를 새롭게 제출해주세요.
@@ -23,26 +23,23 @@
 유저가 흥미를 가질 수 있는 상품 혹은 이벤트 **혜택 단 하나**만 강조하여 한 문장으로 작성해주세요.
 
 * ‘\~해요’체의 문장형으로 작성해주세요.
-  * 문장이나  단어는 초성으로 기재할 수 없어요.
-* 문장은  최소 2행, 최대 3행까지 입력 가능해요.
+  * 문장이나 단어는 초성으로 기재할 수 없어요.
+* 문장은 최소 2행, 최대 3행까지 입력 가능해요.
   * 한 행당 공백 포함 최대 18자 입력 가능해요.
-
-
-
 * **평어체 (반말)** 를 사용할 수 없고 맞춤법에 어긋나는 표현 혹은 신조어는 포함되지 않아야해요.
 * 특수 문자를 반복 사용하거나 과도한 강조나 과장 표현으로 오해 될 수 있는 경우 사용을 제한하고 있어요.
-  * <mark style="color:orange;">사용 불가 예시)</mark>&#x20;
-    * \[함께해요.] \[만나보세요\~]&#x20;
+  * <mark style="color:orange;">사용 불가 예시)</mark>
+    * \[함께해요.] \[만나보세요\~]
     * \[어서오세요\~!!!]
     * \[만두]와\[돈까스]를 특가! 할인!
 
-#### 이벤트 메인 타이틀 예시
+**이벤트 메인 타이틀 예시**
 
-<figure><img src="../../.gitbook/assets/메인 타이틀 예시 (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/메인 타이틀 예시 (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/메인 타이틀 예시-2 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/메인 타이틀 예시-2 (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/메인 타이틀 예시-1 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/메인 타이틀 예시-1 (3).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="이미지" %}
@@ -60,18 +57,14 @@
 
 <figure><img src="../../.gitbook/assets/이미지 배경색 (1).png" alt=""><figcaption></figcaption></figure>
 
-*   **브랜딩을 위해 로고가 필요한 경우 아래와 같이 브랜드가 명확하게 드러나는 형태로 제출해주세요.**
+* **브랜딩을 위해 로고가 필요한 경우 아래와 같이 브랜드가 명확하게 드러나는 형태로 제출해주세요.**
 
-
-
-<figure><img src="../../.gitbook/assets/상품 이미지_브랜드 이미지 로고 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/상품 이미지_브랜드 이미지 로고.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/이미지 내 텍스트 삽입 예시 (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="혜택 리스트" %}
-
-
 머니 알림을 통해 유저가 받는 혜택과 혜택 조건을 기재합니다.
 
 * 랜딩되는 이벤트 페이지에서 확인 가능한 정보만 기재 가능합니다.
@@ -83,18 +76,16 @@
 
 혜택에 어울리는 적절한 아이콘을 선택하고
 
-&#x20;(1줄형) 유저가 가장 매력적으로 느끼는 혜택을 순서대로 명사형으로 기재합니다.
+(1줄형) 유저가 가장 매력적으로 느끼는 혜택을 순서대로 명사형으로 기재합니다.
 
 (2줄형) 혜택에 대한 조건이 있다면 상단에 혜택조건을 입력하고, 하단에 혜택을 명사형으로 기재합니다.
 
 * 혜택리스트는 최대 6개까지 입력할 수 있지만, 3개를 추천합니다.
 * 설명 내 이모지는 사용할 수 없습니다.
 * 같은 아이콘을 중복으로 사용할 수 없습니다.
-*   사용 가능한 혜택 리스트 아이콘은 다음과 같습니다.
+* 사용 가능한 혜택 리스트 아이콘은 다음과 같습니다.
 
-
-
-<figure><img src="../../.gitbook/assets/혜택 리스트 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/혜택 리스트 (3).png" alt=""><figcaption></figcaption></figure>
 
 * 글자수 제한
   * 1줄형 리스트 : 공백포함 18자
@@ -102,7 +93,7 @@
     * 혜택 조건 : 공백 포함 20자
     * 혜택 리스트 : 공백 포함 18자
 
-<figure><img src="../../.gitbook/assets/혜택 리스트 1,2줄 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/혜택 리스트 1,2줄 (3).png" alt=""><figcaption></figcaption></figure>
 
 *   **TIP**
 
@@ -116,19 +107,15 @@
 
     예) 토스 회원 전용 이벤트, 토스 X {브랜드명}, 토스 고객 한정 이벤트 , 토스 고객에게만 드려요 등
 
-<figure><img src="../../.gitbook/assets/혜택 리스트_good&#x26;bad-1 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/혜택 리스트_good&#x26;bad-1 (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/혜택 리스트_good&#x26;bad (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/혜택 리스트_good&#x26;bad (3).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
 ### 2. 액션 영역
 
-<figure><img src="../../.gitbook/assets/액션 영역 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/액션 영역 (1).png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="이벤트 안내" %}
