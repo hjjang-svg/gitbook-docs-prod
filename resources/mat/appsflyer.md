@@ -58,7 +58,7 @@ Active partner 의 스위치 버튼을 클릭하여 파트너 연동을 활성�
 <figure><img src="../../.gitbook/assets/스크린샷 2024-07-17 오후 3.48.40.png" alt=""><figcaption></figcaption></figure>
 
 * 앱 내에서의 이벤트 연동을 희망하는 경우 In-app event postbacks 토글을 ON으로 변경해주세요.
-* 전송되는 이벤트에 대하여 **All media sources, including organic** 항목을 선택, 해당 항목이 없다면 This Partenr Only를 선택해주세요.
+* 전송되는 이벤트에 대하여 **All media sources, including organic** 항목을 선택, 해당 항목이 없다면 This Partner Only를 선택해주세요.
 * Save Integration 를 눌러 연동을 완료해주세요.
 * **상세한 가이드는** [**Appsflyer 연동 가이드**](https://support.appsflyer.com/hc/ko/articles/9960361873809-%ED%8C%8C%ED%8A%B8%EB%84%88-%EB%A7%88%EC%BC%93%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4)**를 참고해주세요.**
 {% endstep %}
@@ -90,12 +90,12 @@ Active partner 의 스위치 버튼을 클릭하여 파트너 연동을 활성�
 
 필수 항목이 누락되면 **어떤 광고에서 전환이 발생했는지 확인하기 어렵고 앱스플라이어 대시보드에서도 데이터가 정확하게 집계되지 않을 수 있어요.**
 
-| 항목                     | 값                         | 설명          |
-| ---------------------- | ------------------------- | ----------- |
-| pid                    | **tossa3u\_int**          | 고유 매체 식별자   |
-| clickid                | **{TOSS\_TK\_CLICK\_ID}** | 포스트백용 클릭 ID |
-| advertising\_id / idfa | **{USER\_ADID}**          | 디바이스 광고 ID  |
-| af\_c\_id              | **{TOSS\_CID}**           | 캠페인 ID      |
+| 항목                     | 값                     | 설명          |
+| ---------------------- | --------------------- | ----------- |
+| pid                    | tossa3u\_int          | 고유 매체 식별자   |
+| clickid                | {TOSS\_TK\_CLICK\_ID} | 포스트백용 클릭 ID |
+| advertising\_id / idfa | {USER\_ADID}          | 디바이스 광고 ID  |
+| af\_c\_id              | {TOSS\_CID}           | 캠페인 ID      |
 
 #### 권장 항목
 
@@ -103,13 +103,13 @@ Active partner 의 스위치 버튼을 클릭하여 파트너 연동을 활성�
 
 권장 항목이 빠지거나 잘못 설정되면 **캠페인/광고그룹/소재 단위 성과를 세부적으로 확인하기 어렵고 앱스플라이어 표준 키와 맞지 않아 트래킹이 누락되거나 잘못 동작할 수 있어요.**
 
-| 항목         | 값                        | 설명     |
-| ---------- | ------------------------ | ------ |
-| af\_ad\_id | **{TOSS\_CREATIVE\_ID}** | 소재 ID  |
-| af\_siteid | **{SITE\_ID}**           | 매체 ID  |
-| af\_adset  | **{ADGROUP\_NAME}**      | 광고 그룹명 |
-| af\_ad     | **{CREATIVE\_NAME}**     | 광고 소재명 |
-| c          | **{CAMPAIGN\_NAME}**     | 캠페인명   |
+| 항목         | 값                    | 설명     |
+| ---------- | -------------------- | ------ |
+| af\_ad\_id | {TOSS\_CREATIVE\_ID} | 소재 ID  |
+| af\_siteid | {SITE\_ID}           | 매체 ID  |
+| af\_adset  | {ADGROUP\_NAME}      | 광고 그룹명 |
+| af\_ad     | {CREATIVE\_NAME}     | 광고 소재명 |
+| c          | {CAMPAIGN\_NAME}     | 캠페인명   |
 
 #### 링크 구성 예시
 
@@ -126,4 +126,5 @@ Active partner 의 스위치 버튼을 클릭하여 파트너 연동을 활성�
 
     <figure><img src="../../.gitbook/assets/image (1).jpeg" alt="" width="375"><figcaption></figcaption></figure>
 * 이벤트 매핑이 잘못되면 실제 전환 데이터가 빠질 수 있으니 표준 키와 구조를 꼭 확인해 주세요.
+* Tracking URL에서 수정이 필요한 항목은 캠페인 설정 시 소재 URL 섹션에서 다시 확인할 수 있습니다.
 {% endhint %}
