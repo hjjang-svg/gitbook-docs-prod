@@ -46,15 +46,16 @@ Integrations → Intergrated Ad Channels 선택 → \[Toss]앱 검색
 {% endstep %}
 
 {% step %}
-**연동 앱 선택 및 입력**
+**연동 활성화**
 
 <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-* 전송할 이벤트를 선택하고 다음 버튼을 클릭해주세요.
-  * 전송 규칙은 `채널 기여와 상관 없이 모든 이벤트 전송`으로 설정해주세요.
-* Conversion\_id 수정이 필요하다면 포스트백 전송을 중지한 이후 수정 해주세요.
+* 포스트백 전송 토글을 ON으로 변경하고 인증 정보 관리 버튼을 클릭하여 토스 플랫폼에서 발급받은 전환 추적 코드의 ID 값을 복사하여 cvr\_id 항목에 입력하여 파트너 연동을 활성화 해주세요.
+  * 전환 추적 코드 ID 수정이 필요하다면 포스트백 전송을 중지한 이후 수정 해주세요.
+* 이벤트 전송 규칙은 `채널 기여와 상관 없이 모든 이벤트 전송`으로 설정해주세요.
+* 상세한 가이드는 [Airbridge 연동 가이드](https://help.airbridge.io/ko/guides/toss-ads)를 참고해주세요.
 {% endstep %}
 {% endstepper %}
 
@@ -94,11 +95,12 @@ Integrations → Intergrated Ad Channels 선택 → \[Toss]앱 검색
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="127">이벤트 이름</th><th width="204.6953125">Toss Ads 이벤트 라벨</th><th width="351.6484375">Airbridge 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>app_install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>app_open</td></tr><tr><td>딥링크 앱 오픈</td><td>APP_DEEPLINK_OPEN</td><td>app_deeplink_open</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>airbridge.user.signup</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>airbridge.user.signin</td></tr><tr><td>결제</td><td>PURCHASE</td><td>airbridge.ecommerce.order.completed</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>airbridge.ecommerce.product.viewed</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>airbridge.ecommerce.product.addedToCart</td></tr><tr><td>홈 조회</td><td>VIEW_HOME</td><td>airbridge.ecommerce.home.viewed</td></tr></tbody></table>
+<table><thead><tr><th width="185.28466796875">이벤트 이름</th><th>Toss Ads 이벤트 라벨</th><th>Airbridge 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>app_install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>app_open</td></tr><tr><td>딥링크 앱 오픈</td><td>APP_DEEPLINK_OPEN</td><td>app_deeplink_open</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>airbridge.user.signup</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>airbridge.user.signin</td></tr><tr><td>결제</td><td>PURCHASE</td><td>airbridge.ecommerce.order.completed</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>airbridge.ecommerce.product.viewed</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>airbridge.ecommerce.product.addedToCart</td></tr><tr><td>검색</td><td>SEARCH</td><td>airbridge.ecommerce.searchResults.viewed</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>airbridge.initiateCheckout</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>airbridge.addToWishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>airbridge.subscribe</td></tr><tr><td>홈 조회</td><td>VIEW_HOME</td><td>airbridge.ecommerce.home.viewed</td></tr><tr><td>광고 노출</td><td>AD_IMPRESSION</td><td>airbridge.adImpression</td></tr></tbody></table>
 
 {% hint style="success" %}
-* 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야해요.
-  * 랜딩URL은 전환 추적 탬플릿으로 생성한 랜딩 URL로 입력해주세요.
+* 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
+  * 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
+* Airbridge 이벤트 라벨은 Airbridge에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](https://toss-ads.gitbook.io/guide/resources/tag/tracked-events)와 가장 적절한 이벤트에 매핑해 주세요.
 {% endhint %}
 
 ***
@@ -109,37 +111,42 @@ Integrations → Intergrated Ad Channels 선택 → \[Toss]앱 검색
 
 #### 필수 항목
 
-아래 항목들은 서로 짝을 지어 꼭 랜딩 URL에 들어가야 해요.
+아래 항목들은 서로 짝을 지어 꼭 랜딩 URL에 포함해 주세요.&#x20;
 
-필수 항목이 누락되는 경우 **어떤 광고에서 전환이 일어났는지 알 수 없고** **에어브릿지 대시보드에서도 데이터가 정확하게 집계되지 않을 수 있어요.**
+필수 항목이 누락되면 **어떤 광고에서 전환이 발생했는지 확인하기 어렵고 에어브릿지 대시보드에서도 데이터가 정확하게 집계되지 않을 수 있어요.**
 
-| 항목           | 값                     | 설명                    |
-| ------------ | --------------------- | --------------------- |
-| ad\_id       | {USER\_ADID}          | 유저의 ADID (광고 식별자)     |
-| campaign\_id | {TOSS\_CID}           | 캠페인 ID                |
-| click\_id    | {TOSS\_TK\_CLICK\_ID} | 클릭 발생 시 부여되는 고유 클릭 ID |
+| 항목           | 값                     | 설명          |
+| ------------ | --------------------- | ----------- |
+| path         | /toss                 | 경로 식별자      |
+| click\_id    | {TOSS\_TK\_CLICK\_ID} | 클릭 ID       |
+| ad\_id       | {USER\_ADID}          | ADID / IDFA |
+| campaign\_id | {TOSS\_CID}           | 캠페인 ID      |
 
 #### 권장 항목
 
-아래 항목들은 랜딩 URL에 넣는 것을 권장해요.
+아래 항목들은 랜딩 URL에 함께 넣는 것을 권장해요.&#x20;
 
-권장 항목이 빠지거나 잘못 설정되면 **소재별 전환 데이터를 정확하게 추적하기 어려워지고 에어브릿지 표준 키와 맞지 않아 트래킹이 누락되거나 잘못 동작할 수 있어요.**
+권장 항목이 빠지거나 잘못 설정되면 **캠페인/광고그룹/소재 단위 성과를 세부적으로 확인하기 어렵고 에어브릿지 표준 키와 맞지 않아 트래킹이 누락되거나 잘못 동작할 수 있어요.**
 
-| 항목               | 값                    | 설명    |
-| ---------------- | -------------------- | ----- |
-| sub\_id          | {SITE\_ID}           | 매체 ID |
-| ad\_creative\_id | {TOSS\_CREATIVE\_ID} | 소재 ID |
+| 항목               | 값                    | 설명     |
+| ---------------- | -------------------- | ------ |
+| sub\_id          | {SITE\_ID}           | 지면 구분  |
+| ad\_creative\_id | {TOSS\_CREATIVE\_ID} | 소재 ID  |
+| campaign         | {CAMPAIGN\_NAME}     | 캠페인명   |
+| ad\_group        | {ADGROUP\_NAME}      | 광고 그룹명 |
+| ad\_creative     | {CREATIVE\_NAME}     | 광고 소재명 |
 
 ### 링크 구성 예시
 
 모든 <mark style="color:red;">**필수**</mark>**/**<mark style="color:blue;">**권장**</mark> 항목이 포함된 예시 링크
 
-> https://abr.ge/@demolv4xh8pxqh/toss?<mark style="color:red;">**ad\_id={USER\_ADID}\&campaign\_id={TOSS\_CID}\&click\_id={TOSS\_TK\_CLICK\_ID}**</mark>&<mark style="color:blue;">**sub\_id={SITE\_ID}\&ad\_creative\_id={TOSS\_CREATIVE\_ID}**</mark>
+> https://abr.ge/@tossads/toss?<mark style="color:red;">**click\_id={TOSS\_TK\_CLICK\_ID}\&ad\_id={USER\_ADID}\&campaign\_id={TOSS\_CID}**</mark>&<mark style="color:blue;">**sub\_id={SITE\_ID}\&ad\_creative\_id={TOSS\_CREATIVE\_ID}\&campaign={CAMPAIGN\_NAME}\&ad\_group={ADGROUP\_NAME}\&ad\_creative={CREATIVE\_NAME}**</mark>
 
 {% hint style="success" %}
 **링크 설정 Tip**
 
-* 에어브릿지 콘솔에서 제공하는 트래킹 링크를 그대로 활용하면 필수/권장 항목을 놓치지 않을 수 있어요.
-* 토스애즈 가이드에 있는 표준 이벤트와 파라미터가 들어 있는 링크 템플릿을 사용하는 걸 권장해요.
-* 이벤트 매핑이 잘못되면 실제 전환 데이터가 빠질 수 있으니 표준 키와 구조를 꼭 확인해 주세요.
+* 에어브릿지 콘솔에서 제공하는 click attribution link를 그대로 활용하면 필수/권장 항목을 놓치지 않을 수 있어요.
+  * 자세한 설정 방법은 에어브릿지 대시보드 내 연동 > 광고 채널 연동 > 토스 >트래킹 링크 탭에서 확인하실 수 있어요.
+* 이벤트 매핑이 잘못되면 실제 전환 데이터가 빠질 수 있으니 필수 항목의 구조를 꼭 확인해 주세요.
+* Tracking URL에서 수정이 필요한 항목은 캠페인 설정 시 **소재 URL** 섹션에서 다시 확인할 수 있습니다.
 {% endhint %}
