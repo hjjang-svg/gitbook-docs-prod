@@ -104,5 +104,5 @@ Ad Partner Information 탭의 Tracking Code에 토스 플랫폼에서 발급받�
 * 디파이너리 콘솔에서 제공하는 click attribution link를 그대로 활용하면 필수/권장 항목을 놓치지 않을 수 있어요.
   * 자세한 설정 방법은 [디파이너리 트래킹 링크 생성 가이드](https://help.dfinery.io/hc/ko/articles/360024465693-Ad-Campaign-%EC%83%9D%EC%84%B1%EA%B3%BC-Tracking-Link-%EB%B0%9C%EA%B8%89)를 참고해 주세요.
 * 이벤트 매핑이 잘못되면 실제 전환 데이터가 빠질 수 있으니 필수 항목의 구조를 꼭 확인해 주세요.
-* Tracking URL에서 수정이 필요한 항목은 캠페인 설정 시 소재 URL 섹션에서 다시 확인할 수 있습니다.
+* Tracking URL에서 수정이 필요한 항목은 캠페인 설정 시 **소재 URL** 섹션에서 다시 확인할 수 있습니다.
 {% endhint %}

@@ -126,5 +126,5 @@ Active partner 의 스위치 버튼을 클릭하여 파트너 연동을 활성�
 
     <figure><img src="../../.gitbook/assets/image (1).jpeg" alt="" width="375"><figcaption></figcaption></figure>
 * 이벤트 매핑이 잘못되면 실제 전환 데이터가 빠질 수 있으니 표준 키와 구조를 꼭 확인해 주세요.
-* Tracking URL에서 수정이 필요한 항목은 캠페인 설정 시 소재 URL 섹션에서 다시 확인할 수 있습니다.
+* Tracking URL에서 수정이 필요한 항목은 캠페인 설정 시 **소재 URL** 섹션에서 다시 확인할 수 있습니다.
 {% endhint %}
