@@ -70,7 +70,7 @@ Partner Configuration > Attribution Postback & Settings > Tracking Code 에 토�
 
 필수 항목이 누락되면 **어떤 광고에서 전환이 발생했는지 확인하기 어렵고 싱귤러 대시보드에서도 데이터가 정확하게 집계되지 않을 수 있어요.**
 
-<table><thead><tr><th width="187.420166015625">항목</th><th>값</th><th>설명</th></tr></thead><tbody><tr><td>cl</td><td><strong>{TOSS_TK_CLICK_ID}</strong></td><td>클릭 ID</td></tr><tr><td>idfa / aifa / ad_id</td><td><strong>{IDFA} / {AIFA} / {USER_ADID}</strong></td><td>디바이스 광고 ID</td></tr><tr><td>pcid</td><td><strong>{TOSS_CID}</strong></td><td>캠페인 ID</td></tr></tbody></table>
+<table><thead><tr><th width="187.420166015625">항목</th><th>값</th><th>설명</th></tr></thead><tbody><tr><td>cl</td><td>{TOSS_TK_CLICK_ID}</td><td>클릭 ID</td></tr><tr><td>idfa / aifa / ad_id</td><td>{IDFA} / {AIFA} / {USER_ADID}</td><td>디바이스 광고 ID</td></tr><tr><td>pcid</td><td>{TOSS_CID}</td><td>캠페인 ID</td></tr></tbody></table>
 
 #### 권장 항목
 
@@ -78,7 +78,7 @@ Partner Configuration > Attribution Postback & Settings > Tracking Code 에 토�
 
 권장 항목이 빠지거나 잘못 설정되면 **캠페인/광고그룹/소재 단위 성과를 세부적으로 확인하기 어렵고 싱귤러 표준 키와 맞지 않아 트래킹이 누락되거나 잘못 동작할 수 있어요.**
 
-<table><thead><tr><th width="146.79949951171875">항목</th><th>값</th><th>설명</th></tr></thead><tbody><tr><td>pcrid</td><td><strong>{TOSS_CREATIVE_ID}</strong></td><td>소재 ID</td></tr><tr><td>site_id</td><td><strong>{SITE_ID}</strong></td><td>매체 ID</td></tr><tr><td>pcn</td><td><strong>{CAMPAIGN_NAME}</strong></td><td>캠페인명</td></tr><tr><td>pcrn</td><td><strong>{CREATIVE_NAME}</strong></td><td>광고 소재명</td></tr><tr><td>pscn</td><td><strong>{ADGROUP_NAME}</strong></td><td>광고 그룹명</td></tr></tbody></table>
+<table><thead><tr><th width="146.79949951171875">항목</th><th>값</th><th>설명</th></tr></thead><tbody><tr><td>pcrid</td><td>{TOSS_CREATIVE_ID}</td><td>소재 ID</td></tr><tr><td>site_id</td><td>{SITE_ID}</td><td>매체 ID</td></tr><tr><td>pcn</td><td>{CAMPAIGN_NAME}</td><td>캠페인명</td></tr><tr><td>pcrn</td><td>{CREATIVE_NAME}</td><td>광고 소재명</td></tr><tr><td>pscn</td><td>{ADGROUP_NAME}</td><td>광고 그룹명</td></tr></tbody></table>
 
 #### 링크 구성 예시
 
@@ -94,4 +94,5 @@ Partner Configuration > Attribution Postback & Settings > Tracking Code 에 토�
 * 콘솔에서 제공하는 click attribution link를 그대로 활용하면 필수/권장 항목을 놓치지 않을 수 있어요.
   * 자세한 설정 방법은 [싱귤러 트래킹 링크 생성 가이드](https://support.singular.net/hc/en-us/articles/360041317471-Creating-Website-Links)를 참고해 주세요.
 * 이벤트 매핑이 잘못되면 실제 전환 데이터가 빠질 수 있으니 필수 항목의 구조를 꼭 확인해 주세요.
+* Tracking URL에서 수정이 필요한 항목은 캠페인 설정 시 소재 URL 섹션에서 다시 확인할 수 있습니다.
 {% endhint %}
