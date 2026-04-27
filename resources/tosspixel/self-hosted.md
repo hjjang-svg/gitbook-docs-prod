@@ -41,7 +41,7 @@
 
 토스 픽셀이 지원하는 이벤트와 파라미터는 아래와 같아요.
 
-이벤트
+**이벤트**
 
 | 리포트 내 이벤트명 | 메서드명               | 설명                |
 | ---------- | ------------------ | ----------------- |
@@ -51,8 +51,6 @@
 | 상세페이지 조회   | productView()      | 상품/콘텐츠 상세 페이지 조회  |
 | 장바구니 담기    | addToCart()        | 장바구니 상품 추가        |
 | 결제 시작      | initiateCheckout() | 결제/주문 페이지 진입      |
-| 앱 설치       | install()          | 앱 설치 완료           |
-| 앱 열기       | appOpen()          | 앱 실행              |
 | 검색         | search()           | 서비스 내 검색 결과 조회    |
 | 로그인        | signIn()           | 로그인 완료            |
 | 페이지 조회     | pageView()         | 페이지 방문            |
@@ -61,16 +59,12 @@
 | 쿠폰 다운로드    | getOffer()         | 쿠폰 다운로드 / 혜택 수령   |
 | 위시리스트 추가   | addToWishlist()    | 상품 위시리스트 추가       |
 | 구독         | subscribe()        | 알림 신청 / 구독 시작     |
-| 딥링크 열기     | appDeeplinkOpen()  | 딥링크를 통한 앱 실행      |
 | 사전 예약      | preRegister()      | 사전 예약 / 런칭 전 등록   |
 | 한도 조회      | viewLimit()        | 대출/보험료 한도 조회      |
 | 가심사 조회     | applyScreening()   | 가심사 조회 / 적격 확인    |
-| 인앱 광고 노출   | adImpression()     | 광고 노출 (매출 발생)     |
 | 커스텀 이벤트    | custom()           | 자유롭게 정의 가능        |
 
-파라미터
-
-
+**파라미터**&#x20;
 
 | 파라미터명           | 타입     | 설명                          | 예시                                                |
 | --------------- | ------ | --------------------------- | ------------------------------------------------- |
@@ -272,32 +266,6 @@
 </script>
 ```
 
-#### 앱 설치 install()
-
-앱 설치 완료 시점에 호출해 주세요.
-
-```html
-<script>
-  TossPixel('전환 코드').install({
-    custom_param1: "app_install_campaign",
-    custom_param2: "android"
-  });
-</script>
-```
-
-#### 앱 열기 appOpen()
-
-앱이 실행된 시점에 호출해 주세요.
-
-```html
-<script>
-  TossPixel('전환 코드').appOpen({
-    custom_param1: "foreground",
-    custom_param2: "member"
-  });
-</script>
-```
-
 #### 검색 search()
 
 서비스 내 검색 결과를 조회한 시점에 호출해 주세요.
@@ -424,21 +392,6 @@
 </script>
 ```
 
-#### 딥링크 열기 appDeeplinkOpen()
-
-딥링크를 통해 앱이 실행된 시점에 호출해 주세요.
-
-```html
-<script>
-  TossPixel('전환 코드').appDeeplinkOpen({
-    product_id: "P12345",
-    product_name: "오가닉 코튼 티셔츠",
-    custom_param1: "campaign_deeplink",
-    custom_param2: "push"
-  });
-</script>
-```
-
 #### 사전 예약 preRegister()
 
 사전 예약 또는 런칭 전 등록이 완료된 시점에 호출해 주세요.
@@ -478,21 +431,6 @@
     lead_type: "PreScreening",
     custom_param1: "mortgage",
     custom_param2: "qualified_check"
-  });
-</script>
-```
-
-#### 인앱 광고 노출 adImpression()
-
-광고 노출이 발생한 시점에 호출해 주세요.
-
-```html
-<script>
-  TossPixel('전환 코드').adImpression({
-    revenue: 120,
-    currency: "KRW",
-    custom_param1: "rewarded_video",
-    custom_param2: "ad_network_a"
   });
 </script>
 ```
