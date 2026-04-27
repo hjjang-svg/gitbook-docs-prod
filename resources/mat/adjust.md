@@ -91,11 +91,11 @@ Campaign Lab → Partners 선택
 
 필수 항목이 누락되면 **어떤 광고에서 전환이 발생했는지 확인하기 어렵고 애드저스트 대시보드에서도 데이터가 정확하게 집계되지 않을 수 있어요.**
 
-| 항목                 | 값                         | 설명                    |
-| ------------------ | ------------------------- | --------------------- |
-| toss\_click\_id    | **{TOSS\_TK\_CLICK\_ID}** | 클릭 발생 시 부여되는 고유 클릭 ID |
-| idfa / gps\_adid   | **{IDFA} / {AIFA}**       | 디바이스 광고 ID            |
-| toss\_campaign\_id | **{TOSS\_CID}**           | 캠페인 ID                |
+| 항목                 | 값                     | 설명                    |
+| ------------------ | --------------------- | --------------------- |
+| toss\_click\_id    | {TOSS\_TK\_CLICK\_ID} | 클릭 발생 시 부여되는 고유 클릭 ID |
+| idfa / gps\_adid   | {IDFA} / {AIFA}       | 디바이스 광고 ID            |
+| toss\_campaign\_id | {TOSS\_CID}           | 캠페인 ID                |
 
 #### 권장 항목
 
@@ -103,12 +103,12 @@ Campaign Lab → Partners 선택
 
 권장 항목이 빠지거나 잘못 설정되면 **캠페인/광고그룹/소재 단위 성과를 세부적으로 확인하기 어렵고 애드저스트 표준 키와 맞지 않아 트래킹이 누락되거나 잘못 동작할 수 있어요.**
 
-| 항목                 | 값                        | 설명     |
-| ------------------ | ------------------------ | ------ |
-| toss\_creative\_id | **{TOSS\_CREATIVE\_ID}** | 소재 ID  |
-| toss\_site\_id     | **{SITE\_ID}**           | 매체 ID  |
-| campaign           | **{CAMPAIGN\_NAME}**     | 캠페인명   |
-| adgroup            | **{ADGROUP\_NAME}**      | 광고 그룹명 |
+| 항목                 | 값                    | 설명     |
+| ------------------ | -------------------- | ------ |
+| toss\_creative\_id | {TOSS\_CREATIVE\_ID} | 소재 ID  |
+| toss\_site\_id     | {SITE\_ID}           | 매체 ID  |
+| campaign           | {CAMPAIGN\_NAME}     | 캠페인명   |
+| adgroup            | {ADGROUP\_NAME}      | 광고 그룹명 |
 
 #### **링크 구성 예시**
 
@@ -122,4 +122,5 @@ Campaign Lab → Partners 선택
 * 애드저스트 콘솔에서 제공하는 click attribution link를 그대로 활용하면 필수/권장 항목을 놓치지 않을 수 있어요.
   * 자세한 설정 방법은 [애드저스트 트래킹 링크 생성 가이드](https://ior.ad/ado1)를 참고해 주세요.
 * 이벤트 매핑이 잘못되면 실제 전환 데이터가 빠질 수 있으니 필수 항목의 구조를 꼭 확인해 주세요.
+* Tracking URL에서 수정이 필요한 항목은 캠페인 설정 시 소재 URL 섹션에서 다시 확인할 수 있습니다.
 {% endhint %}
