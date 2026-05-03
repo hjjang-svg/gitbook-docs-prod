@@ -93,9 +93,9 @@
   * [고객 목록 타겟](resources/target/list.md)
   * [타겟 조합 기능](resources/target/undefined.md)
 
-## 광고비 관리 및 정산 <a href="#adjustment" id="adjustment"></a>
+## 비즈머니 관리 및 정산 <a href="#adjustment" id="adjustment"></a>
 
-* [광고비 관리](adjustment/ad_money.md)
+* [비즈머니 관리](adjustment/ad_money.md)
 * [정산하기](adjustment/settlement/README.md)
   * [대행수수료 정산](adjustment/settlement/agency.md)
   * [선불 계정의 정산](https://business-wallet.gitbook.io/guide/settlement/prepaid)
