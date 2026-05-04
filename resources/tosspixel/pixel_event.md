@@ -42,6 +42,3 @@
 5. 이벤트 정상 발송 여부, 이벤트 파라미터(금액, ID 등) 포함 여부 확인 가능
 
 <figure><img src="../../.gitbook/assets/tp2 (1).png" alt=""><figcaption></figcaption></figure>
-
-* [Toss Pixel Helper](https://chromewebstore.google.com/detail/toss-pixel-helper/kbbggbgnfmbpjpaieklnbbjfkjkkpcbi?hl=ko\&gl=US\&pli=1)를 설치하면, 현재 페이지에서 수집된 토스 픽셀 이벤트를 실시간으로 확인할 수 있어요.&#x20;
-* 자세한 사용 방법은 [픽셀 이벤트 수집 확인하기](https://toss-ads.gitbook.io/guide/resources/tosspixel/pixel_event) 페이지를 참고해주세요.
