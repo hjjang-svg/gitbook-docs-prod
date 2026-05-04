@@ -39,7 +39,7 @@ layout:
   * 무상 머니는 지급 시 설정된 만료일 까지 사용이 가능하며, 만료 기한이 지나면 자동으로 소멸돼요.
   * 무상 머니와 유상 머니가 모두 있는 경우, 만료일 기한이 가까운 무상 머니부터 **자동**으로 우선 **소진**되며, 특정 캠페인에만 선택하여 사용할 수 없어요.
 
-<figure><img src="../.gitbook/assets/8. 무상 머니 충전.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/01_이미지_비즈머니란.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -47,7 +47,7 @@ layout:
 
 \[비즈머니] 메뉴에서 소진된 비즈머니 내역을 확인하고 충전/ 환불을 이용할 수 있어요.
 
-<figure><img src="../.gitbook/assets/1. 광고비 관리.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/02_이미지_비즈머니 관리 .png" alt=""><figcaption></figcaption></figure>
 
 * 비즈머니 관리 화면에서 \[전체], \[소진], \[환급], \[예정], \[충전·환불] 버튼을 눌러 상세 내역을 확인할 수 있어요.
   * 당일 발생한 충전, 소진, 환불 내역과 잔액은 **실시간으로 반영되지 않아 일치하지 않을 수 있어요.**
@@ -78,7 +78,7 @@ layout:
 {% step %}
 결제 완료 후, 총 잔액 또는 충전 내역 확인
 
-<figure><img src="../.gitbook/assets/4. 광고비 내역.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/03_이미지_비즈머니 충전하기_step 3.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
