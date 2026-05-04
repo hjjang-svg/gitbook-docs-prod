@@ -548,14 +548,9 @@ function usePageView() {
 
 1. Toss Pixel Helper 크롬 확장프로그램
 
-[Toss Pixel Helper](https://chromewebstore.google.com/detail/toss-pixel-helper/kbbggbgnfmbpjpaieklnbbjfkjkkpcbi?hl=ko\&gl=US\&pli=1)를 설치하면, 현재 페이지에서 수집된 토스 픽셀 이벤트를 실시간으로 확인할 수 있어요.
+[Toss Pixel Helper](https://chromewebstore.google.com/detail/toss-pixel-helper/kbbggbgnfmbpjpaieklnbbjfkjkkpcbi?hl=ko\&gl=US\&pli=1)를 설치하면, 현재 페이지에서 수집된 토스 픽셀 이벤트를 실시간으로 확인할 수 있어요. 자세한 사용 방법은 [픽셀 이벤트 수집 확인하기](https://toss-ads.gitbook.io/guide/resources/tosspixel/pixel_event) 페이지를 참고해주세요.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-2. 브라우저 개발자 도구
-   1. 크롬에서 개발자 도구(F12)를 열고 Network 탭을 선택해요.
-   2. 페이지에서 전환 이벤트를 발생시켜요.
-   3. 토스 픽셀 수집 서버로 요청이 전송되는지 확인해요.
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
