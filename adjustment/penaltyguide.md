@@ -36,29 +36,49 @@ layout:
 
 ### **광고 상품별 위약금 산정 기준**
 
-| 광고 상품     | 광고 비용 기준 | 집행일 기준        |
-| --------- | -------- | ------------- |
-| DA배너      | 캠페인 예산   | 캠페인 시작 시점     |
-| 머니알림      | 예상 비용    | 발송일           |
-| 라이브 마켓    | 최종 광고 비용 | 방송 리스트 노출 시작일 |
-| 숏폼        | 예상 비용    | 노출 시작일        |
-| 행운퀴즈      | 광고 비용    | 퀴즈 시작일        |
-| 버튼 누르기    | 광고 비용    | 노출 시작일        |
-| 신용점수 보드   | 광고 비용    | 노출 시작일        |
-| 두근두근 일등찍기 | 광고 비용    | 노출 시작일        |
+| 광고 상품      | 광고 비용 기준 | 집행일 기준        |
+| ---------- | -------- | ------------- |
+| DA배너       | 캠페인 예산   | 캠페인 시작 시점     |
+| 머니알림       | 예상 비용    | 발송일           |
+| 라이브 마켓     | 최종 광고 비용 | 방송 리스트 노출 시작일 |
+| 숏폼         | 예상 비용    | 노출 시작일        |
+| 행운퀴즈       | 광고 비용    | 퀴즈 시작일        |
+| 버튼 누르기     | 광고 비용    | 노출 시작일        |
+| 두근두근 1등 찍기 | 광고 비용    | 노출 시작일        |
 
 <table><thead><tr><th align="center"></th><th align="center"></th><th align="center" valign="middle"></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center"><mark style="background-color:blue;"><strong>광고 상품</strong></mark></td><td align="center"><mark style="background-color:red;"><strong>집행 5 영업일 전 ~ 집행 2 영업일전</strong></mark></td><td align="center" valign="middle"><mark style="background-color:red;"><strong>집행일 2 영업일 00:00 ~ 집행일 전 영업일 오전 11:59</strong></mark></td><td align="center"><mark style="background-color:red;"><strong>집행일 전 영업일 오후 12:00~</strong></mark></td><td align="center"><mark style="background-color:red;"><strong>집행 당일</strong></mark></td></tr><tr><td align="center">DA 배너</td><td align="center">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td><td align="center" valign="middle">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td><td align="center">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td><td align="center">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td></tr><tr><td align="center">머니알림</td><td align="center">-</td><td align="center" valign="middle">20%</td><td align="center">50%</td><td align="center">100%</td></tr><tr><td align="center">라이브 마켓</td><td align="center">-</td><td align="center" valign="middle">-</td><td align="center">50%</td><td align="center">100%</td></tr><tr><td align="center">숏폼</td><td align="center">-</td><td align="center" valign="middle">-</td><td align="center">50%</td><td align="center">100%</td></tr><tr><td align="center">행운퀴즈</td><td align="center">-</td><td align="center" valign="middle">-</td><td align="center">50%</td><td align="center">100%</td></tr></tbody></table>
 
-버튼 누르기, 두근두근 1등 찍기 광고 상품의 경우,
-
-2025년 5월 1일 이후 집행 상태 변경 시 아래와 같은 위약금이 적용됩니다.
+버튼 누르기, 두근두근 1등 찍기 광고 상품의 경우, 집행 상태 변경 시 아래와 같은 위약금이 적용됩니다.
 
 <table><thead><tr><th align="center"></th><th align="center"></th><th align="center" valign="middle"></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center"><mark style="background-color:blue;"><strong>광고 상품</strong></mark></td><td align="center"><mark style="background-color:red;"><strong>집행 10 영업일 00:00 ~ 집행 6 영업일전 오후 11:59</strong></mark></td><td align="center" valign="middle"><mark style="background-color:red;"><strong>집행일 5 영업일 00:00 ~ 집행일 2 영업일 오후 11:59</strong></mark></td><td align="center"><mark style="background-color:red;"><strong>집행일 전 영업일 00:00 ~</strong></mark></td><td align="center"><mark style="background-color:red;"><strong>집행 당일</strong></mark></td></tr><tr><td align="center">버튼 누르기</td><td align="center">10%</td><td align="center" valign="middle">20%</td><td align="center">50%</td><td align="center">100%</td></tr><tr><td align="center"><p>두근두근</p><p>일등 찍기</p></td><td align="center">10%</td><td align="center" valign="middle">20%</td><td align="center">50% (집행 전일 23시까지)</td><td align="center">집행 전일 23시부터 집행 취소 불가</td></tr></tbody></table>
 
+{% hint style="info" icon="message-exclamation" %}
+**\[운영 정책 변경 안내]**&#x20;
+
+* 2026년 6월 8일부터 머니알림, 행운퀴즈, 라이브 마켓, 숏폼 상품의 위약금 산정 기준이 아래와 같이 적용됩니다.
+{% endhint %}
+
+<table><thead><tr><th align="center"></th><th align="center"></th><th align="center" valign="middle"></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center"><strong>광고 상품</strong> </td><td align="center"><strong>집행 10 영업일 00:00 ~ 집행 6 영업일전 오후 11:59</strong></td><td align="center" valign="middle"><strong>집행일 5 영업일 00:00 ~ 집행일 2 영업일 오후 11:59</strong></td><td align="center"><strong>집행일 전 영업일 00:00 ~</strong></td><td align="center"><strong>집행 당일</strong></td></tr><tr><td align="center"><strong>DA 배너</strong></td><td align="center">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td><td align="center" valign="middle">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td><td align="center">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td><td align="center">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td></tr><tr><td align="center"><strong>머니알림, 행운퀴즈, 라이브 마켓, 숏폼</strong></td><td align="center">10%</td><td align="center" valign="middle">30%</td><td align="center">50%</td><td align="center">100%</td></tr><tr><td align="center"><strong>버튼 누르기</strong></td><td align="center">10%</td><td align="center" valign="middle">20%</td><td align="center">50%</td><td align="center">100%</td></tr><tr><td align="center"><p><strong>두근두근</strong></p><p><strong>1등 찍기</strong></p></td><td align="center">10%</td><td align="center" valign="middle">20%</td><td align="center">50% (집행 전일 23시까지)</td><td align="center">집행 전일 23시부터 집행 취소 불가</td></tr></tbody></table>
+
+***
+
 ## 위약금 면제 케이스
 
-아래 항목의 경우, 증빙자료와 함께 광고 집행 시점 4시간 전까지 toss ads 에 취소 신청을 요청해 주셔야 해요.
+{% hint style="info" icon="message-exclamation" %}
+**\[운영 정책 변경 안내]**&#x20;
 
-* 천재지변 혹은 , 국가적 재난 / 중대 사태가 발생한 경우
-* 광고 대상 제품의 중대한 결함, 혹은 광고 모델의 사회적 문제 등 광고 집행이 어려운 부정 이슈 발생하여, 전체 광고 캠페인이 중단된 경우
-* 광고주 회사가 폐업하여 더 이상 광고 집행이 어렵거나 전체 광고 캠페인이 중단된 경우
+* 2026년 6월 8일부터 위약금 면제 요청 시 객관적으로 확인 가능한 증빙자료 제출이 필요합니다.&#x20;
+  * 인정 가능한 증빙 예시는 아래와 같습니다.
+    * 날인 공문&#x20;
+    * 공식 뉴스 기사 등 객관적으로 확인 가능한 자료
+* 제출된 증빙자료를 기반으로 내부 검토 후 사유가 인정되면 위약금 없이 집행 중단 처리됩니다.&#x20;
+* 증빙자료 미제출, 위조 또는 처리 이후 허위 사실로 확인되는 경우 면제된 위약금이 다시 부과될 수 있습니다.&#x20;
+{% endhint %}
+
+아래 항목에 해당하는 경우, 증빙자료와 함께 광고 집행 시점 4시간 전까지 취소 신청을 해 주셔야 합니다.
+
+취소 신청은 [토스 비즈니스 채널톡](https://toss-business.channel.io/) 혹은 담당자를 통해 문의해주세요.   &#x20;
+
+* 천재지변, 국가적 재난 또는 중대한 사회적 이슈가 발생한 경우
+* 광고 대상 제품의 중대한 결함, 광고 모델의 사회적 문제 등으로 광고 집행이 어려워 전체 캠페인이 중단된 경우
+* 광고주가 폐업하여 더 이상 광고 집행이 어렵거나 전체 캠페인이 중단된 경우
