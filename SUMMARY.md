@@ -63,10 +63,6 @@
   * [성과 확인하기](a-d/catalog_vote/data.md)
 * [이번 주 미션](a-d/weeklymission.md)
 * [일주일 방문 미션](a-d/visitmission.md)
-* [신용점수 보드](a-d/creditboard/README.md)
-  * [광고 생성하기](a-d/creditboard/campaign.md)
-  * [소재 가이드](a-d/creditboard/creative.md)
-  * [성과 확인하기](a-d/creditboard/data.md)
 
 ## 광고 도구 및 자산 <a href="#resources" id="resources"></a>
 
