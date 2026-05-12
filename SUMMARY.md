@@ -63,6 +63,18 @@
   * [성과 확인하기](a-d/catalog_vote/data.md)
 * [이번 주 미션](a-d/weeklymission.md)
 * [일주일 방문 미션](a-d/visitmission.md)
+* [디스플레이 광고](a-d/undefined/README.md)
+  * [캠페인 목표](a-d/undefined/undefined.md)
+  * [캠페인 생성하기](a-d/undefined/undefined-1/README.md)
+    * [광고 세트 설정하기](a-d/undefined/undefined-1/undefined.md)
+    * [입찰 방식 설정하기](a-d/undefined/undefined-1/undefined-1.md)
+  * [광고 유형별 소재 가이드](a-d/undefined/undefined-2/README.md)
+    * [한 줄 배너](a-d/undefined/undefined-2/undefined.md)
+    * [이미지](a-d/undefined/undefined-2/undefined-1.md)
+    * [비디오](a-d/undefined/undefined-2/undefined-2.md)
+  * [유용한 기능](a-d/undefined/undefined-3.md)
+  * [성과 대시보드](a-d/undefined/undefined-4.md)
+  * [맞춤 보고서](a-d/undefined/undefined-5.md)
 
 ## 광고 도구 및 자산 <a href="#resources" id="resources"></a>
 
