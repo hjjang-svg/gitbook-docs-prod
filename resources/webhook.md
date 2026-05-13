@@ -5,7 +5,7 @@ icon: right-left-large
 
 # 잠재고객 모으기 웹훅 연동
 
-토스애즈 [잠재고객 모으기](../a-d/banner/creative/basic.md)는 광고에 노출된 유저가 이름·연락처 같은 정보를 폼으로 제출하면 광고주 서버로 정보를 전달하는 웹훅을 제공해요.
+토스애즈 [잠재고객 모으기](../a-d/banner/creative/basic.md)는 광고에 노출된 유저가 이름·연락처 같은 정보를 폼으로 제출하면 광고주가 설정한 웹훅 수신 서버로 정보를 전달하는 웹훅을 제공해요.
 
 웹훅을 연동하면 잠재고객 목록을 직접 다운로드하지 않아도 광고주의 CRM, 상담 시스템, 마케팅 자동화 도구로 잠재고객 정보를 바로 받을 수 있어요. 이 가이드는 웹훅 등록부터 서명 검증, 재전송 정책까지 연동에 필요한 내용을 다뤄요.
 
@@ -17,13 +17,13 @@ icon: right-left-large
 
 ## 잠재고객 모으기 웹훅 동작 방식
 
-잠재고객 모으기 웹훅은 유저가 리드폼을 제출하면 토스애즈가 광고주 서버로 잠재고객 정보를 HTTPS `POST`로 보내요.
+잠재고객 모으기 웹훅은 유저가 리드폼을 제출하면 토스애즈가 잠재고객 정보를 HTTPS `POST`로 수신 서버에 보내요.
 
 ```mermaid
 sequenceDiagram
     participant User as 유저
     participant TossAds as 토스애즈 웹훅
-    participant Server as 광고주 서버
+    participant Server as 수신 서버
 
     User->>TossAds: 리드폼 제출
     TossAds->>Server: HTTPS POST 잠재고객 정보
@@ -58,19 +58,19 @@ sequenceDiagram
 
 #### 시크릿 키 알아두기
 
-잠재고객 모으기 웹훅은 시크릿 키로 **HMAC-SHA256 서명을 만들어 헤더에 담는 방식**으로 발신자를 인증해요. 광고주 서버는 같은 시크릿 키로 서명을 다시 계산해 비교하면 돼요. 자세한 방법은 아래 서명 검증하기에서 확인할 수 있어요.
+잠재고객 모으기 웹훅은 시크릿 키로 **HMAC-SHA256 서명을 만들어 헤더에 담는 방식**으로 발신자를 인증해요. 수신 서버는 같은 시크릿 키로 서명을 다시 계산해 비교하면 돼요. 자세한 방법은 아래 서명 검증하기에서 확인할 수 있어요.
 
 * **광고계정 단위 발급:** 같은 광고계정의 여러 리드폼은 같은 시크릿 키를 공유해요.
 * **자동 발급 또는 기존 키 표시:** 광고계정에 시크릿 키가 없으면 새로 발급돼요. 이미 발급된 키가 있으면 그 키가 그대로 표시돼요.
 * **계속 확인 가능:** 시크릿 키는 발급 이후에도 화면에서 계속 확인하고 복사할 수 있어요.
-* **재발급:** 키 교체가 필요하면 재발급으로 새 키를 받을 수 있어요. 14일 동안 가장 최근에 발급된 두 키의 서명이 함께 전달될 수 있고, 아래 시크릿 키 교체하기에서 자세한 흐름을 안내해요.
+* **재발급:** 키 교체가 필요하면 재발급으로 새 키를 받을 수 있어요. 14일 동안 가장 최근에 발급된 두 키의 서명이 함께 전달될 수 있고, 아래 [시크릿 키 교체하기](webhook.md#undefined-8)에서 자세한 흐름을 안내해요.
 
 #### 발신 IP 허용하기
 
-수신 서버가 방화벽, WAF, 보안 그룹의 IP 허용 목록을 사용한다면 아래 토스 outbound public IP를 허용해 주세요.
+수신 서버가 방화벽, WAF, 보안 그룹에서 IP 허용 목록을 사용한다면 아래 토스의 outbound IP 대역을 모두 허용해 주세요. 토스는 이중화된 데이터센터에서 요청을 발송하므로 두 대역 모두 등록이 필요해요.&#x20;
 
-* **DC1:** `117.52.3.80~87`
-* **DC2:** `211.115.96.80~87`
+* `117.52.3.80~87`
+* `211.115.96.80~87`
 
 {% hint style="info" %}
 **두 대역을 모두 허용 목록에 등록해 주세요.**
@@ -143,7 +143,7 @@ sequenceDiagram
 }
 ```
 
-<table><thead><tr><th width="173.7578125">필드</th><th width="88.925048828125">타입</th><th width="65.41015625">필수</th><th>설명</th></tr></thead><tbody><tr><td><code>api_version</code></td><td>string</td><td>필수</td><td>페이로드 스키마 버전이에요. 현재는 <code>v1</code>이에요.</td></tr><tr><td><code>is_test</code></td><td>boolean</td><td>필수</td><td>테스트 발송이면 <code>true</code>, 실제 리드면 <code>false</code>예요.</td></tr><tr><td><code>lead_id</code></td><td>number</td><td>필수</td><td>잠재고객 정보의 고유 ID예요. 유저가 폼을 제출할 때 생성돼요. 유저 응답의 중복 처리 기준으로 사용해요.</td></tr><tr><td><code>form_id</code></td><td>number</td><td>필수</td><td>리드폼 양식 ID예요. 하나의 리드폼 양식에 여러 유저가 응답할 수 있어요.</td></tr><tr><td><code>campaign_id</code></td><td>number</td><td>필수</td><td>캠페인 ID예요.</td></tr><tr><td><code>ad_set_id</code></td><td>number</td><td>필수</td><td>광고 세트 ID예요.</td></tr><tr><td><code>ad_id</code></td><td>number</td><td>필수</td><td>광고 소재 ID예요.</td></tr><tr><td><code>tracking_click_id</code></td><td>string</td><td>필수</td><td>광고 클릭 추적용 ID로, 광고 성과 분석(어트리뷰션)에 사용해요.</td></tr><tr><td><code>lead_submit_time</code></td><td>string</td><td>필수</td><td>유저가 리드폼을 제출한 시각이에요. ISO 8601, KST로 전달돼요.</td></tr><tr><td><code>user_column_data</code></td><td>array</td><td>필수</td><td>유저가 입력한 개인정보 항목이에요. 각 항목은 <code>column_id</code>, <code>column_name</code>, <code>string_value</code>로 구성돼요.</td></tr><tr><td><code>submitted_content</code></td><td>array</td><td>선택</td><td><p>유저가 제출한 설문 답변이에요. 각 항목은 아래처럼 구성돼요.<br><br>• <code>id</code> — 질문 ID예요.<br>• <code>question</code> — 질문 텍스트예요.<br>• <code>answer</code> — 유저 답변이에요. 모든 답변은 문자열 배열로 전달돼요.</p><p><br>설문이 없으면 빈 배열이에요.</p></td></tr><tr><td><code>consensus_histories</code></td><td>array</td><td>필수</td><td>유저의 약관 동의 이력이에요. 각 항목은 <code>terms_id</code>(number, 동의문 ID)와 <code>agreed_at</code>(동의 시각)으로 구성돼요.</td></tr></tbody></table>
+<table><thead><tr><th width="200.44921875">필드</th><th width="88.925048828125">타입</th><th width="65.41015625">필수</th><th>설명</th></tr></thead><tbody><tr><td><code>api_version</code></td><td>string</td><td>필수</td><td>페이로드 스키마 버전이에요. 현재는 <code>v1</code>이에요.</td></tr><tr><td><code>is_test</code></td><td>boolean</td><td>필수</td><td>테스트 발송이면 <code>true</code>, 실제 리드면 <code>false</code>예요.</td></tr><tr><td><code>lead_id</code></td><td>number</td><td>필수</td><td>잠재고객 정보의 고유 ID예요. 유저가 폼을 제출할 때 생성돼요. 유저 응답의 중복 처리 기준으로 사용해요.</td></tr><tr><td><code>form_id</code></td><td>number</td><td>필수</td><td>리드폼 양식 ID예요. 하나의 리드폼 양식에 여러 유저가 응답할 수 있어요.</td></tr><tr><td><code>campaign_id</code></td><td>number</td><td>필수</td><td>캠페인 ID예요.</td></tr><tr><td><code>ad_set_id</code></td><td>number</td><td>필수</td><td>광고 세트 ID예요.</td></tr><tr><td><code>ad_id</code></td><td>number</td><td>필수</td><td>광고 소재 ID예요.</td></tr><tr><td><code>tracking_click_id</code></td><td>string</td><td>필수</td><td>광고 클릭 추적용 ID로, 광고 성과 분석(어트리뷰션)에 사용해요.</td></tr><tr><td><code>lead_submit_time</code></td><td>string</td><td>필수</td><td>유저가 리드폼을 제출한 시각이에요. ISO 8601, KST로 전달돼요.</td></tr><tr><td><code>user_column_data</code></td><td>array</td><td>필수</td><td>유저가 입력한 개인정보 항목이에요. 각 항목은 <code>column_id</code>, <code>column_name</code>, <code>string_value</code>로 구성돼요.</td></tr><tr><td><code>submitted_content</code></td><td>array</td><td>선택</td><td><p>유저가 제출한 설문 답변이에요. 각 항목은 아래처럼 구성돼요.<br><br>• <code>id</code> : 질문 ID예요.<br>• <code>question</code> : 질문 텍스트예요.<br>• <code>answer</code> : 유저 답변이에요. 모든 답변은 문자열 배열로 전달돼요.</p><p><br>설문이 없으면 빈 배열이에요.</p></td></tr><tr><td><code>consensus_histories</code></td><td>array</td><td>필수</td><td>유저의 약관 동의 이력이에요. 각 항목은 <code>terms_id</code>(number, 동의문 ID)와 <code>agreed_at</code>(동의 시각)으로 구성돼요.</td></tr></tbody></table>
 
 {% hint style="info" %}
 **새 필드가 추가될 수 있어요**.
@@ -153,7 +153,7 @@ sequenceDiagram
 
 ## 수신 서버 만들기
 
-등록한 URL로 들어오는 웹훅을 처리할 수신 서버를 만들어요. 수신 서버는 정상 요청만 받아 중복 없이 저장하기 위해 서명을 검증하고, 응답을 보내고, 중복을 처리할 수 있어야 해요.
+등록한 URL로 들어오는 웹훅을 처리할 수신 서버를 만들어주세요. 수신 서버는 정상 요청만 받아 중복 없이 저장하기 위해 서명을 검증하고, 응답을 보내고, 중복을 처리할 수 있어야 해요.
 
 ### 서명 검증하기
 
@@ -172,7 +172,7 @@ sequenceDiagram
 
 #### 시크릿 키 교체하기
 
-시크릿 키를 재발급하면, 토스애즈는 **14일 동안** 최근에 발급된 최대 2개의 시크릿 키로 만든 서명을 함께 보낼 수 있어요. 광고주 서버가 새 키로 즉시 교체되지 않아도 무중단으로 전환할 수 있게 하는 안전장치예요.
+시크릿 키를 재발급하면, 토스애즈는 **14일 동안** 최근에 발급된 최대 2개의 시크릿 키로 만든 서명을 함께 보낼 수 있어요. 수신 서버에서 새 키로 즉시 교체되지 않아도 무중단으로 전환할 수 있게 하는 안전장치예요.
 
 이 기간에는 헤더에 두 개의 서명이 콤마로 함께 전달돼요.
 
@@ -180,13 +180,13 @@ sequenceDiagram
 X-TossAds-Signature: v2=bbb222...,v3=ccc333...
 ```
 
-광고주 서버는 콤마로 나눈 뒤, 보유한 시크릿 키로 계산한 서명과 두 값 중 하나라도 일치하면 정상 요청으로 처리하면 돼요. 재발급이 여러 번 일어나더라도 최근에 발급된 두 키 기준으로 서명이 전달돼요. 14일이 지나면 오래된 키는 자동으로 만료되고, 유효한 최신 키 기준의 서명만 남아요.
+수신 서버는 두 개의 서명을 콤마로 나눈 뒤, 보유한 시크릿 키로 계산한 서명과 두 값 중 하나라도 일치하면 정상 요청으로 처리하면 돼요. 재발급이 여러 번 일어나더라도 최근에 발급된 두 키 기준으로 서명이 전달돼요. 14일이 지나면 오래된 키는 자동으로 만료되고, 유효한 최신 키 기준의 서명만 남아요.
 
 ```
 X-TossAds-Signature: v3=ccc333...
 ```
 
-#### 수신 서버 코드 예시
+#### 서명 검증 코드 예시
 
 Node.js, Python, Java로 작성한 수신 서버 예시예요. 서명 검증과 다중 서명 처리 방법이 포함되어 있어요.
 
@@ -469,7 +469,7 @@ app.listen(3000);
 
 * [ ] 웹훅 URL이 HTTPS이고, 외부에서 접근 가능해요.
 * [ ] 시크릿 키가 환경변수나 보안 저장소에만 저장되어 있어요.
-* [ ] 방화벽 허용 목록을 사용한다면 토스 outbound public IP 두 대역을 모두 추가했어요.
+* [ ] 방화벽 허용 목록에 토스 outbound IP 두 대역을 모두 추가했어요.
 * [ ] 서명 검증이 `{timestamp}.{body}` 기준으로 구현되어 있어요.
 * [ ] `lead_id` 기준으로 중복 처리가 적용돼 있어요.
 * [ ] 연결된 뒤 5초 안에 `2xx`를 반환할 수 있도록 무거운 작업을 비동기로 분리했어요.
