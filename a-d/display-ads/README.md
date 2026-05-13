@@ -29,6 +29,6 @@ layout:
 
 <a href="features.md" class="button primary" data-icon="4">유용한 기능 </a>
 
-<a href="performance-dashboard.md" class="button primary" data-icon="5">성과 대시보드 </a>
+<a href="/broken/pages/qNFTxk3U1CspUmxprKgu" class="button primary" data-icon="5">성과 대시보드 </a>
 
-<a href="custom-reports.md" class="button primary" data-icon="6">맞춤 보고서 </a>
+<a href="/broken/pages/NtKjRVIvIoNNyuKrgqgK" class="button primary" data-icon="6">맞춤 보고서 </a>

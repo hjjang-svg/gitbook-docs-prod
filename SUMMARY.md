@@ -74,8 +74,6 @@
     * [비디오](a-d/display-ads/creative-guidelines/video.md)
     * [광고 고지 문구(심의필)](a-d/display-ads/creative-guidelines/required-message.md)
   * [유용한 기능](a-d/display-ads/features.md)
-  * [성과 대시보드](a-d/display-ads/performance-dashboard.md)
-  * [맞춤 보고서](a-d/display-ads/custom-reports.md)
 
 ## 광고 도구 및 자산 <a href="#resources" id="resources"></a>
 
