@@ -31,6 +31,16 @@
 | ----------------------------------------- | ----------------------------------------------- |
 | 적절한 여백으로 알맞게 들어간 경우                       | 과하게 커서 잘려 보이는 경우                                |
 
+{% hint style="info" %}
+아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
+{% endhint %}
+
+{% file src="../../../.gitbook/assets/TossAds_image_BrandLogo.psd" %}
+
+{% file src="../../../.gitbook/assets/TossAds_image_BrandLogo.ai" %}
+
+{% file src="../../../.gitbook/assets/TossAds_image_BrandLogo.fig" %}
+
 **가로 로고보다 심볼을 사용해주세요.**
 
 | <mark style="color:$danger;">**`Don't`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
@@ -153,7 +163,7 @@
 
 #### 5-1) 공통
 
-<table><thead><tr><th width="282.7977294921875">규칙</th><th>내용</th></tr></thead><tbody><tr><td>비디오 배너</td><td><ul><li><a href="https://toss-ads.gitbook.io/guide/policy/industryguide">업종별 심사 가이드</a>에 따라 심의필 제출이 필요한 경우, <code>비디오</code>에 <strong>직접 기재</strong></li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="282.7977294921875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>비디오 배너</strong></td><td><ul><li><a href="https://toss-ads.gitbook.io/guide/policy/industryguide">업종별 심사 가이드</a>에 따라 심의필 제출이 필요한 경우, <code>비디오</code>에 <strong>직접 기재</strong></li></ul></td></tr></tbody></table>
 
 #### 5-2. 예시
 
