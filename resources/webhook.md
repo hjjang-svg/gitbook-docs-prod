@@ -364,56 +364,69 @@ def receive_webhook():
 {% endtab %}
 
 {% tab title="Node.js (Express)" %}
-const express = require('express'); const crypto = require('crypto');
+```javascript
+const express = require('express');
+const crypto = require('crypto');
 
-const app = express(); const SECRET\_KEY = process.env.TOSS\_ADS\_WEBHOOK\_SECRET\_KEY;
+const app = express();
+const SECRET_KEY = process.env.TOSS_ADS_WEBHOOK_SECRET_KEY;
 
-// body는 raw bytes로 수신해야 한다. express.json() 대신 express.raw() 사용. // JSON 파싱 후 재직렬화하면 바이트가 달라져 서명 검증에 실패한다. app.post( '/webhook/toss-ads', express.raw({ type: 'application/json' }), (req, res) => { const timestamp = req.header('X-TossAds-Timestamp'); const signature = req.header('X-TossAds-Signature');
+// body는 raw bytes로 수신해야 한다. express.json() 대신 express.raw() 사용.
+// JSON 파싱 후 재직렬화하면 바이트가 달라져 서명 검증에 실패한다.
+app.post(
+  '/webhook/toss-ads',
+  express.raw({ type: 'application/json' }),
+  (req, res) => {
+    const timestamp = req.header('X-TossAds-Timestamp');
+    const signature = req.header('X-TossAds-Signature');
 
-```
-if (!SECRET_KEY || !timestamp || !signature) {
-  return res.status(400).send('Missing required header');
-}
+    if (!SECRET_KEY || !timestamp || !signature) {
+      return res.status(400).send('Missing required header');
+    }
 
-// 1. 서명 입력 조립: "{timestamp}.{body}"
-const signingInput = Buffer.concat([
-  Buffer.from(`${timestamp}.`, 'utf8'),
-  req.body,
-]);
+    // 1. 서명 입력 조립: "{timestamp}.{body}"
+    const signingInput = Buffer.concat([
+      Buffer.from(`${timestamp}.`, 'utf8'),
+      req.body,
+    ]);
 
-// 2. HMAC-SHA256 계산 (소문자 hex)
-const expected = crypto
-  .createHmac('sha256', SECRET_KEY)
-  .update(signingInput)
-  .digest('hex');
+    // 2. HMAC-SHA256 계산 (소문자 hex)
+    const expected = crypto
+      .createHmac('sha256', SECRET_KEY)
+      .update(signingInput)
+      .digest('hex');
 
-// 3. 헤더의 서명을 콤마로 split → 하나라도 매치하면 통과 (듀얼 시그니처 대응)
-const isValid = signature.split(',').some((part) => {
-  const sigValue = part.trim().split('=')[1];
-  const a = Buffer.from(expected, 'hex');
-  const b = Buffer.from(sigValue, 'hex');
-  return a.length === b.length && crypto.timingSafeEqual(a, b);
-});
+    // 3. 헤더의 서명을 콤마로 split → 하나라도 매치하면 통과 (듀얼 시그니처 대응)
+    //    crypto.timingSafeEqual()은 상수 시간 비교(constant-time comparison) 함수.
+    //    일반 === 로 비교해도 결과는 같지만, === 는 첫 번째 다른 바이트에서 바로 반환하므로
+    //    응답 시간 차이로 서명을 추측하는 타이밍 공격에 이론적으로 취약하다.
+    //    상수 시간 비교는 입력과 무관하게 항상 같은 시간이 걸려 이를 방지한다.
+    const isValid = signature.split(',').some((part) => {
+      const sigValue = part.trim().split('=')[1];
+      const a = Buffer.from(expected, 'hex');
+      const b = Buffer.from(sigValue, 'hex');
+      return a.length === b.length && crypto.timingSafeEqual(a, b);
+    });
 
-if (!isValid) return res.status(401).send('Invalid signature');
+    if (!isValid) return res.status(401).send('Invalid signature');
 
-// 4. 서명이 유효한 것을 확인한 뒤에야 타임스탬프를 신뢰할 수 있다.
-//    서명에 타임스탬프가 포함되어 있으므로, 서명 통과 = 타임스탬프 미조작 보장.
-//    이후 ±5분 검증으로 replay attack 방어.
-const now = Math.floor(Date.now() / 1000);
-if (Math.abs(now - Number(timestamp)) > 300) {
-  return res.status(401).send('Timestamp expired');
-}
+    // 4. 서명이 유효한 것을 확인한 뒤에야 타임스탬프를 신뢰할 수 있다.
+    //    서명에 타임스탬프가 포함되어 있으므로, 서명 통과 = 타임스탬프 미조작 보장.
+    //    이후 ±5분 검증으로 replay attack 방어.
+    const now = Math.floor(Date.now() / 1000);
+    if (Math.abs(now - Number(timestamp)) > 300) {
+      return res.status(401).send('Timestamp expired');
+    }
 
-// 5. 검증 통과 — 페이로드 파싱 후 처리
-const payload = JSON.parse(req.body.toString('utf8'));
-//TODO: lead_id 기준으로 중복 처리 후 저장
-res.status(200).send('OK');
-```
-
-} );
+    // 5. 검증 통과 — 페이로드 파싱 후 처리
+    const payload = JSON.parse(req.body.toString('utf8'));
+    //TODO: lead_id 기준으로 중복 처리 후 저장
+    res.status(200).send('OK');
+  }
+);
 
 app.listen(3000);
+```
 {% endtab %}
 {% endtabs %}
 
