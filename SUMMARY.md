@@ -101,7 +101,7 @@
   * [전환 추적 타겟](resources/target/switch.md)
   * [고객 목록 타겟](resources/target/list.md)
   * [타겟 조합 기능](resources/target/undefined.md)
-* [잠재고객 모으기 웹훅 연동](resources/webhook.md)
+* [잠재고객 모으기 웹훅 연동하기](resources/webhook.md)
 
 ## 비즈머니 관리 및 정산 <a href="#adjustment" id="adjustment"></a>
 
