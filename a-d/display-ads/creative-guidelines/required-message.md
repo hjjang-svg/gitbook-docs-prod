@@ -1,4 +1,23 @@
-# 광고 고지 문구
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+  tags:
+    visible: true
+---
+
+# 광고 고지 문구(심의필)
 
 * 관련 법령에 따라 표기가 필요한 법적고지문구를 소재에 삽입해야 합니다.
 * 안내 문구 입력란에 광고 문구 또는 단순 정보 전달성 문구 입력 시 심사 승인이 불가합니다.
