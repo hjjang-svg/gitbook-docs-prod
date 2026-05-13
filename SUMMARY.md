@@ -72,7 +72,7 @@
     * [한 줄 배너](a-d/display-ads/creative-guidelines/single-line-banner.md)
     * [이미지](a-d/display-ads/creative-guidelines/image.md)
     * [비디오](a-d/display-ads/creative-guidelines/video.md)
-    * [광고 고지 문구(심의필)](a-d/display-ads/creative-guidelines/select-category.md)
+    * [광고 고지 문구(심의필)](a-d/display-ads/creative-guidelines/required-message.md)
   * [유용한 기능](a-d/display-ads/features.md)
   * [성과 대시보드](a-d/display-ads/performance-dashboard.md)
   * [맞춤 보고서](a-d/display-ads/custom-reports.md)
