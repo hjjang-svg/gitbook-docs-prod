@@ -25,6 +25,12 @@
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
 {% endhint %}
 
+{% file src="../../../.gitbook/assets/TossAds_image_Line (3).psd" %}
+
+{% file src="../../../.gitbook/assets/TossAds_image_Line (1).ai" %}
+
+{% file src="../../../.gitbook/assets/TossAds_image_Line (1).fig" %}
+
 #### 2-3) 예시
 
 **안전 노출 영역을 지켜주세요**
