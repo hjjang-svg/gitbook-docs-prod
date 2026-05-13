@@ -102,7 +102,7 @@ layout:
 
 * 맞춤 타겟을 다른 타겟팅 옵션과 여러 개 사용할 경우, 타겟 모수가 너무 작아져 광고 효과가 감소할 수 있으니 주의해서 사용하시는 것을 권장해요.
 
-<figure><img src="../../../.gitbook/assets/4.맞춤 타겟_업종 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/4.맞춤 타겟_업종 (1).png" alt=""><figcaption></figcaption></figure>
 
 * 업종 카테고리
   * 업종 카테고리는 특정 업종 카테고리에 결제를 했거나 하지 않은 사용자를 찾을 수 있게 해주는 광고 타겟팅 옵션이에요.
@@ -111,18 +111,18 @@ layout:
       * 여러 조건의 업종 카테고리 활용 맞춤 타겟을 선택한 경우에도, 모든 조건에 대한 합집합 (포함) 으로 사용돼요.
     * 업종을 선택한 이후에, 상세 타겟 조건 (결제 기간, 결제 금액, 결제 횟수) 을 추가로 선택할 수 있어요.
 
-<figure><img src="../../../.gitbook/assets/5.맞춤 타겟_관심・속성.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/5.맞춤 타겟_관심・속성.png" alt=""><figcaption></figcaption></figure>
 
 * 관심 · 속성 정보
   * 관심 · 속성 정보는 토스 내 특정 서비스 이용 이력을 바탕으로 사용자의 관심사를 유추하여 찾을 수 있게 해주는 광고 타겟팅 옵션이에요.
     * 2단계 (대 카테고리 > 소 카테고리) 로 설정할 수 있으며, 여러 관심사를 동시에 설정할 수 있어요.
 
-<figure><img src="../../../.gitbook/assets/6.맞춤 타겟_소비 수준 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/6.맞춤 타겟_소비 수준 (1).png" alt=""><figcaption></figcaption></figure>
 
 * 소비 수준
   * 소비 수준은 사용자의 최근 월 평균 결제 금액을 기반으로 하여 소비 금액의 분포를 찾을 수 있게 해주는 광고 타겟팅 옵션이에요.
 
-{% hint style="info" %}
+{% hint style="danger" %}
 **타겟 유의 사항**
 
 * 광고유형과 설정한 타겟 조건에 따라 상단 <예상 타겟> 섹션을 통해 해당되는 타겟의 예상 규모를 확인할 수 있어요.
