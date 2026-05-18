@@ -5,9 +5,9 @@
 **그룹장 권한**을 가진 구성원은 비즈니스 그룹의 **구성원**을 초대 할 수 있어요.\
 아래 이미지를 참고해 그룹원 초대를 진행해 주세요.
 
-토스애즈 로그인 → 그룹 관리 → 그룹 구성원 → 우측 상단 초대하기 → 초대자 토스애즈 id 기재 → 권한 선택 → 완료
+경로: 토스애즈 로그인 → 내 비즈니스 탭 진입 → 원하는 비즈니스 그룹 선택 → 그룹 구성원 → 우측 상단 초대하기 → 초대자 토스애즈 id 기재 → 권한 선택 → 완료
 
-<figure><img src="../../.gitbook/assets/6) 맞춤 보고서_기간 (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/비즈니스그룹탭.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/그룹 구성원 관리.png" alt=""><figcaption></figcaption></figure>
 
