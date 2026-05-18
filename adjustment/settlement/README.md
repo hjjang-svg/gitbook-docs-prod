@@ -28,6 +28,14 @@ layout:
 
 <figure><img src="../../.gitbook/assets/비즈 그룹 정산.PNG" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+**배너 광고 정산 및 과금 기준**&#x20;
+
+* 배너 광고는 성과 보고서와 실제 청구 금액이 다를 수 있어요.&#x20;
+  * 일별 소진 금액을 1원 단위에서 반올림한 뒤 합산해 최종 광고비를 계산해요.\
+    ROUND(일일소진금액, -1) 함수를 사용하면 청구 금액과 동일한지 확인할 수 있어요.
+{% endhint %}
+
 ***
 
 ### 세금계산서 발행
