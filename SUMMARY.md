@@ -108,6 +108,4 @@
   * [대행수수료 정산](adjustment/settlement/agency.md)
   * [선불 계정의 정산](https://business-wallet.gitbook.io/guide/settlement/prepaid)
   * [후불 계정의 정산](https://business-wallet.gitbook.io/guide/settlement/postpaid)
-  * [선불 계정의 정산](adjustment/settlement/prepay.md)
-  * [후불 계정의 정산](adjustment/settlement/postpay.md)
 * [광고 위약금 안내](adjustment/penaltyguide.md)
