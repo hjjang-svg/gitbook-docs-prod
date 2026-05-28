@@ -61,7 +61,7 @@
 * [두근두근 1등 찍기](a-d/catalog_vote/README.md)
   * [소재 가이드](a-d/catalog_vote/creative.md)
   * [성과 확인하기](a-d/catalog_vote/data.md)
-* [이번 주 미션](a-d/weeklymission.md)
+* [오늘의 포인트 미션](a-d/weeklymission.md)
 * [일주일 방문 미션](a-d/visitmission.md)
 * [디스플레이 광고](a-d/display-ads/README.md)
   * [캠페인 목표](a-d/display-ads/campaign-objectives.md)
