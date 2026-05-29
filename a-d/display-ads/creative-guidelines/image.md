@@ -15,13 +15,15 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
 ---
 
 # 이미지
 
 ## 1. 이미지 유형이란?
 
-<figure><img src="../../../.gitbook/assets/1. 이미지 배너란_ (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/이미지 (2).png" alt=""><figcaption></figcaption></figure>
 
 광고 이미지가 크게 보이는 배너를 뜻해요. 다양한 비율의 이미지와 문구로 이루어져 있어요.
 
@@ -65,11 +67,11 @@ layout:
 
 #### 3-1) 공통
 
-<table><thead><tr><th width="275.506103515625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택・정보가 드러나는 이미지</li><li>적절한 크기와 밀도 권장</li></ul></td></tr><tr><td><strong>불쾌감 ・ 시각적 피로함</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>불쾌감 ・ 혐오감을 유발하는 경우</li><li>브랜드와 상관없는 붉은 톤 ・ 형광빛 고채도 색상을 사용한 경우</li></ul></li></ul></td></tr><tr><td><strong>가독성 ・ 문구 중복</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>이미지 속 문구가 전체의 30%를 넘는 경우</li><li>이미지 속 문구가 주요, 보조문구와 50% 이상 중복되는 경우</li></ul></li></ul></td></tr><tr><td><strong>과한 크롭 ・ 클로즈업</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>크롭 ・ 클로즈업 이미지, 분할 이미지를 쓴 경우</li></ul></li></ul></td></tr><tr><td><strong>내부 서비스로 오인</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li><p>토스의 서비스나 알림, 프로모션으로 오인할 수 있는 이미지를 쓴 경우</p><ul><li>서비스 ・ 알림 아이콘과 유사한 경우</li><li>UI 구성을 캡처하거나 그대로 재현한 경우</li><li>토스의 브랜드명 ・ 로고를 사전 협의 없이 쓴 경우</li></ul></li></ul></li></ul></td></tr><tr><td><strong>광고 고지 문구(심의필)</strong></td><td><ul><li>업종에 따라 심의필 문구 고지가 필요한 경우, 이미지 내에 직접 삽입하여 제출</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="275.506103515625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택・정보가 드러나는 이미지</li><li>적절한 크기와 밀도 권장</li></ul></td></tr><tr><td><strong>불쾌감 ・ 시각적 피로함</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>불쾌감 ・ 혐오감을 유발하는 경우</li><li>브랜드와 상관없는 붉은 톤 ・ 형광빛 고채도 색상을 사용한 경우</li></ul></li></ul></td></tr><tr><td><strong>가독성</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>문구가 이미지 내 특정 오브젝트・배경과 겹쳐 식별이 어려운 경우</li><li>문구가 한 곳에 정돈되지 않아 한눈에 들어오지 않는 경우</li><li>문구끼리 위치가 겹쳐 내용을 파악하기 어려운 경우</li></ul></li></ul></td></tr><tr><td><strong>과한 크롭 ・ 클로즈업</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>크롭 ・ 클로즈업 이미지, 분할 이미지를 쓴 경우</li></ul></li></ul></td></tr><tr><td><strong>내부 서비스로 오인</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li><p>토스의 서비스나 알림, 프로모션으로 오인할 수 있는 이미지를 쓴 경우</p><ul><li>서비스 ・ 알림 아이콘과 유사한 경우</li><li>UI 구성을 캡처하거나 그대로 재현한 경우</li><li>토스의 브랜드명 ・ 로고를 사전 협의 없이 쓴 경우</li></ul></li></ul></li></ul></td></tr><tr><td><strong>광고 고지 문구(심의필)</strong></td><td><ul><li>업종에 따라 심의필 문구 고지가 필요한 경우, 이미지 내에 직접 삽입하여 제출</li></ul></td></tr></tbody></table>
 
 #### 3-2) 이미지 규격
 
-![이미지배너 - 가로형.png](<../../../.gitbook/assets/이미지배너 - 가로형.png>)
+<figure><img src="../../../.gitbook/assets/이미지배너 - 가로형 (1) (1).png" alt=""><figcaption><p>이미지배너 - 가로형.png</p></figcaption></figure>
 
 ![이미지배너 - 1\_1.png](<../../../.gitbook/assets/이미지배너 - 1_1.png>)
 
@@ -85,6 +87,12 @@ layout:
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
 {% endhint %}
+
+{% file src="../../../.gitbook/assets/TossAds_image_Horizontal.zip" %}
+
+{% file src="../../../.gitbook/assets/TossAds_image_1_1 image.zip" %}
+
+{% file src="../../../.gitbook/assets/TossAds_image_Vertical.zip" %}
 
 #### 3-3) 예시
 
