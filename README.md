@@ -59,9 +59,11 @@ O : 가능, X : 불가능, △ : 그룹장에게 권한 요청 시 가능
 비즈니스 그룹에는 초대받았지만, 아직 광고계정에는 초대받지 않았을 때 이런 화면을 보게 돼요.\
 (광고계정은 [이렇게](./#id-4) 초대받을 수 있어요.)
 
-'만들기' 버튼을 눌러 새 광고계정을 만들 수 있어요.
+\[+] 버튼을 눌러 새 광고계정을 만들 수 있어요.
 
-<figure><img src=".gitbook/assets/Group 227 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/이미지1 47 (3) (1).png" alt=""><figcaption></figcaption></figure>
+
+
 
 **✅ 초대받은 광고계정이 있는 상황**
 
@@ -69,11 +71,13 @@ O : 가능, X : 불가능, △ : 그룹장에게 권한 요청 시 가능
 
 광고계정에서 바로 캠페인을 만들 수 있어요.
 
-<figure><img src=".gitbook/assets/이미지 (1) 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/이미지1 47 (5).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***
 
-## 3. 비즈니스 그룹에 참여하기
+## 3. 비즈니스 그룹 참여하기
 
 보통은 회사나 팀에서 **이미 비즈니스 그룹을 만들어둔 경우**가 많아요.
 
@@ -81,13 +85,17 @@ O : 가능, X : 불가능, △ : 그룹장에게 권한 요청 시 가능
 
 참여 방법은 두 가지예요.
 
-#### 방법 ① 비즈니스 그룹에 직접 참여 요청 (비즈니스 그룹 페이지 링크)
+### \[비즈니스 그룹에 직접 참여 요청]&#x20;
 
-* 로그인 후 안내 화면에서 `비즈니스 그룹 생성 또는 참여 버튼`을 눌러주세요. 또는, 내 광고계정 화면에서 `그룹 추가` 버튼을 눌러주세요.
+첫 번째 직접 참여 요청 경로: 로그인 후 안내 화면에서 비즈니스 그룹을 선택하고 \[생성 또는 참여] 버튼을 선택
 
-<figure><img src=".gitbook/assets/비즈니스그룹 생성.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/비즈니스그룹 생성.png" alt=""><figcaption><p>직접 참여 요청 경로 1</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/그룹 추가.png" alt=""><figcaption></figcaption></figure>
+두 번째 직접 참여 요청 경로: 좌측 하단의 메뉴를 눌러 내 비즈니스 그룹 탭에 진입한 뒤 \[+ 비즈니스 그룹 추가] 버튼을 선택
+
+<figure><img src=".gitbook/assets/새 비즈니스 그룹 추가.png" alt=""><figcaption><p>직접 참여 요청 경로 2</p></figcaption></figure>
+
+
 
 * 사업자 등록번호로 비즈니스 그룹을 검색했을 때 기존에 만들어진 비즈니스 그룹이 없다면 새로 만들게 되고,
 
@@ -101,7 +109,7 @@ O : 가능, X : 불가능, △ : 그룹장에게 권한 요청 시 가능
 
 <figure><img src=".gitbook/assets/Group 196.png" alt=""><figcaption></figcaption></figure>
 
-#### 방법 ② 그룹장이 초대
+### \[비즈니스 그룹의 그룹장이 직접 초대]
 
 * 그룹장이 비즈니스 그룹 관리에서 초대할 수 있어요. ([구성원 초대하기](intro/readme/create-1.md#id-1))
 * 초대받으면 이메일로 안내드려요.
