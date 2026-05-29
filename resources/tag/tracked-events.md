@@ -29,3 +29,14 @@
 * 이벤트별 상세 연동 예시와 파라미터 설명은 각 연동 문서에서 확인할 수 있어요.
   * 웹 전용 이벤트의 상세 구현 방법은 [토스 픽셀 연동 가이드](https://toss-ads.gitbook.io/guide/resources/tosspixel)를 참고해 주세요.
   * 앱 전용 이벤트의 상세 구현 방법은 [MMP 연동 가이드](https://toss-ads.gitbook.io/guide/resources/mat)를 참고해 주세요.
+
+***
+
+전환 캠페인 MO를 운영하려면 광고 목표별로 아래 표준 이벤트를 반드시 설치해 주세요.
+
+| 광고 목표 / MO | 필수 설치 이벤트                                                                             |
+| ---------- | ------------------------------------------------------------------------------------- |
+| 구매 유도하기    | PRODUCT\_VIEW, ADD\_TO\_CART, PURCHASE(+ Revenue)                                     |
+| 첫 구매 유도하기  | PRODUCT\_VIEW, ADD\_TO\_CART, PURCHASE(+ Revenue), SIGNUP, FIRST\_PURCHASE(+ Revenue) |
+| 앱 설치하기     | INSTALL, APP\_OPEN, PURCHASE or AD\_IMPRESSION(+ Revenue)                             |
+| 잠재고객 모으기   | LEAD\_COLLECTION                                                                      |
