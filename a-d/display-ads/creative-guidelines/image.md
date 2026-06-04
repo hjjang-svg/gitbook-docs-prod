@@ -23,7 +23,7 @@ layout:
 
 ## 1. 이미지 유형이란?
 
-<figure><img src="../../../.gitbook/assets/이미지 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/이미지 (3).png" alt=""><figcaption></figcaption></figure>
 
 광고 이미지가 크게 보이는 배너를 뜻해요. 다양한 비율의 이미지와 문구로 이루어져 있어요.
 
@@ -31,13 +31,13 @@ layout:
 
 #### 2-1) 브랜드명
 
-<table><thead><tr><th width="283.95220947265625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>브랜드명 또는 서비스 ・ 제품명</li><li>최대 20자</li><li>랜딩 페이지에서 확인할 수 있는 실제 명칭만 가능</li><li>혜택 ・ 정보가 포함된 문구는 사용 불가</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="199.60064697265625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>브랜드명 또는 서비스 ・ 제품명</li><li>최대 20자</li><li>랜딩 페이지에서 확인할 수 있는 실제 명칭만 가능</li><li>혜택 ・ 정보가 포함된 문구는 사용 불가</li></ul></td></tr></tbody></table>
 
 #### 2-2) 브랜드 로고
 
 ![브랜드 로고.png](<../../../.gitbook/assets/브랜드 로고.png>)
 
-<table><thead><tr><th width="283.396728515625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li><code>800*800px</code> 이상</li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li><strong>안전 노출 영역</strong> 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>로고 형태가 가로로 긴 경우, 실제 지면에서 가독성이 떨어질 수 있어 권장하지 않음</li><li>심볼, 짧은 텍스트 위주 형태 권장</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="200.037353515625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li><code>800*800px</code> 이상</li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li><strong>안전 노출 영역</strong> 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>로고 형태가 가로로 긴 경우, 실제 지면에서 가독성이 떨어질 수 있어 권장하지 않음</li><li>심볼, 짧은 텍스트 위주 형태 권장</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
@@ -67,22 +67,17 @@ layout:
 
 #### 3-1) 공통
 
-<table><thead><tr><th width="275.506103515625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택・정보가 드러나는 이미지</li><li>적절한 크기와 밀도 권장</li></ul></td></tr><tr><td><strong>불쾌감 ・ 시각적 피로함</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>불쾌감 ・ 혐오감을 유발하는 경우</li><li>브랜드와 상관없는 붉은 톤 ・ 형광빛 고채도 색상을 사용한 경우</li></ul></li></ul></td></tr><tr><td><strong>가독성</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>문구가 이미지 내 특정 오브젝트・배경과 겹쳐 식별이 어려운 경우</li><li>문구가 한 곳에 정돈되지 않아 한눈에 들어오지 않는 경우</li><li>문구끼리 위치가 겹쳐 내용을 파악하기 어려운 경우</li></ul></li></ul></td></tr><tr><td><strong>과한 크롭 ・ 클로즈업</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>크롭 ・ 클로즈업 이미지, 분할 이미지를 쓴 경우</li></ul></li></ul></td></tr><tr><td><strong>내부 서비스로 오인</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li><p>토스의 서비스나 알림, 프로모션으로 오인할 수 있는 이미지를 쓴 경우</p><ul><li>서비스 ・ 알림 아이콘과 유사한 경우</li><li>UI 구성을 캡처하거나 그대로 재현한 경우</li><li>토스의 브랜드명 ・ 로고를 사전 협의 없이 쓴 경우</li></ul></li></ul></li></ul></td></tr><tr><td><strong>광고 고지 문구(심의필)</strong></td><td><ul><li>업종에 따라 심의필 문구 고지가 필요한 경우, 이미지 내에 직접 삽입하여 제출</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="230.006103515625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택・정보가 드러나는 이미지</li><li>적절한 크기와 밀도 권장</li></ul></td></tr><tr><td><strong>불쾌감 ・ 시각적 피로함</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>불쾌감 ・ 혐오감을 유발하는 경우</li><li>브랜드와 상관없는 붉은 톤 ・ 형광빛 고채도 색상을 사용한 경우</li></ul></li></ul></td></tr><tr><td><strong>가독성</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>이미지 속 문구가 이미지 내 특정 오브젝트・배경과 겹쳐 식별이 어려운 경우</li><li>이미지 속 문구가 한 곳에 정돈되지 않아 한눈에 들어오지 않는 경우</li><li>이미지 속 문구끼리 위치가 겹쳐 내용을 파악하기 어려운 경우</li></ul></li></ul></td></tr><tr><td><strong>과한 크롭 ・ 클로즈업</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>크롭 ・ 클로즈업 이미지, 분할 이미지를 쓴 경우</li></ul></li></ul></td></tr><tr><td><strong>내부 서비스로 오인</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li><p>토스의 서비스나 알림, 프로모션으로 오인할 수 있는 이미지를 쓴 경우</p><ul><li>서비스 ・ 알림 아이콘과 유사한 경우</li><li>UI 구성을 캡처하거나 그대로 재현한 경우</li><li>토스의 브랜드명 ・ 로고를 사전 협의 없이 쓴 경우</li></ul></li></ul></li></ul></td></tr><tr><td><strong>광고 고지 문구(심의필)</strong></td><td><ul><li>업종에 따라 심의필 문구 고지가 필요한 경우, 이미지 내에 직접 삽입하여 제출</li></ul></td></tr></tbody></table>
 
 #### 3-2) 이미지 규격
 
-<figure><img src="../../../.gitbook/assets/이미지배너 - 가로형 (1) (1).png" alt=""><figcaption><p>이미지배너 - 가로형.png</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/이미지배너 - 가로형 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ![이미지배너 - 1\_1.png](<../../../.gitbook/assets/이미지배너 - 1_1.png>)
 
 ![이미지배너 - 세로형.png](<../../../.gitbook/assets/이미지배너 - 세로형.png>)
 
-| 규격          | 내용                                                                                                                                                                                  |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **공통 양식**   | <ul><li>jpg, jpeg, png</li><li>10mb 이하</li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li>텍스트, 버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li><li>세이프 영역 등 여백 가이드는 하단 파일↗︎ 참조</li></ul> |
-| **가로형 이미지** | <ul><li>1.91:1 혹은 16:9 비율</li><li><code>1200*628px</code> 이상</li></ul>                                                                                                              |
-| **1:1 이미지** | <ul><li>1:1 비율</li><li><code>1080*1080px</code> 이상</li></ul>                                                                                                                        |
-| **세로형 이미지** | <ul><li>9:16 비율</li><li><code>1080*1920px</code> 이상</li></ul>                                                                                                                       |
+<table><thead><tr><th width="200.4375">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li>jpg, jpeg, png</li><li>10mb 이하</li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li>문구, 버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li><li>세이프 영역 등 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>가로형 이미지</strong></td><td><ul><li>1.91:1 혹은 16:9 비율</li><li><code>1200*628px</code> 이상</li><li><p><strong>⚠️ 가로형 이미지는 문구가 따로 보이지 않아요.</strong></p><ul><li>넣고 싶은 메세지는 이미지 안에 직접 담아 등록해주세요.</li></ul></li></ul></td></tr><tr><td><strong>1:1 이미지</strong></td><td><ul><li>1:1 비율</li><li><code>1080*1080px</code> 이상</li></ul></td></tr><tr><td><strong>세로형 이미지</strong></td><td><ul><li>9:16 비율</li><li><code>1080*1920px</code> 이상</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
