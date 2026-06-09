@@ -15,6 +15,8 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
 ---
 
 # 한 줄 배너
@@ -33,7 +35,7 @@ layout:
 
 #### 2-2) 이미지 규격
 
-<figure><img src="../../../.gitbook/assets/한 줄 배너.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/한 줄 배너 (1).png" alt=""><figcaption></figcaption></figure>
 
 | 규격            | 내용                                                                                                                                          |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
