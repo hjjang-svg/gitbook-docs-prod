@@ -16,6 +16,8 @@ layout:
     visible: false
   tags:
     visible: true
+  actions:
+    visible: true
 ---
 
 # 광고 위약금 안내
@@ -48,12 +50,6 @@ layout:
 | 버튼 누르기     | 광고 비용    | 노출 시작일        |
 | 두근두근 1등 찍기 | 광고 비용    | 노출 시작일        |
 
-<table><thead><tr><th align="center"></th><th align="center"></th><th align="center" valign="middle"></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center"><strong>광고 상품</strong></td><td align="center"><strong>집행 5 영업일 전 ~ 집행 2 영업일전</strong></td><td align="center" valign="middle"><strong>집행일 2 영업일 00:00 ~ 집행일 전 영업일 오전 11:59</strong></td><td align="center"><strong>집행일 전 영업일 오후 12:00~</strong></td><td align="center"><strong>집행 당일</strong></td></tr><tr><td align="center">DA 배너</td><td align="center">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td><td align="center" valign="middle">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td><td align="center">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td><td align="center">집행일과 관련 없이, 실제 소진된 금액이 없을 시 위약금 발생하지 않음</td></tr><tr><td align="center">머니알림</td><td align="center">-</td><td align="center" valign="middle">20%</td><td align="center">50%</td><td align="center">100%</td></tr><tr><td align="center">라이브 마켓</td><td align="center">-</td><td align="center" valign="middle">-</td><td align="center">50%</td><td align="center">100%</td></tr><tr><td align="center">숏폼</td><td align="center">-</td><td align="center" valign="middle">-</td><td align="center">50%</td><td align="center">100%</td></tr><tr><td align="center">행운퀴즈</td><td align="center">-</td><td align="center" valign="middle">-</td><td align="center">50%</td><td align="center">100%</td></tr></tbody></table>
-
-버튼 누르기, 두근두근 1등 찍기 광고 상품의 경우, 집행 취소 시 아래와 같은 위약금이 적용됩니다.
-
-<table><thead><tr><th align="center"></th><th align="center"></th><th align="center" valign="middle"></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center"><strong>광고 상품</strong></td><td align="center"><strong>집행 10 영업일 00:00 ~ 집행 6 영업일전 오후 11:59</strong></td><td align="center" valign="middle"><strong>집행일 5 영업일 00:00 ~ 집행일 2 영업일 오후 11:59</strong></td><td align="center"><strong>집행일 전 영업일 00:00 ~</strong></td><td align="center"><strong>집행 당일</strong></td></tr><tr><td align="center">버튼 누르기</td><td align="center">10%</td><td align="center" valign="middle">20%</td><td align="center">50%</td><td align="center">100%</td></tr><tr><td align="center"><p>두근두근</p><p>일등 찍기</p></td><td align="center">10%</td><td align="center" valign="middle">20%</td><td align="center">50% (집행 전일 23시까지)</td><td align="center">집행 전일 23시부터 집행 취소 불가</td></tr></tbody></table>
-
 {% hint style="info" icon="message-exclamation" %}
 **\[운영 정책 변경 안내]**&#x20;
 
@@ -77,7 +73,7 @@ layout:
 * 증빙자료 미제출, 위조 또는 처리 이후 허위 사실로 확인되는 경우 면제된 위약금이 다시 부과될 수 있습니다.&#x20;
 {% endhint %}
 
-아래 항목에 해당하는 경우, 증빙자료와 함께 광고 집행 시점 4시간 전까지 취소 신청을 해 주셔야 합니다.
+아래 항목에 해당하는 경우, 증빙자료와 함께 광고 집행 시점 2시간 전까지 취소 신청을 해 주셔야 합니다.
 
 취소 신청은 [토스 비즈니스 채널톡](https://toss-business.channel.io/) 혹은 담당자를 통해 문의해주세요.   &#x20;
 
