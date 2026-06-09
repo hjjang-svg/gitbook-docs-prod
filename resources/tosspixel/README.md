@@ -21,7 +21,7 @@ icon: pixelfed
 | ------------------- | ---------- | ------------------ | ----------------- |
 | PURCHASE            | 구매         | purchase()         | 결제 및 주문 완료(매출 발생) |
 | SIGNUP              | 회원가입       | signUp()           | 회원가입 완료           |
-| LEAD\_COLLECTION    | 잠재 고객      | leadCollection()   | 상담 신청, 양식 제출      |
+| LEAD\_COLLECTION    | 잠재 고객      | lead()             | 상담 신청, 양식 제출      |
 | PRODUCT\_VIEW       | 상세페이지 조회   | productView()      | 상품/콘텐츠 상세 페이지 조회  |
 | ADD\_TO\_CART       | 장바구니 담기    | addToCart()        | 장바구니 상품 추가        |
 | INITIATE\_CHECKOUT  | 결제 시작      | initiateCheckout() | 결제/주문 페이지 진입      |
