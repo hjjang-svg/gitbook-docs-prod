@@ -23,7 +23,7 @@ layout:
 
 ## 1. 이미지 유형이란?
 
-<figure><img src="../../../.gitbook/assets/이미지 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/이미지 (3).png" alt=""><figcaption></figcaption></figure>
 
 광고 이미지가 크게 보이는 배너를 뜻해요. 다양한 비율의 이미지와 문구로 이루어져 있어요.
 
@@ -35,9 +35,9 @@ layout:
 
 #### 2-2) 브랜드 로고
 
-![브랜드 로고](<../../../.gitbook/assets/브랜드 로고.png>)
+![브랜드 로고.png](<../../../.gitbook/assets/브랜드 로고.png>)
 
-<table><thead><tr><th width="219.830322265625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li><code>800*800px</code> 이상</li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li><strong>안전 노출 영역</strong> 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>로고 형태가 가로로 긴 경우, 실제 지면에서 가독성이 떨어질 수 있어 권장하지 않음</li><li>심볼, 짧은 텍스트 위주 형태 권장</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="200.037353515625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li><code>800*800px</code> 이상</li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li><strong>안전 노출 영역</strong> 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>로고 형태가 가로로 긴 경우, 실제 지면에서 가독성이 떨어질 수 있어 권장하지 않음</li><li>심볼, 짧은 텍스트 위주 형태 권장</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
@@ -67,17 +67,17 @@ layout:
 
 #### 3-1) 공통
 
-<table><thead><tr><th width="220.142822265625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택・정보가 드러나는 이미지</li><li>적절한 크기와 밀도 권장</li></ul></td></tr><tr><td><strong>불쾌감 ・ 시각적 피로함</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>불쾌감 ・ 혐오감을 유발하는 경우</li><li>브랜드와 상관없는 붉은 톤 ・ 형광빛 고채도 색상을 사용한 경우</li></ul></li></ul></td></tr><tr><td><strong>가독성</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>이미지 속 문구가 이미지 내 특정 오브젝트・배경과 겹쳐 식별이 어려운 경우</li><li>이미지 속 문구가 한 곳에 정돈되지 않아 한눈에 들어오지 않는 경우</li><li>이미지 속 문구끼리 위치가 겹쳐 내용을 파악하기 어려운 경우</li></ul></li></ul></td></tr><tr><td><strong>과한 크롭 ・ 클로즈업</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>크롭 ・ 클로즈업 이미지, 분할 이미지를 쓴 경우</li></ul></li></ul></td></tr><tr><td><strong>내부 서비스로 오인</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li><p>토스의 서비스나 알림, 프로모션으로 오인할 수 있는 이미지를 쓴 경우</p><ul><li>서비스 ・ 알림 아이콘과 유사한 경우</li><li>UI 구성을 캡처하거나 그대로 재현한 경우</li><li>토스의 브랜드명 ・ 로고를 사전 협의 없이 쓴 경우</li></ul></li></ul></li></ul></td></tr><tr><td><strong>광고 고지 문구(심의필)</strong></td><td><ul><li>업종에 따라 심의필 문구 고지가 필요한 경우, 이미지 내에 직접 삽입하여 제출</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="230.006103515625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택・정보가 드러나는 이미지</li><li>적절한 크기와 밀도 권장</li></ul></td></tr><tr><td><strong>불쾌감 ・ 시각적 피로함</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>불쾌감 ・ 혐오감을 유발하는 경우</li><li>브랜드와 상관없는 붉은 톤 ・ 형광빛 고채도 색상을 사용한 경우</li></ul></li></ul></td></tr><tr><td><strong>가독성</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>이미지 속 문구가 이미지 내 특정 오브젝트・배경과 겹쳐 식별이 어려운 경우</li><li>이미지 속 문구가 한 곳에 정돈되지 않아 한눈에 들어오지 않는 경우</li><li>이미지 속 문구끼리 위치가 겹쳐 내용을 파악하기 어려운 경우</li></ul></li></ul></td></tr><tr><td><strong>과한 크롭 ・ 클로즈업</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>크롭 ・ 클로즈업 이미지, 분할 이미지를 쓴 경우</li></ul></li></ul></td></tr><tr><td><strong>내부 서비스로 오인</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li><p>토스의 서비스나 알림, 프로모션으로 오인할 수 있는 이미지를 쓴 경우</p><ul><li>서비스 ・ 알림 아이콘과 유사한 경우</li><li>UI 구성을 캡처하거나 그대로 재현한 경우</li><li>토스의 브랜드명 ・ 로고를 사전 협의 없이 쓴 경우</li></ul></li></ul></li></ul></td></tr><tr><td><strong>광고 고지 문구(심의필)</strong></td><td><ul><li>업종에 따라 심의필 문구 고지가 필요한 경우, 이미지 내에 직접 삽입하여 제출</li></ul></td></tr></tbody></table>
 
 #### 3-2) 이미지 규격
 
-<figure><img src="../../../.gitbook/assets/이미지배너 - 가로형 (1) (3).png" alt=""><figcaption><p>이미지 배너 - 가로형</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/이미지배너 - 가로형 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-![이미지 배너 - 1:1](<../../../.gitbook/assets/이미지배너 - 1_1.png>)
+![이미지배너 - 1\_1.png](<../../../.gitbook/assets/이미지배너 - 1_1.png>)
 
-![이미지 배너 - 세로형](<../../../.gitbook/assets/이미지배너 - 세로형.png>)
+![이미지배너 - 세로형.png](<../../../.gitbook/assets/이미지배너 - 세로형.png>)
 
-<table><thead><tr><th width="200.4375">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li>jpg, jpeg, png</li><li>10mb 이하</li><li><strong>이미지 내 로고 또는 브랜드명 포함</strong></li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li><strong>이미지 속 문구는 문구 심사 가이드와 동일한 기준 적용</strong><br>문구, 버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li><li>세이프 영역 등 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>가로형 이미지</strong></td><td><ul><li>1.91:1 혹은 16:9 비율</li><li><code>1200*628px</code> 이상</li><li><p><strong>⚠️ 가로형 이미지는 시스템에 입력한 주요・보조 문구가 따로 노출되지 않음</strong></p><ul><li>넣고 싶은 메세지는 이미지 안에 직접 담아 등록</li></ul></li></ul></td></tr><tr><td><strong>1:1 이미지</strong></td><td><ul><li>1:1 비율</li><li><code>1080*1080px</code> 이상</li></ul></td></tr><tr><td><strong>세로형 이미지</strong></td><td><ul><li>9:16 비율</li><li><code>1080*1920px</code> 이상</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="200.4375">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li>jpg, jpeg, png</li><li>10mb 이하</li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li>문구, 버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li><li>세이프 영역 등 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>가로형 이미지</strong></td><td><ul><li>1.91:1 혹은 16:9 비율</li><li><code>1200*628px</code> 이상</li><li><p><strong>⚠️ 가로형 이미지는 문구가 따로 보이지 않아요.</strong></p><ul><li>넣고 싶은 메세지는 이미지 안에 직접 담아 등록해주세요.</li></ul></li></ul></td></tr><tr><td><strong>1:1 이미지</strong></td><td><ul><li>1:1 비율</li><li><code>1080*1080px</code> 이상</li></ul></td></tr><tr><td><strong>세로형 이미지</strong></td><td><ul><li>9:16 비율</li><li><code>1080*1920px</code> 이상</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
@@ -111,9 +111,9 @@ layout:
 
 **붉은 톤, 고채도 색상은 쓸 수 없어요.**
 
-| <mark style="color:blue;">**`DO`**</mark>                    | <mark style="color:$danger;">**`Don't`**</mark> |
-| ------------------------------------------------------------ | ----------------------------------------------- |
-| <p>브랜드 ・ 제품과 어울리는 색상을 쓴 이미지<br>* 브랜드 컬러가 붉은 톤인 경우는 사용 가능</p> | 강한 형광색 이미지                                      |
+| <mark style="color:blue;">**`DO`**</mark>                                    | <mark style="color:$danger;">**`Don't`**</mark> |
+| ---------------------------------------------------------------------------- | ----------------------------------------------- |
+| <ul><li>브랜드 ・ 제품과 어울리는 색상을 쓴 이미지</li><li>브랜드 컬러가 붉은 톤인 경우는 쓸 수 있어요</li></ul> | 강한 형광색 이미지                                      |
 
 **기능으로 보이는 이미지는 쓸 수 없어요.**
 
@@ -131,11 +131,11 @@ layout:
 
 #### 4-1) 공통
 
-<table><thead><tr><th width="219.88720703125">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택・정보가 드러나는 문구</li><li>명사형 또는 ~해요체로 기재</li></ul></td></tr><tr><td><strong>평어체 (반말) ・ 맞춤법</strong></td><td><ul><li>평어체(반말), 맞춤법에 어긋나는 표현 사용 불가</li></ul></td></tr><tr><td><strong>신조어 ・ 밈</strong></td><td><ul><li>신조어, 밈, 초성 사용 불가</li></ul></td></tr><tr><td><strong>특수문자</strong></td><td><ul><li>과도한 강조 ・ 과장 표현의 불필요한 특수 문자는 사용 제한</li><li><p>사용할 수 있는 특수문자</p><ul><li><strong><code>% &#x26; - + = · ? / → ‘ ’ " " ~ ! ( ) , . []</code></strong></li></ul></li><li><p>허용된 특수 문자라 하더라도 반복 사용 불가</p><ul><li>예: !!!, ~~, ??, %%</li></ul></li><li>온점(.)은 문장의 끝에 사용 불가</li><li>특수 문자를 사용해 공지,알림성 정보로 보이는 경우, 심사가 반려될 수 있음</li></ul></td></tr><tr><td><strong>조건부 혜택</strong></td><td><ul><li>가입 ・ 응모와 같이 조건이 있는 혜택은 광고 문구 내에 반드시 기재</li><li>랜딩 페이지에서 확인할 수 없는 혜택 ・ 정보는 사용 불가</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="238.53564453125">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택・정보가 드러나는 문구</li><li>명사형 또는 ~해요체로 기재</li></ul></td></tr><tr><td><strong>평어체 (반말) ・ 맞춤법</strong></td><td><ul><li>평어체(반말), 맞춤법에 어긋나는 표현 사용 불가</li></ul></td></tr><tr><td><strong>신조어 ・ 밈</strong></td><td><ul><li>신조어, 밈, 초성 사용 불가</li></ul></td></tr><tr><td><strong>특수문자</strong></td><td><ul><li>과도한 강조 ・ 과장 표현의 불필요한 특수 문자는 사용 제한</li><li><p>사용할 수 있는 특수문자</p><ul><li><strong><code>% &#x26; - + = · ? / → ‘ ’ " " ~ ! ( ) , . []</code></strong></li></ul></li><li><p>허용된 특수 문자라 하더라도 반복 사용 불가</p><ul><li>예: !!!, ~~, ??, %%</li></ul></li><li>온점(.)은 문장의 끝에 사용 불가</li><li>특수 문자를 사용해 공지,알림성 정보로 보이는 경우, 심사가 반려될 수 있음</li></ul></td></tr><tr><td><strong>조건부 혜택</strong></td><td><ul><li>가입 ・ 응모와 같이 조건이 있는 혜택은 광고 문구 내에 반드시 기재</li><li>랜딩 페이지에서 확인할 수 없는 혜택 ・ 정보는 사용 불가</li></ul></td></tr><tr><td><strong>색상</strong></td><td><ul><li>광고 문구 색상 변경 불가</li></ul></td></tr></tbody></table>
 
 #### 4-2. 문구 규격
 
-<table><thead><tr><th width="219.6939697265625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>긴 주요 문구 (28자)</strong></td><td><ul><li>최소 5자 ~ 최대 28자</li><li>한 행에 최대 14자 입력 가능</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>짧은 주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td></tr><tr><td><strong>cta 버튼 문구</strong></td><td><ul><li><p>다음 문구 중 선택</p><ul><li>알아보기</li><li>확인하기</li><li>보러가기</li><li>구경하기</li><li>자세히 보기</li><li>더 보기</li><li>구매하기</li><li>사러가기</li><li>설치하기</li><li>다운로드</li><li>받기</li><li>앱 열기</li><li>시작하기</li></ul></li><li>CTA 버튼 문구는 고정으로, 직접 작성할 수 없음</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="240.7447509765625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>긴 주요 문구 (28자)</strong></td><td><ul><li>최소 5자 ~ 최대 28자</li><li>한 행에 최대 14자 입력 가능</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>짧은 주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li><li>주요 문구에 쓰인 혜택/정보 중복 불가</li></ul></td></tr><tr><td><strong>cta 버튼 문구</strong></td><td><ul><li><p>다음 문구 중 선택</p><ul><li>알아보기</li><li>확인하기</li><li>보러가기</li><li>구경하기</li><li>자세히 보기</li><li>더 보기</li><li>구매하기</li><li>사러가기</li><li>설치하기</li><li>다운로드</li><li>받기</li><li>앱 열기</li><li>시작하기</li></ul></li><li>CTA 버튼 문구는 고정으로, 직접 작성할 수 없음</li></ul></td></tr></tbody></table>
 
 #### 4-3. 예시
 
@@ -157,25 +157,27 @@ layout:
 | ----------------------------------------- | -------------------------------------------------- |
 | <p>나만의 카드 디자인 확인해요<br>토스 Wide 카드</p>      | <p>나만의 카드 디자인 확인해요<code>.</code><br>토스 Wide 카드</p> |
 
-**주요 문구와 보조 문구는 동일하게 쓸 수 없어요.**
+**중복되는 문구는 쓸 수 없어요.**
 
-| <mark style="color:blue;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
-| ----------------------------------------- | ----------------------------------------------- |
-| <p>나의 요금제 테스트<br>5개 문제에 답하기</p>           | <p>나의 요금제 테스트<br><code>나의 요금제 테스트</code></p>    |
+| <mark style="color:blue;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark>  |
+| ----------------------------------------- | ------------------------------------------------ |
+| <p>나의 요금제 테스트<br>5개 문제에 답하기</p>           | <p>나의 요금제 테스트<br><code>내 요금제 지금 테스트</code>해요</p> |
 
 **랜딩 페이지와 다른 혜택은 쓸 수 없어요.**
 
-| <mark style="color:blue;">**`DO`**</mark>                             | <mark style="color:$danger;">**`Don't`**</mark>                                 |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| <p>7개월 동안 월 14,000원<br>토스모바일 요금제 보기<br><br>* 7개월 이후 금액 상승 조건 있을 시</p> | <p><code>무조건</code> 월 14,000원<br>토스모바일 요금제 보기<br><br>* 7개월 이후 금액 상승 조건 있을 시</p> |
+| <mark style="color:blue;">**`DO`**</mark>                       | <mark style="color:$danger;">**`Don't`**</mark>                           |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| <p>7개월 동안 월 14,000원<br>토스모바일 요금제 보기<br><br>→ 7개월 이후 44,800원</p> | <p><code>무조건</code> 월 14,000원<br>토스모바일 요금제 보기<br><br>→ 7개월 이후 44,800원</p> |
 
 **기능으로 보이는 문구는 쓸 수 없어요.**
 
-<table data-header-hidden><thead><tr><th width="370.28125"></th><th></th></tr></thead><tbody><tr><td><mark style="color:blue;"><strong><code>DO</code></strong></mark></td><td><mark style="color:$danger;"><strong><code>Don't</code></strong></mark></td></tr><tr><td>나만의 맞춤 알바 확인하기<br>토스알바에서 보기</td><td><p><code>[알림]</code> 새로운 알바 메세지 <code>(1)</code><br>토스 알바에서 보기<br><br>다른 예시)</p><ul><li>바로 10만원 받기 (X)</li><li>미확인 내역이 있어요 (X)</li><li>80,000원 입금 완료 (X)</li></ul></td></tr></tbody></table>
+| <mark style="color:blue;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark>                                                                                                                    |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p>나만의 맞춤 알바 확인하기<br>토스알바에서 보기</p>        | <p><code>[알림]</code> 새로운 알바 메세지 <code>(1)</code><br>토스 알바에서 보기<br><br>다른 예시)</p><ul><li>바로 10만원 받기 (X)</li><li>미확인 내역이 있어요 (X)</li><li>80,000원 입금 완료 (X)</li></ul> |
 
 **불안 ・ 조급함을 자극하는 문구는 쓸 수 없어요.**
 
-<table data-header-hidden><thead><tr><th width="373.3780517578125"></th><th></th></tr></thead><tbody><tr><td><mark style="color:blue;"><strong><code>DO</code></strong></mark></td><td><mark style="color:$danger;"><strong><code>Don't</code></strong></mark></td></tr><tr><td>토스에서 환급금 확인해요<br>버튼 눌러서 보기</td><td><p>정말 환급금 놓치시겠습니까?<br>사라지는 내 환급금 토스에서 조회<br><br>다른 예시)</p><ul><li>당장~하지 않으면 안된다 (X)</li><li>~안하면 손해 (X)</li><li>~놓치는 혜택 (X)</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="279.1085205078125"></th><th></th></tr></thead><tbody><tr><td><mark style="color:blue;"><strong><code>DO</code></strong></mark></td><td><mark style="color:$danger;"><strong><code>Don't</code></strong></mark></td></tr><tr><td>토스에서 환급금 확인해요<br>버튼 눌러서 보기</td><td><p>정말 환급금 놓치시겠습니까?<br>사라지는 내 환급금 토스에서 조회<br><br>다른 예시)</p><ul><li>당장~하지 않으면 안된다 (X)</li><li>~안하면 손해 (X)</li><li>~놓치는 혜택 (X)</li></ul></td></tr></tbody></table>
 
 **반복 ・ 의미없는 특수문자는 쓸 수 없어요.**
 
@@ -199,7 +201,7 @@ layout:
 | ----------------------------------------- | ----------------------------------------------- |
 | 안전 노출 영역에 들어가 심의필이 잘 보이는 경우               | 안전 노출 영역을 지키지 않아 심의필이 잘려보이는 경우                  |
 
-**버튼・텍스트와 겹치지 않도록 안전 노출 영역을 지켜주세요.**
+**버튼・텍스트와 겹치지 않도록 안전 노출 영역을 지켜주세요**
 
 | <mark style="color:blue;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
 | ----------------------------------------- | ----------------------------------------------- |
@@ -209,7 +211,7 @@ layout:
 
 #### 6-1) 공통
 
-<table><thead><tr><th width="280.34716796875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>광고의 내용과 연결되는 랜딩 페이지</li></ul></td></tr><tr><td><strong>유저가 접속할 때 이상이 없어야함</strong></td><td><ul><li><p>웹으로 랜딩</p><ul><li><p> 오류 ・ 접근 불가 페이지, 이벤트 오픈 전 페이지는 사용 불가</p><ul><li>랜딩 페이지를 만들기 전 심사를 받는 경우, 증빙 자료를 함께 제출하면 가능</li></ul></li><li>접속하는데 5초 이상 걸리는 경우, 브릿지 페이지 제작</li></ul></li><li><p>앱으로 랜딩</p><ul><li>앱 미설치 유저는 앱 스토어・플레이스토어로 랜딩</li></ul></li></ul></td></tr><tr><td><strong>랜딩 페이지의 내용과 소재 내용이 일치해야 함</strong></td><td><ul><li>랜딩 페이지에서 확인할 수 없는 혜택 ・ 정보는 사용 불가</li><li>가입 ・ 응모와 같이 조건부 혜택은 광고 문구에 기재</li></ul></td></tr><tr><td><strong>URL 주소는 영문으로 제출</strong></td><td><ul><li> 주소에 한글이 있는 경우에는 사용 불가</li><li>링크 내에 <code>{ } ^ #</code> 문구가 있으면 반려될 수 있음</li><li>^ 대신 _(언더바) 사용 권장</li><li><code>http://</code>는 사용 불가 → <code>https://</code> 사용 권장</li></ul></td></tr><tr><td><strong>URL 축약 불가</strong></td><td><ul><li>앱플라이어로 만든 윈링크의 경우, 피라미터가 단축되지 않은 원본 제출</li><li>숏 링크 / 단축 URL 사용 불가(비틀리 포함)</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>이 외의 이유로 문제가 있는 경우, URL 수정을 요청할 수 있음</li><li>그 외 공통으로 적용되는 규정은 <a href="https://toss-ads.gitbook.io/guide/policy/creativeguide">소재 심사 규정</a> 참고</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="281.72998046875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>광고의 내용과 연결되는 랜딩 페이지</li></ul></td></tr><tr><td><strong>유저가 접속할 때 이상이 없어야함</strong></td><td><ul><li><p>웹으로 랜딩</p><ul><li><p> 오류 ・ 접근 불가 페이지, 이벤트 오픈 전 페이지는 사용 불가</p><ul><li>랜딩 페이지를 만들기 전 심사를 받는 경우, 증빙 자료를 함께 제출하면 가능</li></ul></li><li>접속하는데 5초 이상 걸리는 경우, 브릿지 페이지 제작</li></ul></li><li><p>앱으로 랜딩</p><ul><li>앱 미설치 유저는 앱 스토어・플레이스토어로 랜딩</li></ul></li></ul></td></tr><tr><td><strong>랜딩 페이지의 내용과 소재 내용이 일치해야 함</strong></td><td><ul><li>랜딩 페이지에서 확인할 수 없는 혜택 ・ 정보는 사용 불가</li><li>가입 ・ 응모와 같이 조건부 혜택은 광고 문구에 기재</li></ul></td></tr><tr><td><strong>URL 주소는 영문으로 제출</strong></td><td><ul><li> 주소에 한글이 있는 경우에는 사용 불가</li><li>링크 내에 <code>{ } ^ #</code> 문구가 있으면 반려될 수 있음</li><li>^ 대신 _(언더바) 사용 권장</li><li><code>http://</code>는 사용 불가 → <code>https://</code> 사용 권장</li></ul></td></tr><tr><td><strong>URL 축약 불가</strong></td><td><ul><li>앱플라이어로 만든 윈링크의 경우, 피라미터가 단축되지 않은 원본 제출</li><li>숏 링크 / 단축 URL 사용 불가(비틀리 포함)</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>이 외의 이유로 문제가 있는 경우, URL 수정을 요청할 수 있음</li><li>그 외 공통으로 적용되는 규정은 <a href="https://toss-ads.gitbook.io/guide/policy/creativeguide">소재 심사 규정</a> 참고</li></ul></td></tr></tbody></table>
 
 #### 6-2) 예시
 
