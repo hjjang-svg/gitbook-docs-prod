@@ -75,7 +75,7 @@ layout:
 
 ![비디오 배너 - 세로형](<../../../.gitbook/assets/영상 배너 - 세로형.png>)
 
-<table><thead><tr><th width="220.00390625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li><code>길이</code> 최소 5초 ~ 최대 120초 <strong>(15초・30초 사용 권장)</strong></li><li><code>지원 형식</code> MP4, MOV, WebM</li><li><code>파일 크기</code> 500MB 미만</li><li><code>프레임 속도</code> 24fps 또는 30fps</li><li><code>코덱 사양</code> H.264 / 오디오 AAC</li><li>버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li><li>세이프 영역 등 여백 가이드는 하단 파일↗︎ 참조</li></ul></td></tr><tr><td><strong>가로형</strong></td><td><ul><li>16:9 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr><tr><td><strong>세로형</strong></td><td><ul><li>9:16 (권장), 4:5, 1:1 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220.00390625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li><code>길이</code> 최소 5초 ~ 최대 120초 <strong>(15초・30초 사용 권장)</strong></li><li><code>지원 형식</code> MP4, MOV, WebM</li><li><code>파일 크기</code> 500MB 미만</li><li><code>프레임 속도</code> 24fps 또는 30fps</li><li><code>코덱 사양</code> H.264 / 오디오 AAC</li><li>버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li></ul></td></tr><tr><td><strong>가로형</strong></td><td><ul><li>16:9 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr><tr><td><strong>세로형</strong></td><td><ul><li>9:16 (권장), 4:5, 1:1 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr></tbody></table>
 
 #### 3-3) 예시
 
@@ -111,7 +111,7 @@ layout:
 
 #### 4-2) 문구 규격
 
-<table><thead><tr><th width="220.150146484375">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>긴 주요 문구 (28자)</strong></td><td><ul><li>최소 5자 ~ 최대 28자</li><li>한 행에 최대 14자 입력 가능</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>짧은 주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li><li>주요 문구에 쓰인 혜택/정보 중복 불가</li></ul></td></tr><tr><td><strong>cta 버튼 문구</strong></td><td><ul><li><p>다음 문구 중 선택</p><ul><li>알아보기</li><li>확인하기</li><li>보러가기</li><li>구경하기</li><li>자세히 보기</li><li>더 보기</li><li>구매하기</li><li>사러가기</li><li>설치하기</li><li>다운로드</li><li>받기</li><li>앱 열기</li><li>시작하기</li></ul></li><li>cta 버튼 문구는 고정으로, 직접 작성할 수 없음</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220.150146484375">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>긴 주요 문구 (28자)</strong></td><td><ul><li>최소 5자 ~ 최대 28자</li><li>한 행에 최대 14자 입력 가능</li><li>영상에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>짧은 주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>영상에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>영상에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td></tr><tr><td><strong>cta 버튼 문구</strong></td><td><ul><li><p>다음 문구 중 선택</p><ul><li>알아보기</li><li>확인하기</li><li>보러가기</li><li>구경하기</li><li>자세히 보기</li><li>더 보기</li><li>구매하기</li><li>사러가기</li><li>설치하기</li><li>다운로드</li><li>받기</li><li>앱 열기</li><li>시작하기</li></ul></li><li>cta 버튼 문구는 고정으로, 직접 작성할 수 없음</li></ul></td></tr></tbody></table>
 
 #### 4-3. 예시
 
@@ -133,7 +133,7 @@ layout:
 | ----------------------------------------- | -------------------------------------------------- |
 | <p>나만의 카드 디자인 확인해요<br>토스 Wide 카드</p>      | <p>나만의 카드 디자인 확인해요<code>.</code><br>토스 Wide 카드</p> |
 
-**중복되는 문구는 쓸 수 없어요.**
+**주요 문구와 보조 문구는 동일하게 쓸 수 없어요.**
 
 | <mark style="color:blue;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
 | ----------------------------------------- | ----------------------------------------------- |

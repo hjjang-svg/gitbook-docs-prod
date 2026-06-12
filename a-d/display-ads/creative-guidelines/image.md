@@ -77,7 +77,7 @@ layout:
 
 ![이미지 배너 - 세로형](<../../../.gitbook/assets/이미지배너 - 세로형.png>)
 
-<table><thead><tr><th width="200.4375">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li>jpg, jpeg, png</li><li>10mb 이하</li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li>문구, 버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li><li>이미지 내 로고 포함</li><li>세이프 영역 등 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>가로형 이미지</strong></td><td><ul><li>1.91:1 혹은 16:9 비율</li><li><code>1200*628px</code> 이상</li><li><p><strong>⚠️ 가로형 이미지는 시스템에 입력한 주요・보조 문구가 따로 노출되지 않음</strong></p><ul><li>넣고 싶은 메세지는 이미지 안에 직접 담아 등록</li></ul></li></ul></td></tr><tr><td><strong>1:1 이미지</strong></td><td><ul><li>1:1 비율</li><li><code>1080*1080px</code> 이상</li></ul></td></tr><tr><td><strong>세로형 이미지</strong></td><td><ul><li>9:16 비율</li><li><code>1080*1920px</code> 이상</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="200.4375">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li>jpg, jpeg, png</li><li>10mb 이하</li><li><strong>이미지 내 로고 또는 브랜드명 포함</strong></li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li><strong>이미지 속 문구는 문구 심사 가이드와 동일한 기준 적용</strong><br>문구, 버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li><li>세이프 영역 등 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>가로형 이미지</strong></td><td><ul><li>1.91:1 혹은 16:9 비율</li><li><code>1200*628px</code> 이상</li><li><p><strong>⚠️ 가로형 이미지는 시스템에 입력한 주요・보조 문구가 따로 노출되지 않음</strong></p><ul><li>넣고 싶은 메세지는 이미지 안에 직접 담아 등록</li></ul></li></ul></td></tr><tr><td><strong>1:1 이미지</strong></td><td><ul><li>1:1 비율</li><li><code>1080*1080px</code> 이상</li></ul></td></tr><tr><td><strong>세로형 이미지</strong></td><td><ul><li>9:16 비율</li><li><code>1080*1920px</code> 이상</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
@@ -135,7 +135,7 @@ layout:
 
 #### 4-2. 문구 규격
 
-<table><thead><tr><th width="219.6939697265625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>긴 주요 문구 (28자)</strong></td><td><ul><li>최소 5자 ~ 최대 28자</li><li>한 행에 최대 14자 입력 가능</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>짧은 주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td></tr><tr><td><strong>cta 버튼 문구</strong></td><td><ul><li><p>다음 문구 중 선택</p><ul><li>알아보기</li><li>확인하기</li><li>보러가기</li><li>구경하기</li><li>자세히 보기</li><li>더 보기</li><li>구매하기</li><li>사러가기</li><li>설치하기</li><li>다운로드</li><li>받기</li><li>앱 열기</li><li>시작하기</li></ul></li><li>CTA 버튼 문구는 고정으로, 직접 작성할 수 없음</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="219.6939697265625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>긴 주요 문구 (28자)</strong></td><td><ul><li>최소 5자 ~ 최대 28자</li><li>한 행에 최대 14자 입력 가능</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>짧은 주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td></tr><tr><td><strong>cta 버튼 문구</strong></td><td><ul><li><p>다음 문구 중 선택</p><ul><li>알아보기</li><li>확인하기</li><li>보러가기</li><li>구경하기</li><li>자세히 보기</li><li>더 보기</li><li>구매하기</li><li>사러가기</li><li>설치하기</li><li>다운로드</li><li>받기</li><li>앱 열기</li><li>시작하기</li></ul></li><li>CTA 버튼 문구는 고정으로, 직접 작성할 수 없음</li></ul></td></tr></tbody></table>
 
 #### 4-3. 예시
 
@@ -157,7 +157,7 @@ layout:
 | ----------------------------------------- | -------------------------------------------------- |
 | <p>나만의 카드 디자인 확인해요<br>토스 Wide 카드</p>      | <p>나만의 카드 디자인 확인해요<code>.</code><br>토스 Wide 카드</p> |
 
-**중복되는 문구는 쓸 수 없어요.**
+**주요 문구와 보조 문구는 동일하게 쓸 수 없어요.**
 
 | <mark style="color:blue;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
 | ----------------------------------------- | ----------------------------------------------- |
