@@ -202,7 +202,7 @@
     TossPixel('전환 코드').purchase({
         order_id:"<!--/order_num/-->",
         products: lex_order_products_data,
-        total_price: priceValue,
+        purchase: priceValue,
         total_quantity: lex_order_products_data.reduce((acc, cur) => acc + cur.quantity, 0),
     });
 </script>
@@ -270,8 +270,8 @@
 <script>
     // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
     TossPixel('전환 코드').purchase({
-        total_price: "{$total_order_price_original}",
-        currency: "{$product_total_price_ref}",
+        purchase: "{$total_order_price_original}",
+        currency: "{$product_purchase_ref}",
         custom_param1: "summer_sale",
         custom_param2: "landing_A"
     });
