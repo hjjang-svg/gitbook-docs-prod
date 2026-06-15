@@ -83,7 +83,7 @@ layout:
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
 {% endhint %}
 
-{% file src="../../../.gitbook/assets/TossAds_image_Horizontal.zip" %}
+{% file src="../../../.gitbook/assets/TossAds_image_Horizontal (1).zip" %}
 
 {% file src="../../../.gitbook/assets/TossAds_image_1_1 image.zip" %}
 
