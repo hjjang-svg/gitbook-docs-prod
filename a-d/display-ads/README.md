@@ -1,5 +1,4 @@
 ---
-hidden: true
 icon: server
 layout:
   width: default
@@ -16,6 +15,8 @@ layout:
   metadata:
     visible: true
   tags:
+    visible: true
+  actions:
     visible: true
 ---
 
