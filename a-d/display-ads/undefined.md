@@ -113,17 +113,17 @@
 
 * [x] **열 구성요소 변경**
 
-- \[열 구성] 버튼을 눌러 대시보드에서 확인하고 싶은 열 구성요소들을 변경할 수 있어요.
+- \[열 편집] 버튼을 눌러 대시보드에서 확인하고 싶은 열 구성요소들을 변경할 수 있어요.
   * 토스애즈는 노출/클릭/재생/잠재고객/전환 5 가지의 열 구성 설정을 기본으로 제공하고 있어요.
   * 열 구성을 설정 변경하지 않았다면 **전체** 열을 다 보여줘요.
 
-<figure><img src="../../.gitbook/assets/열 구성_추가 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/버튼 누르기 - 소재 가이드 - 필요한 정보.png" alt=""><figcaption></figcaption></figure>
 
 * [x] **사용자 설정**
 
 - 사용자 설정 아래 \[추가] 버튼을 누르면 아래와 같은 창에서 열 구성을 변경할 수 있고 열 순서도 드래그하여 조정할 수 있어요.
 
-<figure><img src="../../.gitbook/assets/열 구성_추가 사용자 설정 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/버튼 누르기 - 소재 가이드 - 필요한 정보 (1).png" alt=""><figcaption></figcaption></figure>
 
 * [x] **열 너비 조정**
 
