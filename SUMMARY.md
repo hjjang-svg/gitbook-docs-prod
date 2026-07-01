@@ -74,6 +74,7 @@
   * [유용한 기능](a-d/banner/tip.md)
   * [성과 대시보드](a-d/banner/data.md)
   * [맞춤 보고서](a-d/banner/report.md)
+  * [광고 고지 문구(심의필)](a-d/banner/required-message.md)
 
 ## 광고 도구 및 자산 <a href="#resources" id="resources"></a>
 
@@ -82,7 +83,6 @@
   * [전환 추적 코드 공유/이관하기](resources/tag/privacy_control.md)
   * [전환 이벤트](resources/tag/tracked-events.md)
   * [전환 추적 및 연동 현황](resources/tag/tracking_status.md)
-* [광고 고지 문구(심의필)](resources/required-message.md)
 * [앱 MAT 연동](resources/mat/README.md)
   * [애드저스트](resources/mat/adjust.md)
   * [앱스플라이어](resources/mat/appsflyer.md)
