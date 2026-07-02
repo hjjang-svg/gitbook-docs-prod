@@ -37,7 +37,7 @@ layout:
 
 <figure><img src="../../../.gitbook/assets/한 줄 배너 (1).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="220.11328125">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td>• jpg, jpeg, png<br>• 10mb 이하<br>• 배경 없는 이미지 (누끼 딴 이미지) 사용 불가<br>• 텍스트, 버튼 등 광고 요소와 겹치거나 가리는 경우 사용 불가<br>• 세이프 영역 등 여백 가이드는 하단 파일 참조</td></tr><tr><td><strong>한줄 배너 이미지</strong></td><td>• 1:1 비율<br>• <code>800*800px</code> 이상</td></tr></tbody></table>
+<table><thead><tr><th width="220.11328125">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td>• jpg, jpeg, png<br>• 10mb 이하<br>• 배경 없는 이미지 (누끼 딴 이미지) 사용 불가<br>• 텍스트, 버튼 등 광고 요소와 겹치거나 가리는 경우 사용 불가<br>• 세이프 영역 등 여백 가이드는 하단 파일 참조</td></tr><tr><td><strong>한 줄 배너 이미지</strong></td><td>• 1:1 비율<br>• <code>800*800px</code> 이상</td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
@@ -95,7 +95,7 @@ layout:
 
 #### 3-2) 문구 규격
 
-<table><thead><tr><th width="220.34375">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>짧은 주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220.34375">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td></tr></tbody></table>
 
 #### 3-3. 예시
 

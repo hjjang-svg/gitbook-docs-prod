@@ -135,7 +135,7 @@ layout:
 
 #### 4-2. 문구 규격
 
-<table><thead><tr><th width="219.6939697265625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>긴 주요 문구 (28자)</strong></td><td><ul><li>최소 5자 ~ 최대 28자</li><li>한 행에 최대 14자 입력 가능</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>짧은 주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td></tr><tr><td><strong>cta 버튼 문구</strong></td><td><ul><li><p>다음 문구 중 선택</p><ul><li>알아보기</li><li>확인하기</li><li>보러가기</li><li>구경하기</li><li>자세히 보기</li><li>더 보기</li><li>구매하기</li><li>사러가기</li><li>설치하기</li><li>다운로드</li><li>받기</li><li>앱 열기</li><li>시작하기</li></ul></li><li>CTA 버튼 문구는 고정으로, 직접 작성할 수 없음</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="219.6939697265625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>주요 문구 (28자)</strong></td><td><ul><li>최소 5자 ~ 최대 28자</li><li>한 행에 최대 14자 입력 가능</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td></tr><tr><td><strong>cta 버튼 문구</strong></td><td><ul><li><p>다음 문구 중 선택</p><ul><li>알아보기</li><li>확인하기</li><li>보러가기</li><li>구경하기</li><li>자세히 보기</li><li>더 보기</li><li>구매하기</li><li>사러가기</li><li>설치하기</li><li>다운로드</li><li>받기</li><li>앱 열기</li><li>시작하기</li></ul></li><li>CTA 버튼 문구는 고정으로, 직접 작성할 수 없음</li></ul></td></tr></tbody></table>
 
 #### 4-3. 예시
 
