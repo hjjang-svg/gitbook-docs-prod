@@ -23,7 +23,7 @@ layout:
 
 ## tcid 보존 가이드
 
-### tcid란?
+#### tcid란?
 
 이 가이드는 토스 픽셀을 설치한 사이트에서 `tcid`를 유지하는 방법을 안내해요.
 
@@ -35,7 +35,7 @@ layout:
 
 ***
 
-### 꼭 확인해 주세요
+#### 꼭 확인해 주세요
 
 * 광고 랜딩 URL의 `tcid`를 삭제하거나 이름을 변경하지 마세요.
 * CDN, WAF, 서버 리다이렉트, 프론트엔드 라우터가 쿼리 스트링을 유지하는지 확인해 주세요.
@@ -45,7 +45,7 @@ layout:
 
 ***
 
-## 픽셀이 읽는 값
+#### 픽셀이 읽는 값
 
 픽셀은 URL의 쿼리 스트링에서 `tcid`를 확인해요.
 
@@ -61,7 +61,7 @@ layout:
 
 ***
 
-## tcid 저장 방식
+#### tcid 저장 방식
 
 픽셀은 현재 URL에서 `tcid`를 확인하면 브라우저에 저장해요.
 
@@ -81,11 +81,11 @@ layout:
 
 ## tcid 보존 원칙
 
-### 1. 첫 랜딩 URL의`tcid`를 유지해 주세요.
+{% stepper %}
+{% step %}
+#### 첫 랜딩 URL의 tcid를 유지해 주세요.
 
 좋은 예시
-
-예:
 
 ```
 요청 URL: <https://www.example.com/?tcid=abc...&utm_source=toss>
@@ -98,10 +98,10 @@ layout:
 요청 URL: <https://www.example.com/?tcid=abc...&utm_source=toss>
 브라우저 최종 URL: <https://www.example.com/>
 ```
+{% endstep %}
 
-***
-
-### 2. URL을 변경해야 한다면 픽셀 실행 후에 진행해 주세요.
+{% step %}
+#### URL을 변경해야 한다면 픽셀 실행 후에 진행해 주세요.
 
 사이트 정책상 URL을 정리해야 하는 경우에는 픽셀이 먼저 실행되어 `tcid`를 저장한 뒤 URL을 변경해 주세요.
 
@@ -119,10 +119,10 @@ window.history.replaceState({}, '', url);
 ```
 
 `tcid`는 가능한 한 삭제하지 않는 것을 권장해요. 부득이하게 삭제해야 하는 경우에는 픽셀이 먼저 실행되는지 확인해 주세요.
+{% endstep %}
 
-***
-
-### 3. 가능하면 쿼리 스트링 전체를 유지해 주세요.
+{% step %}
+#### 가능하면 쿼리 스트링 전체를 유지해 주세요.
 
 리다이렉트나 라우팅 과정에서는 기존 쿼리 스트링 전체를 유지하는 것을 권장해요.
 
@@ -139,18 +139,22 @@ window.history.replaceState({}, '', url);
 /landing?tcid=...&utm_source=toss
 → /products?utm_source=toss
 ```
+{% endstep %}
+{% endstepper %}
 
-## tcid가 유실될 수 있는 경우
+***
 
-### CDN 또는 Edge Rewrite
+## 유실 원인별 대응 방법&#x20;
 
-#### 확인해 주세요.
+#### CDN 또는 Edge Rewrite
+
+#### 확인해 주세요
 
 * Rewrite 후에도 쿼리 스트링이 유지되는지
 * 캐시 최적화 과정에서 브라우저 URL이 변경되지 않는지
 * Edge Function에서 기존 `search` 값을 함께 전달하는지
 
-#### 권장해요.
+#### 권장해요
 
 * 리다이렉트 대상 URL에 기존 쿼리 스트링을 유지해 주세요.
 * Query Allowlist를 사용하는 경우 `tcid`를 포함해 주세요.
@@ -158,11 +162,9 @@ window.history.replaceState({}, '', url);
 
 ***
 
-### 서버 리다이렉트
+#### 서버 리다이렉트
 
-#### 확인해 주세요.
-
-&#x20;&#x20;
+#### 확인해 주세요
 
 HTTP 응답의 `Location` 헤더로 다른 페이지에 보내는 과정에서 query string이 빠질 수 있습니다. 예를 들어 비로그인 사용자를 로그인 페이지로 보내거나, 모바일 경로로 보내거나, trailing slash를 붙이는 리다이렉트가 여기에 해당합니다.
 
@@ -188,42 +190,36 @@ GET /promo?tcid=...&utm_source=toss
 
 ***
 
-### 클라이언트 URL 변경
+#### 클라이언트 URL 변경
 
-#### 확인해 주세요.
 
-*   &#x20; &#x20;
 
-    프론트엔드 코드에서 `history.replaceState`, `router.replace`, `router.push` 등으로 URL을 정리하면서 query string이 사라질 수 있습니다.
+프론트엔드 코드에서 `history.replaceState`, `router.replace`, `router.push` 등으로 URL을 정리하면서 query string이 사라질 수 있습니다.
 
-    위험한 예:
+위험한 예:
 
-    ```jsx
-    window.history.replaceState({}, '', window.location.pathname);
-    ```
+```jsx
+window.history.replaceState({}, '', window.location.pathname);
+```
 
-    좋은 예:
+좋은 예:
 
-    ```jsx
-    const currentUrl = new URL(window.location.href);
-    window.history.replaceState({}, '', currentUrl.pathname + currentUrl.search + currentUrl.hash);
-    ```
+```jsx
+const currentUrl = new URL(window.location.href);
+window.history.replaceState({}, '', currentUrl.pathname + currentUrl.search + currentUrl.hash);
+```
 
-    권장 설정:
+권장 설정:
 
-    * 페이지 초기화 직후 실행되는 URL 정리 코드가 있는지 확인합니다.
-    * 라우터 전환 시 `query`, `searchParams`, `location.search`를 유지합니다.
-    * URL을 정리해야 한다면 픽셀 초기화와 `pageView()` 호출 이후에 실행합니다.
+* 페이지 초기화 직후 실행되는 URL 정리 코드가 있는지 확인합니다.
+* 라우터 전환 시 `query`, `searchParams`, `location.search`를 유지합니다.
+* URL을 정리해야 한다면 픽셀 초기화와 `pageView()` 호출 이후에 실행합니다.
 
 ***
 
-### SPA 라우팅
+#### SPA 라우팅
 
-#### 권장해요.
-
-*   &#x20;
-
-    Single Page Application에서는 첫 진입 이후 페이지 이동이 브라우저 새로고침 없이 일어납니다. 첫 진입 URL의 `tcid`가 유지되면 픽셀이 저장할 수 있지만, 초기 라우터가 query string을 제거하면 값이 유실됩니다.
+*   &#x20;Single Page Application에서는 첫 진입 이후 페이지 이동이 브라우저 새로고침 없이 일어납니다. 첫 진입 URL의 `tcid`가 유지되면 픽셀이 저장할 수 있지만, 초기 라우터가 query string을 제거하면 값이 유실됩니다.
 
     권장 설정:
 
@@ -233,9 +229,7 @@ GET /promo?tcid=...&utm_source=toss
 
 ***
 
-### 도메인 또는 서브도메인 이동
-
-#### 권장해요.&#x20;
+#### 도메인 또는 서브도메인 이동
 
 광고 랜딩은 `www.example.com`이고 결제 완료는 `order.example.com` 또는 외부 결제 도메인에서 일어날 수 있습니다.
 
@@ -249,9 +243,7 @@ GET /promo?tcid=...&utm_source=toss
 
 ***
 
-### 마케팅 링크 및 단축 URL
-
-#### 권장해요.
+#### 마케팅 링크 단축과 추적 링크
 
 * 실제 광고 클릭과 동일한 방식으로 `tcid`가 최종 URL까지 전달되는지 확인해 주세요.
 *   중간 추적 링크가 기존 쿼리 스트링을 삭제하지 않도록 설정해 주세요.&#x20;
@@ -268,9 +260,7 @@ GET /promo?tcid=...&utm_source=toss
 
 ***
 
-### 캐시 및 정적 페이지
-
-#### 권장해요.
+#### 캐시 와 정적 페이지 생성&#x20;
 
 * 브라우저 최종 URL에서는 `tcid`를 유지해 주세요.
 * Canonical Redirect가 `tcid`를 삭제하지 않는지 확인해 주세요.
@@ -280,14 +270,25 @@ GET /promo?tcid=...&utm_source=toss
 
 ## QA 체크리스트
 
-배포 전후 아래 항목을 확인해 주세요.
+사이트 배포 전후 아래 항목을 확인해 주세요.
 
-1. 테스트 URL에 `tcid`를 포함해 접속해요.
-2. 페이지가 모두 로드된 뒤 주소창에 `tcid`가 남아 있는지 확인해요.
-3. 개발자 도구(Network)에서 픽셀 이벤트 요청을 확인해요.
-4. 이벤트 요청에 `tcid`가 포함되어 있는지 확인해요.
-5. 구매, 회원가입, 상담 신청 등 전환 완료 페이지에서도 `tcid`가 함께 전송되는지 확인해요.
-6. CDN, WAF, 리다이렉트 또는 라우터 설정을 변경한 경우 다시 확인해요.
+1. 테스트용 랜딩 URL을 열어주세요.
+
+```
+<https://www.example.com/?tcid=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-00000000000000000000000000000000&utm_source=toss>
+```
+
+1. 페이지가 완전히 로드된 뒤 주소창에 `tcid`가 남아 있는지 확인해주세요.
+2. 주소창에서 `tcid`가 사라진다면, 사라지는 시점이 서버 리다이렉트인지 프론트엔드 URL 정리인지 확인해주세요.
+3. 브라우저 개발자 도구의 Network 탭에서 픽셀 이벤트 요청을 찾아주새요.&#x20;
+
+```
+<https://lex.toss.im/api/lex/event/v2>
+```
+
+1. 요청 본문에 `tcid`가 포함되어 있는지 확인해주세요.&#x20;
+2. 구매, 회원가입, 상담 신청 같은 실제 전환 완료 페이지에서도 이벤트 요청이 발생하고 `tcid`가 포함되는지 확인해주세요.&#x20;
+3. CDN, WAF, 서버, 프론트엔드 라우터 설정 변경 후 같은 테스트를 반복해주세요.&#x20;
 
 ***
 
@@ -295,12 +296,12 @@ GET /promo?tcid=...&utm_source=toss
 
 아래 항목을 개발팀 또는 인프라 담당자에게 전달해 주세요.
 
-* 광고 랜딩 URL의 쿼리 스트링을 삭제하지 않아요.
-* 서버 리다이렉트에서도 기존 쿼리 스트링을 유지해요.
-* CDN 또는 Edge Rewrite에서도 기존 쿼리 스트링을 전달해요.
-* Query Allowlist에 `tcid`를 포함해요.
-* 픽셀 실행 전에 `tcid`가 삭제되지 않도록 설정해요.
-* 전환 완료 페이지에도 픽셀이 정상적으로 설치되어 있는지 확인해요.
+* 광고 랜딩 URL의 query string을 삭제하지 않아요.
+* 서버 리다이렉트의 Location URL에 기존 query string을 유지해요.
+* CDN/Edge rewrite에서 기존 query string을 목적지 URL에 전달해요.
+* WAF 또는 보안 프록시의 query allowlist에 tcid를 포함해요.
+* 프론트엔드 URL 정규화 로직이 픽셀 실행 전에 tcid 삭제되지 않도록 설정해요.
+* 전환 완료 페이지에도 픽셀이 설치되어 있고 정상적으로 이벤트를 전송하는지 확인해요.
 
 ***
 
@@ -317,5 +318,3 @@ GET /promo?tcid=...&utm_source=toss
 최종 랜딩 URL에는 `tcid`가 있지만 이벤트 요청에는 없다면 픽셀 설치 또는 실행 순서를 확인해 주세요.
 
 반대로 최종 랜딩 URL에서 `tcid`가 이미 사라졌다면 픽셀 문제가 아니라 URL 전달 과정에서 값이 유실된 것이에요.
-
-***
