@@ -91,6 +91,7 @@
   * [브랜치](resources/mat/branch.md)
   * [싱귤러](resources/mat/singular.md)
 * [토스 픽셀 연동하기](resources/tosspixel/README.md)
+  * [토스픽셀 TCID 보존 가이드](resources/tosspixel/tcid.md)
   * [자사몰 픽셀 연동](resources/tosspixel/self-hosted.md)
   * [카페24 픽셀 연동](resources/tosspixel/24.md)
   * [메이크샵 픽셀 연동](resources/tosspixel/makeshop.md)
