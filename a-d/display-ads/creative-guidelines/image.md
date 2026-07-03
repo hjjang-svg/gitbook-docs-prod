@@ -73,11 +73,11 @@ layout:
 
 <figure><img src="../../../.gitbook/assets/이미지배너 - 가로형 (1) (3).png" alt=""><figcaption><p>이미지 배너 - 가로형</p></figcaption></figure>
 
-![이미지 배너 - 1:1](<../../../.gitbook/assets/이미지배너 - 1_1.png>)
+![이미지 배너 - 정사각형](<../../../.gitbook/assets/이미지배너 - 1_1.png>)
 
 ![이미지 배너 - 세로형](<../../../.gitbook/assets/이미지배너 - 세로형.png>)
 
-<table><thead><tr><th width="200.4375">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li>jpg, jpeg, png</li><li>10mb 이하</li><li><strong>이미지 내 로고 또는 브랜드명 포함</strong></li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li><strong>이미지 속 문구는 문구 심사 가이드와 동일한 기준 적용</strong><br>문구, 버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li><li>세이프 영역 등 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>가로형 이미지</strong></td><td><ul><li>1.91:1 혹은 16:9 비율</li><li><code>1200*628px</code> 이상</li><li><p><strong>⚠️ 가로형 이미지는 시스템에 입력한 주요・보조 문구가 따로 노출되지 않음</strong></p><ul><li>넣고 싶은 메세지는 이미지 안에 직접 담아 등록</li></ul></li></ul></td></tr><tr><td><strong>1:1 이미지</strong></td><td><ul><li>1:1 비율</li><li><code>1080*1080px</code> 이상</li></ul></td></tr><tr><td><strong>세로형 이미지</strong></td><td><ul><li>9:16 비율</li><li><code>1080*1920px</code> 이상</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="200.4375">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li>jpg, jpeg, png</li><li>10mb 이하</li><li><strong>이미지 내 로고 또는 브랜드명 포함</strong></li><li><strong>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</strong></li><li><strong>이미지 속 문구는 문구 심사 가이드와 동일한 기준 적용</strong><br>문구, 버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li><li>세이프 영역 등 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>가로형 이미지</strong></td><td><ul><li>1.91:1 혹은 16:9 비율</li><li><code>1200*628px</code> 이상</li><li><p><strong>⚠️ 가로형 이미지는 시스템에 입력한 주요・보조 문구가 따로 노출되지 않음</strong></p><ul><li>넣고 싶은 메세지는 이미지 안에 직접 담아 등록</li></ul></li></ul></td></tr><tr><td><strong>정사각형 이미지</strong></td><td><ul><li>1:1 비율</li><li><code>1080*1080px</code> 이상</li></ul></td></tr><tr><td><strong>세로형 이미지</strong></td><td><ul><li>9:16 비율</li><li><code>1080*1920px</code> 이상</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
