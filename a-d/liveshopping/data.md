@@ -1,4 +1,25 @@
-# 성과 확인하기
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
+# 성과 보기
 
 ## 1. 성과 조회하기
 

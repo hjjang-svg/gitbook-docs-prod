@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # 키워드형
 
 <figure><img src="../../.gitbook/assets/머니알림 일반형_영역 안내.png" alt=""><figcaption></figcaption></figure>

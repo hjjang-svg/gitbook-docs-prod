@@ -1,12 +1,30 @@
 ---
 icon: braille
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 일주일 방문 미션
 
 <figure><img src="../.gitbook/assets/Frame 5899.png" alt=""><figcaption></figcaption></figure>
 
-### 광고 상품 소개&#x20;
+### 광고 상품 소개
 
 금융, 소비 활동에 적극적인 토스 유저에게 온라인 쇼핑몰의 홈, 기획전, 상품 웹or앱 페이지의 꾸준한 방문을 유도할 수 있어요.
 

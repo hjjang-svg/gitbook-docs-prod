@@ -1,14 +1,32 @@
 ---
 icon: album-collection
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 두근두근 1등 찍기
 
 <figure><img src="../../.gitbook/assets/두두찍_영역 안내.png" alt=""><figcaption></figcaption></figure>
 
-* [x] &#x20;두근두근 1등 찍기는 서로 다른 SKU를 카탈로그 형태로 노출하고 하루 최대 2번 커스텀한 질문에 유저들이 투표하도록 유도해 **광고 관여도를 극대화**하며, **낮은 CPC 단가로 대량의 트래픽을 기대할 수 있는 상품**이에요.
+* [x] 두근두근 1등 찍기는 서로 다른 SKU를 카탈로그 형태로 노출하고 하루 최대 2번 커스텀한 질문에 유저들이 투표하도록 유도해 **광고 관여도를 극대화**하며, **낮은 CPC 단가로 대량의 트래픽을 기대할 수 있는 상품**이에요.
 
-### 1. 광고 생성하기&#x20;
+### 1. 광고 생성하기
 
 두근두근 1등 찍기 메뉴에 접속하신 뒤 상단의 \[광고 생성하기] 버튼을 눌러 광고 신청 입력 폼을 작성해 주세요.
 
@@ -16,7 +34,7 @@ icon: album-collection
 
 * 원하는 날짜를 하루 단위로 선택할 수 있습니다.
 * 이미 집행 신청된 날짜는 선택이 불가능하며, 선택 가능한 날짜만 활성화돼요.
-  * 집행 날짜로부터 **1영업일 이전** 날짜만 선택 가능해요.        &#x20;
+  * 집행 날짜로부터 **1영업일 이전** 날짜만 선택 가능해요.
 * 광고명 (캠페인 명)은 20자 이하로 설정 가능해요.
 
 {% hint style="danger" %}
@@ -28,7 +46,7 @@ icon: album-collection
 
 • 캠페인 확정 후 취소 시 \[[위약금 정책](https://toss-ads.gitbook.io/guide/manage/penaltyguide)]에 따라 규정이 적용되니 유의해 주세요.
 
-**광고 소재  검토 필요**
+**광고 소재 검토 필요**
 
 • 광고 소재는 사전 검토를 거쳐야 하며, 토스애즈 광고 가이드 기준에 부합해야 해요.
 {% endhint %}
@@ -62,7 +80,7 @@ icon: album-collection
 ✔ 광고 집행 시 필수적으로 확인 필요한 **위약금 정책** 및 **운영, 정산 관련** 내용을 안내하고 있어요. 광고를 생성 하기 전 반드시 확인하고 동의 여부를 체크해주세요.
 
 {% hint style="success" %}
-두근두근 1등 찍기는논타겟 상품으로, 만 19세 이상 성인 타겟 설정 필요한 광고는 집행이 어려워요.
+두근두근 1등 찍기는 논타겟 상품으로, **만 19세 이상 성인 타겟 설정 필요한 광고는** 집행이 불가해요.
 
 * 예시 ) 전자 담배, 주류, 청소년 관람불가 영상물 등
 {% endhint %}
