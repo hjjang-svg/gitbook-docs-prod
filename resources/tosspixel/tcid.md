@@ -51,7 +51,7 @@ layout:
 
 픽셀은 URL쿼리 스트링에서  <mark style="color:red;">`tcid`</mark>키를 확인해요&#x20;
 
-예시: `https://www.example.com/products/123?`<mark style="color:red;">`tcid=...`</mark>`&utm_source=toss`
+예시:&#x20;
 
 ```http
 https://www.example.com/products/123?tcid=...&utm_source=toss
@@ -89,14 +89,14 @@ https://www.example.com/products/123?tcid=...&utm_source=toss
 
 좋은 예시:
 
-```
+```http
 요청 URL: https://www.example.com/?tcid=abc...&utm_source=toss
 브라우저 최종 URL: https://www.example.com/?tcid=abc...&utm_source=toss
 ```
 
 좋지 않은 예시:
 
-```
+```http
 요청 URL: https://www.example.com/?tcid=abc...&utm_source=toss
 브라우저 최종 URL: https://www.example.com/
 ```
@@ -241,7 +241,7 @@ Single Page Application에서는 첫 진입 이후 페이지 이동이 브라우
 
 
 * **확인해 주세요**
-  * “픽셀은 브라우저 쿠키를 활용해 식별자를 보존합니다. 같은 루트 도메인의 서브도메인 이동은 쿠키로 이어질 수 있지만, 첫 랜딩 페이지에서 픽셀이 실행되지 않았거나, 전혀 다른 도메인으로 바로 이동하면 쿠키 저장 기회가 없을 수 있습니다.
+  * 픽셀은 브라우저 쿠키를 활용해 식별자를 보존합니다. 같은 루트 도메인의 서브도메인 이동은 쿠키로 이어질 수 있지만, 첫 랜딩 페이지에서 픽셀이 실행되지 않았거나, 전혀 다른 도메인으로 바로 이동하면 쿠키 저장 기회가 없을 수 있어요.
 * **권장해요**
   * 광고 랜딩 페이지에서 픽셀이 먼저 실행되는지 확인해요.
   * 결제, 회원가입, 예약 같은 전환 완료 페이지에도 픽셀을 설치해요.
@@ -289,16 +289,15 @@ Single Page Application에서는 첫 진입 이후 페이지 이동이 브라우
 
 1. 테스트용 랜딩 URL을 열어주세요.
 
-```
-https://www.example.com/?tcid=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaa-00000000000000000000000000000000&utm_source=toss
+```http
+https://www.example.com/?tcid=t2_test_6def583292221593d7951f7f9d454bc6e2e624d1dd
 ```
 
 1. 페이지가 완전히 로드된 뒤 주소창에 <mark style="color:red;">`tcid`</mark>가 남아 있는지 확인해주세요.
 2. 주소창에서 <mark style="color:red;">`tcid`</mark>가 사라진다면, 사라지는 시점이 서버 리다이렉트인지 프론트엔드 URL 정리인지 확인해주세요.
-3. 브라우저 개발자 도구의 Network 탭에서 픽셀 이벤트 요청을 찾아주새요.
+3. 브라우저 개발자 도구의 Network 탭에서 아래 URL을 필터링해 픽셀 이벤트 요청을 찾아주세요.
 
-```
+```http
 https://lex.toss.im/api/lex/event/v2
 ```
 
