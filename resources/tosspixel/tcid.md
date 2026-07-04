@@ -43,7 +43,6 @@ layout:
 * 광고 랜딩 URL의 <mark style="color:red;">`tcid`</mark>를 삭제하거나 이름을 변경하지 마세요.
 * CDN, WAF, 서버 리다이렉트, 프론트엔드 라우터가 쿼리 스트링을 유지하는지 확인해 주세요.
 * 픽셀이 처음 실행되는 페이지까지 <mark style="color:red;">`tcid`</mark>가 유지되어야 해요.
-* 결제, 회원가입처럼 페이지가 바뀌는 경우에도 첫 랜딩 페이지에서 픽셀이 먼저 실행되어야 해요.
 * 쿼리 파라미터 Allowlist를 사용하는 경우 <mark style="color:red;">`tcid`</mark>를 포함해 주세요.
 
 ***
@@ -52,9 +51,9 @@ layout:
 
 픽셀은 URL쿼리 스트링에서  <mark style="color:red;">`tcid`</mark>키를 확인해요&#x20;
 
-예시:
+예시: `https://www.example.com/products/123?`<mark style="color:red;">`tcid=...`</mark>`&utm_source=toss`
 
-```
+```http
 https://www.example.com/products/123?tcid=...&utm_source=toss
 ```
 
@@ -217,9 +216,9 @@ window.history.replaceState({}, '', currentUrl.pathname + currentUrl.search + cu
 ```
 
 * **권장해요**
-  * 페이지 초기화 직후 실행되는 URL 정리 코드가 있는지 확인합니다.
-  * 라우터 전환 시 <mark style="color:red;">`query`</mark>, <mark style="color:red;">`searchParams`</mark>, <mark style="color:red;">`location.search`</mark>를 유지합니다.
-  * URL을 정리해야 한다면 픽셀 초기화와 <mark style="color:red;">`pageView()`</mark> 호출 이후에 실행합니다.
+  * 페이지 초기화 직후 실행되는 URL 정리 코드가 있는지 확인해요.
+  * 라우터 전환 시 <mark style="color:red;">`query`</mark>, <mark style="color:red;">`searchParams`</mark>, <mark style="color:red;">`location.search`</mark>를 유지해요.
+  * URL을 정리해야 한다면 픽셀 초기화 이후에 실행해주세요.
 
 ***
 
@@ -230,9 +229,8 @@ Single Page Application에서는 첫 진입 이후 페이지 이동이 브라우
 
 
 * **권장해요**
-  * 앱 bootstrap 시점에 query string을 보존합니다.
-  * 첫 <mark style="color:red;">`pageView()`</mark> 호출 전에 라우터가 <mark style="color:red;">`tcid`</mark>를 제거하지 않게 합니다.
-  * 내부 페이지 이동에서 URL을 재구성할 때 기존 query string을 무조건 버리는 공통 유틸을 사용하지 않습니다.
+  * 앱 bootstrap 시점에 query string을 보존해요.
+  * 픽셀 초기화 전에 라우터가 <mark style="color:red;">`tcid`</mark>를 제거하지 않게 해요.
 
 ***
 
@@ -243,10 +241,7 @@ Single Page Application에서는 첫 진입 이후 페이지 이동이 브라우
 
 
 * **확인해 주세요**
-  * 픽셀은 브라우저 쿠키와 localStorage를 활용해 식별자를 보존해요.
-  * 같은 루트 도메인의 서브도메인으로 이동하는 경우에는 쿠키를 통해 <mark style="color:red;">`tcid`</mark>가 유지될 수 있어요.\
-    <mark style="color:red;">`localStorage`</mark>는 도메인(origin)별로 분리되어 있어 다른 도메인에서는 이어지지 않아요. (쿠키를 사용할 수 없는 경우에만 사용돼요.)
-  * 첫 랜딩 페이지에서 픽셀이 실행되지 않았거나 다른 도메인으로 바로 이동하면 <mark style="color:red;">`tcid`</mark>를 저장할 수 없어요.
+  * “픽셀은 브라우저 쿠키를 활용해 식별자를 보존합니다. 같은 루트 도메인의 서브도메인 이동은 쿠키로 이어질 수 있지만, 첫 랜딩 페이지에서 픽셀이 실행되지 않았거나, 전혀 다른 도메인으로 바로 이동하면 쿠키 저장 기회가 없을 수 있습니다.
 * **권장해요**
   * 광고 랜딩 페이지에서 픽셀이 먼저 실행되는지 확인해요.
   * 결제, 회원가입, 예약 같은 전환 완료 페이지에도 픽셀을 설치해요.
