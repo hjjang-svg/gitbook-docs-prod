@@ -150,16 +150,16 @@ window.history.replaceState({}, '', url);
 
 #### CDN 또는 Edge Rewrite
 
-CDN이나 Edge Function에서 <mark style="color:red;">`/promo`</mark>를 <mark style="color:red;">`/products/123`</mark>으로 rewrite하거나 redirect할 때 쿼리 스트링이 사라질 수 있어요.
+CDN이나 Edge Function에서 rewrite 또는 redirect할 때 쿼리 스트링이 사라질 수 있어요.
 
 
 
 * **확인해 주세요**
-  * rewrite 후에도 원래 query string이 origin 또는 브라우저 최종 URL이 유지되는지
+  * rewrite/redirect 후에도 원래 query string이 origin 또는 브라우저 최종 URL이 유지되는지
   * 캐시 키를 만들 때 query string을 제거하면서 브라우저 URL까지 바꾸고 있지 않은지
   * Edge Function 코드에서 새 URL을 만들 때 <mark style="color:red;">`search`</mark>값을 복사하는지
 * **권장해요**
-  * redirect 대상 URL에 기존 query string을 그대로 유지해 주세요.&#x20;
+  * rewrite/redirect 대상 URL에 기존 query string을 그대로 유지해 주세요.
   * query allowlist를 쓰는 경우 tcid를 포함해 주세요.
   * 캐시 최적화를 위해 query string을 무시하더라도, 사용자의 브라우저 URL이나 origin 요청에서 tcid가 제거되지 않게 유지해 주세요.
 
@@ -313,7 +313,7 @@ https://lex.toss.im/api/lex/event/v2
 
 * 광고 랜딩 URL의 query string을 삭제하지 않아요.
 * 서버 리다이렉트의 Location URL에 기존 query string을 유지해요.
-* CDN/Edge rewrite에서 기존 query string을 목적지 URL에 전달해요.
+* CDN/Edge rewrite/redirect에서 기존 query string을 목적지 URL에 전달해요.
 * WAF 또는 보안 프록시의 query allowlist에 tcid를 포함해요.
 * 프론트엔드 URL 정규화 로직이 픽셀 실행 전에 tcid 삭제되지 않도록 설정해요.
 * 전환 완료 페이지에도 픽셀이 설치되어 있고 정상적으로 이벤트를 전송하는지 확인해요.
