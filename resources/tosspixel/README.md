@@ -78,8 +78,8 @@ icon: pixelfed
 파라미터를 충실히 전달할수록 광고 성과 분석의 정밀도가 높아지므로 가능한 한 포함하는 것을 권장해요.
 {% endhint %}
 
-{% content-ref url="self-hosted.md" %}
-[self-hosted.md](self-hosted.md)
+{% content-ref url="preservationguide-1.md" %}
+[preservationguide-1.md](preservationguide-1.md)
 {% endcontent-ref %}
 
 {% content-ref url="24.md" %}
