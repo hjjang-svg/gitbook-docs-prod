@@ -21,7 +21,7 @@ layout:
 
 # 소재 가이드
 
-### **숏폼 소재 설정 가이드**
+### **숏폼 소재 가이드**
 
 <figure><img src="../../.gitbook/assets/숏폼_영역 안내.png" alt=""><figcaption></figcaption></figure>
 

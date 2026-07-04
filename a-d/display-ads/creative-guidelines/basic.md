@@ -21,7 +21,7 @@ layout:
 
 # 잠재고객 모으기
 
-## 잠재고객 모으기 정보입력 양식 소재 설정 가이드
+## 잠재고객 모으기 정보입력 양식 소재 가이드
 
 <figure><img src="../../../.gitbook/assets/잠재고객 모으기 위치 (3).png" alt=""><figcaption></figcaption></figure>
 

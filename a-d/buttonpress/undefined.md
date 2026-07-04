@@ -62,8 +62,8 @@ layout:
 
 1. **카테고리 및 광고 고지 문구**
    * 대표 이미지 우측 상단에 표시돼요.
-   * <mark style="background-color:$danger;">카테고리에 따라 소재 제출 시 토스애즈 심의필 번호를 함께 제출하고, 소재에도 넣어야 해요.</mark>
-   * <mark style="background-color:$danger;">자세한 내용은</mark> [<mark style="background-color:$danger;">**업종별 심사 가이드**</mark>](https://toss-ads.gitbook.io/guide/policy/industryguide)<mark style="background-color:$danger;">에서 확인할 수 있어요.</mark>
+   * [업종별 심사 가이드](https://toss-ads.gitbook.io/guide/policy/industryguide)에 따라 광고 고지 문구 제출이 필요한 업종은 먼저 업종 카테고리를 선택해 주세요.
+   * 광고 고지 문구를 입력한 뒤, 안전 노출 영역 가이드에 맞춰 대표 이미지 우측 하단에 직접 삽입해 주세요.
 2.  **상단 이미지**
 
     * 유저에게 브랜드와 이벤트를 이미지로 빠르게 인식시킬 수 있는 영역이에요.
