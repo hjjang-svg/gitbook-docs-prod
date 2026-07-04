@@ -40,6 +40,8 @@ layout:
 * 수정이 필요한 경우에는 집행을 중단한 뒤 새로운 소재를 제출해 주세요.
   * **집행 중단 시점에 따라 위약금이 발생할 수 있어요.**
 
+***
+
 ### 필요한 정보
 
 버튼 누르기 광고 유형에 따라 필요한 입력값이 달라져요.
@@ -50,16 +52,18 @@ layout:
 
 <table data-search="false"><thead><tr><th>광고 소재</th><th>버튼 강조형</th><th>카탈로그형</th></tr></thead><tbody><tr><td>1. 광고 고지 문구 (필요 시 추가)</td><td></td><td>✓</td></tr><tr><td>2. 상단 이미지</td><td></td><td>✓</td></tr><tr><td>3. 주요 문구</td><td></td><td>✓</td></tr><tr><td>4. 보조 문구 (선택)</td><td></td><td>✓</td></tr><tr><td>5. 버튼 내 브랜드명</td><td>✓</td><td>✓</td></tr><tr><td>6. 버튼 링크</td><td>✓</td><td>✓</td></tr><tr><td>7. 상품 이미지</td><td></td><td>✓</td></tr><tr><td>8. 강조 뱃지 (선택)</td><td></td><td>✓</td></tr><tr><td>9. 상품명</td><td></td><td>✓</td></tr></tbody></table>
 
+***
+
 ### 소재 만들기
 
+{% hint style="info" %}
 [**소재 심사 규정**](https://toss-ads.gitbook.io/guide/policy/creativeguide)을 반드시 확인해주세요.
-
-
+{% endhint %}
 
 1. **카테고리 및 광고 고지 문구**
    * 대표 이미지 우측 상단에 표시돼요.
-   * 카테고리에 따라 소재 제출 시 토스애즈 심의필 번호를 함께 제출하고, 소재에도 넣어야 해요.
-   * 자세한 내용은 [**업종별 심사 가이드**](https://toss-ads.gitbook.io/guide/policy/industryguide)에서 확인할 수 있어요.
+   * <mark style="background-color:$danger;">카테고리에 따라 소재 제출 시 토스애즈 심의필 번호를 함께 제출하고, 소재에도 넣어야 해요.</mark>
+   * <mark style="background-color:$danger;">자세한 내용은</mark> [<mark style="background-color:$danger;">**업종별 심사 가이드**</mark>](https://toss-ads.gitbook.io/guide/policy/industryguide)<mark style="background-color:$danger;">에서 확인할 수 있어요.</mark>
 2.  **상단 이미지**
 
     * 유저에게 브랜드와 이벤트를 이미지로 빠르게 인식시킬 수 있는 영역이에요.
@@ -72,7 +76,7 @@ layout:
     * 심의필 O: 하단 여백 260px + 상단 여백 120px 필요 (1080×700px)
     * 심의필 X: 하단 여백 260px 필요 (1080×820px)
 3. **주요 문구**
-   * 유저가 관심을 가질만한 혜택을 한 문장으로 작성해주세요.
+   * 유저가 관심을 가질만한 혜택을 한 문장으로 작성해 주세요.
    * 최소 1줄, 최대 2줄까지 입력할 수 있어요.
    * 한 줄당 공백 포함 **최대 14자**까지 입력할 수 있어요. (2줄 작성 시, **최대 28자** 입력 가능)
    * 평어체(반말)는 사용할 수 없고, 맞춤법에 어긋나는 표현이나 신조어는 사용할 수 없어요.
