@@ -61,7 +61,7 @@ layout:
 [**소재 심사 규정**](https://toss-ads.gitbook.io/guide/policy/creativeguide)을 반드시 확인해주세요.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/카버누 생성 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/카버누 생성 - 소재 (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **카테고리 및 광고 고지 문구**
    * 대표 이미지 우측 상단에 표시돼요.
@@ -136,7 +136,9 @@ layout:
 * 저작권 침해 등 이슈가 생길 수 있는 소재는 집행할 수 없어요.
 * 랜딩 페이지로 이동하는데 **5초 이상** 걸리면, **브릿지 페이지**를 만들어 주세요.
 
-<figure><img src="../../.gitbook/assets/방송 전중후-1 (2).png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../../.gitbook/assets/카버누 생성 - 상품.png" alt=""><figcaption></figcaption></figure>
 
 7. **추천 상품 이미지 (3개)**
 
