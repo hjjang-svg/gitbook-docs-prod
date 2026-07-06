@@ -1,5 +1,4 @@
 ---
-hidden: true
 layout:
   width: default
   title:
@@ -20,7 +19,7 @@ layout:
     visible: true
 ---
 
-# 캠페인 생성하기 (신규 생성 페이지)
+# 캠페인 생성하기
 
 <figure><img src="../../.gitbook/assets/캠페인 생성 (3).png" alt=""><figcaption></figcaption></figure>
 
