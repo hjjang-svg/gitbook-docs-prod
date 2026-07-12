@@ -97,6 +97,7 @@
   * [카페24 픽셀 연동](resources/tosspixel/24.md)
   * [메이크샵 픽셀 연동](resources/tosspixel/makeshop.md)
   * [픽셀 이벤트 수집 확인하기](resources/tosspixel/pixel_event.md)
+  * [픽셀 이벤트 테스트 가이드](resources/tosspixel/pixel_event_test.md)
 * [타겟 / 오디언스](resources/target/README.md)
   * [광고 반응 타겟](resources/target/retarget.md)
   * [전환 추적 타겟](resources/target/switch.md)
