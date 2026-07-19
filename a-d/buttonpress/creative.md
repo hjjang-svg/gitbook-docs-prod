@@ -47,10 +47,6 @@ layout:
 
 <figure><img src="../../.gitbook/assets/버튼 누르기 - 소재 가이드 - 필요한 정보 (2).png" alt=""><figcaption></figcaption></figure>
 
-{% if  %}
-<table data-search="false"><thead><tr><th>광고 소재</th><th>버튼 강조형</th><th>카탈로그형</th></tr></thead><tbody><tr><td>❶ CTA 버튼 브랜드명</td><td>✓</td><td>✓</td></tr><tr><td>❷ CTA 버튼 링크</td><td>✓</td><td>✓</td></tr><tr><td>❸ 대표 이미지</td><td></td><td>✓</td></tr><tr><td>❹ 심의필 (필요 시 추가)</td><td></td><td>✓</td></tr><tr><td>❺ 메인 타이틀</td><td></td><td>✓</td></tr><tr><td>❻ 설명 (선택)</td><td></td><td>✓</td></tr><tr><td>❼ 추천 상품 이미지</td><td></td><td>✓</td></tr><tr><td>❽ 상품명</td><td></td><td>✓</td></tr><tr><td>❾ 상품 뱃지 (선택)</td><td></td><td>✓</td></tr></tbody></table>
-{% endif %}
-
 <table data-search="false"><thead><tr><th>광고 소재</th><th>버튼 강조형</th><th>카탈로그형</th></tr></thead><tbody><tr><td>1. 광고 고지 문구 (필요 시 추가)</td><td></td><td>✓</td></tr><tr><td>2. 상단 이미지</td><td></td><td>✓</td></tr><tr><td>3. 주요 문구</td><td></td><td>✓</td></tr><tr><td>4. 보조 문구 (선택)</td><td></td><td>✓</td></tr><tr><td>5. 버튼 내 브랜드명</td><td>✓</td><td>✓</td></tr><tr><td>6. 버튼 링크</td><td>✓</td><td>✓</td></tr><tr><td>7. 상품 이미지</td><td></td><td>✓</td></tr><tr><td>8. 강조 뱃지 (선택)</td><td></td><td>✓</td></tr><tr><td>9. 상품명</td><td></td><td>✓</td></tr></tbody></table>
 
 ***
