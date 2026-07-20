@@ -70,7 +70,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 {% step %}
 #### 테스트할 사이트 URL을 확인합니다
 
-<figure><img src="../../.gitbook/assets/image (9) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (5).png" alt=""><figcaption></figcaption></figure>
 
 이벤트 테스트 화면에 표시된 사이트 URL이 실제 테스트하려는 사이트와 일치하는지 확인합니다.
 
@@ -100,13 +100,13 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 {% step %}
 #### 테스트 결과를 확인합니다
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (6).png" alt=""><figcaption></figcaption></figure>
 
 이벤트가 정상적으로 발생 후 수집되면 테스트 결과에 이벤트 정보가 표시됩니다.
 
 테스트 결과에서는 다음 정보를 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
 
 | 항목      | 설명                        |
 | ------- | ------------------------- |
