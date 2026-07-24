@@ -66,9 +66,9 @@ hidden: true
 
 #### 4-3. 이미지 URL (image\_url)
 
-광고 이미지 가이드는 토스쇼핑 가이드를 따릅니다.
+카탈로그 광고의 이미지 가이드는 토스쇼핑을 따릅니다.
 
-참고 : [상품 이미지 가이드 확인하기](https://drive.google.com/file/d/1IiInMubaIIfGdzqBHBYvbVMEDLLPvvw5/view)
+참고 : [토스쇼핑 상품 이미지 가이드 확인하기](https://drive.google.com/file/d/1IiInMubaIIfGdzqBHBYvbVMEDLLPvvw5/view)
 
 **연동 불가 이미지 예시**
 
