@@ -2,15 +2,11 @@
 hidden: true
 ---
 
-# 카탈로그 광고 운영 정책
+# 카탈로그 운영·심사 정책
 
 ### 1. 카탈로그 광고란 ?
 
 카탈로그 광고는, 상품 카탈로그 피드를 연동하면 피드 내 상품이 자동으로 광고 소재로 생성되는 커머스 광고 상품입니다.
-
-{% hint style="info" %}
-카탈로그 소재 가이드 바로가기 : [링크](https://toss-ads.gitbook.io/guide/a-d/display-ads/purchase/creative)
-{% endhint %}
 
 ***
 
