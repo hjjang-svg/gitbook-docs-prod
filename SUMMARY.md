@@ -20,7 +20,7 @@
   * [소재 심사 규정](policy/creativeguide.md)
   * [광고 불가 업종 안내](policy/restrictedindustry.md)
   * [업종별 심사 가이드](policy/industryguide.md)
-  * [카탈로그 광고 운영 정책](policy/catalog.md)
+  * [카탈로그 운영·심사 정책](policy/catalog.md)
 
 ## 광고 상품별 가이드 <a href="#a-d" id="a-d"></a>
 
