@@ -77,6 +77,7 @@ Partner Configuration > Attribution Postback & Settings > Tracking Code 에 토�
 * 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
   * 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
 * Singular 이벤트 라벨은 Singular에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
+* **구매유도하기(카탈로그 연동)** 운영하는 경우, product 정보 수집에 대한 토스애즈와의 개별 연동이 필요합니다. 구매 이벤트의 product\_id 에 해당 하는 파라미터를 사전에 확인 및 공유 부탁드립니다.
 {% endhint %}
 
 ***
