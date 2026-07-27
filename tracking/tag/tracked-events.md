@@ -55,9 +55,13 @@ layout:
 
 전환 캠페인 MO를 운영하려면 광고 목표별로 아래 표준 이벤트를 반드시 설치해 주세요.
 
-| 광고 목표 / MO | 필수 설치 이벤트                                                                             |
-| ---------- | ------------------------------------------------------------------------------------- |
-| 구매 유도하기    | PRODUCT\_VIEW, ADD\_TO\_CART, PURCHASE(+ Revenue)                                     |
-| 첫 구매 유도하기  | PRODUCT\_VIEW, ADD\_TO\_CART, PURCHASE(+ Revenue), SIGNUP, FIRST\_PURCHASE(+ Revenue) |
-| 앱 설치하기     | INSTALL, APP\_OPEN, PURCHASE or AD\_IMPRESSION(+ Revenue)                             |
-| 잠재고객 모으기   | LEAD\_COLLECTION                                                                      |
+| 광고 목표 / MO       | 필수 설치 이벤트                                                                 |
+| ---------------- | ------------------------------------------------------------------------- |
+| 구매 유도하기(카탈로그 연동) | PRODUCT\_VIEW, ADD\_TO\_CART, PURCHASE (+ Revenue, Currency, Product\_id) |
+| 구매 유도하기(직접 등록)   | PRODUCT\_VIEW, ADD\_TO\_CART, PURCHASE (+ Revenue, Currency)              |
+| 앱 설치 유도하기        | INSTALL, APP\_OPEN, PURCHASE 또는 AD\_IMPRESSION (+ Revenue, Currency)      |
+| 잠재고객 모으기         | LEAD\_COLLECTION                                                          |
+
+{% hint style="info" %}
+구매유도하기(카탈로그 연동) 운영 시 **Singular, Adjust**를 사용하는 광고주인 경우, product 정보 수집에 대한 토스애즈와의 개별 연동이 필요합니다. 담당 AM분과 상의 및 채널톡을 통해 문의 바랍니다.
+{% endhint %}
