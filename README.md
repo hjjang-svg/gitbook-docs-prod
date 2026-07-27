@@ -1,135 +1,73 @@
 ---
-icon: rectangles-mixed
-cover: .gitbook/assets/og-ads.png
+cover:
+  light: .gitbook/assets/og-ads (1).png
+  dark: .gitbook/assets/og-ads (1).png
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+    mask: none
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
-# 토스애즈 시작하기
+# 토스애즈를 소개해요
 
-## 1. 구조 이해하기 : 비즈니스 그룹과 광고계정
+#### **기능에 녹아든 자연스러운 광고**
 
-토스애즈는 이렇게 구성돼 있어요.
+* 고객에게 필요한 순간, 콘텐츠와 자연스럽게 이어지는 광고를 보여줘요.
 
-예를 들어, OO 대행사 1팀이 브랜드 A와 B 광고를 운영한다면
+#### **결제 행동 프로파일**
 
-하나의 비즈니스 그룹(OO 대행사 1팀) 안에 A, B 광고계정을 따로 만들어서 각각 관리할 수 있어요.
+* 실제 소비를 바탕으로 고객의 소비 성향·라이프사이클·관심사를 파악해요.
 
-<figure><img src=".gitbook/assets/광고 운영 단위 알기 (3).png" alt=""><figcaption></figcaption></figure>
+#### **ML 자동 최적화**
 
-### \[비즈니스 그룹의 역할]
+* 머신러닝이 광고에 반응하거나 전환할 가능성이 높은 고객을 자동으로 찾아요.
 
-**💰 광고 정산 및 세금계산서 발행 기준이 되는 단위**
+## 어떤 광고를 만들 수 있나요
 
-* 광고비 정산은 광고계정 단위로 이뤄지며, 각 계정별 소진 금액을 기준으로 계산
-* 세금계산서는 비즈니스 그룹의 사업자 등록번호를 기준으로 발행
-  * 광고계정의 사업자 등록번호는 브랜드 식별용으로, 세금계산서 발행에는 사용되지 않음
+토스애즈의 광고는 성격이 다른 두 가지 유형으로 나뉘어요. 이루려는 전환 목표가 명확하다면 디스플레이 광고를, 리워드 지면과 미션형 상품으로 고객의 참여를 이끌고 싶다면 리워드 광고를 선택해요.
 
-**🛠️ 하위 광고계정들을 만들고 관리하는 단위**
+<figure><img src=".gitbook/assets/intro.png" alt="토스애즈의 디스플레이·리워드 광고 유형과 캠페인 목표 구조"><figcaption></figcaption></figure>
 
-* 그룹장은 광고계정 생성 승인할 수 있고, 그룹 내 모든 광고계정의 소진 금액과 운영 현황을 대시보드에서 확인 가능
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>디스플레이 광고</strong></td><td>구매·앱 설치·잠재고객·방문 네 가지 캠페인 목표 가운데 하나를 골라 캠페인을 만들고, 예산·입찰·타겟을 설정해 직접 운영하는 광고예요.</td><td><a href="a-d/display-ads.md">display-ads.md</a></td></tr><tr><td><strong>리워드 광고</strong></td><td>머니알림·행운퀴즈·라이브 마켓·숏폼·미션처럼 토스 앱의 리워드 지면을 기반으로 하는 상품을 골라 집행하는 광고예요. 참여 방식과 리워드 제공 여부는 상품마다 달라요.</td><td><a href="reward/reward-ads.md">reward-ads.md</a></td></tr></tbody></table>
 
-### \[비즈니스 그룹과 광고계정의 소속 관계]
+## 이런 목표가 있다면
 
-O : 가능, X : 불가능, △ : 그룹장에게 권한 요청 시 가능
+만들려는 광고가 아직 막연하다면, 이루고 싶은 목표에서 출발해 보세요.
 
-<figure><img src=".gitbook/assets/맞춤 보고서_템플릿 비교.png" alt=""><figcaption></figcaption></figure>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>구매 유도하기</strong></td><td>쇼핑 탐색 맥락에서 상품을 노출하고 구매 동선으로 연결해요.</td><td><a href="a-d/purchase/">purchase</a></td></tr><tr><td><strong>앱 설치 유도하기</strong></td><td>앱 정보를 소개하고 설치와 실행으로 연결해요.</td><td><a href="a-d/app-install/">app-install</a></td></tr><tr><td><strong>잠재고객 모으기</strong></td><td>상담 신청·가입처럼 다음 영업으로 이어질 고객 정보를 수집해요.</td><td><a href="a-d/lead-generation/">lead-generation</a></td></tr><tr><td><strong>방문 유도하기</strong></td><td>광고를 클릭한 고객을 랜딩 페이지로 바로 연결해요.</td><td><a href="a-d/website-visit/">website-visit</a></td></tr><tr><td><strong>리워드 광고</strong></td><td>메시지·퀴즈·라이브·숏폼·미션으로 고객의 참여를 유도해요.</td><td><a href="reward/reward-ads.md">reward-ads.md</a></td></tr></tbody></table>
 
-***
+## 광고 시작하기
 
-## 2. 로그인 후 첫 화면
+처음 광고를 시작한다면 세 단계면 충분해요.
 
-먼저 토스애즈에 회원가입하고 로그인해주세요. ([회원가입하기](https://toss-ads.gitbook.io/guide/intro/intro/account))
+| 단계                  | 이렇게 진행해요                                                                                                                                         |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **1. 광고 계정 준비하기**   | 회원가입 후 비즈니스 그룹과 광고 계정을 만들어요. [광고 계정 준비하기](account/account.md)에서 안내해요.                                                                            |
+| **2. 광고 만들기**       | 캠페인 목표나 상품을 고르고 캠페인과 소재를 만들어요. 성과 측정이나 직접 타겟팅이 필요하다면 [광고 성과 측정 연동 알아보기](tracking/integration.md)와 [타겟 설정 알아보기](targeting/resources.md)를 먼저 확인해요. |
+| **3. 심사받고 집행 시작하기** | [심사·운영 정책 알아보기](review/policy.md)에서 정책을 확인하고 광고를 제출해요. 심사를 통과한 광고가 집행을 시작해요.                                                                     |
 
-로그인 후 첫 화면은 상황에 따라 달라요.
+집행을 시작한 뒤에는 [광고 성과 확인하기](reports/performance.md)에서 성과를, [광고비 결제·정산 알아보기](billing/adjustment.md)에서 결제·정산 내역을 확인할 수 있어요.
 
-아직 참여한 비즈니스 그룹이 없는 상황, 초대받은 비즈니스 그룹이 있는 상황, 초대받은 광고계정이 있는 상황에 따라 설명드릴게요.
+## 함께 보면 좋아요
 
-✅ **아직 참여한 비즈니스 그룹이 없는 상황**
-
-비즈니스 그룹을 새로 만들거나 기존에 만들어진 그룹에 참여할 수 있어요.
-
-<figure><img src=".gitbook/assets/TO-BE 1.png" alt=""><figcaption></figcaption></figure>
-
-또는 광고계정에 참여하는 방법을 알려드려요.
-
-<figure><img src=".gitbook/assets/TO-BE (1) 1.png" alt=""><figcaption></figcaption></figure>
-
-**✅ 초대받은 비즈니스 그룹이 있는 상황**
-
-비즈니스 그룹에는 초대받았지만, 아직 광고계정에는 초대받지 않았을 때 이런 화면을 보게 돼요.\
-(광고계정은 [이렇게](./#id-4) 초대받을 수 있어요.)
-
-\[+] 버튼을 눌러 새 광고계정을 만들 수 있어요.
-
-<figure><img src=".gitbook/assets/이미지1 47 (3) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-**✅ 초대받은 광고계정이 있는 상황**
-
-내 광고계정 화면에서 각 비즈니스 그룹과 연결된 광고계정 목록이 보여요.
-
-광고계정에서 바로 캠페인을 만들 수 있어요.
-
-<figure><img src=".gitbook/assets/이미지1 47 (5).png" alt=""><figcaption></figcaption></figure>
-
-
-
-***
-
-## 3. 비즈니스 그룹 참여하기
-
-보통은 회사나 팀에서 **이미 비즈니스 그룹을 만들어둔 경우**가 많아요.
-
-이때 내가 광고를 집행하려면, 먼저 **그 비즈니스 그룹에 참여**해야 해요.
-
-참여 방법은 두 가지예요.
-
-### \[비즈니스 그룹에 직접 참여 요청]&#x20;
-
-첫 번째 직접 참여 요청 경로: 로그인 후 안내 화면에서 비즈니스 그룹을 선택하고 \[생성 또는 참여] 버튼을 선택
-
-<figure><img src=".gitbook/assets/비즈니스그룹 생성.png" alt=""><figcaption><p>직접 참여 요청 경로 1</p></figcaption></figure>
-
-두 번째 직접 참여 요청 경로: 좌측 하단의 메뉴를 눌러 내 비즈니스 그룹 탭에 진입한 뒤 \[+ 비즈니스 그룹 추가] 버튼을 선택
-
-<figure><img src=".gitbook/assets/새 비즈니스 그룹 추가.png" alt=""><figcaption><p>직접 참여 요청 경로 2</p></figcaption></figure>
-
-
-
-* 사업자 등록번호로 비즈니스 그룹을 검색했을 때 기존에 만들어진 비즈니스 그룹이 없다면 새로 만들게 되고,
-
-<figure><img src=".gitbook/assets/광고주 화면 (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/광고주 화면 1.png" alt=""><figcaption></figcaption></figure>
-
-*   기존에 만들어진 비즈니스 그룹이 있다면, 그래도 새로 만들거나 기존 그룹에 [**참여를 요청**](intro/readme/create-1.md#id-2)할 수 있어요.
-
-    요청 후 관리자가 승인하면 그때부터 참여하게 돼요.
-
-<figure><img src=".gitbook/assets/Group 196.png" alt=""><figcaption></figcaption></figure>
-
-### \[비즈니스 그룹의 그룹장이 직접 초대]
-
-* 그룹장이 비즈니스 그룹 관리에서 초대할 수 있어요. ([구성원 초대하기](intro/readme/create-1.md#id-1))
-* 초대받으면 이메일로 안내드려요.
-
-> 💡 만약 회사나 팀에서 만들어둔 비즈니스 그룹이 없다면?
->
-> → [비즈니스 그룹 만들기](https://toss-ads.gitbook.io/guide/intro/intro/create)
-
-***
-
-## 4. 광고계정에 참여하기
-
-광고를 집행하려면 반드시 **광고계정에 초대되어 있어야 해요.**
-
-* 광고계정이 이미 만들어져 있다면, **조직 내 광고담당자(계정장)에게 직접 초대를 요청**해주세요.
-* 계정장이 초대하면 이메일로 안내드려요.
-* 광고계정의 초대를 요청하는 기능은 제공되지 않아요.
-
-***
-
-이제 광고계정 안에서 어떤 방식의 광고를 운영할지 선택하고,
-
-목표에 맞게 캠페인을 설정하면 바로 시작할 수 있어요.
+* 광고 운영을 맡길 파트너를 찾고 있다면 [토스애즈 TEP 에이전시](intro/agency.md)를 확인해 주세요.
+* 집행하려는 업종이 광고 가능한지 먼저 확인하려면 [광고 불가 업종 안내](review/restrictedindustry.md)를 참고해 주세요.

@@ -1,8 +1,25 @@
 ---
-icon: icons
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
-# 토스애즈 TEP 에이전시 리스트
+# 토스애즈 TEP 에이전시
 
 광고를 직접 운영하기 어려운 경우 에이전시를 통해 도움을 받을 수 있어요 토스애즈 집행부터 정산까지 전문가에게 도움을 구해보세요.
 
