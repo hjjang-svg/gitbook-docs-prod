@@ -35,7 +35,7 @@ layout:
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FEkCIfkSHgWserKm245Re%2Fclipboard.webp?alt=media&#x26;token=cebda8e8-ebad-4c3f-bdc2-2ca187b1e61d" alt="조회 기간과 성과 데이터가 표시된 기본 성과 조회 화면"><figcaption></figcaption></figure>
 
-* **열 편집 > 내 설정**에서 내가 보고 싶은 열만 골라서 직접 설정하거나, 지표별・광고 목표별로 제공되는 추천 설정을 사용할 수 있어요.
+* **열 편집 > 내 설정**에서 내가 보고 싶은 열만 골라서 직접 설정하거나, 지표별・전환 목표별로 제공되는 추천 설정을 사용할 수 있어요.
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F1hzIAv67Le82C69LaWgp%2Fclipboard.webp?alt=media&#x26;token=7dc428e1-ae66-49e7-9d4f-a8684e97e7fa" alt="열 편집에서 지표를 선택하는 화면"><figcaption></figcaption></figure>
 
