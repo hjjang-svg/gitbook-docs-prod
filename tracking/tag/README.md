@@ -25,7 +25,7 @@ layout:
 
 ## 새 코드 만들기
 
-광고 계정에서 사용할 전환 추적 코드를 처음 만든다면 생성 방법을 확인해요.
+광고계정에서 사용할 전환 추적 코드를 처음 만든다면 생성 방법을 확인해요.
 
 {% content-ref url="code_generation.md" %}
 [code\_generation.md](code_generation.md)
@@ -33,7 +33,7 @@ layout:
 
 ## 코드 공유·이관하기
 
-기존 코드를 다른 광고 계정과 함께 사용하거나 소유권을 옮기려면 공유·이관 방법을 확인해요.
+기존 코드를 다른 광고계정과 함께 사용하거나 소유권을 옮기려면 공유·이관 방법을 확인해요.
 
 {% content-ref url="privacy_control.md" %}
 [privacy\_control.md](privacy_control.md)

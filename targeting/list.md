@@ -51,7 +51,7 @@ layout:
 {% endstep %}
 
 {% step %}
-#### 광고 세트에서 가져오기
+#### 광고세트에서 가져오기
 
 <figure><img src="../.gitbook/assets/광고 세트에서 가져오기 (2).png" alt=""><figcaption></figcaption></figure>
 

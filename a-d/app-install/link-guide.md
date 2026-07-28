@@ -86,7 +86,7 @@ Xcode TARGET > Info > URL Types에서 추가하거나 Info.plist에 직접 입�
 ```
 
 {% hint style="warning" %}
-전체 URL(`brandapp://`)이 아니라 scheme 이름(`brandapp`)만 등록해요.
+전체 URL(`brandapp://`)이 아니라 scheme명(`brandapp`)만 등록해요.
 {% endhint %}
 {% endtab %}
 

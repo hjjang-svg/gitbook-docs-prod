@@ -37,7 +37,7 @@ layout:
 
     <figure><img src="../.gitbook/assets/타겟 조합 추가.png" alt=""><figcaption></figcaption></figure>
 
-    * **캠페인 생성 페이지:** 배너 탭 → 상단 \[캠페인 생성] 버튼 클릭 → 광고 세트에서 타겟 조건 설정 → \[이 조건을 내 타겟에 저장] 버튼 클릭 → 생성
+    * **캠페인 생성 페이지:** 배너 탭 → 상단 \[캠페인 생성] 버튼 클릭 → 광고세트에서 타겟 조건 설정 → \[이 조건을 내 타겟에 저장] 버튼 클릭 → 생성
 
     <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -47,7 +47,7 @@ layout:
 {% endstep %}
 
 {% step %}
-#### **광고 세트에서 가져오기**
+#### **광고세트에서 가져오기**
 
 <figure><img src="../.gitbook/assets/광고 세트에서 가져오기 (3).png" alt=""><figcaption></figcaption></figure>
 

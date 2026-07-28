@@ -21,7 +21,7 @@ layout:
 
 # 광고비 결제·정산 알아보기
 
-광고비를 충전하고 관리하거나, 광고 계정과 에이전시의 정산 내역, 집행 중단 시 위약금을 확인할 수 있어요. 현재 필요한 작업에 맞는 문서를 선택해 주세요.
+광고비를 충전하고 관리하거나, 광고계정과 에이전시의 정산 내역, 집행 중단 시 위약금을 확인할 수 있어요. 현재 필요한 작업에 맞는 문서를 선택해 주세요.
 
 <figure><img src="../.gitbook/assets/billing-adjustment-diagram.png" alt="비즈머니 충전부터 광고 집행, 정산과 위약금 확인으로 이어지는 광고비 관리 흐름"><figcaption></figcaption></figure>
 
@@ -33,9 +33,9 @@ layout:
 [ad\_money.md](ad_money.md)
 {% endcontent-ref %}
 
-## 광고 계정 정산 확인하기
+## 광고계정 정산 확인하기
 
-광고 계정의 정산 내역과 세금계산서, 선불·후불 계정의 정산 문서를 확인해요.
+광고계정의 정산 내역과 세금계산서, 선불·후불 계정의 정산 문서를 확인해요.
 
 {% content-ref url="settlement/" %}
 [settlement](settlement/)

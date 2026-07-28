@@ -31,7 +31,7 @@ layout:
 
 전환 및 추적 연동 설정은 아래 경로에서 가능해요.
 
-광고 계정 접속 → 광고 도구 \[전환 및 추적 연동] 선택
+광고계정 접속 → 광고 도구 \[전환 및 추적 연동] 선택
 {% endstep %}
 
 {% step %}
@@ -73,7 +73,7 @@ Ad Account Information > Tracking Code에 토스 플랫폼에서 발급받은 �
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="159.05645751953125">이벤트 이름</th><th>Toss Ads 이벤트 라벨</th><th>Branch 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>install / reinstall</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>open / pageview</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>COMPLETE_REGISTRATION</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>LOGIN</td></tr><tr><td>결제</td><td>PURCHASE</td><td>PURCHASE</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>VIEW_ITEM</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>ADD_TO_CART</td></tr><tr><td>검색</td><td>SEARCH</td><td>SEARCH</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>INITIATE_PURCHASE</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>ADD_TO_WISHLIST</td></tr></tbody></table>
+<table><thead><tr><th width="159.05645751953125">이벤트명</th><th>토스애즈 이벤트 라벨</th><th>Branch 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>install / reinstall</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>open / pageview</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>COMPLETE_REGISTRATION</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>LOGIN</td></tr><tr><td>결제</td><td>PURCHASE</td><td>PURCHASE</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>VIEW_ITEM</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>ADD_TO_CART</td></tr><tr><td>검색</td><td>SEARCH</td><td>SEARCH</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>INITIATE_PURCHASE</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>ADD_TO_WISHLIST</td></tr></tbody></table>
 
 {% hint style="success" %}
 * 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
@@ -95,7 +95,7 @@ Ad Account Information > Tracking Code에 토스 플랫폼에서 발급받은 �
 
 | 항목             | 값                     | 설명                               |
 | -------------- | --------------------- | -------------------------------- |
-| $3p            | a\_toss               | Toss Ads 고유 매체 식별자               |
+| $3p            | a\_toss               | 토스애즈 고유 매체 식별자                   |
 | \~click\_id    | {TOSS\_TK\_CLICK\_ID} | 클릭 발생 시 부여되는 고유 클릭 ID            |
 | \~campaign\_id | {TOSS\_CID}           | 캠페인 ID                           |
 | $aaid          | {aaid}                | 유저의 ADID (광고 식별자) \* Android에 사용 |

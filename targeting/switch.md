@@ -52,7 +52,7 @@ layout:
 {% endstep %}
 
 {% step %}
-#### **광고 세트에서 가져오기**
+#### **광고세트에서 가져오기**
 
 <figure><img src="../.gitbook/assets/광고 세트에서 가져오기 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -71,6 +71,6 @@ layout:
 ### 2. 전환 추적 타겟의 결합 (교집합 / 합집합)
 
 * 전환추적 타겟들끼리의 조합은 교집합이에요.
-* 즉, 광고 세트 생성 과정에서 2개의 전환 추적 타겟에 대해 각각 '<kbd>포함</kbd>'과 '<kbd>포함</kbd>'을 했다면, 2개 이벤트에 모두 기여한 유저가 타겟으로 설정돼요.
+* 즉, 광고세트 생성 과정에서 2개의 전환 추적 타겟에 대해 각각 '<kbd>포함</kbd>'과 '<kbd>포함</kbd>'을 했다면, 2개 이벤트에 모두 기여한 유저가 타겟으로 설정돼요.
 
 <figure><img src="../.gitbook/assets/전환 추적 타겟의 결합.png" alt=""><figcaption></figcaption></figure>

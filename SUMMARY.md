@@ -7,13 +7,13 @@
 * [토스애즈를 소개해요](README.md "토스애즈 알아보기")
 * [토스애즈 TEP 에이전시](intro/agency.md)
 
-## 광고 계정 만들기 <a href="#account" id="account"></a>
+## 광고계정 만들기 <a href="#account" id="account"></a>
 
-* [광고 계정 준비하기](account/account.md)
+* [광고계정 준비하기](account/account.md)
 * [회원가입과 로그인](account/account-1.md)
 * [비즈니스 그룹 생성·운영](account/business-group.md)
-* [광고 계정 생성·운영](account/ad-account/README.md)
-  * [광고 계정 이관](account/ad-account/control.md)
+* [광고계정 생성·운영](account/ad-account/README.md)
+  * [광고계정 이관](account/ad-account/control.md)
 
 ## 디스플레이 광고 만들기 <a href="#a-d" id="a-d"></a>
 

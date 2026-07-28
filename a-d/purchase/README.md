@@ -21,7 +21,7 @@ layout:
 
 # 구매 유도하기
 
-구매 유도하기는 상품이나 혜택을 노출해 유저의 **구매 전환**을 이끌어내는 퍼포먼스 광고예요. 이 문서를 따라 하면 구매 유도하기 캠페인을 만들고, 광고 세트까지 설정해 광고를 집행할 준비를 마칠 수 있어요.
+구매 유도하기는 상품이나 혜택을 노출해 유저의 **구매 전환**을 이끌어내는 퍼포먼스 광고예요. 이 문서를 따라 하면 구매 유도하기 캠페인을 만들고, 광고세트까지 설정해 광고를 집행할 준비를 마칠 수 있어요.
 
 ## 구매 유도하기란? <a href="#purchase-overview" id="purchase-overview"></a>
 
@@ -32,16 +32,16 @@ layout:
 
 ### 광고를 만드는 3단계 구조
 
-토스애즈에서 광고를 집행하려면 **캠페인 > 광고 세트 > 소재** 3단계를 등록해야 해요.
+토스애즈에서 광고를 집행하려면 **캠페인 > 광고세트 > 소재** 3단계를 등록해야 해요.
 
-| 단계        | 설정하는 것                                      |
-| --------- | ------------------------------------------- |
-| **캠페인**   | 광고 목표, 집행 기간, 총 예산을 설정하고 하위 광고 세트·소재를 관리해요. |
-| **광고 세트** | 일 예산, 입찰 방식, 타겟, 노출 일정을 설정해요.               |
-| **소재**    | 유저에게 실제로 보이는 이미지·문구 등 크리에이티브를 설정해요.         |
+| 단계       | 설정하는 것                                     |
+| -------- | ------------------------------------------ |
+| **캠페인**  | 광고 목표, 집행 기간, 총 예산을 설정하고 하위 광고세트·소재를 관리해요. |
+| **광고세트** | 일 예산, 입찰 방식, 타겟, 노출 일정을 설정해요.              |
+| **소재**   | 유저에게 실제로 보이는 이미지·문구 등 크리에이티브를 설정해요.        |
 
 {% hint style="info" %}
-💡 소재는 등록 방식에 따라 다르게 만들어요. 카탈로그 연동 방식은 [카탈로그 소재 가이드](creative.md)에서, 직접 등록 방식은 [배너 소재 가이드](../creative-guidelines/)에서 확인할 수 있어요. 이 문서에서는 캠페인과 광고 세트까지 다뤄요.
+💡 소재는 등록 방식에 따라 다르게 만들어요. 카탈로그 연동 방식은 [카탈로그 소재 가이드](creative.md)에서, 직접 등록 방식은 [배너 소재 가이드](../creative-guidelines/)에서 확인할 수 있어요. 이 문서에서는 캠페인과 광고세트까지 다뤄요.
 {% endhint %}
 
 ## 등록 방식 선택하기 <a href="#choose-registration-method" id="choose-registration-method"></a>
@@ -101,13 +101,13 @@ layout:
 💡 캠페인에 연결한 **카탈로그와 상품 세트는 심사 제출 이후 변경할 수 없어요.** 제출 전에 연결을 다시 확인해주세요.
 {% endhint %}
 
-### 광고 세트 만들기 <a href="#catalog-settings" id="catalog-settings"></a>
+### 광고세트 만들기 <a href="#catalog-settings" id="catalog-settings"></a>
 
 **상품 세트 연결**
 
-광고 세트마다 상품 세트 하나를 반드시 연결해요. 이 광고 세트로 노출할 상품이 담긴 상품 세트를 선택해주세요.
+광고세트마다 상품 세트 하나를 반드시 연결해요. 이 광고세트로 노출할 상품이 담긴 상품 세트를 선택해주세요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FJpoFaQPqDv94x6sPv3OV%2Fclipboard.png?alt=media&#x26;token=d775ab22-e3a8-476a-bad8-4f35e5bbd207" alt="카탈로그 광고 세트에서 상품 세트를 연결하는 화면"><figcaption></figcaption></figure>
+<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FJpoFaQPqDv94x6sPv3OV%2Fclipboard.png?alt=media&#x26;token=d775ab22-e3a8-476a-bad8-4f35e5bbd207" alt="카탈로그 광고세트에서 상품 세트를 연결하는 화면"><figcaption></figcaption></figure>
 
 **일 예산**
 
@@ -121,7 +121,7 @@ layout:
 💡 **자동 입찰은 학습 시간이 필요해요.** Target ROAS는 머신러닝이 전환 데이터를 학습하며 입찰을 최적화하는 방식이라, 최적화까지 최대 일주일 정도 걸릴 수 있어요. 학습 초기에는 비용이 일시적으로 목표보다 높아질 수 있지만, 점차 목표 비용에 가까워져요. 다만 목표 비용이 너무 낮으면 예산이 소진되지 않고 전환도 잘 모이지 않을 수 있으니, 이 경우 목표 비용을 조금 올려보세요.
 {% endhint %}
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FCiL1Qv7b5zjTLqpDCxzz%2Fpurchase-bid-20260727.png?alt=media&#x26;token=ea928a7f-2b24-4279-a88e-3db0f6f31bfe" alt="카탈로그 연동 광고 세트에서 목표 광고 수익률을 설정하는 화면"><figcaption></figcaption></figure>
+<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FCiL1Qv7b5zjTLqpDCxzz%2Fpurchase-bid-20260727.png?alt=media&#x26;token=ea928a7f-2b24-4279-a88e-3db0f6f31bfe" alt="카탈로그 연동 광고세트에서 목표 광고 수익률을 설정하는 화면"><figcaption></figcaption></figure>
 
 **타겟팅**
 
@@ -148,15 +148,15 @@ layout:
 **노출 기간, 노출 시간**
 
 * 노출 기간
-  * 광고 세트 노출 기간을 설정하실 수 있어요.
-  * 캠페인 기간과 동일 옵션을 선택하실 경우 광고 세트가 속한 캠페인의 기간과 동일하게 노출이 진행돼요.
-  * 광고 세트 노출 기간은 캠페인 집행 기간 이내로 설정할 수 있어요.
+  * 광고세트 노출 기간을 설정하실 수 있어요.
+  * 캠페인 기간과 동일 옵션을 선택하실 경우 광고세트가 속한 캠페인의 기간과 동일하게 노출이 진행돼요.
+  * 광고세트 노출 기간은 캠페인 집행 기간 이내로 설정할 수 있어요.
 * 노출 시간
   * 상시 노출 값으로 기본 적용돼요.
   * 노출 시간대 설정을 클릭하실 경우 간단하게 노출 시간대를 설정할 수 있어요.
   * 요일별 시간대 설정을 클릭하실 경우 노출 요일과 시간을 설정할 수 있어요.
 
-광고 세트까지 설정했다면, [구매 유도하기 소재 가이드](creative.md)에서 상품 세트와 소재를 확인하고 [소재별 심사 정책](../../review/creativeguide.md)에 따라 심사를 신청해 주세요. 집행을 시작한 뒤에는 [성과 보기](../performance.md)에서 성과를 확인할 수 있어요. 카탈로그 광고의 소재는 상품 정보 기반으로 자동 구성돼요.
+광고세트까지 설정했다면, [구매 유도하기 소재 가이드](creative.md)에서 상품 세트와 소재를 확인하고 [소재별 심사 정책](../../review/creativeguide.md)에 따라 심사를 신청해 주세요. 집행을 시작한 뒤에는 [성과 보기](../performance.md)에서 성과를 확인할 수 있어요. 카탈로그 광고의 소재는 상품 정보 기반으로 자동 구성돼요.
 
 ***
 
@@ -188,9 +188,9 @@ layout:
 💡 전환 및 추적 연동은 **집행을 시작한 뒤에는 변경할 수 없어요.** 캠페인을 만들기 전에 연동을 먼저 마쳐주세요.
 {% endhint %}
 
-### 광고 세트 만들기 <a href="#direct-settings" id="direct-settings"></a>
+### 광고세트 만들기 <a href="#direct-settings" id="direct-settings"></a>
 
-캠페인 하위에 광고 세트를 만들어 예산, 입찰, 타겟, 노출 조건을 설정해요.
+캠페인 하위에 광고세트를 만들어 예산, 입찰, 타겟, 노출 조건을 설정해요.
 
 **일 예산**
 
@@ -210,7 +210,7 @@ layout:
 자동 입찰 · 전환 최대는 머신러닝이 전환 데이터를 학습하며 입찰을 최적화하는 방식이라, 최적화까지 최대 일주일 정도 걸릴 수 있어요. 학습 초기에는 비용이 일시적으로 목표보다 높아질 수 있지만, 점차 목표 비용에 가까워져요. 다만 목표 비용이 너무 낮으면 예산이 소진되지 않고 전환도 잘 모이지 않을 수 있으니, 이 경우 목표 비용을 조금 올려보세요.
 {% endhint %}
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F1H284MKx9wYfvETkApEH%2Fclipboard.png?alt=media&#x26;token=1942855e-958a-43c4-a8e3-2d9c8d5487df" alt="직접 등록 광고 세트에서 자동 입찰과 직접 입찰을 선택하는 화면"><figcaption></figcaption></figure>
+<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F1H284MKx9wYfvETkApEH%2Fclipboard.png?alt=media&#x26;token=1942855e-958a-43c4-a8e3-2d9c8d5487df" alt="직접 등록 광고세트에서 자동 입찰과 직접 입찰을 선택하는 화면"><figcaption></figcaption></figure>
 
 **타겟팅**
 
@@ -281,7 +281,7 @@ layout:
     * 타겟 조건 추가 시, 사용자 설정에 따라 타겟 수가 달라질 수 있어요.
     * 설정한 조건의 타겟 수는 시간이 지나 바뀔 수 있어요.
   * **광고 반응 가져오기**
-    * 해당 광고 계정에서 기존에 집행했던 광고 타겟의 행동 이력을 바탕으로 타겟에서 포함하거나 제외할 수 있는 타겟팅 옵션이에요.
+    * 해당 광고계정에서 기존에 집행했던 광고 타겟의 행동 이력을 바탕으로 타겟에서 포함하거나 제외할 수 있는 타겟팅 옵션이에요.
     * 기존 집행한 광고 타겟을 선택하고, 해당 타겟의 상세 행동 (예, 클릭한 유저) 조건을 선택하여 포함하거나 제외할 수 있어요.
     * 광고 반응 타겟은 3개까지 적용 가능하고 동일한 조건의 타겟은 중복 설정할 수 없어요.
   * **전환 추적 가져오기**
@@ -295,9 +295,9 @@ layout:
 **노출 기간, 노출 시간, 소진 방식**
 
 * 노출 기간
-  * 광고 세트 노출 기간을 설정하실 수 있어요.
-  * 캠페인 기간과 동일 옵션을 선택하실 경우 광고 세트가 속한 캠페인의 기간과 동일하게 노출이 진행돼요.
-  * 광고 세트 노출 기간은 캠페인 집행 기간 이내로 설정할 수 있어요.
+  * 광고세트 노출 기간을 설정하실 수 있어요.
+  * 캠페인 기간과 동일 옵션을 선택하실 경우 광고세트가 속한 캠페인의 기간과 동일하게 노출이 진행돼요.
+  * 광고세트 노출 기간은 캠페인 집행 기간 이내로 설정할 수 있어요.
 * 노출 시간
   * 상시 노출 값으로 기본 적용돼요.
   * 노출 시간대 설정을 클릭하실 경우 간단하게 노출 시간대를 설정할 수 있어요.
@@ -309,4 +309,4 @@ layout:
     * 최대 노출량을 받고 예산을 빠르게 태우는 방식이에요.
   * 소진 방식은 광고 집행 중에도 언제든 변경할 수 있어요.
 
-광고 세트까지 설정했다면, [배너 소재 가이드](../creative-guidelines/)에서 소재를 등록하고 [소재별 심사 정책](../../review/creativeguide.md)에 따라 심사를 신청해 주세요. 집행을 시작한 뒤에는 [성과 보기](../performance.md)에서 성과를 확인할 수 있어요.
+광고세트까지 설정했다면, [배너 소재 가이드](../creative-guidelines/)에서 소재를 등록하고 [소재별 심사 정책](../../review/creativeguide.md)에 따라 심사를 신청해 주세요. 집행을 시작한 뒤에는 [성과 보기](../performance.md)에서 성과를 확인할 수 있어요.

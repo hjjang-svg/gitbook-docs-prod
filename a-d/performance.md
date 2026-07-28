@@ -22,7 +22,7 @@ layout:
 
 # 성과 보기
 
-디스플레이 광고 성과 대시보드에서 캠페인·광고 세트·소재를 운영하고 주요 지표를 확인하는 방법을 안내해요. 분석 기준과 지표를 직접 조합해 데이터를 비교하려면 [맞춤 보고서로 보는 광고 성과](../reports/report.md)를 확인해 주세요.
+디스플레이 광고 성과 대시보드에서 캠페인·광고세트·소재를 운영하고 주요 지표를 확인하는 방법을 안내해요. 분석 기준과 지표를 직접 조합해 데이터를 비교하려면 [맞춤 보고서로 보는 광고 성과](../reports/report.md)를 확인해 주세요.
 
 ## 1. 성과 조회 <a href="#performance-overview" id="performance-overview"></a>
 
@@ -112,7 +112,7 @@ layout:
 
 하나의 캠페인을 선택한 후 **시간・일별** 버튼을 누르면 오른쪽에서 x축과 y축에 각각 원하는 성과 지표를 설정해 비교할 수 있어요.
 
-* 광고 세트와 소재 탭에서도 같은 방법으로 비교할 수 있어요.
+* 광고세트와 소재 탭에서도 같은 방법으로 비교할 수 있어요.
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F2D57YhKf4mHVKC6UeeJk%2Fclipboard.webp?alt=media&#x26;token=eba9eb02-227a-44d4-b06f-e2c0c515f459" alt="x축과 y축에 성과 지표를 설정해 비교하는 화면"><figcaption></figcaption></figure>
 
@@ -121,7 +121,7 @@ layout:
 여러 캠페인을 선택한 후 **시간・일별** 버튼을 누르면 한 성과 지표에 대해 여러 캠페인을 비교할 수 있어요.
 
 * 성과 지표를 추가하면 여러 그래프가 추가돼요.
-* 광고 세트와 소재 탭에서도 같은 방법으로 비교할 수 있어요.
+* 광고세트와 소재 탭에서도 같은 방법으로 비교할 수 있어요.
 
 <figure><img src="../.gitbook/assets/performance-compare.webp" alt="여러 캠페인의 성과 지표를 비교하는 화면"><figcaption></figcaption></figure>
 
@@ -131,19 +131,19 @@ layout:
 
 ### 단일 ON/OFF
 
-* 캠페인, 광고 세트, 소재의 노출을 각각 켜거나 끌 수 있어요.
+* 캠페인, 광고세트, 소재의 노출을 각각 켜거나 끌 수 있어요.
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FUE0V94Vy77DoqW9SacGk%2Fclipboard.webp?alt=media&#x26;token=0b7aeb49-e025-4e67-ac9b-df86c2b33259" alt="캠페인 노출을 개별로 켜거나 끄는 화면"><figcaption></figcaption></figure>
 
 ### 일괄 ON/OFF
 
-* 여러 광고 세트나 소재의 노출을 한 번에 켜거나 끌 수 있어요.
+* 여러 광고세트나 소재의 노출을 한 번에 켜거나 끌 수 있어요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FAsZ7br3cJ869RgCrPAia%2Fclipboard.png?alt=media&#x26;token=1502235d-561d-4fd0-a841-3208f7ca8266" alt="여러 광고 세트와 소재의 노출을 한 번에 설정하는 화면"><figcaption></figcaption></figure>
+<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FAsZ7br3cJ869RgCrPAia%2Fclipboard.png?alt=media&#x26;token=1502235d-561d-4fd0-a841-3208f7ca8266" alt="여러 광고세트와 소재의 노출을 한 번에 설정하는 화면"><figcaption></figcaption></figure>
 
 ### 노출 예약
 
-* 광고 세트나 소재를 일괄 ON/OFF 할 때 문제가 있어 바로 켤 수 없는 항목도 ‘노출 예약’으로 처리돼요.
+* 광고세트나 소재를 일괄 ON/OFF 할 때 문제가 있어 바로 켤 수 없는 항목도 ‘노출 예약’으로 처리돼요.
 * 노출 예약을 켜면 문제 해결 후 노출이 켜져요. 노출 예약을 끄면 문제를 해결한 뒤에도 노출이 켜지지 않아요.
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2Fy7ll8Uh8Mv5IISPpo97P%2Fclipboard.webp?alt=media&#x26;token=93bd7473-76d9-44e0-8a22-862b5a2698bc" alt="노출 예약을 설정하는 화면"><figcaption></figcaption></figure>
@@ -160,8 +160,8 @@ layout:
     * 총 예산
     * 집행 기간
     * 소진 방법(일반/빠른)
-  * 광고 세트
-    * 광고 세트명
+  * 광고세트
+    * 광고세트명
     * 입찰 금액
     * 노출 기간
     * 노출 시간대(요일별 설정 제외)

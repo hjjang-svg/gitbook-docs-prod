@@ -31,7 +31,7 @@ layout:
 
 전환 및 추적 연동 설정은 아래 경로에서 가능해요.
 
-광고 계정 접속 → 광고 도구 \[전환 및 추적 연동] 선택
+광고계정 접속 → 광고 도구 \[전환 및 추적 연동] 선택
 {% endstep %}
 
 {% step %}
@@ -68,7 +68,7 @@ Active partner 의 스위치 버튼을 클릭하여 파트너 연동을 활성�
 <figure><img src="../../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure>
 
 * IOS 세팅을 하시는 경우, Advanced Privacy 모드가 'OFF'로 되어 있는지 확인해 주세요.
-  * 해당 설정을 꺼두셔야 데이터 익명화 처리를 방지하고, 토스 애즈와 AppsFlyer 간의 데이터 정합성을 확보할 수 있어요.
+  * 해당 설정을 꺼두셔야 데이터 익명화 처리를 방지하고, 토스애즈와 AppsFlyer 간의 데이터 정합성을 확보할 수 있어요.
 {% endstep %}
 
 {% step %}
@@ -91,7 +91,7 @@ Active partner 의 스위치 버튼을 클릭하여 파트너 연동을 활성�
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="198.25347900390625">이벤트 이름</th><th>Toss Ads 이벤트 라벨</th><th>AppsFlyer 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>af_app_opened</td></tr><tr><td>딥링크/푸시 실행</td><td>APP_DEEPLINK_OPEN</td><td>af_opened_from_push_notification</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>af_complete_registration</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>af_login</td></tr><tr><td>결제</td><td>PURCHASE</td><td>af_purchase</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>af_content_view</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>af_add_to_cart</td></tr><tr><td>검색</td><td>SEARCH</td><td>af_search</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>af_initiated_checkout</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>af_add_to_wishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>af_subscribe</td></tr><tr><td>광고 노출</td><td>AD_IMPRESSION</td><td>af_ad_view</td></tr><tr><td>리드</td><td>LEAD_COLLECTION</td><td>lead</td></tr></tbody></table>
+<table><thead><tr><th width="198.25347900390625">이벤트명</th><th>토스애즈 이벤트 라벨</th><th>AppsFlyer 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>af_app_opened</td></tr><tr><td>딥링크/푸시 실행</td><td>APP_DEEPLINK_OPEN</td><td>af_opened_from_push_notification</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>af_complete_registration</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>af_login</td></tr><tr><td>결제</td><td>PURCHASE</td><td>af_purchase</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>af_content_view</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>af_add_to_cart</td></tr><tr><td>검색</td><td>SEARCH</td><td>af_search</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>af_initiated_checkout</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>af_add_to_wishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>af_subscribe</td></tr><tr><td>광고 노출</td><td>AD_IMPRESSION</td><td>af_ad_view</td></tr><tr><td>리드</td><td>LEAD_COLLECTION</td><td>lead</td></tr></tbody></table>
 
 {% hint style="success" %}
 * 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야해요.

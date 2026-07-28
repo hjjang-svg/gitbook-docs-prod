@@ -31,7 +31,7 @@ layout:
 
 전환 및 추적 연동 설정은 아래 경로에서 가능해요.
 
-광고 계정 접속 → 광고 도구 \[전환 및 추적 연동] 선택
+광고계정 접속 → 광고 도구 \[전환 및 추적 연동] 선택
 {% endstep %}
 
 {% step %}
@@ -116,7 +116,7 @@ Integrations → Intergrated Ad Channels 선택 → \[Toss]앱 검색
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="185.28466796875">이벤트 이름</th><th>Toss Ads 이벤트 라벨</th><th>Airbridge 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>app_install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>app_open</td></tr><tr><td>딥링크 앱 오픈</td><td>APP_DEEPLINK_OPEN</td><td>app_deeplink_open</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>airbridge.user.signup</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>airbridge.user.signin</td></tr><tr><td>결제</td><td>PURCHASE</td><td>airbridge.ecommerce.order.completed</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>airbridge.ecommerce.product.viewed</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>airbridge.ecommerce.product.addedToCart</td></tr><tr><td>검색</td><td>SEARCH</td><td>airbridge.ecommerce.searchResults.viewed</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>airbridge.initiateCheckout</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>airbridge.addToWishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>airbridge.subscribe</td></tr><tr><td>홈 조회</td><td>VIEW_HOME</td><td>airbridge.ecommerce.home.viewed</td></tr><tr><td>광고 노출</td><td>AD_IMPRESSION</td><td>airbridge.adImpression</td></tr></tbody></table>
+<table><thead><tr><th width="185.28466796875">이벤트명</th><th>토스애즈 이벤트 라벨</th><th>Airbridge 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>app_install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>app_open</td></tr><tr><td>딥링크 앱 오픈</td><td>APP_DEEPLINK_OPEN</td><td>app_deeplink_open</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>airbridge.user.signup</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>airbridge.user.signin</td></tr><tr><td>결제</td><td>PURCHASE</td><td>airbridge.ecommerce.order.completed</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>airbridge.ecommerce.product.viewed</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>airbridge.ecommerce.product.addedToCart</td></tr><tr><td>검색</td><td>SEARCH</td><td>airbridge.ecommerce.searchResults.viewed</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>airbridge.initiateCheckout</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>airbridge.addToWishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>airbridge.subscribe</td></tr><tr><td>홈 조회</td><td>VIEW_HOME</td><td>airbridge.ecommerce.home.viewed</td></tr><tr><td>광고 노출</td><td>AD_IMPRESSION</td><td>airbridge.adImpression</td></tr></tbody></table>
 
 {% hint style="success" %}
 * 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.

@@ -54,7 +54,7 @@ layout:
 
 <summary><strong>위임장을 어떤 형식으로 제출해야 하나요?</strong></summary>
 
-위임 범위와 대표자 이름, 날인을 포함한 PDF 파일로 제출해 주세요. [위임장 템플릿 내려받기](account/business-group.md#power-of-attorney)에서 파일을 확인해 주세요.
+위임 범위와 대표자명, 날인을 포함한 PDF 파일로 제출해 주세요. [위임장 템플릿 내려받기](account/business-group.md#power-of-attorney)에서 파일을 확인해 주세요.
 
 </details>
 

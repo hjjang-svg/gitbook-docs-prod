@@ -31,7 +31,7 @@ layout:
 
 전환 및 추적 연동 설정은 아래 경로에서 가능해요.
 
-광고 계정 접속 → 광고 도구 \[전환 및 추적 연동] 선택
+광고계정 접속 → 광고 도구 \[전환 및 추적 연동] 선택
 {% endstep %}
 
 {% step %}
@@ -71,7 +71,7 @@ Partner Configuration > Attribution Postback & Settings > Tracking Code 에 토�
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="176.26995849609375">이벤트 이름</th><th>Toss Ads 이벤트 라벨</th><th>Singular 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>sng_start_trial</td></tr><tr><td>딥링크 앱 오픈</td><td>APP_DEEPLINK_OPEN</td><td>sng_attr_deep_link</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>sng_complete_registration</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>sng_login</td></tr><tr><td>결제</td><td>PURCHASE</td><td>sng_ecommerce_purchase</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>sng_content_view</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>sng_add_to_cart</td></tr><tr><td>검색</td><td>SEARCH</td><td>sng_search</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>sng_checkout_initiated</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>sng_add_to_wishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>sng_subscribe</td></tr></tbody></table>
+<table><thead><tr><th width="176.26995849609375">이벤트명</th><th>토스애즈 이벤트 라벨</th><th>Singular 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>sng_start_trial</td></tr><tr><td>딥링크 앱 오픈</td><td>APP_DEEPLINK_OPEN</td><td>sng_attr_deep_link</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>sng_complete_registration</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>sng_login</td></tr><tr><td>결제</td><td>PURCHASE</td><td>sng_ecommerce_purchase</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>sng_content_view</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>sng_add_to_cart</td></tr><tr><td>검색</td><td>SEARCH</td><td>sng_search</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>sng_checkout_initiated</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>sng_add_to_wishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>sng_subscribe</td></tr></tbody></table>
 
 {% hint style="success" %}
 * 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
