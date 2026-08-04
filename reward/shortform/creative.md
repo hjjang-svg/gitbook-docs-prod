@@ -25,7 +25,7 @@ layout:
 
 <figure><img src="../../.gitbook/assets/숏폼_영역 안내.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/숏폼_영역 안내-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 소재 공통 가이드에 따라 타이틀 및 상품 정보에 **평어체(반말)**&#xC744; 사용할 수 없어요.
 * 랜딩 페이지에서 확인 불가한 혜택,정보는 광고 소재에 기재할 수 없어요.
