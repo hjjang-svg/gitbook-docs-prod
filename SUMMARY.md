@@ -80,7 +80,7 @@
 * [오늘의 포인트 미션](reward/weeklymission.md)
 * [일주일 방문 미션](reward/visitmission/README.md)
   * [소재 가이드](reward/visitmission/undefined.md)
-  * [Page 2](reward/visitmission/page-2.md)
+  * [성과 보기](reward/visitmission/undefined-1.md)
   * [Page 3](reward/visitmission/page-3.md)
 
 ## 카탈로그 연동하기 <a href="#catalog" id="catalog"></a>
