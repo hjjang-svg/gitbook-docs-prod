@@ -21,7 +21,7 @@ layout:
 
 # 일주일 방문 미션
 
-<figure><img src="../.gitbook/assets/Frame 5899.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Frame 5899.png" alt=""><figcaption></figcaption></figure>
 
 ### 광고 상품 소개
 

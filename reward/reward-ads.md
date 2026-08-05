@@ -79,8 +79,8 @@ layout:
 
 사용자가 7일 동안 쇼핑몰이나 상품 페이지에 반복해서 방문하는 미션을 운영하려면 일주일 방문 미션을 선택해요.
 
-{% content-ref url="visitmission.md" %}
-[visitmission.md](visitmission.md)
+{% content-ref url="visitmission/" %}
+[visitmission](visitmission/)
 {% endcontent-ref %}
 
 각 상품 문서에서 현재 제공되는 집행 방법과 조건을 확인할 수 있어요.
