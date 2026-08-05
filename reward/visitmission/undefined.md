@@ -133,8 +133,8 @@ layout:
   * 링크가 가이드 형식과 다르면 광고를 집행할 수 없어요.
     * **올리브영 상품 상세 페이지**
       * `https://m.oliveyoung.co.kr/m/goods/getGoodsDetail.do?goodsNo=상품번호`
-      * **라이브 사전 예고 페이지**
-        * `https://m.oliveyoung.co.kr/m/mtn/liveshop/teasers/예고ID`
+    * **라이브 사전 예고 페이지**
+      * `https://m.oliveyoung.co.kr/m/mtn/liveshop/teasers/예고ID`
 
 > **랜딩 페이지 심사 규정**
 
