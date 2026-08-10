@@ -78,7 +78,7 @@
   * [소재 가이드](reward/catalog_vote/creative.md)
   * [성과 보기](reward/catalog_vote/data.md)
 * [오늘의 포인트 미션](reward/weeklymission.md)
-* [일주일 방문 미션](reward/visitmission-collabo/README.md)
+* [일주일 방문 미션(협력광고)](reward/visitmission-collabo/README.md)
   * [소재 가이드](reward/visitmission-collabo/guide.md)
   * [성과 보기](reward/visitmission-collabo/data.md)
   * [일주일 방문 미션](reward/visitmission-collabo/visitmission.md)

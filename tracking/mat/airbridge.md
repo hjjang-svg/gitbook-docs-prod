@@ -69,7 +69,7 @@ Integrations → Intergrated Ad Channels 선택 → \[Toss]앱 검색
 {% step %}
 **연동 활성화**
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
