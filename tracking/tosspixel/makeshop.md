@@ -99,8 +99,11 @@ layout:
 <!-- Toss Pixel PageView 이벤트 -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
-        TossPixel('전환 코드').pageView(); 
+// '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
+// '고유 값' 대신 이벤트마다 겹치지 않는 값을 넣어주세요
+        TossPixel('전환 코드').pageView({
+            event_id: "고유 값"
+        });
     });
 </script>
 ```
@@ -126,6 +129,7 @@ layout:
     var priceValue = parseInt(priceText.replace(/[^0-9]/g, ''), 10) || 0;
     // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
     TossPixel('전환 코드').productView({
+        event_id: "고유 값",
         product_id: "<!--/number/-->",
         product_name: "<!--/name/-->",
         price: priceValue,
@@ -159,6 +163,7 @@ layout:
      var priceValue = parseInt(priceText.replace(/[^0-9]/g, '')) || 0;
      // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
      TossPixel('전환 코드').addToCart({
+          event_id: "고유 값",
           product_id: "<!--/number/-->",
           product_name: "<!--/name/-->",
           price: priceValue,
@@ -215,13 +220,14 @@ layout:
     <!--/end_loop/-->
 </script>
 <script>
-    // Toss Pixel 구매 완료 이벤트 수집
+// Toss Pixel 구매 완료 이벤트 수집
     var priceElement = document.getElementById("mk_totalprice")
     var priceText = priceElement.textContent || priceElement.innerText;
     var priceValue = priceText.replace(/[^0-9]/g, '');
-    // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
+// '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
     TossPixel('전환 코드').purchase({
-        order_id:"<!--/order_num/-->",
+        event_id: "<!--/order_num/-->",
+        order_id: "<!--/order_num/-->",
         products: lex_order_products_data,
         revenue: priceValue,
         total_quantity: lex_order_products_data.reduce((acc, cur) => acc + cur.quantity, 0),
@@ -233,6 +239,10 @@ layout:
 * 구매(주문) 완료 이벤트 수집 스크립트는 \[**중앙 디자인]** → **\[주문관련]** → **\[주문 완료** **파일**]에서 추가해야 해요.
 * 구매(주문) 완료 이벤트 수집 스크립트는 반드시 기존 코드 아래에 추가해야 해요
   * 위 예시 이미지에서 기존 코드 최하단 태그 `</div><!-- #wrap -→` 아래 토스 픽셀 스크립트가 있는 것을 볼 수 있어요.
+
+{% hint style="info" %}
+구매 이벤트의 `event_id`는 주문번호 치환 변수 `<!--/order_num/-->`를 그대로 쓰면 돼요. 주문마다 유일한 값이라 별도로 만들 필요가 없어요
+{% endhint %}
 
 ***
 
@@ -248,8 +258,8 @@ layout:
 ```html
 <!-- Toss Pixel 커스텀 이벤트 -->
 <script>
-    // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
     TossPixel('전환 코드').custom('BUTTON_CLICK', {
+        event_id: "고유 값",
         product_id: "{$product_no}",
         product_name: "{$name}",
         price: "{$product_sale_price}",
