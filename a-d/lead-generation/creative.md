@@ -21,7 +21,7 @@ layout:
 
 # 잠재고객 모으기 양식 가이드
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FYMLEunoOM91OFDYwdOYY%2F%E1%84%8C%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%A2%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%86%E1%85%A9%E1%84%8B%E1%85%B3%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%B1%E1%84%8E%E1%85%B5.png?alt=media&#x26;token=0289aabf-05b2-430d-8142-96a75985ede9" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/잠재고객 모으기 위치 (4).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F3X8WlLXzoyYRGP6We9lX%2F%E1%84%8C%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%A2%20%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%86%E1%85%A9%E1%84%8B%E1%85%B3%E1%84%80%E1%85%B5%20%E1%84%8C%E1%85%B5%E1%84%86%E1%85%A7%E1%86%AB.png?alt=media&#x26;token=8c70729e-b590-4510-ad8a-0014ed5f7e7b" alt=""><figcaption></figcaption></figure>
 
@@ -29,7 +29,7 @@ layout:
 서비스 품질 개선을 위해 일부 캠페인에서는 사용자에게 보이는 화면이 다를 수 있어요. 설정한 질문과 내용은 빠짐없이 반영돼요. [자세히 보기](https://tossads.toss.im/notice/23878)
 {% endhint %}
 
-잠재고객 모으기 양식은 제목, 소개 화면, 질문·답변, 동의문, 완료 화면 등 유저가 정보를 제출하는 흐름으로 구성돼요. 이 가이드에서 각 항목의 작성 기준과 설정 방법을 확인할 수 있어요.
+잠재고객 모으기 양식은 제목, 동의문, 소개 화면, 질문·답변, 완료 화면 등 유저가 정보를 제출하는 흐름으로 구성돼요. 이 가이드에서 각 항목의 작성 기준과 설정 방법을 확인할 수 있어요.
 
 양식으로 연결되는 배너를 만들 때는 [잠재고객 모으기 배너 소재 가이드](banner-guide/)를 함께 확인해 주세요.
 
@@ -68,6 +68,42 @@ layout:
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FTEe2ptyP023NefWu8QXU%2F%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC.png?alt=media&#x26;token=2f57a6c9-c31a-4ee7-b3d4-528ff6da6095" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
+{% tab title="정보 검토 화면·동의문" %}
+* **정보 검토 화면**
+  * 유저에게 수집할 정보를 선택하고 수정할 수 있고 동의문에 자동으로 반영돼요.
+    * 연락처 (필수) : 휴대전화 번호,이메일
+    * 사용자 정보 (선택) : 이름,성별,생년월일
+* **동의문 화면**
+  * 광고 집행사
+    * 광고 집행사 정보는 수집된 정보를 실제 활용하는 사업자명을 입력해야해요.
+      * 국내 : 사업자 등록증에 기재된 사업자명 그대로 작성
+        * <mark style="color:$info;">예시) A사가 B사의 광고를 대행하는 경우, B사를 입력</mark>
+      * 국외 : 수집된 정보 활용하는 회사가 국외인 경우 선택 / 사업자명과 소재 국가 작성
+        * 광고 집행사가 해외 기업인 경우에만 토스는 유저에게 해당 항목을 추가하여 동의문을 받고 있어요.
+
+<figure><img src="../../.gitbook/assets/정보 검토 화면, 동의문_국외.png" alt=""><figcaption></figcaption></figure>
+
+* **이용 및 보유기간**
+  * 이용 및 보유 기간은 예시 이미지 옵션 내에서 선택 가능하고 **12개월 이상 보유할 수 없어요.**
+
+<figure><img src="../../.gitbook/assets/정보 검토 화면, 동의문_이용 및 보유기간 (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/정보 검토 화면, 동의문_국내.png" alt=""><figcaption></figcaption></figure>
+
+* **동의문 직접 만들기**
+  * 직접 작성한 동의문이 포함된 경우, 토스 개인정보보호팀의 별도 심사가 진행되어 일반 소재보다 약 1일 정도 더 소요될 수 있어요.
+  * 설정 항목
+    * 동의문 유형: 필수 항목 / 선택 항목
+    * 동의문 내용: 동의문 제목과 내용을 직접 입력
+  * 직접 만든 동의문은 최대 10개까지 추가할 수 있어요.
+
+{% hint style="danger" %}
+- **리드 수집 후 이용 기간**
+  * 토스의 개인정보 이용 및 보유 기간 정책에 따라 유저에게 수집된 리드는 수집 후 **30일로 설정**되어 있어요.
+  * 수집 후 30일이 경과한 리드는 다운로드하거나 재 수집이 불가해요.
+{% endhint %}
+{% endtab %}
+
 {% tab title="이벤트 이미지" %}
 * [x] 이벤트 이미지는 필요에 따라 사용 여부를 선택할 수 있어요.
 
@@ -87,7 +123,7 @@ layout:
 - **유형**
   * 질문 유형은 예시 이미지 옵션 내에서 활용할 수 있고 필요한 질문과 답변에 맞게 선택하여 사용해 주세요
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FrOtD9O6nF3FyYnhHdQT6%2F%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%2C%20%E1%84%83%E1%85%A1%E1%86%B8%E1%84%87%E1%85%A7%E1%86%AB_%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%20%E1%84%8B%E1%85%B2%E1%84%92%E1%85%A7%E1%86%BC%20%E1%84%89%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A2%E1%86%A8%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5.png?alt=media&#x26;token=54119548-4cb5-4c8e-aeb5-e00d80773f45" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/질문, 답변_질문 유형 선택 예시 (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 <mark style="color:$info;">유형별 선택 가이드</mark>
@@ -104,7 +140,7 @@ layout:
   * 질문 유형에 따라 필수 값 여부와 복수 선택 여부를 선택할 수 있어요 .
     * 답변을 필수로 수집해야 하는 업종이거나 이벤트 참여를 위해 필수 선택해야 하는 경우 용도에 맞게 선택하여 사용해 주세요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FoMaAc2izxPZ1EgdgvLcz%2F%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%2C%20%E1%84%83%E1%85%A1%E1%86%B8%E1%84%87%E1%85%A7%E1%86%AB_%20%E1%84%91%E1%85%B5%E1%86%AF%E1%84%89%E1%85%AE%20%E1%84%80%E1%85%A1%E1%86%B9%2C%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%AE%20%E1%84%89%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A2%E1%86%A8%20%E1%84%8B%E1%85%A7%E1%84%87%E1%85%AE%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5.png?alt=media&#x26;token=c6ea1203-0d60-45ae-a494-c2af8cd08c32" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/질문, 답변_질문 유형 선택 예시-1.png" alt=""><figcaption></figcaption></figure>
 
 * 질문지의 가독성을 위해 특수문자 사용은 제한하고 있어요.
 * 광고 효율을 위해 반드시 배너 소재와 소개 화면의 내용과 연관성 있는 문항으로 작성해 주세요.
@@ -114,42 +150,6 @@ layout:
   * <mark style="color:orange;">예시) 성 관련 내용, 인종, 정치 성향, 종교, 유전 정보, 범죄 정보, 신용 점수 등</mark>
 * **개인정보 수집 동의 여부와 상관없이 고유 식별 번호 및 금융 정보 수집 및 사용은 제한돼요.**
   * <mark style="color:orange;">예시) 주민등록번호, 카드번호, 여권 번호,운전 면허 번호 등</mark>
-{% endtab %}
-
-{% tab title="정보 검토 화면·동의문" %}
-* **정보 검토 화면**
-  * 유저에게 수집할 정보를 선택하고 수정할 수 있고 동의문에 자동으로 반영돼요.
-    * 연락처 (필수) : 휴대전화 번호,이메일
-    * 사용자 정보 (선택) : 이름,성별,생년월일
-* **동의문 화면**
-  * 광고 집행사
-    * 광고 집행사 정보는 수집된 정보를 실제 활용하는 사업자명을 입력해야해요.
-      * 국내 : 사업자 등록증에 기재된 사업자명 그대로 작성
-        * <mark style="color:$info;">예시) A사가 B사의 광고를 대행하는 경우, B사를 입력</mark>
-      * 국외 : 수집된 정보 활용하는 회사가 국외인 경우 선택 / 사업자명과 소재 국가 작성
-        * 광고 집행사가 해외 기업인 경우에만 토스는 유저에게 해당 항목을 추가하여 동의문을 받고 있어요.
-
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FSgACdeB5i7ee4tDQfSa6%2F%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%A5%E1%86%B7%E1%84%90%E1%85%A9%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB%2C%20%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%B4%E1%84%86%E1%85%AE%E1%86%AB_%E1%84%80%E1%85%AE%E1%86%A8%E1%84%82%E1%85%A2%2C%20%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8B%E1%85%AC.png?alt=media&#x26;token=33f2ec15-fbe3-469c-a5f5-6c6a436b2ea5" alt=""><figcaption></figcaption></figure>
-
-* **이용 및 보유기간**
-  * 이용 및 보유 기간은 예시 이미지 옵션 내에서 선택 가능하고 **12개월 이상 보유할 수 없어요.**
-
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FPlOWeGNwi2pAJ6eBBlND%2F%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%A5%E1%86%B7%E1%84%90%E1%85%A9%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB%2C%20%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%B4%E1%84%86%E1%85%AE%E1%86%AB_%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%87%E1%85%A9%E1%84%8B%E1%85%B2%E1%84%80%E1%85%B5%E1%84%80%E1%85%A1%E1%86%AB.png?alt=media&#x26;token=aab9a7cc-a8e2-4956-8759-6cc0721536ea" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FSp026UbonrY7acsFQHgY%2F%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%A5%E1%86%B7%E1%84%90%E1%85%A9%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB%2C%20%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%B4%E1%84%86%E1%85%AE%E1%86%AB_%E1%84%80%E1%85%AE%E1%86%A8%E1%84%82%E1%85%A2%2C%20%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8B%E1%85%AC-1.png?alt=media&#x26;token=daa7d1af-12c3-4485-9b83-5a1e69e8436f" alt=""><figcaption></figcaption></figure>
-
-* **동의문 직접 만들기**
-  * 직접 작성한 동의문이 포함된 경우, 토스 개인정보보호팀의 별도 심사가 진행되어 일반 소재보다 약 1일 정도 더 소요될 수 있어요.
-  * 설정 항목
-    * 동의문 유형: 필수 항목 / 선택 항목
-    * 동의문 내용: 동의문 제목과 내용을 직접 입력
-  * 직접 만든 동의문은 최대 10개까지 추가할 수 있어요.
-
-{% hint style="danger" %}
-- **리드 수집 후 이용 기간**
-  * 토스의 개인정보 이용 및 보유 기간 정책에 따라 유저에게 수집된 리드는 수집 후 **30일로 설정**되어 있어요.
-  * 수집 후 30일이 경과한 리드는 다운로드하거나 재 수집이 불가해요.
-{% endhint %}
 {% endtab %}
 
 {% tab title="완료 화면" %}
