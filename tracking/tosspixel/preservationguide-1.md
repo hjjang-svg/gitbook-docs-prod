@@ -178,29 +178,13 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').purchase({
+    event_id: "ORD-20260722-001",
     order_id: "ORDER_20260423_0001",
     revenue: 78000,
     total_quantity: 2,
     currency: "KRW",
     purchase_type: "CARD",
-    products: [
-      {
-        product_id: "P12345",
-        product_name: "오가닉 코튼 티셔츠",
-        category_id: "C100",
-        category_name: "상의",
-        price: 39000,
-        quantity: 1
-      },
-      {
-        product_id: "P67890",
-        product_name: "와이드 데님 팬츠",
-        category_id: "C200",
-        category_name: "하의",
-        price: 39000,
-        quantity: 1
-      }
-    ],
+    products: [ /* ... 기존과 동일 ... */ ],
     custom_param1: "member_purchase",
     custom_param2: "spring_campaign"
   });
@@ -214,6 +198,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').signUp({
+    event_id: "SIGNUP-20260722-0142",
     custom_param1: "email",
     custom_param2: "normal_signup"
   });
@@ -227,6 +212,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').lead({
+    event_id: "LEAD-20260722-0031",
     lead_type: "Consultation",
     custom_param1: "insurance",
     custom_param2: "landing_form"
@@ -255,6 +241,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').productView({
+    event_id: "PV-20260722-093245-4c1b",
     product_id: "P12345",
     product_name: "오가닉 코튼 티셔츠",
     category_id: "C100",
@@ -272,27 +259,11 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').addToCart({
+    event_id: "CART-20260722-093512-7a2e",
     revenue: 78000,
     total_quantity: 2,
     currency: "KRW",
-    products: [
-      {
-        product_id: "P12345",
-        product_name: "오가닉 코튼 티셔츠",
-        category_id: "C100",
-        category_name: "상의",
-        price: 39000,
-        quantity: 1
-      },
-      {
-        product_id: "P67890",
-        product_name: "와이드 데님 팬츠",
-        category_id: "C200",
-        category_name: "하의",
-        price: 39000,
-        quantity: 1
-      }
-    ],
+    products: [ /* ... 기존과 동일 ... */ ],
     custom_param1: "cart_button"
   });
 </script>
@@ -305,28 +276,12 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').initiateCheckout({
+    event_id: "CHK-20260722-0087",
     order_id: "ORDER_20260423_0001",
     revenue: 78000,
     total_quantity: 2,
     currency: "KRW",
-    products: [
-      {
-        product_id: "P12345",
-        product_name: "오가닉 코튼 티셔츠",
-        category_id: "C100",
-        category_name: "상의",
-        price: 39000,
-        quantity: 1
-      },
-      {
-        product_id: "P67890",
-        product_name: "와이드 데님 팬츠",
-        category_id: "C200",
-        category_name: "하의",
-        price: 39000,
-        quantity: 1
-      }
-    ],
+    products: [ /* ... 기존과 동일 ... */ ],
     custom_param1: "checkout_page"
   });
 </script>
@@ -339,6 +294,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').search({
+    event_id: "SRCH-20260722-093820-9e5f",
     category_id: "C100",
     category_name: "상의",
     custom_param1: "오가닉 코튼 티셔츠",
@@ -354,6 +310,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').signIn({
+    event_id: "SIGNIN-20260722-093412-8f3a",
     custom_param1: "email",
     custom_param2: "existing_user"
   });
@@ -367,6 +324,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').pageView({
+    event_id: "PAGE-20260722-093010-1a7c",
     custom_param1: "all_page",
     custom_param2: "web"
   });
@@ -380,6 +338,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').viewHome({
+    event_id: "HOME-20260722-092955-3d8e",
     custom_param1: "main_home",
     custom_param2: "logged_in"
   });
@@ -393,21 +352,13 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').firstPurchase({
+    event_id: "ORD-20260722-002",
     order_id: "ORDER_20260423_0002",
     revenue: 39000,
     total_quantity: 1,
     currency: "KRW",
     purchase_type: "CARD",
-    products: [
-      {
-        product_id: "P12345",
-        product_name: "오가닉 코튼 티셔츠",
-        category_id: "C100",
-        category_name: "상의",
-        price: 39000,
-        quantity: 1
-      }
-    ],
+    products: [ /* ... 기존과 동일 ... */ ],
     custom_param1: "new_buyer"
   });
 </script>
@@ -420,6 +371,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').getOffer({
+    event_id: "OFFER-20260722-0221",
     custom_param1: "WELCOME10",
     custom_param2: "download_coupon"
   });
@@ -433,6 +385,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').addToWishlist({
+    event_id: "WISH-20260722-094010-2b9d",
     product_id: "P12345",
     product_name: "오가닉 코튼 티셔츠",
     category_id: "C100",
@@ -451,6 +404,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').subscribe({
+    event_id: "SUB-20260722-0455",
     lead_type: "Newsletter",
     custom_param1: "push_opt_in",
     custom_param2: "app"
@@ -465,6 +419,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').preRegister({
+    event_id: "PRE-20260722-0113",
     product_id: "PRD_PRE_001",
     product_name: "신규 멤버십",
     lead_type: "Preorder",
@@ -480,6 +435,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').viewLimit({
+    event_id: "LIMIT-20260722-0762",
     lead_type: "LoanCheck",
     custom_param1: "credit_loan",
     custom_param2: "mobile_web"
@@ -494,6 +450,7 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 ```html
 <script>
   TossPixel('전환 코드').applyScreening({
+    event_id: "SCR-20260722-0338",
     lead_type: "PreScreening",
     custom_param1: "mortgage",
     custom_param2: "qualified_check"
@@ -511,13 +468,14 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 {% code overflow="wrap" %}
 ```html
 <script>
-    TossPixel('전환 코드').custom('BUTTON_CLICK', {
-        product_id: "P12345",
-        product_name: "오가닉 코튼 티셔츠",
-        category_id: "C100",
-        price: 39000,
-        currency: "KRW"
-    });
+  TossPixel('전환 코드').custom('BUTTON_CLICK', {
+    event_id: "BTN-20260722-095012-6f4a",
+    product_id: "P12345",
+    product_name: "오가닉 코튼 티셔츠",
+    category_id: "C100",
+    price: 39000,
+    currency: "KRW"
+  });
 </script>
 ```
 {% endcode %}
@@ -552,7 +510,8 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 <!-- 표준 이벤트에 커스텀 프로퍼티 추가 -->
 <script>
     TossPixel('전환 코드').purchase({
-        total_price: 78000,
+        event_id: "ORD-20260722-003",
+        revenue: 78000,
         currency: "KRW",
         custom_param1: "summer_sale",
         custom_param2: "landing_A"
@@ -561,7 +520,8 @@ order\_id는 리포트에서 주문을 확인하기 위한 파라미터이고, e
 
 <!-- 커스텀 이벤트에 커스텀 프로퍼티 추가 -->
 <script>
-    new TossPixel('전환 코드').custom('BUTTON_CLICK', {
+    TossPixel('전환 코드').custom('BUTTON_CLICK', {
+        event_id: "BTN-20260722-095430-3c8b",
         product_id: "P12345",
         custom_param1: "cta_top",
         custom_param2: "variant_B"
@@ -598,7 +558,9 @@ function usePageView() {
     const location = useLocation();
 
     useEffect(() => {
-        TossPixel('전환 코드').pageView();
+        TossPixel('전환 코드').pageView({
+            event_id: "PAGE-20260722-093010-1a7c"
+        });
     }, [location.pathname]);
 }
 ```
