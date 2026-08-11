@@ -23,7 +23,7 @@ layout:
 
 ### 캠페인 대시보드
 
-<figure><img src="../../.gitbook/assets/올방미 소재 정보 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/올방미 소재 정보 (7).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -46,7 +46,7 @@ layout:
 
 ### 소재 대시보드
 
-<figure><img src="../../.gitbook/assets/올방미 소재 정보 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/올방미 소재 정보 (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 1. **검색**
    * 소재 탭에서 소재명 또는 소재 ID 로 검색할 수 있어요.
