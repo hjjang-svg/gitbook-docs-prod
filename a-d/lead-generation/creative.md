@@ -81,14 +81,14 @@ layout:
       * 국외 : 수집된 정보 활용하는 회사가 국외인 경우 선택 / 사업자명과 소재 국가 작성
         * 광고 집행사가 해외 기업인 경우에만 토스는 유저에게 해당 항목을 추가하여 동의문을 받고 있어요.
 
+<figure><img src="../../.gitbook/assets/정보 검토 화면, 동의문_국내.png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../../.gitbook/assets/정보 검토 화면, 동의문_국외.png" alt=""><figcaption></figcaption></figure>
 
 * **이용 및 보유기간**
   * 이용 및 보유 기간은 예시 이미지 옵션 내에서 선택 가능하고 **12개월 이상 보유할 수 없어요.**
 
 <figure><img src="../../.gitbook/assets/정보 검토 화면, 동의문_이용 및 보유기간 (5).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/정보 검토 화면, 동의문_국내.png" alt=""><figcaption></figcaption></figure>
 
 * **동의문 직접 만들기**
   * 직접 작성한 동의문이 포함된 경우, 토스 개인정보보호팀의 별도 심사가 진행되어 일반 소재보다 약 1일 정도 더 소요될 수 있어요.
