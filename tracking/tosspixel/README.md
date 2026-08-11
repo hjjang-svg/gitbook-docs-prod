@@ -19,7 +19,7 @@ layout:
     visible: true
 ---
 
-# 웹 광고 성과 측정 연동(토스 픽셀)
+# 토스 픽셀로 웹 광고 성과 측정하기
 
 웹 캠페인을 운영한다면 웹사이트에 토스 픽셀을 설치하여, 전환 이벤트를 수집할 수 있어요.
 
@@ -64,10 +64,12 @@ layout:
 * 스크립트의 파라미터 placeholder 값은 실제 데이터로 치환해요.
 * 존재하지 않는 파라미터는 제외해서 전달할 수 있어요.
 * 지원 파라미터를 함께 보내지 않아도 픽셀 이벤트 자체는 정상 발동해요.
-* currency는 ISO 4217 Currency Code 형식으로 전달해야 (예: KRW, USD)
+* event\_id는 모든 이벤트에 함께 보낼 수 있어요. 전환 이벤트를 고유하게 식별하는 값이라 가능하면 채워서 보내주세요.
+* currency는 ISO 4217 Currency Code 형식으로 전달해야해요. (예: KRW, USD)
 
 | 파라미터명           | 타입     | 설명                          | 예시                                                |
 | --------------- | ------ | --------------------------- | ------------------------------------------------- |
+| event\_id       | String | 전환 이벤트를 고유하게 식별하는 값         | "ORD-20260722-001"                                |
 | order\_id       | String | 주문 ID                       | "ORDER\_20260423\_0001"                           |
 | product\_id     | String | 상품 ID                       | "P12345"                                          |
 | product\_name   | String | 상품명                         | "오가닉 코튼 티셔츠"                                      |
@@ -86,6 +88,13 @@ layout:
 | custom\_param3  | String | Custom Parameter 3          | "variant\_B"                                      |
 | custom\_param4  | String | Custom Parameter 4          | "member"                                          |
 | custom\_param5  | String | Custom Parameter 5          | "campaign\_01"                                    |
+
+{% hint style="info" %}
+**event\_id는 전환 이벤트를 식별하는 값이에요**
+
+event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값이에요. 같은 전환을 가리키는 이벤트에는 같은 의미의 값을, 서로 다른 개별 전환에는 다른 값을 넣어주세요.\
+다른 파라미터와 마찬가지로 선택사항이지만, 값을 채워 보내면 광고주 시스템의 데이터와 수집된 이벤트를 대조하여 중복 제거 기능을 수행 가능합니다.
+{% endhint %}
 
 {% hint style="success" %}
 참고 사항
