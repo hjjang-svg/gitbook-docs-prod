@@ -75,7 +75,7 @@ layout:
 
 ![비디오 배너 - 세로형](<../../.gitbook/assets/영상 배너 - 세로형.png>)
 
-<table><thead><tr><th width="220.00390625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li><code>길이</code> 최소 5초 ~ 최대 120초 <strong>(15초・30초 사용 권장)</strong></li><li><code>지원 형식</code> MP4, MOV, WebM</li><li><code>파일 크기</code> 500MB 미만</li><li><code>프레임 속도</code> 24fps 또는 30fps</li><li><code>코덱 사양</code> H.264 / 오디오 AAC</li><li>버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li></ul></td></tr><tr><td><strong>가로형</strong></td><td><ul><li>16:9 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr><tr><td><strong>세로형</strong></td><td><ul><li>9:16 (권장), 4:5, 1:1 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220.00390625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li><code>길이</code> 최소 3초 ~ 최대 120초 <strong>(15초・30초 사용 권장)</strong></li><li><code>지원 형식</code> MP4, MOV, WebM</li><li><code>파일 크기</code> 500MB 미만</li><li><code>프레임 속도</code> 24fps 또는 30fps</li><li><code>코덱 사양</code> H.264 / 오디오 AAC</li><li>버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li></ul></td></tr><tr><td><strong>가로형</strong></td><td><ul><li>16:9 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr><tr><td><strong>세로형</strong></td><td><ul><li>9:16 (권장), 4:5, 1:1 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr></tbody></table>
 
 #### 3-3) 예시
 
