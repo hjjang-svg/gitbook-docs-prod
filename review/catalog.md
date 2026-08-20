@@ -94,8 +94,13 @@ layout:
 
 상품 이미지는 [토스쇼핑 상품 이미지 가이드](https://drive.google.com/file/d/1IiInMubaIIfGdzqBHBYvbVMEDLLPvvw5/view)를 따릅니다.
 
+상품이 이미지 가장자리에 닿거나 잘리지 않도록 안전 노출 영역을 준수해야 합니다.
+
+<figure><img src="../.gitbook/assets/버튼 누르기 - 소개 (2).png" alt=""><figcaption><p>상품 이미지 안전 노출 영역</p></figcaption></figure>
+
 다음 이미지는 집행이 제한될 수 있습니다.
 
+* 안전 노출 영역이 준수되지 않은 이미지
 * 상품 식별이 어려운 이미지
 * 저해상도, 깨짐, 과도한 왜곡·합성 이미지
 * 과도하게 큰 텍스트·로고(배지)·워터마크가 있는 이미지
