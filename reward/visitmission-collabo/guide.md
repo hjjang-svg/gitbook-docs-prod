@@ -25,7 +25,7 @@ layout:
 
 일주일 방문 미션(협력 광고)는 집행 당일 소재를 만들 수 없어요.
 
-심사를 완료한 소재만 광고를 집행할 수 있어요.&#x20;
+심사를 완료한 소재만 광고를 집행할 수 있어요.
 
 {% hint style="info" %}
 원활한 광고 집행을 위해 집행일 기준 2\~3영업일 전에 소재를 제출해 주세요.
@@ -37,16 +37,19 @@ layout:
 
 **소재 수정**
 
-* 소재는 **\[심사 전]** 상태에서 수정할 수 있어요.&#x20;
+* 소재는 **\[심사 전]** 상태에서 수정할 수 있어요.
   * 집행일이 지나지 않은 캠페인은 \[반려] 상태에서도 수정할 수 있어요.
 * \[심사 중], \[승인] 상태이거나 캠페인이 \[집행 예정], \[집행 중], \[집행 완료], \[집행 중단] 상태인 경우에는 수정할 수 없어요.
-* 심사 승인 이후 소재 수정이 필요한 경우 집행 중단한 뒤 새로 제출해주세요. **단,광고 집행 전날 21:00 이후 심사가 끝나면 예산을 다 쓰지 못할 수 있어요.**
+* 심사 승인 이후 집행을 중단하려면 소재 탭에서 소재 토글을 OFF해 주세요.
+  * 캠페인 클릭 → 노출 상태 → 토글 OFF
+  * OFF 이후 미집행 금액은 캠페인 종료 후 환불돼요.
+  * 소재를 OFF하기 전에 사용자가 미션을 완료했다면 일부 금액이 추가로 과금될 수 있어요.
 
 ***
 
-### **필요한 정보**&#x20;
+### **필요한 정보**
 
-<figure><img src="../../.gitbook/assets/일주일 방문 미션 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2Fddb2SKoS1GG1VFJMwUQH%2F%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%86%E1%85%AE%E1%86%AB%20%E1%84%86%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB.png?alt=media&#x26;token=17dcf58e-8ffc-4b47-8e68-8be9aa986ea1" alt=""><figcaption></figcaption></figure>
 
 | 광고 소재         | 상품 구경하기 | 상품 담기 | 상품 좋아요 누르기 |
 | ------------- | ------- | ----- | ---------- |
@@ -56,13 +59,13 @@ layout:
 | 4. 상품 이미지     | ✓       | ✓     | ✓          |
 | 5. 랜딩 페이지 url | ✓       | ✓     | ✓          |
 
-### 소재 만들기&#x20;
+### 소재 만들기
 
 {% hint style="warning" %}
 [**소재 심사 규정**](https://toss-ads.gitbook.io/guide/policy/creativeguide)**을 반드시 확인해주세요.**
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/올방미 소재 정보 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FvZJ8ATcJqW5cfqoCelcR%2F%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%87%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%20%E1%84%89%E1%85%A9%E1%84%8C%E1%85%A2%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20(1).png?alt=media&#x26;token=ad89b32c-b4f3-40b0-b6cd-2c4e938d06c0" alt=""><figcaption></figcaption></figure>
 
 1. **소재명**
    * 소재 이름을 입력하는 영역이에요. (100자 까지 입력할 수 있어요.)
@@ -83,14 +86,14 @@ layout:
 
 ***
 
-<figure><img src="../../.gitbook/assets/카버누 생성 - 소재 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FcN7ltuOzeOEk1FBktSMT%2F%E1%84%8F%E1%85%A1%E1%84%87%E1%85%A5%E1%84%82%E1%85%AE%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20-%20%E1%84%89%E1%85%A9%E1%84%8C%E1%85%A2.png?alt=media&#x26;token=b1c452b1-b01e-47db-9f04-e5ebee531a39" alt=""><figcaption></figcaption></figure>
 
-1. **카테고리 및 광고 고지 문구** &#x20;
+1. **카테고리 및 광고 고지 문구**
    * 광고 고지 문구(심의필)는 화면 하단에 위치한 행동 유도 버튼 위쪽에 표시돼요.
      * 카테고리에 따라 소재 제출 시 광고 고지 문구를 함께 입력,제출해야 해요.
        * 자세한 내용은 [**업종별 심사 가이드**](https://toss-ads.gitbook.io/guide/policy/industryguide)에서 확인할 수 있어요.
 
-<figure><img src="../../.gitbook/assets/image (6) (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FcjDF6RTkD4XKokiI7Bs6%2Fimage%20(6).png?alt=media&#x26;token=cc161413-8fb5-402d-ab91-6ff7b610564e" alt=""><figcaption></figcaption></figure>
 
 2. **브랜드 로고 이미지**
    * 배경색이 포함된 400\*400px의 jpg,jpeg,png 형식의 이미지를 등록해주세요.
@@ -148,4 +151,3 @@ layout:
 * 공식 제휴 광고가 아니라면 '토스'의 브랜드명·서비스명은 사용할 수 없어요.
   * 내부 협의가 이루어진 경우, 증빙 자료를 제출해주세요.
 * 저작권 침해 등 이슈가 생길 수 있는 소재는 집행할 수 없어요.
-
