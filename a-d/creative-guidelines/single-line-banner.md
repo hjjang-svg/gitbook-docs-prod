@@ -43,7 +43,7 @@ layout:
 
 {% tabs %}
 {% tab title="이미지 규격" %}
-<table><thead><tr><th width="220.11328125">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td>• jpg, jpeg, png<br>• 10mb 이하<br>• 배경 없는 이미지 (누끼 딴 이미지) 사용 불가<br>• 텍스트, 버튼 등 광고 요소와 겹치거나 가리는 경우 사용 불가<br>• 세이프 영역 등 여백 가이드는 하단 파일 참조</td></tr><tr><td><strong>한 줄 배너 이미지</strong></td><td>• 1:1 비율<br>• <code>800*800px</code> 이상</td></tr></tbody></table>
+<table><thead><tr><th width="220.11328125">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td>• jpg, jpeg, png<br>• 10mb 이하<br>• 배경 없는 이미지 (누끼 딴 이미지) 사용 불가<br>• 텍스트, 버튼 등 광고 요소와 겹치거나 가리는 경우 사용 불가<br>• 세이프 영역 등 여백 가이드는 하단 파일 참조</td></tr><tr><td><strong>한 줄 배너 이미지</strong></td><td>• 1:1 비율<br>• <code>400*400px</code> 이상</td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.

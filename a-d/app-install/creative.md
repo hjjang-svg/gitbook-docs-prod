@@ -35,7 +35,7 @@ layout:
 
 앱 서비스를 잘 드러내는 메인 이미지예요.
 
-<table><thead><tr><th width="220">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li>가로 또는 세로 800px 이상</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li>가로 또는 세로 400px 이상</li></ul></td></tr></tbody></table>
 
 ## 문구
 
