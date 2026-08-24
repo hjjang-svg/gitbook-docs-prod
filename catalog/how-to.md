@@ -80,7 +80,7 @@ layout:
 
 ### 자동 등록 설정하기
 
-<figure><img src="../.gitbook/assets/카탈로그 연동 가이드 - 1 (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (2).png" alt=""><figcaption></figcaption></figure>
 
 1. 토스애즈 좌측 메뉴에서 **광고 도구 > 카탈로그**를 선택하고 **생성** 버튼을 눌러 주세요. 카탈로그는 광고계정마다 최대 5개까지 만들 수 있어요.
 2. **카탈로그명**과 **상품 판매처명**을 입력해 주세요. 상품 판매처명은 구매 유도하기 광고 지면에 표시돼요.
