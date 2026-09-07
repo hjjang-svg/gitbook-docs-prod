@@ -130,9 +130,13 @@ layout:
     // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
     TossPixel('전환 코드').productView({
         event_id: "고유 값",
-        product_id: "<!--/number/-->",
-        product_name: "<!--/name/-->",
-        price: priceValue,
+        products: [
+	        {
+		        product_id: "<!--/number/-->",
+		        product_name: "<!--/name/-->",
+		        price: priceValue,
+	        }
+        ],
         currency: "<!--/currency_name/-->"
     });
 </script>
@@ -152,7 +156,7 @@ layout:
 
 {% code overflow="wrap" %}
 ```html
-<a href="<!--/link_wishlist/-->" class="btn_cart fe" id="product_detail_top::add_to_cart_btn">CART</a>
+<a href="<!--/link_basket/-->" class="btn_cart fe" id="product_detail_top::add_to_cart_btn">CART</a>
 <script>
      // Toss Pixel 장바구니 추가 이벤트 수집
      document.getElementById("product_detail_top::add_to_cart_btn").addEventListener('click', function () {
@@ -164,9 +168,13 @@ layout:
      // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
      TossPixel('전환 코드').addToCart({
           event_id: "고유 값",
-          product_id: "<!--/number/-->",
-          product_name: "<!--/name/-->",
-          price: priceValue,
+	        products: [
+		        {
+			        product_id: "<!--/number/-->",
+			        product_name: "<!--/name/-->",
+			        price: priceValue,
+		        }
+	        ],
           currency: "<!--/currency_name/-->"
         });
      });
@@ -260,10 +268,6 @@ layout:
 <script>
     TossPixel('전환 코드').custom('BUTTON_CLICK', {
         event_id: "고유 값",
-        product_id: "{$product_no}",
-        product_name: "{$name}",
-        price: "{$product_sale_price}",
-        currency: "{$price_unit_tail}"
     });
 </script>
 ```
@@ -300,13 +304,13 @@ layout:
 <!-- 표준 이벤트에 커스텀 프로퍼티 추가 -->
 <script>
     // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
-    TossPixel('전환 코드').purchase({
-        revenue: "{$total_order_price_original}",
-        currency: "{$product_revenue_ref}",
+    TossPixel('전환 코드').pageView({
+		    event_id: "고유 값",
         custom_param1: "summer_sale",
         custom_param2: "landing_A"
     });
 </script>
+
 ```
 {% endcode %}
 
@@ -316,7 +320,7 @@ layout:
 <script>
     // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
     TossPixel('전환 코드').custom('BUTTON_CLICK', {
-        product_id: "{$product_no}",
+		    event_id: "고유 값",
         custom_param1: "cta_top",
         custom_param2: "variant_B"
     });
