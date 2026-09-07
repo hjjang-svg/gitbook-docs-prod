@@ -66,61 +66,116 @@ layout:
 {% step %}
 ### 비즈니스 그룹 만들기를 클릭해주세요
 
-<figure><img src="../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/01_비즈니스 그룹 만들기 (2).png" alt=""><figcaption></figcaption></figure>
+
+
 {% endstep %}
 
 {% step %}
 ### 생성할 비즈니스 그룹의 사업자 등록번호를 입력해주세요
 
-<figure><img src="../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/02_비즈니스 그룹 사업자번호 입력 (1).png" alt=""><figcaption></figcaption></figure>
 
 * 입력한 사업자 등록번호를 기준으로 **광고비 정산**과 **세금계산서 발행**이 진행돼요.
   * 한 번 입력한 사업자 등록번호는 수정할 수 없어요. 여러 개의 비즈니스 그룹을 만들어 운영한다면 정산까지 고려해 입력해주세요.
 * **휴업, 폐업** 상태의 사업자로는 비즈니스 그룹을 만들 수 없어요.
+
+
 {% endstep %}
 
 {% step %}
 ### 사업자 등록번호로 비즈니스 그룹을 만들어주세요
 
-<figure><img src="../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
-
 * 입력한 사업자 등록번호를 기준으로 이미 존재하는 비즈니스 그룹 목록을 확인할 수 있어요.
-* 동일한 사업자 등록번호를 사용해 새로운 비즈니스 그룹을 만들려면 **\[새로 생성]**&#xC744; 눌러주세요.
-  * 기존에 만들어진 비즈니스 그룹에 참여하고 싶다면 새로 만들지 않고 아래의 비즈니스 그룹 참여 방법을 확인해주세요.
+* 동일한 사업자 등록번호를 사용해 새로운 비즈니스 그룹을 만들려면 **\[새로 만들기]**&#xB97C; 눌러주세요.
+  * 기존에 만들어진 비즈니스 그룹에 참여하고 싶다면 새로 만들지 않고 아래의 [비즈니스 그룹 참여 방법](business-group.md#undefined-18)을 확인해주세요.
 
-<figure><img src="../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/03_비즈니스 그룹 생성 (2).png" alt=""><figcaption></figcaption></figure>
+
+* 비즈니스 그룹 이름을 입력한 뒤, \[확인] 버튼을 선택해주세요.
+
+<figure><img src="../.gitbook/assets/04_비즈니스 그룹 정보 입력.png" alt=""><figcaption></figcaption></figure>
+
+
+{% endstep %}
+
+{% step %}
+### 토스애즈 약관에 동의해주세요
+
+필요 서류도 함께 확인해주세요.
+
+<figure><img src="../.gitbook/assets/05_약관 동의 · 필요 서류 안내.png" alt=""><figcaption></figcaption></figure>
+
+
+{% endstep %}
+
+{% step %}
+### 대표자 직접 신청 여부와 대표 유형을 선택해주세요
+
+<figure><img src="../.gitbook/assets/06_대표자 직접 신청 여부 (1).png" alt=""><figcaption></figcaption></figure>
+
+
+{% endstep %}
+
+{% step %}
+### 사업자 등록증을 올려주세요
+
+<figure><img src="../.gitbook/assets/08_사업자등록증 업로드.png" alt=""><figcaption></figcaption></figure>
+
+
+{% endstep %}
+
+{% step %}
+### 사업자 정보를 확인해주세요
+
+사업자 정보에 실제와 다른 경우 \[수정하기] 버튼을 선택해 직접 내용을 수정해주세요.
+
+<figure><img src="../.gitbook/assets/08_사업자등록증에서 가져온 정보 확인 (1).png" alt=""><figcaption></figcaption></figure>
+
+
+{% endstep %}
+
+{% step %}
+### 대리인 신청 또는 공동대표일 경우, 위임장과 인감증명서를 올려주세요
+
+\[양식 다운로드] 버튼을 눌러 위임장 양식을 다운로드해주세요. 위임장 양식에 맞춰 내용을 입력하고 제출해주세요.
+
+<figure><img src="../.gitbook/assets/09_위임장·인감증명서 (대리인 신청·공동대표일 때만 제출).png" alt=""><figcaption></figcaption></figure>
+
+
+{% endstep %}
+
+{% step %}
+### 계좌 정보를 입력해주세요
+
+정산 및 세금계산서에 사용돼요.
+
+<figure><img src="../.gitbook/assets/10_정산 계좌 · 통장 사본.png" alt=""><figcaption></figcaption></figure>
+
+
+{% endstep %}
+
+{% step %}
+### 정산 담당자 정보를 입력해주세요
+
+정산 담당자의 이름과 이메일을 입력해주세요. 입력한 이메일로 세금계산서를 보내드려요.
+
+<figure><img src="../.gitbook/assets/11_정산 담당자 정보 (1).png" alt=""><figcaption></figcaption></figure>
+
+
+{% endstep %}
+
+{% step %}
+### 에이전시 여부를 선택해주세요
+
+에이전시(대행사)인지 선택해주세요. 에이전시라면 토스 광고팀과의 수수료 협의 여부를 함께 선택하고, 협의가 필요한 경우 토스애즈에서 연락드려요.
 
 * 자사 브랜드를 직접 광고한다면 **아니요**를 눌러주세요.
 * 에이전시 광고 대행사라면 **네**를 눌러주세요.
   * 별도로 에이전시로 신청하지 않으면 에이전시 계약 체결과 수수료 협의가 어려워요.
 * 이미 가입된 사업자 정보를 가진 비즈니스 그룹은 최초 가입 정보와 같은 **광고 대행 여부**가 자동으로 선택돼요.
-{% endstep %}
 
-{% step %}
-### 사업자 등록번호를 기준으로 사업자 정보를 입력해주세요
-
-#### 위임장 제출하기 <a href="#power-of-attorney" id="power-of-attorney"></a>
-
-법인사업자와 개인사업자 모두 아래 템플릿을 사용해 위임장을 제출해 주세요.
-
-{% file src="../.gitbook/assets/TossAds_광고 위임장.docx" %}
-
-#### 법인사업자
-
-**필요 서류**
-
-* 사업자등록증
-* 법인 계좌 사본
-* 위임장
-
-**아래 항목이 모두 일치하게 입력됐는지 확인해주세요.**
-
-* 사업자명
-* 대표자명
-  * 공동대표인 경우 쉼표로 구분해주세요.
-  * 예 김토스, 박토스, 이토스
-* 개업일
-* 법인 계좌번호
+<figure><img src="../.gitbook/assets/12_에이전시 여부.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **광고 대행사이신가요?**
@@ -140,28 +195,21 @@ layout:
 위 조건에 해당하신다면, adsbiz.team@toss.im 으로 대행 계약 체결 요청 메일을 발송해주세요.
 {% endhint %}
 
-#### 개인사업자
 
-**필요 서류**
-
-* 사업자등록증
-* 계좌 사본
-* 위임장
-
-**아래 항목이 모두 일치하게 입력됐는지 확인해주세요.**
-
-* 사업자명
-* 대표자명
-  * 공동대표인 경우 쉼표(,)로 구분해주세요.
-  * 예) 김토스, 박토스, 이토스
-* 개업일
-* 계좌번호
 {% endstep %}
 
 {% step %}
 ### 비즈니스 그룹 신청 완료
 
 신청한 비즈니스 그룹은 영업일 기준 최대 **1\~2일 이내**에 확인하고, **이메일**로 승인 또는 반려 결과를 안내드려요.
+
+<figure><img src="../.gitbook/assets/13_신청 완료.png" alt=""><figcaption></figcaption></figure>
+
+
+
+심사가 반려되면 반려 사유를 확인하고 \[다시 제출하기]로 재신청할 수 있어요. 재제출 시 기존 그룹이 유지되고 새 그룹이 만들어지지 않아요.
+
+<figure><img src="../.gitbook/assets/14_반려 시 다시 제출하기 (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -179,11 +227,11 @@ layout:
 
 아래 이미지를 참고해 비즈니스 그룹에 참여 요청해 주세요.
 
-<figure><img src="../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/비즈니스 그룹 참여 (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/02_비즈니스 그룹 사업자번호 입력 (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (42) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/비즈니스 그룹 참여 요청 선택.png" alt=""><figcaption></figcaption></figure>
 
 #### 그룹장이 비즈니스 그룹에 구성원 초대하기
 
