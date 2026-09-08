@@ -112,7 +112,7 @@ layout:
 tCPA는 머신러닝이 전환 데이터를 학습하며 입찰을 최적화하는 방식이라, 최적화까지 최대 일주일 정도 걸릴 수 있어요. 학습 초기에는 비용이 일시적으로 목표보다 높아질 수 있지만, 점차 목표 비용에 가까워져요. 다만 목표 비용이 너무 낮으면 예산이 소진되지 않고 전환도 잘 모이지 않을 수 있으니, 이 경우 목표 비용을 조금 올려보세요.
 {% endhint %}
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F7RGUS3334oJ2Ac5Y7M76%2Flead-generation-bid-20260727.png?alt=media&#x26;token=955b0a9d-ff0c-4b48-b87f-61fd3f9d69a8" alt="토스 양식 사용 광고세트에서 목표 전환당 비용을 설정하는 화면"><figcaption></figcaption></figure>
+
 
 **타겟팅**
 
