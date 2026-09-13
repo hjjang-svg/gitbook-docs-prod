@@ -256,17 +256,19 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 </script>
 ```
 
-#### 장바구니 담기 addToCart()
+#### 구매 purchase()
 
-상품을 장바구니에 추가한 시점에 호출해 주세요.
+결제 및 주문이 완료된 시점에 호출해 주세요.
 
 ```html
 <script>
-  TossPixel("전환 코드").addToCart({
-    event_id: "CART-20260722-093512-7a2e",
+  TossPixel("전환 코드").purchase({
+    event_id: "ORD-20260722-001",
+    order_id: "ORDER_20260423_0001",
     revenue: 78000,
     total_quantity: 2,
     currency: "KRW",
+    purchase_type: "CARD",
     products: [
       {
         product_id: "P12345",
@@ -277,7 +279,8 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
         quantity: 2
       }
     ],
-    custom_param1: "cart_button"
+    custom_param1: "member_purchase",
+    custom_param2: "spring_campaign"
   });
 </script>
 ```
