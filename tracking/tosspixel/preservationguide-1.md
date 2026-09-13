@@ -236,18 +236,22 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 #### 상세페이지 조회 productView()
 
-상품 또는 콘텐츠 상세 페이지를 조회한 시점에 호출해 주세요.
+상품 또는 콘텐츠 상세 페이지를 조회한 시점에 호출해 주세요. `product_id`를 포함한 상품 정보는 `products` 배열 안에 넣어주세요. 상품이 하나여도 배열 형태로 전달해 주세요.
 
 ```html
 <script>
-  TossPixel('전환 코드').productView({
+  TossPixel("전환 코드").productView({
     event_id: "PV-20260722-093245-4c1b",
-    product_id: "P12345",
-    product_name: "오가닉 코튼 티셔츠",
-    category_id: "C100",
-    category_name: "상의",
-    price: 39000,
-    currency: "KRW"
+    currency: "KRW",
+    products: [
+      {
+        product_id: "P12345",
+        product_name: "오가닉 코튼 티셔츠",
+        category_id: "C100",
+        category_name: "상의",
+        price: 39000
+      }
+    ]
   });
 </script>
 ```
@@ -258,12 +262,47 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').addToCart({
+  TossPixel("전환 코드").addToCart({
     event_id: "CART-20260722-093512-7a2e",
     revenue: 78000,
     total_quantity: 2,
     currency: "KRW",
-    products: [ /* ... 기존과 동일 ... */ ],
+    products: [
+      {
+        product_id: "P12345",
+        product_name: "오가닉 코튼 티셔츠",
+        category_id: "C100",
+        category_name: "상의",
+        price: 39000,
+        quantity: 2
+      }
+    ],
+    custom_param1: "cart_button"
+  });
+</script>
+```
+
+#### 장바구니 담기 addToCart()
+
+상품을 장바구니에 추가한 시점에 호출해 주세요.
+
+```html
+<script>
+  TossPixel("전환 코드").addToCart({
+    event_id: "CART-20260722-093512-7a2e",
+    revenue: 78000,
+    total_quantity: 2,
+    currency: "KRW",
+    products: [
+      {
+        product_id: "P12345",
+        product_name: "오가닉 코튼 티셔츠",
+        category_id: "C100",
+        category_name: "상의",
+        price: 39000,
+        quantity: 2
+      }
+    ],
     custom_param1: "cart_button"
   });
 </script>
@@ -271,17 +310,26 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 #### 결제 시작 initiateCheckout()
 
-결제/주문 페이지에 진입한 시점에 호출해 주세요.
+결제 또는 주문 페이지에 진입한 시점에 호출해 주세요.
 
 ```html
 <script>
-  TossPixel('전환 코드').initiateCheckout({
+  TossPixel("전환 코드").initiateCheckout({
     event_id: "CHK-20260722-0087",
     order_id: "ORDER_20260423_0001",
     revenue: 78000,
     total_quantity: 2,
     currency: "KRW",
-    products: [ /* ... 기존과 동일 ... */ ],
+    products: [
+      {
+        product_id: "P12345",
+        product_name: "오가닉 코튼 티셔츠",
+        category_id: "C100",
+        category_name: "상의",
+        price: 39000,
+        quantity: 2
+      }
+    ],
     custom_param1: "checkout_page"
   });
 </script>
@@ -345,20 +393,29 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 </script>
 ```
 
-#### 첫 구매 firstPurchase()
+#### 첫 구매 `firstPurchase()`
 
 첫 구매가 완료된 시점에 호출해 주세요.
 
 ```html
 <script>
-  TossPixel('전환 코드').firstPurchase({
+  TossPixel("전환 코드").firstPurchase({
     event_id: "ORD-20260722-002",
     order_id: "ORDER_20260423_0002",
     revenue: 39000,
     total_quantity: 1,
     currency: "KRW",
     purchase_type: "CARD",
-    products: [ /* ... 기존과 동일 ... */ ],
+    products: [
+      {
+        product_id: "P12345",
+        product_name: "오가닉 코튼 티셔츠",
+        category_id: "C100",
+        category_name: "상의",
+        price: 39000,
+        quantity: 1
+      }
+    ],
     custom_param1: "new_buyer"
   });
 </script>
