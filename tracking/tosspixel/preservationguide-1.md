@@ -527,15 +527,11 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 {% code overflow="wrap" %}
 ```html
+<!-- Toss Pixel 커스텀 이벤트 -->
 <script>
-  TossPixel('전환 코드').custom('BUTTON_CLICK', {
-    event_id: "BTN-20260722-095012-6f4a",
-    product_id: "P12345",
-    product_name: "오가닉 코튼 티셔츠",
-    category_id: "C100",
-    price: 39000,
-    currency: "KRW"
-  });
+    TossPixel('전환 코드').custom('BUTTON_CLICK', {
+        event_id: "고유 값",
+    });
 </script>
 ```
 {% endcode %}
@@ -569,10 +565,9 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 ```html
 <!-- 표준 이벤트에 커스텀 프로퍼티 추가 -->
 <script>
-    TossPixel('전환 코드').purchase({
-        event_id: "ORD-20260722-003",
-        revenue: 78000,
-        currency: "KRW",
+    // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
+    TossPixel('전환 코드').pageView({
+		    event_id: "고유 값",
         custom_param1: "summer_sale",
         custom_param2: "landing_A"
     });
@@ -580,9 +575,9 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 <!-- 커스텀 이벤트에 커스텀 프로퍼티 추가 -->
 <script>
+    // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
     TossPixel('전환 코드').custom('BUTTON_CLICK', {
-        event_id: "BTN-20260722-095430-3c8b",
-        product_id: "P12345",
+		    event_id: "고유 값",
         custom_param1: "cta_top",
         custom_param2: "variant_B"
     });
