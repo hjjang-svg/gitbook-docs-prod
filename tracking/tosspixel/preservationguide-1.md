@@ -527,11 +527,15 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 {% code overflow="wrap" %}
 ```html
-<!-- Toss Pixel 커스텀 이벤트 -->
 <script>
-    TossPixel('전환 코드').custom('BUTTON_CLICK', {
-        event_id: "고유 값",
-    });
+  TossPixel('전환 코드').custom('BUTTON_CLICK', {
+    event_id: "BTN-20260722-095012-6f4a",
+    product_id: "P12345",
+    product_name: "오가닉 코튼 티셔츠",
+    category_id: "C100",
+    price: 39000,
+    currency: "KRW"
+  });
 </script>
 ```
 {% endcode %}
