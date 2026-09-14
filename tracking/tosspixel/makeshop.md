@@ -23,6 +23,8 @@ layout:
 
 메이크샵 쇼핑몰에 토스 픽셀을 설치하는 방법을 안내해요.
 
+직접 구축한 자사몰은 [자사몰 픽셀 연동](https://toss-ads.gitbook.io/guide/tracking/tosspixel/preservationguide-1), 카페24은 [카페24 픽셀 연동](https://toss-ads.gitbook.io/guide/tracking/tosspixel/24)을 참고해 주세요.
+
 ## 토스 픽셀 설치하기
 
 {% hint style="info" %}
