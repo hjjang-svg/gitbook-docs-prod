@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 성과 보기
@@ -39,9 +41,7 @@ layout:
 
 #### 캠페인 별 성과 다운로드 <a href="#live-performance-download" id="live-performance-download"></a>
 
-진행하신 광고 캠페인별로 성과를 다운로드 하실 수 있어요.
-
-성과 다운로드의 경우 집행 완료 후 다음날 오전 11시 이후에 다운로드 하실 수 있어요.
+진행하신 광고 캠페인별로 성과를 다운로드 하실 수 있어요. 다운로드는 집행 시작 1시간 이후부터 가능해요.
 
 <figure><img src="../../.gitbook/assets/마이브 마켓_성과 확인하기.png" alt=""><figcaption></figcaption></figure>
 

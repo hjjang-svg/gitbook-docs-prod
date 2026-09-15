@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 성과 보기
@@ -81,5 +83,6 @@ layout:
 
 #### **성과 다운로드**
 
+* 집행 시작 1시간 이후부터 성과를 다운로드할 수 있어요.
 * 다운로드 하면 엑셀 파일로 성과를 확인할 수 있어요.
 
