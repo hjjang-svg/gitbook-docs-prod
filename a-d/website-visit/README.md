@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 방문 유도하기
@@ -86,9 +88,9 @@ layout:
 
 방문 유도하기는 두 가지 입찰 방식을 지원해요.
 
-<figure><img src="../../.gitbook/assets/1.입찰 방식_자동 입찰 클릭 최대화.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/1. maxcpc_0625.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
 
 | 입찰 방식              | 동작 방식                                                        |
 | ------------------ | ------------------------------------------------------------ |
@@ -100,7 +102,7 @@ layout:
 광고 타겟을 **오토 타겟팅**과 **직접 타겟팅** 중에서 선택해 설정해요. 최적화된 자동 타겟팅을 사용하고 싶다면 오토 타겟팅을, 타겟을 세밀하게 정하고 싶다면 직접 타겟팅을 사용해주세요.
 
 {% hint style="info" %}
-💡 **공통 준수 사항 - 성인 타겟팅**
+**공통 준수 사항 - 성인 타겟팅**
 
 * 성인 타겟팅은 성인(만 19세 이상)에게만 노출해야하는 업종이나 광고일 때 사용하는 설정이에요.
 * 성인 타겟팅을 사용하면 만 19세 이상에게만 광고가 노출되고, 미성년자(만 14\~18세)에게는 노출되지 않아요.

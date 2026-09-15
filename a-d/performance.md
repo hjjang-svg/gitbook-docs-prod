@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 성과 보기
@@ -46,14 +48,14 @@ layout:
 * **일별 상세** 버튼을 누르면 캠페인 광고 집행 기간의 성과를 일별로 확인할 수 있어요.
 * 일별 성과는 최대 30일까지 조회할 수 있어요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FIFt852tec9fLamp40W7x%2Fclipboard.webp?alt=media&#x26;token=f306afdd-6516-4de6-9ed7-515ba9c6b461" alt="일별 상세 성과를 조회하는 화면"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (286).png" alt=""><figcaption></figcaption></figure>
 
 ### 시간대별 성과 조회
 
-* 최근 30일의 시간대별 노출 수, 클릭 수, 도달 수, 재생 수 등의 성과 데이터를 볼 수 있어요.
+* 최근 30일의 시간대별로 성과 데이터를 볼 수 있어요.
 * 선택한 캠페인 수나 데이터 양이 많으면 다운로드에 실패할 수 있어요. 이때는 선택 범위를 줄여 다시 시도해 주세요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FkoeVRp0ESde7s6z1qqYQ%2Fclipboard.webp?alt=media&#x26;token=f1e71b80-1397-49c5-9896-9170f3ee19ce" alt="시간대별 성과를 조회하는 화면"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (287).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -101,8 +103,10 @@ layout:
 
 시간별 또는 일별로 원하는 캠페인/세트/소재의 성과 추이를 그래프로 볼 수 있어요. 대시보드에서 제공하는 모든 성과 지표를 비교할 수 있어요.
 
-* 소진 비용, CPC, CPM, CTR, 노출 수, 클릭 수, 도달 수, 도달당 비용, 빈도 수
-* 잠재고객 모으기, 앱 설치, 회원가입, 장바구니 담기, 구매의 전환 수, 전환당 비용, 전환율 등
+* 소진 비용, 과금 클릭 수, CPC, CPM
+* 광고 진입 페이지 노출 수, 광고 진입 페이지 도달 수, 광고 진입 페이지 도달당 비용, 광고 진입 페이지 빈도 수, 광고 진입 CTR, 광고 진입 클릭 수
+* 랜딩 직전 페이지 노출 수, 랜딩 직전 페이지 도달 수, 랜딩 직전 페이지 도달당 비용, 랜딩 직전 페이지 빈도 수, 랜딩 직전 CTR, 랜딩 직전 클릭 수
+* 잠재고객 모으기, 앱 설치, 회원가입, 장바구니 담기, 구매의 전환 수, 전환당 비용, 전환율 등 전환 성과
   * 예: 잠재고객 수, 잠재고객 제출당 비용, 잠재고객 제출률
 * 비교 데이터는 **시간대별/일별 단위**로 구분해 볼 수 있어요.
   * 시간대별: 최대 7일 이내
@@ -114,7 +118,7 @@ layout:
 
 * 광고세트와 소재 탭에서도 같은 방법으로 비교할 수 있어요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F2D57YhKf4mHVKC6UeeJk%2Fclipboard.webp?alt=media&#x26;token=eba9eb02-227a-44d4-b06f-e2c0c515f459" alt="x축과 y축에 성과 지표를 설정해 비교하는 화면"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (288).png" alt=""><figcaption></figcaption></figure>
 
 ### 여러 캠페인끼리 비교
 
@@ -123,7 +127,7 @@ layout:
 * 성과 지표를 추가하면 여러 그래프가 추가돼요.
 * 광고세트와 소재 탭에서도 같은 방법으로 비교할 수 있어요.
 
-<figure><img src="../.gitbook/assets/performance-compare.webp" alt="여러 캠페인의 성과 지표를 비교하는 화면"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (289).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -179,7 +183,7 @@ layout:
 
 #### 내 설정
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FdfGqgS8Njdu9V2SxaxbR%2Fclipboard.webp?alt=media&#x26;token=0409226f-3a84-4f58-aaa4-687decc47359" alt="열 편집의 내 설정 화면"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (290).png" alt=""><figcaption></figcaption></figure>
 
 1. **\[+ 추가]** 버튼을 누르면 나만 볼 수 있는 열 구성을 추가할 수 있어요.
 2. 왼쪽에서 구성할 열을 선택해요.

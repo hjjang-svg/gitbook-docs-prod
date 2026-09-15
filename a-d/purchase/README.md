@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 구매 유도하기
@@ -126,9 +128,9 @@ layout:
 3. 광고 등록 방식에서 **카탈로그 연동**을 선택해주세요.
 4. 캠페인 정보를 입력해주세요. 입력 항목은 직접 등록과 같아요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FRL3IVfV5teubYbmFBh13%2Fclipboard.png?alt=media&#x26;token=08c11161-360a-49af-856e-cb869d427e22" alt="캠페인 목표에서 구매 유도하기를 선택한 화면"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FxsSb0Vum6nQ5n4y4avea%2Fclipboard.png?alt=media&#x26;token=24a9c580-a67e-4f9f-9797-72e25c0aaf6f" alt="광고 등록 방식에서 카탈로그 연동과 직접 등록을 확인하는 화면"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
 | 입력 항목          | 안내                                                    |
 | -------------- | ----------------------------------------------------- |
@@ -148,7 +150,7 @@ layout:
 
 광고세트마다 상품 세트 하나를 반드시 연결해요. 이 광고세트로 노출할 상품이 담긴 상품 세트를 선택해주세요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FJpoFaQPqDv94x6sPv3OV%2Fclipboard.png?alt=media&#x26;token=d775ab22-e3a8-476a-bad8-4f35e5bbd207" alt="카탈로그 광고세트에서 상품 세트를 연결하는 화면"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
 
 **일 예산**
 
@@ -159,10 +161,12 @@ layout:
 카탈로그 연동은 **목표 광고 수익률(Target ROAS)** 자동 입찰을 지원해요. 설정한 광고수익률을 목표로 입찰 금액을 자동으로 최적화하는 전략이에요.
 
 {% hint style="info" %}
-💡 **자동 입찰은 학습 시간이 필요해요.** Target ROAS는 머신러닝이 전환 데이터를 학습하며 입찰을 최적화하는 방식이라, 최적화까지 최대 일주일 정도 걸릴 수 있어요. 학습 초기에는 비용이 일시적으로 목표보다 높아질 수 있지만, 점차 목표 비용에 가까워져요. 다만 목표 비용이 너무 낮으면 예산이 소진되지 않고 전환도 잘 모이지 않을 수 있으니, 이 경우 목표 비용을 조금 올려보세요.
+💡 **자동 입찰은 학습 시간이 필요해요.**&#x20;
+
+Target ROAS는 머신러닝이 전환 데이터를 학습하며 입찰을 최적화하는 방식이라, 최적화까지 최대 일주일 정도 걸릴 수 있어요. 학습 초기에는 비용이 일시적으로 목표보다 높아질 수 있지만, 점차 목표 비용에 가까워져요. 다만 목표 비용이 너무 낮으면 예산이 소진되지 않고 전환도 잘 모이지 않을 수 있으니, 이 경우 목표 비용을 조금 올려보세요.
 {% endhint %}
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FCiL1Qv7b5zjTLqpDCxzz%2Fpurchase-bid-20260727.png?alt=media&#x26;token=ea928a7f-2b24-4279-a88e-3db0f6f31bfe" alt="카탈로그 연동 광고세트에서 목표 광고 수익률을 설정하는 화면"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
 **타겟팅**
 
@@ -218,6 +222,8 @@ layout:
 3. 광고 등록 방식에서 **직접 등록**을 선택해주세요.
 4. 아래 캠페인 정보를 입력해주세요.
 
+<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+
 | 입력 항목          | 안내                                                    |
 | -------------- | ----------------------------------------------------- |
 | **캠페인명**       | 관리하기 쉬운 이름으로 입력해주세요. 입력하지 않으면 `캠페인_생성일시`로 자동 저장돼요.    |
@@ -251,7 +257,7 @@ layout:
 자동 입찰 · 전환 최대는 머신러닝이 전환 데이터를 학습하며 입찰을 최적화하는 방식이라, 최적화까지 최대 일주일 정도 걸릴 수 있어요. 학습 초기에는 비용이 일시적으로 목표보다 높아질 수 있지만, 점차 목표 비용에 가까워져요. 다만 목표 비용이 너무 낮으면 예산이 소진되지 않고 전환도 잘 모이지 않을 수 있으니, 이 경우 목표 비용을 조금 올려보세요.
 {% endhint %}
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F1H284MKx9wYfvETkApEH%2Fclipboard.png?alt=media&#x26;token=1942855e-958a-43c4-a8e3-2d9c8d5487df" alt="직접 등록 광고세트에서 자동 입찰과 직접 입찰을 선택하는 화면"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
 
 **타겟팅**
 

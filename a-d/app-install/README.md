@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 앱 설치 유도하기
@@ -72,9 +74,11 @@ layout:
 💡 **심사 제출 후에는 캠페인 목표, 전환·추적 코드, 앱 정보 수집 및 활용 동의를 변경할 수 없어요.** 심사 제출 전에 다시 확인해 주세요.
 {% endhint %}
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FZTwdlPPAdFXI6sK5aJaN%2Fclipboard.png?alt=media&#x26;token=307a312d-a02f-4e3f-99d4-0c7d95ea8947" alt="캠페인 목표에서 앱 설치 유도하기를 선택한 화면"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (171).png" alt=""><figcaption><p>캠페인 목표에서 앱 설치 유도하기를 선택한 화면</p></figcaption></figure>
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FA5Vu3eulHD2YXE2hIXH6%2Fclipboard.png?alt=media&#x26;token=aa573a20-e118-41b4-9452-5c24ce515d47" alt="전환·추적 코드와 앱 정보 수집 및 활용 동의를 설정하는 화면"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (176).png" alt=""><figcaption><p>전환·추적 코드를 설정하는 화면</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (178).png" alt=""><figcaption><p>앱 정보 수집 및 활용 동의를 설정하는 화면</p></figcaption></figure>
 
 ## 광고세트 만들기 <a href="#app-install-settings" id="app-install-settings"></a>
 
@@ -92,7 +96,7 @@ layout:
 💡 **자동 입찰은 학습 시간이 필요해요.** tCPA는 머신러닝이 전환 데이터를 학습하며 입찰을 최적화하는 방식이라, 최적화까지 최대 일주일 정도 걸릴 수 있어요. 학습 초기에는 비용이 일시적으로 목표보다 높아질 수 있지만, 점차 목표 비용에 가까워져요. 다만 목표 비용이 너무 낮으면 예산이 소진되지 않고 전환도 잘 모이지 않을 수 있으니, 이 경우 목표 비용을 조금 올려보세요.
 {% endhint %}
 
-
+<figure><img src="../../.gitbook/assets/image (186).png" alt=""><figcaption><p>앱 설치 유도하기 광고세트에서 목표 전환당 비용을 설정하는 화면</p></figcaption></figure>
 
 **타겟팅**
 

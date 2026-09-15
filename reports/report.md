@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 맞춤 보고서
@@ -32,9 +34,9 @@ layout:
 
 맞춤 보고서에서 아래 광고상품의 성과를 확인할 수 있어요.
 
-* 배너, 행운퀴즈
+* 디스플레이, 일주일 방문 미션, 머니알림, 행운퀴즈, 라이브 마켓, 숏폼, 두근두근 일등 찍기
 
-<figure><img src="../.gitbook/assets/맞춤보고란_ (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/맞춤 보고서 위치 (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -49,9 +51,9 @@ layout:
 **비교 예시**
 
 * 광고 캠페인별 **소진 비용**과 **CTR**을 함께 비교하여 효율적인 캠페인을 확인
-* 소재별 **노출 수 대비 클릭 수**를 비교해, 반응이 좋은 소재를 파악
+* 소재별 **주요 노출 수 대비 주요 클릭 수**를 비교해, 반응이 좋은 소재를 파악
 
-<figure><img src="../.gitbook/assets/맞춤 보고서_만들기 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (293).png" alt=""><figcaption></figcaption></figure>
 
 ### 기간별 분석으로 트렌드 파악하기
 
@@ -68,9 +70,11 @@ layout:
 **분석 예시**
 
 * 지난 주와 이번 주 클릭률 변화
-* 하루 중 클릭이 가장 많은 시간 대
+*   하루 중 클릭이 가장 많은 시간
 
-<figure><img src="../.gitbook/assets/맞춤 보고서_기간 (2).png" alt=""><figcaption></figcaption></figure>
+    대
+
+<figure><img src="../.gitbook/assets/image (294).png" alt=""><figcaption></figcaption></figure>
 
 ### 병합 ・ 집계 보기
 
@@ -80,11 +84,11 @@ layout:
 
 **표시 예시**
 
-* 캠페인 A 아래 세트 3개, 소재 10개가 있을 때, 캠페인 A의 총 노출 수/소진 비용/클릭 수 등을 한 행으로 요약 표시
+* 캠페인 A 아래 세트 3개, 소재 10개가 있을 때, 캠페인 A의 주요 노출 수/집행 비용/주요 클릭 수 등을 한 행으로 요약 표시
 
-<figure><img src="../.gitbook/assets/맞춤 보고서 병합 집계 보기 ON (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (295).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/맞춤 보고서 병합 집계 보기 OFF (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>
 
 ### 필터로 필요한 데이터만 확인하기
 
@@ -95,7 +99,7 @@ layout:
 * 특정 캠페인, 광고세트 조건으로 검색
 * 리스트, 보드, 페이지 배너 유형 광고 유형별로 검색
 
-<figure><img src="../.gitbook/assets/맞춤 보고서_필터 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (297).png" alt=""><figcaption></figcaption></figure>
 
 ### 주요 보고서 유형 한 번에 생성하기
 
@@ -106,7 +110,7 @@ layout:
 * 지난주 광고 효율을 점검할 때, **‘기간 비교 템플릿’**&#xC744; 선택하여 지난주 대비 클릭률 변화를 빠르게 확인
 * 전일 광고 집행 시간대별 성과를 분석할 때 ‘**시간별 상세 템플릿**’을 선택해 클릭이 집중되는 시간대를 한눈에 파악
 
-<figure><img src="../.gitbook/assets/맞춤 보고서_템플릿 비교 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (298).png" alt=""><figcaption></figcaption></figure>
 
 ### 보고서 저장 및 공유하기
 

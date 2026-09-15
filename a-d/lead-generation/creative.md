@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 잠재고객 모으기 양식 가이드
 
-<figure><img src="../../.gitbook/assets/잠재고객 모으기 위치 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (203).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F3X8WlLXzoyYRGP6We9lX%2F%E1%84%8C%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%A2%20%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%86%E1%85%A9%E1%84%8B%E1%85%B3%E1%84%80%E1%85%B5%20%E1%84%8C%E1%85%B5%E1%84%86%E1%85%A7%E1%86%AB.png?alt=media&#x26;token=8c70729e-b590-4510-ad8a-0014ed5f7e7b" alt=""><figcaption></figcaption></figure>
 
@@ -47,25 +49,62 @@ layout:
 * [x] 소개 화면은 필수예요. 소개 화면이 없으면 소재 심사에서 반려될 수 있어요.
 * [x] 소재 심사 규정에 따라 모든 문장은 **명사형** 또는 **\~해요체**로 기재해야 하고 초성으로 기재할 수 없어요.
 
-- **유형**
+<figure><img src="../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
+
+* **유형**
   * **두 가지 유형을 제공하고 메인 타이틀은 아래와 같이 고정돼요.**
     * 혜택: 지금 바로 이벤트 참여하면 혜택을 받아요.
     * 일반: 지금 바로 이벤트 참여하고 자세한 내용을 상담받으세요.
       * <mark style="color:$info;">혜택과 관련 없거나 의료, 미용, 금융 등 혜택 제공 문구가 법적으로 제한되면 일반 유형을 선택해 주세요.</mark>
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F8R3TpTpmbeqaXwTVan0S%2F%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB_%E1%84%92%E1%85%A8%E1%84%90%E1%85%A2%E1%86%A8%E1%84%80%E1%85%AA%20%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%87%E1%85%A1%E1%86%AB.png?alt=media&#x26;token=eb2b88bb-16f1-445c-8a33-9db41a5ec15a" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure>
 
-* **설명 문구**
-  * 최소 2개 최대 6개까지 추가하거나 제외하여 구성 가능
-  * 1줄 또는 2줄 리스트로 선택 가능
-    * 1줄 리스트 : 공백 포함 18자 입력 가능
-    * 2줄 리스트: 이벤트 부가 설명 (공백 포함 20자) /혜택 내용 (공백 포함 18자)
-  * 설문, 이벤트 등을 통해 유저가 받을 수 있는 **혜택**과 **혜택 조건**을 기재해 주세요.
-  * 리스트 내에 특수문자 또는 이모지는 사용 불가해요.
-  * 중복된 리스트 아이콘 사용 시 심사 반려될 수 있어요.
-    * 리스트에 기재된 혜택 정보와 연관성 있는 아이콘 사용을 권장해요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FTEe2ptyP023NefWu8QXU%2F%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC.png?alt=media&#x26;token=2f57a6c9-c31a-4ee7-b3d4-528ff6da6095" alt=""><figcaption></figcaption></figure>
+
+### 소개 화면 상단문구 가이드
+
+* 브랜드명과 제목은 배경 이미지 위에 얹혀서 노출돼요.
+  * 브랜드명: 공백 포함 최대 20자
+  * 제목: 공백 포함 최대 24자, 두 줄로 입력
+* 소재 심사 규정에 따라 모든 문장은 **명사형** 또는 **\~해요체**로 기재해야 하고 초성으로 기재할 수 없어요.
+
+### 배경 이미지 소재 가이드
+
+**안전 노출 영역**
+
+* 이미지 위쪽 `500px`에는 브랜드명과 제목이 얹히고, 블러와 그라디언트가 자동으로 적용돼요.
+  * 이 영역에는 주요 피사체를 두지 말고, 대비가 약한 배경으로 채워 주세요.
+  * 이 영역에 들어간 문구는 자동으로 흐려져서 잘 읽히지 않아요. 다만 이것만으로 심사에서 반려하지는 않아요.
+* 이미지 아래쪽 `60px`은 혜택 카드에 가려질 수 있어요.
+* 그 사이가 **안전 노출 영역**이에요. 주요 피사체와 그래픽은 이 안에 배치해 주세요.
+  * 안전 노출 영역에 문구가 들어가면 심사에서 반려될 수 있어요.
+  * 전달하려는 정보는 **설명 문구** 입력란을 활용해 주세요.
+* 배경이 없는 이미지(누끼 딴 이미지)와 흰 배경 이미지는 사용할 수 없어요.
+
+#### 반려 기준 <a href="#undefined-5" id="undefined-5"></a>
+
+| 위치                     | 문구가 있을 때         |
+| ---------------------- | ---------------- |
+| 위쪽 500px (자동 블러·그라디언트) | 반려하지 않음          |
+| 안전 노출 영역               | 반려 대상            |
+| 아래쪽 60px               | 하단 설명 배경 영역에 가려짐 |
+
+<figure><img src="../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
+
+### 설명 문구
+
+* 최소 2개 최대 6개까지 추가하거나 제외하여 구성할 수 있어요.
+* 설문, 이벤트 등을 통해 유저가 받을 수 있는 **혜택**과 **혜택 조건**을 기재해 주세요.
+* 1줄 또는 2줄로 입력할 수 있어요.
+  * 1줄 리스트: 혜택 내용 (공백 포함 18자)
+  * 2줄 리스트: 혜택 내용 (공백 포함 18자) + 부가 설명 (공백 포함 20자)
+* 리스트 내에 특수문자 또는 이모지는 사용할 수 없어요.
+* 광고 고지 문구
+  * 심의필이 필요한 업종만 입력하면 돼요.
+  * 최대 80자까지 입력할 수 있어요.
+  * 설명 문구 맨 아래에 들어가요.
+
+<figure><img src="../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="정보 검토 화면·동의문" %}
@@ -81,14 +120,14 @@ layout:
       * 국외 : 수집된 정보 활용하는 회사가 국외인 경우 선택 / 사업자명과 소재 국가 작성
         * 광고 집행사가 해외 기업인 경우에만 토스는 유저에게 해당 항목을 추가하여 동의문을 받고 있어요.
 
-<figure><img src="../../.gitbook/assets/정보 검토 화면, 동의문_국내.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/정보 검토 화면, 동의문_국외.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 
 * **이용 및 보유기간**
   * 이용 및 보유 기간은 예시 이미지 옵션 내에서 선택 가능하고 **12개월 이상 보유할 수 없어요.**
 
-<figure><img src="../../.gitbook/assets/정보 검토 화면, 동의문_이용 및 보유기간 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
 
 * **동의문 직접 만들기**
   * 직접 작성한 동의문이 포함된 경우, 토스 개인정보보호팀의 별도 심사가 진행되어 일반 소재보다 약 1일 정도 더 소요될 수 있어요.
@@ -123,7 +162,7 @@ layout:
 - **유형**
   * 질문 유형은 예시 이미지 옵션 내에서 활용할 수 있고 필요한 질문과 답변에 맞게 선택하여 사용해 주세요
 
-<figure><img src="../../.gitbook/assets/질문, 답변_질문 유형 선택 예시 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (278).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 <mark style="color:$info;">유형별 선택 가이드</mark>
@@ -164,13 +203,15 @@ layout:
   * 전화 응답률을 높이기 위해 전화할 시간을 안내할 수 있어요.
   * 보조 문구 사용을 원하지 않는 경우 '보조문구 사용 안함 항목'을 선택해 주세요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FyZOvQXaAEIEP2GiK8j3o%2F%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB_%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%80%E1%85%AE.png?alt=media&#x26;token=d0936b22-5512-4a35-a79c-f1b0c3d3b856" alt=""><figcaption></figcaption></figure>
 
-* **양식 유형**
-  * 양식 유형은 5가지 옵션 내에서 선택 가능하고 구성한 양식에 알맞은 유형이 없는 경우 해당 없음을 선택해 주세요.
-  * 선택한 유형에 따라 소개 화면 타이틀 문구를 다르게 노출돼요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FZ93MSMYTYOogyUoeqojf%2F%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB_%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8%20%E1%84%8B%E1%85%B2%E1%84%92%E1%85%A7%E1%86%BC.png?alt=media&#x26;token=9f44b7df-91e9-4571-87fe-11719860b5c2" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (283).png" alt=""><figcaption></figcaption></figure>
+
+**양식 유형**
+
+* 양식 유형은 5가지 옵션 내에서 선택 가능하고 구성한 양식에 알맞은 유형이 없는 경우 해당 없음을 선택해 주세요.
+
+<figure><img src="../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="연결 URL" %}

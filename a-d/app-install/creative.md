@@ -17,13 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 앱 설치 유도하기 소재 가이드
 
 앱 설치 유도하기 광고의 소재를 만들 때 필요한 규격과 조건을 안내해요.
-
-<figure><img src="../../.gitbook/assets/image (72).png" alt="앱 설치 유도하기 소재 예시"><figcaption></figcaption></figure>
 
 ## 앱 설치 유도하기 소재란?
 
@@ -69,7 +69,7 @@ layout:
 
 #### 제출하는 링크 2종
 
-<table><thead><tr><th width="220">링크</th><th>내용</th></tr></thead><tbody><tr><td><strong>랜딩 URL</strong></td><td><ul><li>유니버셜 링크(iOS)와 앱 링크(Android)를 지원하는, 전환 추적이 가능한 랜딩 URL이에요.</li><li>앱 성과 측정 도구(MMP)에서 딥링크를 적용해 생성한 트래킹 링크를 제출해요.</li></ul></td></tr><tr><td><strong>앱 스킴 (커스텀 URL 스킴)</strong></td><td><ul><li>앱이 설치된 상태에서 앱을 직접 실행하는 앱 스킴 링크예요. 예를 들어 <code>brandapp://event/123</code> 형태예요.</li><li>http, https 형식은 사용할 수 없어요.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220">링크</th><th>내용</th></tr></thead><tbody><tr><td><strong>랜딩 URL</strong></td><td><ul><li>유니버셜 링크(iOS)와 앱 링크(Android)를 지원하는, 전환 추적이 가능한 랜딩 URL이에요.</li><li>앱 성과 측정도구(MMP)에서 생성한 트래킹 링크를 제출해요.</li></ul></td></tr><tr><td><strong>앱 스킴 (커스텀 URL 스킴)</strong></td><td><ul><li>앱이 설치된 상태에서 앱을 직접 실행하는 앱 스킴 링크예요. 예를 들어 <code>brandapp://event/123</code> 형태예요.</li><li>http, https 형식은 사용할 수 없어요.</li></ul></td></tr></tbody></table>
 
 #### URL 규칙
 
