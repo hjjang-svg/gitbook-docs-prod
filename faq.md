@@ -134,14 +134,6 @@ layout:
 
 <details>
 
-<summary><strong>동영상 재생수가 어떤 기준으로 집계되는지 궁금해요</strong></summary>
-
-동영상을 3초 이상 재생하면 재생수로 집계해요. 성과 지표는 [성과 조회하기](a-d/performance.md#performance-overview)를 확인해 주세요.
-
-</details>
-
-<details>
-
 <summary><strong>예산이 잘 소진되지 않거나 소진 속도가 느려요</strong></summary>
 
 학습이 끝나지 않았거나 타겟 규모가 작고 집행 첫날인 경우 예산이 천천히 소진될 수 있어요. 목표 전환당 비용을 높이거나 타겟 범위를 넓혀 보세요. [목표와 등록 방식 한눈에 비교](a-d/display-ads.md#goal-method-comparison)할 수 있어요.
