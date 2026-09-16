@@ -95,7 +95,7 @@ layout:
 
 {% tabs %}
 {% tab title="문구 규격" %}
-<table><thead><tr><th width="129.1978759765625">규칙</th><th width="324.152099609375">내용</th><th></th></tr></thead><tbody><tr><td><strong>주요 문구</strong></td><td>유저가 받는 혜택이나 서비스 가치를 담아요.</td><td><ul><li><strong>인터넷 바꾸면 최대 145만원</strong></li><li><strong>답답한 채무 무료 상담 받기</strong></li></ul></td></tr><tr><td><strong>보조 문구</strong></td><td>혜택을 받기 위한 조건, 행동이 있다면 알려줘요.</td><td><ul><li>신규 가입시 혜택</li><li>약정 끝난 인터넷</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="129.1978759765625">규칙</th><th width="324.152099609375">내용</th><th></th></tr></thead><tbody><tr><td><strong>주요 문구 (18자)</strong></td><td><p></p><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td><td><ul><li><strong>인터넷 바꾸면 최대 145만원</strong></li><li><strong>답답한 채무 무료 상담 받기</strong></li></ul></td></tr><tr><td><strong>보조 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td><td><ul><li>신규 가입시 혜택</li><li>약정 끝난 인터넷</li></ul></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="작성 기준" %}
@@ -110,7 +110,10 @@ layout:
 {% endtabs %}
 
 {% hint style="warning" %}
-**주요 문구와 보조 문구 모두 문장을 `~고`, `~며`, `~면`, `~해서` 같은 연결어미로 끝낼 수 없어요.**
+**쓸 수 없는 문구**
+
+* 문장을 `~고`, `~며`, `~면`, `~해서` 같은 연결어미로 끝낼 수 없어요. 문장이 끊겨서 그 줄만으로는 뜻이 전해지지 않아요.
+* 주요 문구와 보조 문구에 같은 단어를 반복해서 쓸 수 없어요. (브랜드명 · 상품명 포함)
 {% endhint %}
 
 #### 예시 <a href="#copy-examples" id="copy-examples"></a>
@@ -175,9 +178,11 @@ layout:
 
 **작성 기준**
 
-<table><thead><tr><th width="134.8125">구분</th><th width="250.83984375">작성 방법</th><th>예시</th></tr></thead><tbody><tr><td><strong>주요 문구</strong></td><td>유저가 받는 혜택이나 가치가 주요문구만 읽어도 드러날 수 있도록 써요. <strong>명사형 또는 <code>~기</code></strong>로 마무리해요.</td><td><ul><li><strong>월 1,900원에 정수기 렌탈</strong></li><li><strong>인터넷 바꾸고 10만원 받기</strong></li></ul></td></tr><tr><td><strong>보조 문구</strong></td><td>유저가 혜택을 받기위해 해야 할 행동이나 조건이 들어가요. <strong>명사형</strong>으로 끝나는 것을 권장해요.(<code>~고</code>, <code>~면</code> 같은 연결 어미로 끝나지 않아요.)</td><td><ul><li><strong>신규 회원가입 혜택</strong></li><li><strong>결제시 바로 할인</strong></li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="134.8125">구분</th><th width="250.83984375">작성 방법</th><th>예시</th></tr></thead><tbody><tr><td><strong>주요 문구</strong></td><td>유저가 받는 혜택이나 서비스 가치를 담아요.</td><td><ul><li><strong>인터넷 바꾸면 최대 145만원</strong></li><li><strong>답답한 채무 무료 상담 받기</strong></li></ul></td></tr><tr><td><strong>보조 문구</strong></td><td>혜택을 받기 위한 조건, 행동이 있다면 알려줘요.</td><td><ul><li>신규 가입시 혜택</li><li>약정 끝난 인터넷</li></ul></td></tr></tbody></table>
 
-토스 양식 사용으로 등록한 한 줄 배너는 토스 앱의 **구경한 혜택** 지면에서 다른 배너와 함께 목록으로 노출돼요. 유저가 각 배너의 내용을 빠르게 파악할 수 있도록, 문구에는 전달하려는 핵심만 짧고 간결하게 담아 주세요.
+{% hint style="warning" %}
+**주요 문구와 보조 문구 모두 문장을 `~고`, `~며`, `~면`, `~해서` 같은 연결어미로 끝낼 수 없어요.**
+{% endhint %}
 
 상품권·리워드·쿠폰 같은 현물성 혜택이 없어도 캠페인을 집행할 수 있어요.
 
@@ -195,27 +200,27 @@ layout:
 
 #### 예시 <a href="#lead-generation-copy-examples" id="lead-generation-copy-examples"></a>
 
-토스 양식 사용으로 등록한 한 줄 배너는 토스 앱의 **구경한 혜택** 지면에 아래와 같이 노출돼요.
+잠재고객 모으기로 등록한 한줄 배너는 토스앱의 최근본 딜, 혜택탭의 광고 지면에 아래와 같이 노출돼요.
 
-<figure><img src="../../.gitbook/assets/lead-generation-native-placement (1).png" alt="구경한 혜택 지면에 노출된 토스 양식 사용 한 줄 배너 예시"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (300).png" alt=""><figcaption></figcaption></figure>
 
 **주요문구 한 줄 만으로도 서비스의 가치가 드러나게 써 주세요.**
 
-| <mark style="color:$primary;">**`DO`**</mark>                                                             | <mark style="color:$danger;">**`Don't`**</mark> |
-| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| <p><strong>내 보험 무료 점검</strong><br>모든 상담고객 무료</p><p></p><p><strong>무료 채무조정 상담</strong><br>원금 최대 90% 탕감</p> | <p>보험 점검 신청<br>지금 바로 신청하기</p>                   |
+| <mark style="color:$primary;">**`DO`**</mark>    | <mark style="color:$danger;">**`Don't`**</mark> |
+| ------------------------------------------------ | ----------------------------------------------- |
+| <p><strong>내 보험 무료 점검</strong><br>모든 상담고객 무료</p> | <p><strong>보험 점검 신청</strong><br>지금 바로 신청하기</p>  |
 
 **특수문자는 다른 표현으로 바꾸기 어려운 경우에만 써 주세요.**
 
-| <mark style="color:$primary;">**`DO`**</mark>                                                           | <mark style="color:$danger;">**`Don't`**</mark>                                                                       |
-| ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| <p>생활용품 세트 <strong>구매</strong><br>1+1+1 구성 받기</p><p>오전 9:30 <strong>상담 예약</strong><br>10,000원 쿠폰 받기</p> | <p>가전 구독하고<code>,</code><br>리워드 받기<code>!</code><br><br><code>[7월 한정]</code> 상담 신청하고<br><code>(알림)</code> 혜택 확인하기</p> |
+| <mark style="color:$primary;">**`DO`**</mark>                                                                 | <mark style="color:$danger;">**`Don't`**</mark>                            |
+| ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| <p><strong>생활용품 세트 1+1+1</strong><br>지금 구매하기</p><p></p><p><strong>오전 9:30 상담 예약</strong><br>10,000원 쿠폰 받기</p> | <p>[생활용품] 세트증정!<br>지금 구매하기~</p><p></p><p>[6월 한정] 상담 예약<br>-10,000 쿠폰 →</p> |
 
 **알파벳 `X` 대신 `없이`처럼 문장으로 풀어 써 주세요.**
 
-| <mark style="color:$primary;">**`DO`**</mark>       | <mark style="color:$danger;">**`Don't`**</mark> |
-| --------------------------------------------------- | ----------------------------------------------- |
-| <p>가입비 없이 <strong>무료 체험 신청</strong><br>맞춤 상담 받기</p> | <p>가입비<code>X</code> 무료 체험 신청하고<br>맞춤 상담 받기</p> |
+| <mark style="color:$primary;">**`DO`**</mark>       | <mark style="color:$danger;">**`Don't`**</mark>                       |
+| --------------------------------------------------- | --------------------------------------------------------------------- |
+| <p><strong>가입비 없이 무료 체험 신청</strong><br>맞춤 상담 받기</p> | <p>가입비 <strong>X</strong> 무료 체험 신청<strong>하고</strong><br>맞춤 상담 받기</p> |
 
 ## 광고 고지 문구(심의필) <a href="#disclosure" id="disclosure"></a>
 
