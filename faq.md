@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # FAQ
@@ -188,25 +190,9 @@ layout:
 
 <details>
 
-<summary><strong>특정 지면에만 광고를 노출하고 싶어요</strong></summary>
-
-디스플레이 광고는 특정 지면 하나만 선택할 수 없고 전체 지면에서 성과에 맞춰 노출돼요. 지면 설정 기준은 [광고세트 설정하기](a-d/display-ads.md)를 확인해 주세요.
-
-</details>
-
-<details>
-
 <summary><strong>특정 브랜드 구매자를 타겟으로 광고하고 싶어요</strong></summary>
 
-관심·속성이나 업종 카테고리 등 결제 이력에 기반한 타겟을 설정할 수 있어요. 구매 유도하기는 [직접 타겟팅 설정](a-d/purchase/#direct-settings)을, 잠재고객 모으기는 [URL 방식 직접 타겟팅 설정](a-d/lead-generation/#url-settings)을 확인해 주세요.
-
-</details>
-
-<details>
-
-<summary><strong>7월 디스플레이 광고 개편 뒤 기존 캠페인을 다시 만들고 싶어요</strong></summary>
-
-2026년 7월 1일부터 새 버전으로 자동 전환됐으며, 종료된 캠페인은 이전 버전으로 다시 설정할 수 없어요. 현재 캠페인 구성은 [디스플레이 광고](a-d/display-ads.md)를 확인해 주세요.
+관심·속성이나 업종 카테고리 등 결제 이력에 기반한 타겟을 설정할 수 있어요. &#x20;
 
 </details>
 
