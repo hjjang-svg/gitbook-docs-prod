@@ -144,7 +144,7 @@ layout:
 
 <summary><strong>잠재고객 정보가 어디에 저장되는지 모르겠어요</strong></summary>
 
-수집한 잠재고객 정보는 대시보드에서 파일로 내려받을 수 있어요. 제출 후 파일에 반영되기까지 30분에서 1시간 정도 걸릴 수 있으며, 더 빠르게 받으려면 웹훅을 연동해 주세요. [잠재고객 다운로드](a-d/performance.md#lead-download)와 [잠재고객 모으기 웹훅 연동하기](tracking/webhook.md)를 확인해 주세요.
+수집한 잠재고객 정보는 대시보드에서 파일로 내려받을 수 있어요. 제출 후 파일에 반영되기까지 1시간 정도 걸릴 수 있으며, 더 빠르게 받으려면 웹훅을 연동해 주세요. [잠재고객 다운로드](a-d/performance.md#lead-download)와 [잠재고객 모으기 웹훅 연동하기](tracking/webhook.md)를 확인해 주세요.
 
 </details>
 
