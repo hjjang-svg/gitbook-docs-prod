@@ -95,7 +95,7 @@ layout:
 
 {% tabs %}
 {% tab title="문구 규격" %}
-<table><thead><tr><th width="220.34375">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="129.1978759765625">규칙</th><th width="324.152099609375">내용</th><th></th></tr></thead><tbody><tr><td><strong>주요 문구</strong></td><td>유저가 받는 혜택이나 서비스 가치를 담아요.</td><td><ul><li><strong>인터넷 바꾸면 최대 145만원</strong></li><li><strong>답답한 채무 무료 상담 받기</strong></li></ul></td></tr><tr><td><strong>보조 문구</strong></td><td>혜택을 받기 위한 조건, 행동이 있다면 알려줘요.</td><td><ul><li>신규 가입시 혜택</li><li>약정 끝난 인터넷</li></ul></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="작성 기준" %}
@@ -109,11 +109,8 @@ layout:
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-**쓸 수 없는 문구**
-
-* 문장을 `~고`, `~며`, `~면`, `~해서` 같은 연결어미로 끝낼 수 없어요. 문장이 끊겨서 그 줄만으로는 뜻이 전해지지 않아요.
-* 주요 문구와 보조 문구에 같은 단어를 반복해서 쓸 수 없어요. (브랜드명 · 상품명 포함)
+{% hint style="warning" %}
+**주요 문구와 보조 문구 모두 문장을 `~고`, `~며`, `~면`, `~해서` 같은 연결어미로 끝낼 수 없어요.**
 {% endhint %}
 
 #### 예시 <a href="#copy-examples" id="copy-examples"></a>
@@ -202,6 +199,12 @@ layout:
 
 <figure><img src="../../.gitbook/assets/lead-generation-native-placement (1).png" alt="구경한 혜택 지면에 노출된 토스 양식 사용 한 줄 배너 예시"><figcaption></figcaption></figure>
 
+**주요문구 한 줄 만으로도 서비스의 가치가 드러나게 써 주세요.**
+
+| <mark style="color:$primary;">**`DO`**</mark>                                                             | <mark style="color:$danger;">**`Don't`**</mark> |
+| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| <p><strong>내 보험 무료 점검</strong><br>모든 상담고객 무료</p><p></p><p><strong>무료 채무조정 상담</strong><br>원금 최대 90% 탕감</p> | <p>보험 점검 신청<br>지금 바로 신청하기</p>                   |
+
 **특수문자는 다른 표현으로 바꾸기 어려운 경우에만 써 주세요.**
 
 | <mark style="color:$primary;">**`DO`**</mark>                                                           | <mark style="color:$danger;">**`Don't`**</mark>                                                                       |
@@ -213,18 +216,6 @@ layout:
 | <mark style="color:$primary;">**`DO`**</mark>       | <mark style="color:$danger;">**`Don't`**</mark> |
 | --------------------------------------------------- | ----------------------------------------------- |
 | <p>가입비 없이 <strong>무료 체험 신청</strong><br>맞춤 상담 받기</p> | <p>가입비<code>X</code> 무료 체험 신청하고<br>맞춤 상담 받기</p> |
-
-**혜택이 없다면 서비스의 가치가 드러나게 써 주세요.**
-
-| <mark style="color:$primary;">**`DO`**</mark>                                                             | <mark style="color:$danger;">**`Don't`**</mark> |
-| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| <p><strong>내 보험 무료 점검</strong><br>모든 상담고객 무료</p><p></p><p><strong>무료 채무조정 상담</strong><br>원금 최대 90% 탕감</p> | <p>보험 점검 신청<br>지금 바로 신청하기</p>                   |
-
-**혜택이 있다면 실제 혜택이 드러나게 써 주세요.**
-
-| <mark style="color:$primary;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
-| --------------------------------------------- | ----------------------------------------------- |
-| <p>시승 신청하고<br>1만원 상품권 받기</p>                  | <p>시승 신청하고<br>푸짐한 선물 받아가기</p>                   |
 
 ## 광고 고지 문구(심의필) <a href="#disclosure" id="disclosure"></a>
 
