@@ -192,7 +192,8 @@ layout:
 
 <summary><strong>특정 브랜드 구매자를 타겟으로 광고하고 싶어요</strong></summary>
 
-관심·속성이나 업종 카테고리 등 결제 이력에 기반한 타겟을 설정할 수 있어요. &#x20;
+관심·속성이나 업종 카테고리 등 결제 이력에 기반한 타겟을 설정할 수 있어요.  \
+구매 유도하기 [광고세트 만들기 설정](a-d/purchase/#direct-settings)과 방문 유도하기 [광고 세트 만들기 설정](a-d/website-visit/#undefined-3)을 확인해주세요.
 
 </details>
 
