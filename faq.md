@@ -40,7 +40,7 @@ layout:
 
 <summary><strong>대표자가 바뀌었거나 담당자가 퇴사해서 계정을 넘기고 싶어요</strong></summary>
 
-위임장(PDF), 사업자등록증, 새 담당자가 가입한 이메일 정보를 채널톡으로 제출해 주세요. 확인 후 새 담당자에게 수기로 권한을 부여해요. 필요한 서류는 [위임장 템플릿과 제출 서류](account/business-group.md#power-of-attorney)를 확인해 주세요.
+위임장(PDF), 사업자등록증, 새 담당자가 가입한 이메일 정보를 채널톡으로 제출해 주세요. 확인 후 새 담당자에게 수기로 권한을 부여해요. 필요한 서류는 [비즈니스 그룹 생성·운영](account/business-group.md#power-of-attorney) 가이드를 확인해 주세요.
 
 </details>
 
@@ -152,7 +152,7 @@ layout:
 
 <summary><strong>예산이 잘 소진되지 않거나 소진 속도가 느려요</strong></summary>
 
-학습이 끝나지 않았거나 타겟 규모가 작고 집행 첫날인 경우 예산이 천천히 소진될 수 있어요. 목표 전환당 비용을 높이거나 타겟 범위를 넓혀 보세요. 목표별 차이는 [입찰 방식 비교](a-d/display-ads.md#goal-method-comparison)와 [캠페인 구조](a-d/display-ads.md#campaign-structure)를 확인해 주세요.
+학습이 끝나지 않았거나 타겟 규모가 작고 집행 첫날인 경우 예산이 천천히 소진될 수 있어요. 목표 전환당 비용을 높이거나 타겟 범위를 넓혀 보세요. [목표와 등록 방식 한눈에 비교](a-d/display-ads.md#goal-method-comparison)할 수 있어요.
 
 </details>
 
@@ -319,6 +319,6 @@ layout:
 
 <summary><strong>라이브 마켓 성과를 바로 확인하고 싶어요</strong></summary>
 
-방송이 끝난 다음 날부터 성과를 확인하고 파일로 내려받을 수 있어요. 자세한 내용은 [라이브 마켓 성과 다운로드](reward/liveshopping/data.md#live-performance-download)를 확인해 주세요.
+집행 시작 1시간 이후 부터 파일로 내려받을 수 있어요. 자세한 내용은 [라이브 마켓 성과 다운로드](reward/liveshopping/data.md#live-performance-download)를 확인해 주세요.
 
 </details>
