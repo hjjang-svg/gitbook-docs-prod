@@ -143,18 +143,6 @@ layout:
 {% endhint %}
 {% endtab %}
 
-{% tab title="이벤트 이미지" %}
-* [x] 이벤트 이미지는 필요에 따라 사용 여부를 선택할 수 있어요.
-
-- **이미지 파일**
-  * 배경색이 있는 1500\*760 사이즈 png,jpg,jpeg 이미지
-- 이미지 내에 문구가 30% 이상 차지하는 경우 심사 반려될 수 있어요.
-  * 정보 전달성 문구는 설명 문구 입력란을 활용해 주세요.
-  * 브랜드 로고는 중앙 또는 코너에 배치해 주세요.
-
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FGlIBGeRsmJp9nkVsbZ3J%2F%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A6%E1%86%AB%E1%84%90%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5_%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%82%E1%85%A2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A1%E1%86%B8%E1%84%8B%E1%85%B5%E1%86%B8.png?alt=media&#x26;token=0a9fe7d1-c8ee-453c-b246-a93a54f7b373" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
 {% tab title="질문·답변" %}
 * [x] 소재 심사 규정에 따라 질문 내용은 **명사형** 또는 **\~해요체**로 기재해야 하고 초성으로 기재할 수 없어요
 * [x] 질문은 최소 1개 최대 8개까지 구성할 수 있어요
@@ -162,7 +150,7 @@ layout:
 - **유형**
   * 질문 유형은 예시 이미지 옵션 내에서 활용할 수 있고 필요한 질문과 답변에 맞게 선택하여 사용해 주세요
 
-<figure><img src="../../.gitbook/assets/image (278).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5.고객 수집 양식 가이드_0909.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 <mark style="color:$info;">유형별 선택 가이드</mark>
