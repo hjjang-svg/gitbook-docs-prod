@@ -83,11 +83,7 @@ layout:
 
 #### 반려 기준 <a href="#undefined-5" id="undefined-5"></a>
 
-| 위치                     | 문구가 있을 때         |
-| ---------------------- | ---------------- |
-| 위쪽 500px (자동 블러·그라디언트) | 반려하지 않음          |
-| 안전 노출 영역               | 반려 대상            |
-| 아래쪽 60px               | 하단 설명 배경 영역에 가려짐 |
+* 안전 노출 영역에 문구가 들어가면 반려돼요.
 
 <figure><img src="../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
