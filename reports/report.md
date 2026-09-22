@@ -36,7 +36,7 @@ layout:
 
 * 디스플레이, 일주일 방문 미션, 머니알림, 행운퀴즈, 라이브 마켓, 숏폼, 두근두근 일등 찍기
 
-<figure><img src="../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/맞춤보고란_ (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/맞춤 보고서 위치 (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -53,7 +53,7 @@ layout:
 * 광고 캠페인별 **소진 비용**과 **CTR**을 함께 비교하여 효율적인 캠페인을 확인
 * 소재별 **주요 노출 수 대비 주요 클릭 수**를 비교해, 반응이 좋은 소재를 파악
 
-<figure><img src="../.gitbook/assets/image (293).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/맞춤 보고서_만들기 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 기간별 분석으로 트렌드 파악하기
 
@@ -63,18 +63,19 @@ layout:
 
 * 기본: 원하는 기간의 총합 데이터를 확인할 수 있음
 * 비교: 비교하고자 하는 두 기간을 선택하여 비교할 수 있음
-* 시간별: 하루 동안의 데이터를 시간대별로 확인할 수 있음
 * 일별: 지정한 기간의 데이터의 일 단위 추이를 확인할 수 있음
+  * 시간별: 최대 14일까지, 데이터를 시간대별로 확인할 수 있음
+
+<figure><img src="../.gitbook/assets/맞춤 보고서_필터 (1) (1).png" alt=""><figcaption></figcaption></figure>
+
 * 주별: 지정한 기간의 데이터의 주 단위 추이를 확인할 수 있음
 
 **분석 예시**
 
 * 지난 주와 이번 주 클릭률 변화
-*   하루 중 클릭이 가장 많은 시간
+* 하루 중 클릭이 가장 많은 시간대
 
-    대
-
-<figure><img src="../.gitbook/assets/image (294).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/맞춤 보고서_기간 (3).png" alt=""><figcaption></figcaption></figure>
 
 ### 병합 ・ 집계 보기
 
@@ -86,9 +87,9 @@ layout:
 
 * 캠페인 A 아래 세트 3개, 소재 10개가 있을 때, 캠페인 A의 주요 노출 수/집행 비용/주요 클릭 수 등을 한 행으로 요약 표시
 
-<figure><img src="../.gitbook/assets/image (295).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/맞춤 보고서 병합 집계 보기 ON (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/맞춤 보고서 병합 집계 보기 OFF (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 필터로 필요한 데이터만 확인하기
 
