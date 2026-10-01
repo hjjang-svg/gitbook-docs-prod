@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 소재 가이드
@@ -96,10 +98,10 @@ layout:
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FcjDF6RTkD4XKokiI7Bs6%2Fimage%20(6).png?alt=media&#x26;token=cc161413-8fb5-402d-ab91-6ff7b610564e" alt=""><figcaption></figcaption></figure>
 
 2. **브랜드 로고 이미지**
-   * 배경색이 포함된 400\*400px의 jpg,jpeg,png 형식의 이미지를 등록해주세요.
+   * 1:1 비율 400\*400px 이상, 크기 10mb 이하의 png, jpg, jpeg 형식의 이미지를 등록해주세요.
    * 로고만 삽입된 정사각형 이미지를 사용해주세요.
      * 제품 이미지 및 기획전 이미지는 사용할 수 없어요.
-   * 투명 배경, 강한 형광색, 토스의 배경 색상과 같은 컬러의 배경 이미지는 사용할 수 없어요.
+   * 강한 형광색 배경은 사용할 수 없어요.
    * 테두리가 포함된 이미지는 사용할 수 없어요.
 3. **브랜드명**
    * 공백 포함 최대 20자까지 입력할 수 있어요.
