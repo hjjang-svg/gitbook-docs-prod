@@ -118,7 +118,7 @@ layout:
 
 #### 예시 <a href="#copy-examples" id="copy-examples"></a>
 
-**짧고 쉽게, 누구나 이해할 수 있게 써 주세요.**
+**짧고 쉽게, 누구나 이해할 수 있게 써 주세요.**  &#x20;
 
 | <mark style="color:blue;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
 | ----------------------------------------- | ----------------------------------------------- |
@@ -202,7 +202,7 @@ layout:
 
 잠재고객 모으기로 등록한 한줄 배너는 토스앱의 최근본 딜, 혜택탭의 광고 지면에 아래와 같이 노출돼요.
 
-<figure><img src="../../.gitbook/assets/image (300).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Frame 46 (15).png" alt=""><figcaption></figcaption></figure>
 
 **주요문구 한 줄 만으로도 서비스의 가치가 드러나게 써 주세요.**
 
