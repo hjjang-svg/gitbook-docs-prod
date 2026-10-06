@@ -172,5 +172,5 @@ Integrations → Intergrated Ad Channels 선택 → \[Toss]앱 검색
   * 자세한 설정 방법은 에어브릿지 대시보드 내 연동 > 광고 채널 연동 > 토스 >트래킹 링크 탭에서 확인하실 수 있어요.
 * 이벤트 매핑이 잘못되면 실제 전환 데이터가 빠질 수 있으니 필수 항목의 구조를 꼭 확인해 주세요.
 * Tracking URL에서 수정이 필요한 항목은 캠페인 설정 시 **소재 URL** 섹션에서 다시 확인할 수 있습니다.
-* **카탈로그 및 앱 설치 유도하기 광고**를 운영하는 경우, 토스 광고 상품 내 최적 경험을 위해 트래킹 링크 생성시 스탑오버 에어페이지를 OFF (미적용)해주세요. 스탑오버 에어페이지 상세 가이드는 [에어브릿지](https://help.airbridge.io/ko/deeplink-guides/deeplink-option-setting#%EC%8A%A4%ED%83%91%EC%98%A4%EB%B2%84-%EC%97%90%EC%96%B4%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)에서 확인하실 수 있습니다.
+* 카탈로그 및 앱 설치 유도하기 광고를 운영하는 경우, 토스 광고 상품 내 최적 경험을 위해 트래킹 링크 생성시 **스탑오버 에어페이지를 OFF (미적용)**&#xD574;주세요. 스탑오버 에어페이지 상세 가이드는 [에어브릿지](https://help.airbridge.io/ko/deeplink-guides/deeplink-option-setting#%EC%8A%A4%ED%83%91%EC%98%A4%EB%B2%84-%EC%97%90%EC%96%B4%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)에서 확인하실 수 있습니다.
 {% endhint %}
