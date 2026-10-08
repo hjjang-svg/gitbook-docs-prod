@@ -77,7 +77,7 @@ layout:
 ### 시작하기 전 준비하기 <a href="#toss-form-prerequisites" id="toss-form-prerequisites"></a>
 
 * **미리 준비할 정보**
-  * 고객 수집 양식의 필수 **소개 화면**에 넣을 정보(혜택 안내, 수집할 항목 등). 소개 화면과 질문 양식은 소재 단계에서 설정해요. 자세한 기준은 [잠재고객 모으기 양식 가이드](creative.md)에서 확인할 수 있어요.
+  * 고객 수집 양식의 필수 **소개 화면**에 넣을 정보(혜택 안내, 수집할 항목 등). 소개 화면과 질문 양식은 소재 단계에서 설정해요. 자세한 기준은 잠재고객 모으기 양식 가이드 ([토스 양식](toss-form.md)/[외부 URL](url.md))에서 확인할 수 있어요.
   * 소재에 사용할 문구·이미지
 
 ### 캠페인 만들기 <a href="#toss-form-create-campaign" id="toss-form-create-campaign"></a>
@@ -146,7 +146,7 @@ tCPA는 머신러닝이 전환 데이터를 학습하며 입찰을 최적화하�
   * 노출 시간대 설정을 클릭하실 경우 간단하게 노출 시간대를 설정할 수 있어요.
   * 요일별 시간대 설정을 클릭하실 경우 노출 요일과 시간을 설정할 수 있어요.
 
-광고세트까지 설정했다면, [잠재고객 모으기 양식 가이드](creative.md)에서 고객 수집 양식을 만들고 [네이티브 광고 전용 문구 기준](../creative-guidelines/single-line-banner.md#lead-generation-copy)에 따라 한 줄 배너를 등록한 뒤, [소재별 심사 정책](../../review/creativeguide.md)에 따라 심사를 신청해 주세요. 집행을 시작한 뒤에는 [성과 보기](../performance.md)에서 성과를 확인할 수 있어요.
+광고세트까지 설정했다면, 잠재고객 모으기 양식 가이드 ([토스 양식](toss-form.md)/[외부 URL](url.md))에서 고객 수집 양식을 만들고 [네이티브 광고 전용 문구 기준](../creative-guidelines/single-line-banner.md#lead-generation-copy)에 따라 한 줄 배너를 등록한 뒤, [소재별 심사 정책](../../review/creativeguide.md)에 따라 심사를 신청해 주세요. 집행을 시작한 뒤에는 [성과 보기](../performance.md)에서 성과를 확인할 수 있어요.
 
 ## ‘URL로 사용’으로 광고 만들기 <a href="#url-flow" id="url-flow"></a>
 
