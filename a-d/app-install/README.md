@@ -101,7 +101,7 @@ layout:
 
 #### 광고 대상 앱 추가하기
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>광고 대상과 앱을 설정하는 화면</p></figcaption></figure>
 
 
 
