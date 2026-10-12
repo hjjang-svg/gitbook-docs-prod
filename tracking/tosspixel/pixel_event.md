@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 픽셀 이벤트 수집 확인하기
@@ -44,7 +46,7 @@ layout:
 
 3. 설치 완료 이후 Chrome 브라우저 우측 상단 **\[확장 프로그램]** 버튼을 눌러 토스 픽셀 헬퍼 고정 값으로 설정
 
-<figure><img src="../../.gitbook/assets/image (5) (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 

@@ -8,7 +8,7 @@
 {% step %}
 #### 자동 입찰 클릭 최대화
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * 클릭을 최대화하기 위해 주어진 일 예산을 최대한 소진하면서도 **가장 효율적인 CPC(클릭당 단가)**&#xB97C; 얻기 위해 토스가 자동으로 입찰을 결정해요.
 * 자동 입찰 클릭 최대화 기능은 **캠페인 목적 '방문 유도하기'** 에만 적용 가능하고 금액을 입력하거나 설정하지 않아요.
@@ -30,7 +30,7 @@
 {% step %}
 #### 자동 입찰 전환 최대화
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 전환을 최대화하기 위해 주어진 일 예산을 최대한 소진하면서도 가장 효율적인 CPA(전환당 단가)를 얻기 위해 토스가 자동으로 입찰을 결정해요.
 * 자동 입찰 전환 최대화 기능은 캠페인 목적 **‘잠재 고객 모으기’**&#xC5D0;만 적용 가능하고, 금액을 입력하거나 설정하지 않아요.
@@ -44,7 +44,7 @@
 {% step %}
 #### 자동 입찰 전환 최대 목표 비용 설정
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 * 목표 전환당 비용(tCPA)을 달성하기 위해 전환 가능성이 높은 유저에게 토스가 자동으로 입찰을 결정해요.
 * 목표 비용 설정은 자동 입찰 전환 최대를 우선적으로 사용하고 성과 및 비용 데이터가 충분히 쌓이면 목표 비용을 설정해 주세요.
@@ -59,7 +59,7 @@
 {% step %}
 #### 직접 입찰 CPC
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 * 직접 단가를 설정하여 수동으로 입찰할 수 있는 CPC 단위로 직접 입찰할 수 있어요.
 * 최소 단가 200원 이상 최대 단가 1만원 이하로 설정할 수 있고 10원 단위로 입력 가능해요.
@@ -70,7 +70,7 @@
 {% step %}
 #### 직접 입찰 CPM
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 광고가 1,000번 노출될 때마다 CPM으로 과금되는 입찰 방식이에요.
 * 직접 입찰 CPM 기능은 광고 유형 **'보드 배너'** 에만 적용 가능한 입찰 방식이에요.

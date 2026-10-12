@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # URL 설정 가이드
@@ -46,6 +48,12 @@ layout:
 * App Link 등록 (Android)
 * 빌드 배포해서 반영
 * 마케팅팀에 구현 값 전달
+
+{% hint style="info" %}
+**한쪽 OS만 광고한다면 그 OS 작업만 하면 돼요.**&#x20;
+
+Android 앱만 광고한다면 앱 스킴과 App Link만, iOS 앱만 광고한다면 앱 스킴과 Universal Link만 구현해주세요.
+{% endhint %}
 
 ### 앱 스킴 (커스텀 URL 스킴) 구현하기
 

@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 디파이너리
@@ -51,7 +53,7 @@ layout:
 {% step %}
 **디파이너리 연동 경로**
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 디파이너리 연동 링크 생성은 아래 경로에서 가능해요.
 

@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 타겟 조합·제외
@@ -39,7 +41,7 @@ layout:
 
     * **캠페인 생성 페이지:** 배너 탭 → 상단 \[캠페인 생성] 버튼 클릭 → 광고세트에서 타겟 조건 설정 → \[이 조건을 내 타겟에 저장] 버튼 클릭 → 생성
 
-    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../.gitbook/assets/이 조건을 내 타겟에 저장.png" alt=""><figcaption></figcaption></figure>
 
