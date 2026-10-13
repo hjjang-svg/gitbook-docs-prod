@@ -57,7 +57,7 @@ layout:
 
 디파이너리 연동 링크 생성은 아래 경로에서 가능해요.
 
-Attributions 메뉴 → Ad Partner Settings 선택 \[Toss]앱 검색
+Attributions 메뉴 → Ad Partner Settings 선택  → \[Toss]앱 검색
 {% endstep %}
 
 {% step %}
@@ -75,12 +75,14 @@ Ad Partner Information 탭의 Tracking Code에 토스 플랫폼에서 발급받�
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="173.80902099609375">이벤트명</th><th>토스애즈 이벤트 라벨</th><th>Dfinery 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>0 / 1 / abx:new_install</td></tr><tr><td>딥링크 앱 오픈</td><td>APP_DEEPLINK_OPEN</td><td>2 / abx:deeplink_open</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>abx:daily_first_open / abx:firstopen</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>abx:sign_up</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>abx:login</td></tr><tr><td>결제</td><td>PURCHASE</td><td>abx:purchase</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>abx:product_view</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>abx:add_to_cart</td></tr><tr><td>검색</td><td>SEARCH</td><td>abx:search</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>abx:review_order</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>abx:add_to_wishlist</td></tr><tr><td>홈 조회</td><td>VIEW_HOME</td><td>abx:view_home</td></tr></tbody></table>
+<table><thead><tr><th>토스애즈 이벤트 라벨</th><th>Dfinery 이벤트 라벨</th><th width="173.80902099609375">이벤트명</th></tr></thead><tbody><tr><td>ADD_TO_CART</td><td>abx:add_to_cart</td><td>장바구니 추가</td></tr><tr><td>ADD_TO_WISHLIST</td><td>abx:add_to_wishlist</td><td>위시리스트 추가</td></tr><tr><td>APP_DEEPLINK_OPEN</td><td>2 / abx:deeplink_open</td><td>딥링크 앱 오픈</td></tr><tr><td>APP_OPEN</td><td>abx:daily_first_open / abx:firstopen</td><td>앱 오픈</td></tr><tr><td>INITIATE_CHECKOUT</td><td>abx:review_order</td><td>결제 시작</td></tr><tr><td>INSTALL</td><td>0 / 1 / abx:new_install</td><td>설치</td></tr><tr><td>LEVEL_ACHIEVED</td><td>abx:level_achieved</td><td>레벨 달성</td></tr><tr><td>PRODUCT_VIEW</td><td>abx:product_view</td><td>상품 조회</td></tr><tr><td>PURCHASE</td><td>abx:purchase</td><td>결제</td></tr><tr><td>SEARCH</td><td>abx:search</td><td>검색</td></tr><tr><td>SIGNIN</td><td>abx:login</td><td>로그인</td></tr><tr><td>SIGNUP</td><td>abx:sign_up</td><td>회원가입</td></tr><tr><td>TUTORIAL</td><td>abx:tutorial_completed</td><td>튜토리얼</td></tr><tr><td>VIEW_HOME</td><td>abx:view_home</td><td>홈 조회</td></tr></tbody></table>
 
 {% hint style="success" %}
-* 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
-  * 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
-* Dfinery 이벤트 라벨은 Dfinery에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
+연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
+
+* 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
+
+Dfinery 이벤트 라벨은 Dfinery에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
 {% endhint %}
 
 ***

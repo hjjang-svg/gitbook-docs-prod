@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 앱스플라이어
@@ -91,12 +93,14 @@ Active partner 의 스위치 버튼을 클릭하여 파트너 연동을 활성�
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="198.25347900390625">이벤트명</th><th>토스애즈 이벤트 라벨</th><th>AppsFlyer 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>af_app_opened</td></tr><tr><td>딥링크/푸시 실행</td><td>APP_DEEPLINK_OPEN</td><td>af_opened_from_push_notification</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>af_complete_registration</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>af_login</td></tr><tr><td>결제</td><td>PURCHASE</td><td>af_purchase</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>af_content_view</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>af_add_to_cart</td></tr><tr><td>검색</td><td>SEARCH</td><td>af_search</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>af_initiated_checkout</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>af_add_to_wishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>af_subscribe</td></tr><tr><td>광고 노출</td><td>AD_IMPRESSION</td><td>af_ad_view</td></tr><tr><td>리드</td><td>LEAD_COLLECTION</td><td>lead</td></tr></tbody></table>
+<table><thead><tr><th>토스애즈 이벤트 라벨</th><th>AppsFlyer 이벤트 라벨</th><th width="198.25347900390625">이벤트명</th></tr></thead><tbody><tr><td>AD_IMPRESSION</td><td>af_ad_view</td><td>광고 노출</td></tr><tr><td>ADD_TO_CART</td><td>af_add_to_cart</td><td>장바구니 추가</td></tr><tr><td>ADD_TO_WISHLIST</td><td>af_add_to_wishlist</td><td>위시리스트 추가</td></tr><tr><td>APP_DEEPLINK_OPEN</td><td>af_opened_from_push_notification</td><td>딥링크/푸시 실행</td></tr><tr><td>APP_OPEN</td><td>af_app_opened</td><td>앱 오픈</td></tr><tr><td>INITIATE_CHECKOUT</td><td>af_initiated_checkout</td><td>결제 시작</td></tr><tr><td>INSTALL</td><td>install</td><td>설치</td></tr><tr><td>LEAD_COLLECTION</td><td>lead</td><td>리드</td></tr><tr><td>LEVEL_ACHIEVED</td><td>af_level_achieved</td><td>레벨 달성</td></tr><tr><td>PRODUCT_VIEW</td><td>af_content_view</td><td>상품 조회</td></tr><tr><td>PURCHASE</td><td>af_purchase</td><td>결제</td></tr><tr><td>SEARCH</td><td>af_search</td><td>검색</td></tr><tr><td>SIGNIN</td><td>af_login</td><td>로그인</td></tr><tr><td>SIGNUP</td><td>af_complete_registration</td><td>회원가입</td></tr><tr><td>SUBSCRIBE</td><td>af_subscribe</td><td>구독</td></tr><tr><td>TUTORIAL</td><td>af_tutorial_completion</td><td>튜토리얼</td></tr></tbody></table>
 
 {% hint style="success" %}
-* 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야해요.
-  * 랜딩URL은 전환 추적 탬플릿으로 생성한 랜딩 URL로 입력해주세요.
-* AppsFlyer 이벤트 라벨은 AppsFlyer에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
+연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
+
+* 랜딩URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해주세요.
+
+AppsFlyer 이벤트 라벨은 AppsFlyer에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
 {% endhint %}
 
 ***
@@ -143,7 +147,7 @@ Active partner 의 스위치 버튼을 클릭하여 파트너 연동을 활성�
 
 *   앱스플라이어 콘솔에서 제공하는 click attribution link를 그대로 활용하면 필수/권장 항목을 놓치지 않을 수 있어요.
 
-    * 자세한 설정 방법은 앱스플라이어 대시보드 내 Active Intergrations > Attribution link 탭에서 확인하실 수 있어요.
+    * 자세한 설정 방법은 앱스플라이어 대시보드 내 Active Integrations > Attribution link 탭에서 확인하실 수 있어요.
 
     <figure><img src="../../.gitbook/assets/image (1).jpeg" alt="" width="375"><figcaption></figcaption></figure>
 * 이벤트 매핑이 잘못되면 실제 전환 데이터가 빠질 수 있으니 표준 키와 구조를 꼭 확인해 주세요.

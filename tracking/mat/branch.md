@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 브랜치
@@ -73,12 +75,20 @@ Ad Account Information > Tracking Code에 토스 플랫폼에서 발급받은 �
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="159.05645751953125">이벤트명</th><th>토스애즈 이벤트 라벨</th><th>Branch 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>install / reinstall</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>open / pageview</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>COMPLETE_REGISTRATION</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>LOGIN</td></tr><tr><td>결제</td><td>PURCHASE</td><td>PURCHASE</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>VIEW_ITEM</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>ADD_TO_CART</td></tr><tr><td>검색</td><td>SEARCH</td><td>SEARCH</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>INITIATE_PURCHASE</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>ADD_TO_WISHLIST</td></tr></tbody></table>
+<table><thead><tr><th>토스애즈 이벤트 라벨</th><th>Branch 이벤트 라벨</th><th width="159.05645751953125">이벤트명</th></tr></thead><tbody><tr><td>ADD_TO_CART</td><td>ADD_TO_CART</td><td>장바구니 추가</td></tr><tr><td>ADD_TO_WISHLIST</td><td>ADD_TO_WISHLIST</td><td>위시리스트 추가</td></tr><tr><td>APP_OPEN</td><td>open / pageview</td><td>앱 오픈</td></tr><tr><td>INITIATE_CHECKOUT</td><td>INITIATE_PURCHASE</td><td>결제 시작</td></tr><tr><td>INSTALL</td><td>install / reinstall</td><td>설치</td></tr><tr><td>LEVEL_ACHIEVED</td><td>담당 AM과 상의 (아래 안내 참고)</td><td>레벨 달성</td></tr><tr><td>PRODUCT_VIEW</td><td>VIEW_ITEM</td><td>상품 조회</td></tr><tr><td>PURCHASE</td><td>PURCHASE</td><td>결제</td></tr><tr><td>SEARCH</td><td>SEARCH</td><td>검색</td></tr><tr><td>SIGNIN</td><td>LOGIN</td><td>로그인</td></tr><tr><td>SIGNUP</td><td>COMPLETE_REGISTRATION</td><td>회원가입</td></tr><tr><td>TUTORIAL</td><td>담당 AM과 상의 (아래 안내 참고)</td><td>튜토리얼</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**`TUTORIAL`, `LEVEL_ACHIEVED`는 토스애즈에 별도로 요청해 주세요.**
+
+Branch를 사용하는 광고주가 게임 이벤트 중 `TUTORIAL`, `LEVEL_ACHIEVED`를 연동하려면, Branch 설정과 별개로 토스애즈에서 추가 작업이 필요해요. 커스텀 이벤트의 포스트백 설정과 매핑 방법은 담당 AM과 상의해 주세요.
+{% endhint %}
 
 {% hint style="success" %}
-* 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
-  * 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
-* Branch 이벤트 라벨은 Branch에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
+연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
+
+* 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
+
+Branch 이벤트 라벨은 Branch에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
 {% endhint %}
 
 ***

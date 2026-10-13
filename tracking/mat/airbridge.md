@@ -118,12 +118,14 @@ Integrations → Intergrated Ad Channels 선택 → \[Toss]앱 검색
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="185.28466796875">이벤트명</th><th>토스애즈 이벤트 라벨</th><th>Airbridge 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>app_install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>app_open</td></tr><tr><td>딥링크 앱 오픈</td><td>APP_DEEPLINK_OPEN</td><td>app_deeplink_open</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>airbridge.user.signup</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>airbridge.user.signin</td></tr><tr><td>결제</td><td>PURCHASE</td><td>airbridge.ecommerce.order.completed</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>airbridge.ecommerce.product.viewed</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>airbridge.ecommerce.product.addedToCart</td></tr><tr><td>검색</td><td>SEARCH</td><td>airbridge.ecommerce.searchResults.viewed</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>airbridge.initiateCheckout</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>airbridge.addToWishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>airbridge.subscribe</td></tr><tr><td>홈 조회</td><td>VIEW_HOME</td><td>airbridge.ecommerce.home.viewed</td></tr><tr><td>광고 노출</td><td>AD_IMPRESSION</td><td>airbridge.adImpression</td></tr></tbody></table>
+<table><thead><tr><th>토스애즈 이벤트 라벨</th><th>Airbridge 이벤트 라벨</th><th width="185.28466796875">이벤트명</th></tr></thead><tbody><tr><td>AD_IMPRESSION</td><td>airbridge.adImpression</td><td>광고 노출</td></tr><tr><td>ADD_TO_CART</td><td>airbridge.ecommerce.product.addedToCart</td><td>장바구니 추가</td></tr><tr><td>ADD_TO_WISHLIST</td><td>airbridge.addToWishlist</td><td>위시리스트 추가</td></tr><tr><td>APP_DEEPLINK_OPEN</td><td>app_deeplink_open</td><td>딥링크 앱 오픈</td></tr><tr><td>APP_OPEN</td><td>app_open</td><td>앱 오픈</td></tr><tr><td>INITIATE_CHECKOUT</td><td>airbridge.initiateCheckout</td><td>결제 시작</td></tr><tr><td>INSTALL</td><td>app_install</td><td>설치</td></tr><tr><td>LEVEL_ACHIEVED</td><td>airbridge.achieveLevel</td><td>레벨 달성</td></tr><tr><td>PRODUCT_VIEW</td><td>airbridge.ecommerce.product.viewed</td><td>상품 조회</td></tr><tr><td>PURCHASE</td><td>airbridge.ecommerce.order.completed</td><td>결제</td></tr><tr><td>SEARCH</td><td>airbridge.ecommerce.searchResults.viewed</td><td>검색</td></tr><tr><td>SIGNIN</td><td>airbridge.user.signin</td><td>로그인</td></tr><tr><td>SIGNUP</td><td>airbridge.user.signup</td><td>회원가입</td></tr><tr><td>SUBSCRIBE</td><td>airbridge.subscribe</td><td>구독</td></tr><tr><td>TUTORIAL</td><td>airbridge.completeTutorial</td><td>튜토리얼</td></tr><tr><td>VIEW_HOME</td><td>airbridge.ecommerce.home.viewed</td><td>홈 조회</td></tr></tbody></table>
 
 {% hint style="success" %}
-* 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
-  * 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
-* Airbridge 이벤트 라벨은 Airbridge에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
+연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
+
+* 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
+
+Airbridge 이벤트 라벨은 Airbridge에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
 {% endhint %}
 
 ***
@@ -172,5 +174,5 @@ Integrations → Intergrated Ad Channels 선택 → \[Toss]앱 검색
   * 자세한 설정 방법은 에어브릿지 대시보드 내 연동 > 광고 채널 연동 > 토스 >트래킹 링크 탭에서 확인하실 수 있어요.
 * 이벤트 매핑이 잘못되면 실제 전환 데이터가 빠질 수 있으니 필수 항목의 구조를 꼭 확인해 주세요.
 * Tracking URL에서 수정이 필요한 항목은 캠페인 설정 시 **소재 URL** 섹션에서 다시 확인할 수 있습니다.
-* 카탈로그 및 앱 설치 유도하기 광고를 운영하는 경우, 토스 광고 상품 내 최적 경험을 위해 트래킹 링크 생성시 **스탑오버 에어페이지를 OFF(미적용)**&#xD574;주세요. 스탑오버 에어페이지 상세 가이드는 [에어브릿지](https://help.airbridge.io/ko/deeplink-guides/deeplink-option-setting#%EC%8A%A4%ED%83%91%EC%98%A4%EB%B2%84-%EC%97%90%EC%96%B4%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)에서 확인하실 수 있습니다.
+* 카탈로그 및 앱 설치 유도하기 광고를 운영하는 경우, 토스 광고 상품 내 최적 경험을 위해 트래킹 링크 생성 시 **스탑오버 에어페이지를 OFF(미적용)**&#xD574;주세요. 스탑오버 에어페이지 상세 가이드는 [에어브릿지](https://help.airbridge.io/ko/deeplink-guides/deeplink-option-setting#%EC%8A%A4%ED%83%91%EC%98%A4%EB%B2%84-%EC%97%90%EC%96%B4%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)에서 확인하실 수 있습니다.
 {% endhint %}

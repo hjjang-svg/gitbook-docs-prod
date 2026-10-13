@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 애드저스트
@@ -81,7 +83,7 @@ Campaign Lab → Partners 선택
 <figure><img src="../../.gitbook/assets/스크린샷 2024-09-13 오후 2.13.53.png" alt=""><figcaption></figcaption></figure>
 
 * 연동 페이지로 들어가 토스 플랫폼에서 발급받은 전환추적코드 ID를 넣어주세요.
-* 전송 규칙은 Data from all attribution sources 으로 설정해주세요.
+* 전송 규칙은 Data from all attribution sources로 설정해주세요.
 * 상세한 가이드는 [Adjust 연동 가이드](https://help.adjust.com/ko/partner-setup/toss)를 참고해주세요.
 {% endstep %}
 {% endstepper %}
@@ -92,13 +94,22 @@ Campaign Lab → Partners 선택
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="178.70050048828125">이벤트명</th><th>토스애즈 이벤트 라벨</th><th>Adjust 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>install / reinstall</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>session</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>Sign up / Registration</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>Login</td></tr><tr><td>결제</td><td>PURCHASE</td><td>Gadget purchase / In-app purchase</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>View product</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>Add to basket</td></tr><tr><td>검색</td><td>SEARCH</td><td>Search product / Search (Travel)</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>Sale / checkout</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>Add to wishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>Buy 1/3/6-month subscription</td></tr><tr><td>첫 구매</td><td>FIRST_PURCHASE</td><td>First sale</td></tr></tbody></table>
+<table><thead><tr><th>토스애즈 이벤트 라벨</th><th>Adjust 이벤트 라벨</th><th width="178.70050048828125">이벤트명</th></tr></thead><tbody><tr><td>ADD_TO_CART</td><td>Add to basket</td><td>장바구니 추가</td></tr><tr><td>ADD_TO_WISHLIST</td><td>Add to wishlist</td><td>위시리스트 추가</td></tr><tr><td>APP_OPEN</td><td>session</td><td>앱 오픈</td></tr><tr><td>FIRST_PURCHASE</td><td>First sale</td><td>첫 구매</td></tr><tr><td>INITIATE_CHECKOUT</td><td>Sale / checkout</td><td>결제 시작</td></tr><tr><td>INSTALL</td><td>install / reinstall</td><td>설치</td></tr><tr><td>LEVEL_ACHIEVED</td><td>담당 AM과 상의 (아래 안내 참고)</td><td>레벨 달성</td></tr><tr><td>PRODUCT_VIEW</td><td>View product</td><td>상품 조회</td></tr><tr><td>PURCHASE</td><td>Gadget purchase / In-app purchase</td><td>결제</td></tr><tr><td>SEARCH</td><td>Search product / Search (Travel)</td><td>검색</td></tr><tr><td>SIGNIN</td><td>Login</td><td>로그인</td></tr><tr><td>SIGNUP</td><td>Sign up / Registration</td><td>회원가입</td></tr><tr><td>SUBSCRIBE</td><td>Buy 1/3/6-month subscription</td><td>구독</td></tr><tr><td>TUTORIAL</td><td>담당 AM과 상의 (아래 안내 참고)</td><td>튜토리얼</td></tr></tbody></table>
+
+{% hint style="warning" %}
+`TUTORIAL`, `LEVEL_ACHIEVED`는 토스애즈에 별도로 요청해 주세요.
+
+Adjust를 사용하는 광고주가 게임 이벤트 중 `TUTORIAL`, `LEVEL_ACHIEVED`를 연동하려면, Adjust 설정과 별개로 토스애즈에서 추가 작업이 필요해요. 커스텀 이벤트 설정과 매핑 방법은 담당 AM과 상의해 주세요.
+{% endhint %}
 
 {% hint style="success" %}
-* 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
-  * 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
-* Adjust 이벤트 라벨은 Adjust에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
-* **구매유도하기(카탈로그 연동)** 운영하는 경우, product 정보 수집에 대한 토스애즈와의 개별 연동이 필요합니다. 구매 이벤트의 product\_id 에 해당 하는 파라미터를 사전에 확인 및 공유 부탁드립니다.
+연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
+
+* 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
+
+Adjust 이벤트 라벨은 Adjust에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
+
+**구매유도하기(카탈로그 연동)**&#xB97C; 운영하는 경우, product 정보 수집에 대한 토스애즈와의 개별 연동이 필요합니다. 구매 이벤트의 product\_id 에 해당하는 파라미터를 사전에 확인 및 공유 부탁드립니다.
 {% endhint %}
 
 ***

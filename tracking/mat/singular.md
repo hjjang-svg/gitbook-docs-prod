@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 싱귤러
@@ -71,13 +73,22 @@ Partner Configuration > Attribution Postback & Settings > Tracking Code 에 토�
 
 토스애즈에서 수집하는 전환 이벤트 항목은 아래와 같아요.
 
-<table><thead><tr><th width="176.26995849609375">이벤트명</th><th>토스애즈 이벤트 라벨</th><th>Singular 이벤트 라벨</th></tr></thead><tbody><tr><td>설치</td><td>INSTALL</td><td>install</td></tr><tr><td>앱 오픈</td><td>APP_OPEN</td><td>sng_start_trial</td></tr><tr><td>딥링크 앱 오픈</td><td>APP_DEEPLINK_OPEN</td><td>sng_attr_deep_link</td></tr><tr><td>회원가입</td><td>SIGNUP</td><td>sng_complete_registration</td></tr><tr><td>로그인</td><td>SIGNIN</td><td>sng_login</td></tr><tr><td>결제</td><td>PURCHASE</td><td>sng_ecommerce_purchase</td></tr><tr><td>상품 조회</td><td>PRODUCT_VIEW</td><td>sng_content_view</td></tr><tr><td>장바구니 추가</td><td>ADD_TO_CART</td><td>sng_add_to_cart</td></tr><tr><td>검색</td><td>SEARCH</td><td>sng_search</td></tr><tr><td>결제 시작</td><td>INITIATE_CHECKOUT</td><td>sng_checkout_initiated</td></tr><tr><td>위시리스트 추가</td><td>ADD_TO_WISHLIST</td><td>sng_add_to_wishlist</td></tr><tr><td>구독</td><td>SUBSCRIBE</td><td>sng_subscribe</td></tr></tbody></table>
+<table><thead><tr><th>토스애즈 이벤트 라벨</th><th>Singular 이벤트 라벨</th><th width="176.26995849609375">이벤트명</th></tr></thead><tbody><tr><td>ADD_TO_CART</td><td>sng_add_to_cart</td><td>장바구니 추가</td></tr><tr><td>ADD_TO_WISHLIST</td><td>sng_add_to_wishlist</td><td>위시리스트 추가</td></tr><tr><td>APP_DEEPLINK_OPEN</td><td>sng_attr_deep_link</td><td>딥링크 앱 오픈</td></tr><tr><td>APP_OPEN</td><td>sng_start_trial</td><td>앱 오픈</td></tr><tr><td>INITIATE_CHECKOUT</td><td>sng_checkout_initiated</td><td>결제 시작</td></tr><tr><td>INSTALL</td><td>install</td><td>설치</td></tr><tr><td>LEVEL_ACHIEVED</td><td>담당 AM과 상의 (아래 안내 참고)</td><td>레벨 달성</td></tr><tr><td>PRODUCT_VIEW</td><td>sng_content_view</td><td>상품 조회</td></tr><tr><td>PURCHASE</td><td>sng_ecommerce_purchase</td><td>결제</td></tr><tr><td>SEARCH</td><td>sng_search</td><td>검색</td></tr><tr><td>SIGNIN</td><td>sng_login</td><td>로그인</td></tr><tr><td>SIGNUP</td><td>sng_complete_registration</td><td>회원가입</td></tr><tr><td>SUBSCRIBE</td><td>sng_subscribe</td><td>구독</td></tr><tr><td>TUTORIAL</td><td>담당 AM과 상의 (아래 안내 참고)</td><td>튜토리얼</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**`TUTORIAL`, `LEVEL_ACHIEVED`는 토스애즈에 별도로 요청해 주세요.**
+
+Singular를 사용하는 광고주가 게임 이벤트 중 `TUTORIAL`, `LEVEL_ACHIEVED`를 연동하려면, Singular 설정과 별개로 토스애즈에서 추가 작업이 필요해요. 광고주 SDK 이벤트와 토스애즈 이벤트를 매핑하는 방법은 담당 AM과 상의해 주세요.
+{% endhint %}
 
 {% hint style="success" %}
-* 연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
-  * 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
-* Singular 이벤트 라벨은 Singular에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
-* **구매유도하기(카탈로그 연동)** 운영하는 경우, product 정보 수집에 대한 토스애즈와의 개별 연동이 필요합니다. 구매 이벤트의 product\_id 에 해당 하는 파라미터를 사전에 확인 및 공유 부탁드립니다.
+연동 후 전환 추적을 위해서는 소재를 새롭게 세팅해야 해요.
+
+* 랜딩 URL은 전환 추적 템플릿으로 생성한 랜딩 URL로 입력해 주세요.
+
+Singular 이벤트 라벨은 Singular에서 사용 중인 기본 명칭으로 기재되었어요. 자사 서비스에서 발생하는 이벤트를 기준으로 [토스애즈의 표준이벤트](../tag/tracked-events.md)와 가장 적절한 이벤트에 매핑해 주세요.
+
+**구매유도하기(카탈로그 연동)** 운영하는 경우, product 정보 수집에 대한 토스애즈와의 개별 연동이 필요합니다. 구매 이벤트의 product\_id 에 해당 하는 파라미터를 사전에 확인 및 공유 부탁드립니다.
 {% endhint %}
 
 ***
@@ -108,7 +119,7 @@ Partner Configuration > Attribution Postback & Settings > Tracking Code 에 토�
 
 > https://sng.link/abc?<mark style="color:red;">**cl={TOSS\_TK\_CLICK\_ID}\&idfa={IDFA}\&aifa={AIFA}\&ad\_id={USER\_ADID}\&pcid={TOSS\_CID}**</mark>&<mark style="color:blue;">**pcrid={TOSS\_CREATIVE\_ID}\&site\_id={SITE\_ID}\&pcn={CAMPAIGN\_NAME}\&pcrn={CREATIVE\_NAME}\&pscn={ADGROUP\_NAME}**</mark>
 
-####
+
 
 {% hint style="success" %}
 **링크 설정 Tip**
