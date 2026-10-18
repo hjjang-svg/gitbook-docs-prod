@@ -173,6 +173,12 @@ layout:
 
 {% file src="../.gitbook/assets/[토스애즈] 주류업종_과음경고 문구_디자인가이드.fig.zip" %}
 
+*   광고주센터 미리보기 화면과 실제 송출 화면이 상이할 수 있습니다.
+
+
+
+    <figure><img src="../.gitbook/assets/광고주센터에서 (3).png" alt=""><figcaption></figcaption></figure>
+
 
 {% endhint %}
 
