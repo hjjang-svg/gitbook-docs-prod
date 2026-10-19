@@ -17,13 +17,15 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 픽셀 이벤트 테스트 가이드
 
 ## 픽셀 이벤트 테스트 가이드
 
-<figure><img src="../../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 13.png" alt=""><figcaption></figcaption></figure>
 
 토스애즈 관리자센터에서 픽셀 이벤트 테스트 기능을 사용할 수 있습니다.
 
@@ -41,7 +43,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 이를 통해 다음 항목을 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 20.png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="189.2698974609375">확인 항목</th><th>설명</th></tr></thead><tbody><tr><td>❶ 테스트 대상 URL</td><td>현재 테스트 중인 사이트 URL을 확인할 수 있습니다. URL이 다르면 <mark style="color:red;"><code>URL 변경</code></mark>을 눌러 테스트할 사이트로 변경할 수 있습니다.</td></tr><tr><td>❷ 픽셀 연결 상태</td><td>테스트한 사이트에 토스 웹 픽셀이 정상적으로 연결되었는지 확인할 수 있습니다. 연결된 경우 테스트 결과 영역에 <mark style="color:red;"><code>연결됨</code></mark> 상태와 연결된 도메인이 표시됩니다.</td></tr><tr><td>❸ 수집된 이벤트</td><td>사이트에서 발생한 이벤트가 테스트 결과에 표시됩니다. 이벤트명과 이벤트 유형을 확인할 수 있습니다.</td></tr><tr><td>❹ 이벤트 받은 시각</td><td>이벤트가 수집된 시각을 확인할 수 있습니다. 여러 이벤트를 테스트할 때 어떤 행동에서 발생한 이벤트인지 구분하는 데 사용할 수 있습니다.</td></tr><tr><td>❺ 이벤트 상세 정보</td><td>이벤트가 발생한 URL, 매개변수 개수, 매개변수 값, 수신 경로, 토스 기여 여부를 확인할 수 있습니다.</td></tr><tr><td>❻ 테스트 결과 초기화</td><td><mark style="color:red;"><code>모두 지우기</code></mark>를 통해 현재 화면에 표시된 테스트 결과를 초기화하고 다시 테스트할 수 있습니다.</td></tr></tbody></table>
 
@@ -119,13 +121,13 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 {% step %}
 #### 테스트 결과를 확인합니다
 
-<figure><img src="../../.gitbook/assets/image (6) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 21.png" alt=""><figcaption></figcaption></figure>
 
 이벤트가 정상적으로 발생 후 수집되면 테스트 결과에 이벤트 정보가 표시됩니다.
 
 테스트 결과에서는 다음 정보를 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 15 (1).png" alt=""><figcaption></figcaption></figure>
 
 | 항목      | 설명                        |
 | ------- | ------------------------- |
@@ -164,7 +166,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 #### 이벤트 수집 여부
 
-<figure><img src="../../.gitbook/assets/image (9) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 22.png" alt=""><figcaption></figcaption></figure>
 
 사이트에 설치한 토스애즈 이벤트가 정상적으로 수집되는지 확인할 수 있습니다.
 
@@ -173,7 +175,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 #### 이벤트 수집 시각
 
-<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 19.png" alt=""><figcaption></figcaption></figure>
 
 이벤트가 수집된 시간을 확인할 수 있습니다.
 
@@ -182,7 +184,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 #### 이벤트 상세 값
 
-<figure><img src="../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 24.png" alt=""><figcaption></figcaption></figure>
 
 이벤트 상세 화면에서는 이벤트와 함께 전달된 값을 확인할 수 있습니다.
 
@@ -201,7 +203,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 ## 토스 기여 여부 확인하기
 
-<figure><img src="../../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 23.png" alt=""><figcaption></figcaption></figure>
 
 테스트 결과에서 이벤트의 토스 기여 여부를 확인할 수 있습니다.
 
