@@ -33,7 +33,7 @@ layout:
 
 ![브랜드 로고.png](<../../.gitbook/assets/브랜드 로고 (1).png>)
 
-<table><thead><tr><th width="219.91796875">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li><code>800*800px</code> 이상</li><li>배경 없는 이미지 (누끼 딴 이미지) 사용 불가</li><li><strong>안전 노출 영역 등</strong> 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>로고 형태가 가로로 긴 경우, 실제 지면에서 가독성이 떨어질 수 있어 권장하지 않음</li><li>심볼, 짧은 텍스트 위주 형태 권장</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="219.91796875">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li><code>800*800px</code> 이상</li><li><strong>투명·반투명한 부분이 없는 이미지</strong>를 올리거나, JPG로 변환해서 올려 주세요.</li><li><strong>안전 노출 영역 등</strong> 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>로고 형태가 가로로 긴 경우, 실제 지면에서 가독성이 떨어질 수 있어 권장하지 않음</li><li>심볼, 짧은 텍스트 위주 형태 권장</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
