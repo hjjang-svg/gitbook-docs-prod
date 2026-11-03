@@ -118,7 +118,7 @@ layout:
 
 소재에서 앱 이름 옆에 보이는 앱 아이콘이에요.
 
-<table><thead><tr><th width="220">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li>400×400px 이상</li><li>10MB 이하</li><li>투명 배경 불가</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li>400×400px 이상</li><li>10MB 이하</li><li>투명·반투명 배경 불가</li></ul></td></tr></tbody></table>
 
 ***
 
