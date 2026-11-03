@@ -58,16 +58,14 @@ layout:
 | VIEW\_LIMIT         | 한도 조회      | 대출/보험료 한도 조회      |
 
 {% hint style="warning" %}
-**`TUTORIAL`, `LEVEL_ACHIEVED`는 토스애즈에 별도로 요청해 주세요.**
+**일부 이벤트는 담당 AM에게 별도로 요청해야 해요.**
 
-Adjust, Branch, Singular를 사용하는 광고주가 게임 이벤트 중 `TUTORIAL`, `LEVEL_ACHIEVED`를 연동하려면, MMP 설정과 별개로 토스애즈에서 추가 작업이 필요해요. 담당 AM에게 요청해 주세요.
+사용하는 MMP에 따라 일부 이벤트는 MMP 설정과 별개로 토스애즈에서 추가 작업이 필요해요. 예를 들어 Adjust, Branch, Singular를 사용하는 광고주가 게임 이벤트 중 `TUTORIAL`, `LEVEL_ACHIEVED`를 연동하는 경우예요. 어떤 이벤트가 해당하는지는 [MMP별 연동 페이지](../mat/)의 이벤트 매핑 표에서 확인해 주세요.
 {% endhint %}
 
-
-
 * 이벤트별 상세 연동 예시와 파라미터 설명은 각 연동 문서에서 확인할 수 있어요.
-  * 웹 전용 이벤트의 상세 구현 방법은 [토스 픽셀 연동 가이드](../tosspixel/)를 참고해 주세요.
-  * 앱 전용 이벤트의 상세 구현 방법은 [MMP 연동 가이드](../mat/)를 참고해 주세요.
+  * 웹 전용 이벤트의 상세 구현 방법은 [토스 픽셀로 웹 광고 성과 측정하기](../tosspixel/)를 참고해 주세요.
+  * 앱 전용 이벤트의 상세 구현 방법은 [MMP로 광고 성과 측정하기](../mat/)를 참고해 주세요.
 
 ***
 
@@ -77,9 +75,12 @@ Adjust, Branch, Singular를 사용하는 광고주가 게임 이벤트 중 `TUTO
 | ---------------- | ------------------------------------------------------------------------- |
 | 구매 유도하기(카탈로그 연동) | PRODUCT\_VIEW, ADD\_TO\_CART, PURCHASE (+ Revenue, Currency, Product\_id) |
 | 구매 유도하기(직접 등록)   | PRODUCT\_VIEW, ADD\_TO\_CART, PURCHASE (+ Revenue, Currency)              |
-| 앱 설치 유도하기        | INSTALL, APP\_OPEN, PURCHASE 또는 AD\_IMPRESSION (+ Revenue, Currency)      |
+| 앱 설치 유도하기(게임 앱)  | INSTALL, APP\_OPEN, PURCHASE 또는 AD\_IMPRESSION (+ Revenue, Currency)      |
+| 앱 설치 유도하기(일반 앱)  | INSTALL, APP\_OPEN                                                        |
 | 잠재고객 모으기         | LEAD\_COLLECTION                                                          |
 
+앱 설치 유도하기에서 보낼 이벤트와 MMP 설정은 [앱 설치 유도하기](../../a-d/app-install/) 페이지의 '앱 설치 유도하기 연동 요건'에서 확인해 주세요.
+
 {% hint style="info" %}
-구매유도하기(카탈로그 연동) 운영 시 **Singular, Adjust**를 사용하는 광고주인 경우, product 정보 수집에 대한 토스애즈와의 개별 연동이 필요합니다. 담당 AM분과 상의 및 채널톡을 통해 문의 바랍니다.
+구매 유도하기(카탈로그 연동) 운영 시 **Singular, Adjust**를 사용하는 광고주인 경우, product 정보 수집에 대한 토스애즈와의 개별 연동이 필요해요. 담당 AM과 상의하거나 채널톡으로 문의해 주세요.
 {% endhint %}

@@ -25,35 +25,37 @@ layout:
 
 앱 설치 유도하기 광고의 소재를 만들 때 필요한 규격과 조건을 안내해요.
 
-## 앱 설치 유도하기 소재란?
+## 앱 설치 유도하기 소재란? <a href="#creative-overview" id="creative-overview"></a>
 
 앱 설치 유도하기는 앱 설치를 위한 광고 상품이에요. 전체 탭, 앱인토스, 게임 미니홈처럼 토스 안에서 앱 서비스 맥락이 있는 지면에 광고할 앱을 자연스러운 모습으로 보여주고, 유저가 앱을 눌러 설치하거나 참여하도록 유도해요.
 
-소재는 카테고리, 연결페이지(소개화면, 랜딩, URL, 앱 스킴), 앱 로고, 문구로 구성돼요. 모두 필수 항목이에요.
+소재는 카테고리, 연결 페이지(소개 화면, 랜딩 URL), 앱 로고, 문구로 구성돼요. 모두 필수 항목이에요.
 
 {% hint style="info" %}
 **소재 제작 공통 규칙**
 
-문구 표현, 이미지 표현, 광고 고지문구(심의필)처럼 여러 소재 유형에 공통으로 적용되는 규칙은 [배너 소재 가이드](../creative-guidelines/)에서 안내하고 있어요. 앱 설치 소재에도 동일하게 적용되니, 소재를 제출하기 전에 함께 확인해주세요.
+확률형 아이템이 있는 게임 앱은 광고에 확률형 아이템이 포함돼 있다는 사실을 표시해야 해요. 소재 형식이 이미지나 비디오라면 토스가 이 문구를 자동으로 넣어 주지 않으니, 이미지와 영상 안에 직접 넣어 주세요. 이때 문구는 소재 화면의 안전 노출 영역 안에 있어야 해요.
+
+안전 노출 영역을 비롯해 문구 표현, 이미지 표현, 광고 고지문구(심의필)처럼 여러 소재 유형에 공통으로 적용되는 규칙은 [배너 소재 가이드](../creative-guidelines/)에서 안내하고 있어요.
 {% endhint %}
 
 ***
 
-## 카테고리
+## 카테고리 <a href="#category" id="category"></a>
 
-게임앱 또는 일반앱 중에서 선택하는 필수 항목이에요.
+게임 앱 또는 일반 앱 중에서 선택하는 필수 항목이에요.
 
 ***
 
-## 연결 페이지
+## 연결 페이지 <a href="#connected-page" id="connected-page"></a>
 
-광고를 누른 유저를 앱으로 연결하기 위해 링크 두 가지를 제출해요. 모두 필수 항목이에요.
+광고를 누른 유저를 앱으로 연결하기 위해 소개 화면과 랜딩 URL(MMP 트래킹 링크 1개)을 설정해요. 모두 필수 항목이에요.
 
-### 소개 화면
+### 소개 화면 <a href="#intro-screen" id="intro-screen"></a>
 
 소개 화면은 유저가 광고를 눌렀을 때 보이는 앱 소개 페이지(브릿지 페이지)예요. 소재마다 소개 화면을 하나씩 연결하고, 소재와 함께 심사받아요.
 
-#### **설정하는 방법**
+#### **설정하는 방법** <a href="#intro-screen-setup" id="intro-screen-setup"></a>
 
 {% hint style="info" %}
 저장해 둔 소개 화면이 있다면 **가져오기**를 눌러 쓸 수 있어요. 사용할 소개 화면의 **복제본 가져오기**를 누르면 복사본이 현재 소재에 연결돼요.
@@ -63,13 +65,13 @@ layout:
 2. 채워진 내용을 확인하고, 필요하면 직접 고쳐주세요. 오른쪽 위 **앱마켓 정보로 채우기**를 누르면 앱마켓 정보로 다시 채울 수 있어요.
 3. 왼쪽 미리보기에서 실제로 보일 모습을 확인하고 **저장**을 눌러주세요. 필수 항목을 모두 채워야 저장할 수 있어요.<br>
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>소개 화면 편집 화면</p></figcaption></figure>
+<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FCiaWNG4HJNzbf2j7Jb4X%2Fimage%20(4).png?alt=media&#x26;token=a77719ef-a41d-4751-89e9-3437101105b9" alt=""><figcaption><p>소개 화면 편집 화면</p></figcaption></figure>
 
 {% hint style="info" %}
 앱마켓 정보로 채우기는 앱 정보 수집이 끝난 앱에서만 쓸 수 있어요. 앱 정보 수집중이거나 사용할 수 없는 앱이면 버튼이 비활성화돼요.
 {% endhint %}
 
-#### **입력 항목**
+#### **입력 항목** <a href="#intro-screen-fields" id="intro-screen-fields"></a>
 
 | 항목           | 필수 여부 | 규격 안내                                                                                                                                            |
 | ------------ | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -82,7 +84,7 @@ layout:
 | **개발사**      | 필수    | 공백 포함 1\~20자로 입력해주세요. 한글, 영문, 숫자, 공백, 특수문자를 쓸 수 있고, 이모지는 쓸 수 없어요.                                                                                |
 | **광고 고지 문구** | 선택    | 심의필이나 안내·고지 문구가 필요하면 공백 포함 80자 이내로 입력해주세요. 소개 화면 하단 안내 영역에 표시되고, 앱마켓 정보로는 채워지지 않아요.                                                              |
 
-#### **수정 및 삭제하는 방법**
+#### **수정 및 삭제하는 방법** <a href="#intro-screen-edit-delete" id="intro-screen-edit-delete"></a>
 
 * 수정
   * 임시 저장 또는 반려된 소재의 소개 화면만 수정할 수 있어요.
@@ -93,53 +95,51 @@ layout:
     * **승인된 소재:** 소개 화면을 바꿀 수 없어요. 소재를 새로 만들고, 새 소개 화면을 설정해주세요.
 * 삭제
   * 저장한 소개 화면은 가져오기 목록의 **양식 삭제**로 지울 수 있어요.
-  * 심사 중이거나 승인된 소재에 연결된 소개 화면은 삭제할 수 없어요.&#x20;
+  * 심사 중이거나 승인된 소재에 연결된 소개 화면은 삭제할 수 없어요.
   * 심사를 신청하기 전이거나 반려된 소재에 연결된 소개 화면을 삭제하면, 그 소재는 소개 화면을 다시 설정해야 해요.
 
+### 랜딩 URL <a href="#landing-url" id="landing-url"></a>
 
+<table><thead><tr><th width="220">링크</th><th>내용</th></tr></thead><tbody><tr><td><strong>랜딩 URL</strong></td><td>앱 성과 측정 도구(MMP)에서 만든 트래킹 링크예요. 트래킹 링크에 앱 스킴이 세팅돼 있어야 해요. 앱이 설치된 유저는 앱이 실행되고, 설치하지 않은 유저는 스토어로 이동해 설치 성과가 측정돼요. 유니버설 링크(iOS)·앱 링크(Android)도 설정하는 것을 권장해요.</td></tr></tbody></table>
 
-### 랜딩 URL과 앱 스킴
+#### URL 규칙 <a href="#landing-url-rules" id="landing-url-rules"></a>
 
-<table><thead><tr><th width="220">링크</th><th>내용</th></tr></thead><tbody><tr><td><strong>랜딩 URL</strong></td><td>앱 성과 측정 도구(MMP)에서 만든 트래킹 링크예요. <br>앱을 설치하지 않은 유저는 스토어로 이동하고, 설치 성과가 측정돼요. (iOS는 유니버설 링크, Android는 앱 링크로 동작해요.)</td></tr><tr><td><strong>앱 스킴 (커스텀 URL 스킴)</strong></td><td><p>앱이 설치된 상태에서 앱을 직접 실행하는 앱 스킴 링크예요. 예를 들어 <code>brandapp://event/123</code> 형태예요.</p><p>http, https 형식은 사용할 수 없어요.</p></td></tr></tbody></table>
-
-#### URL 규칙
-
-<table><thead><tr><th width="280">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>유저가 접속할 때 이상이 없어야 함</strong></td><td><ul><li>오류 ・ 접근 불가 페이지, 이벤트 오픈 전 페이지는 사용할 수 없어요.</li><li>이벤트 오픈 전 페이지로 심사를 받는다면 증빙 자료를 함께 제출해야 해요.</li><li>앱으로 랜딩된다면, 앱 미설치 유저는 스토어로 랜딩돼야 해요.</li><li>접속하는 데 5초 이상 걸린다면 브릿지 페이지 제작 여부를 확인해요.</li></ul></td></tr><tr><td><strong>랜딩 페이지의 내용과 소재 내용이 일치해야 함</strong></td><td><ul><li>랜딩 페이지에서 확인할 수 없는 혜택 ・ 정보는 사용할 수 없어요. 사용하면 심사가 반려돼요.</li><li>가입 ・ 응모처럼 조건이 있는 혜택은 광고 문구에 반드시 기재해야 해요.</li></ul></td></tr><tr><td><strong>URL 주소는 영문으로 제출</strong></td><td><ul><li>주소에 한글이 있으면 오류가 발생할 수 있어요.</li><li>링크 안에 <code>{ } ^ #</code> 문자가 있으면 반려될 수 있어요. <code>^</code> 대신 <code>_</code>(언더바) 사용을 권장해요.</li><li><code>http://</code>는 사용할 수 없어요. <code>https://</code> 사용을 권장해요.</li></ul></td></tr><tr><td><strong>URL 축약 불가, 원본(롱 링크) 제출</strong></td><td><ul><li>트래킹 링크는 파라미터가 보이는 원본 그대로 제출해요. 앱스플라이어 원링크도 파라미터가 단축되지 않은 원본을 제출해요.</li><li>숏 링크 ・ 단축 URL은 사용할 수 없어요(비틀리 포함).</li></ul></td></tr><tr><td><strong>필수 파라미터 포함</strong></td><td><ul><li>MMP별로 트래킹 링크에 반드시 포함해야 하는 파라미터가 있어요. 예를 들어 앱스플라이어 원링크는 <code>pid</code>, <code>advertising_id</code>, <code>click_id</code>, <code>af_c_id</code>, <code>af_ad_id</code> 파라미터를 포함해야 해요.</li><li>MMP별 필수 파라미터는 딥링크 설정 가이드에서 안내하고 있어요.</li></ul></td></tr><tr><td><strong>정상 동작 확인</strong></td><td><ul><li>제출하기 전에 링크가 중간 브라우저 화면 없이 앱을 바로 여는지 테스트해요.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="280">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>유저가 접속할 때 이상이 없어야 함</strong></td><td><ul><li>오류 페이지와 접근할 수 없는 페이지는 사용할 수 없어요.</li><li>이벤트 오픈 전 페이지도 사용할 수 없어요. 단, 증빙 자료를 함께 제출하면 심사받을 수 있어요.</li><li>앱으로 랜딩된다면, 앱을 설치하지 않은 유저는 앱 스토어로 랜딩돼야 해요.</li><li>링크를 누른 뒤 랜딩되기까지 5초 넘게 걸린다면, 링크가 제대로 동작하는지 확인해 주세요.<br></li></ul></td></tr><tr><td><strong>랜딩 페이지의 내용과 소재 내용이 일치해야 함</strong></td><td><ul><li>랜딩 페이지에서 확인할 수 없는 혜택·정보는 사용할 수 없어요. 사용하면 심사가 반려돼요.</li><li>가입·응모처럼 조건이 있는 혜택은 광고 문구에 반드시 기재해야 해요.</li></ul></td></tr><tr><td><strong>URL 주소는 영문으로 제출</strong></td><td><ul><li>주소에 한글이 있으면 오류가 발생할 수 있어요.</li><li>링크 안에 <code>{ } ^ #</code> 문자가 있으면 반려될 수 있어요. <code>^</code> 대신 <code>_</code>(언더바) 사용을 권장해요.</li><li>주소는 https://로 시작해야 해요. http://로 시작하는 주소는 사용할 수 없어요.</li></ul></td></tr><tr><td><strong>URL 축약 불가, 원본(롱 링크) 제출</strong></td><td><ul><li>트래킹 링크는 파라미터가 보이는 원본 그대로 제출해요. 앱스플라이어 원링크도 파라미터가 단축되지 않은 원본을 제출해요.</li><li>숏 링크·단축 URL은 사용할 수 없어요(비틀리 포함).</li></ul></td></tr><tr><td><strong>필수 파라미터 포함</strong></td><td><ul><li>MMP별로 트래킹 링크에 반드시 포함해야 하는 파라미터가 있어요. 예를 들어 앱스플라이어 원링크는 <code>pid</code>, <code>advertising_id</code>, <code>clickid</code>, <code>af_c_id</code> 파라미터를 포함해야 해요.</li><li>MMP별 필수 파라미터는 <a href="link-guide.md">URL 설정 가이드</a>에서 안내하고 있어요.</li></ul></td></tr><tr><td><strong>정상 동작 확인</strong></td><td><ul><li>제출하기 전에 앱이 설치된 기기에서는 앱이 실행되고, 설치하지 않은 기기에서는 스토어로 이동하는지 테스트해요. 유니버설 링크(iOS)·앱 링크(Android)를 설정하지 않았다면 브라우저를 거쳐 앱이 열려서 몇 초 걸릴 수 있어요.</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
-두 가지 링크가 동작하려면 광고주 앱에 딥링크 구현과 MMP 설정이 먼저 필요해요. 준비하는 방법과 테스트하는 방법은 [딥링크 설정 가이드](link-guide.md)에서 안내하고 있어요.
+트래킹 링크가 동작하려면 광고주 앱에 앱 스킴 구현과 MMP 설정이 먼저 필요해요. 준비하는 방법과 테스트하는 방법은 [URL 설정 가이드](link-guide.md)에서 안내하고 있어요.
 {% endhint %}
 
 ***
 
-## 브랜드&#x20;
+## 브랜드 <a href="#brand" id="brand"></a>
 
-### 앱 로고
+### 앱 로고 <a href="#app-logo" id="app-logo"></a>
 
 소재에서 앱 이름 옆에 보이는 앱 아이콘이에요.
 
-<table><thead><tr><th width="220">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li>가로 또는 세로 400px 이상</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li>400×400px 이상</li><li>10MB 이하</li><li>투명 배경 불가</li></ul></td></tr></tbody></table>
 
 ***
 
-## 문구
+## 문구 <a href="#copy" id="copy"></a>
 
 문구는 한국어 앱 이름, 영어 앱 이름, 보조 문구를 입력해요.
 
-### 한국어 앱 이름
+### 한국어 앱 이름 <a href="#korean-app-name" id="korean-app-name"></a>
 
 앱 서비스를 표현하는 제목이에요. 앱스토어 또는 플레이스토어에 등록된 앱 이름과 일치해야 해요.
 
-<table><thead><tr><th width="220">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>글자 수</strong></td><td><ul><li>공백 포함 1~20자 이내</li></ul></td></tr><tr><td><strong>사용 가능 문자</strong></td><td><ul><li>한글, 영문, 숫자, 공백</li><li><code>:</code> <code>∙</code> <code>?</code> 등 특수문자 허용</li><li>이모지 사용 불가</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>글자 수</strong></td><td><ul><li>공백 포함 1~20자</li></ul></td></tr><tr><td><strong>사용 가능 문자</strong></td><td><ul><li>한글, 영문, 숫자, 공백</li><li><code>:</code> <code>∙</code> <code>?</code> 등 특수문자 허용</li><li>이모지 사용 불가</li></ul></td></tr></tbody></table>
 
-### 영어 앱 이름
+### 영어 앱 이름 <a href="#english-app-name" id="english-app-name"></a>
 
 앱 서비스를 표현하는 영문 제목이에요. 각 단어의 첫 글자를 대문자 또는 숫자로 쓰는 Title Case를 적용해주세요.
 
 <table><thead><tr><th width="220">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>글자 수</strong></td><td><ul><li>공백 포함 1~30자</li></ul></td></tr><tr><td><strong>사용 가능 문자</strong></td><td><ul><li>영문, 숫자, 공백</li><li><code>:</code> <code>∙</code> <code>?</code> 등 특수문자 허용</li><li>이모지 사용 불가</li></ul></td></tr></tbody></table>
 
-### 보조 문구(부제)
+### 보조 문구(부제) <a href="#subtitle" id="subtitle"></a>
 
 앱 서비스를 잘 설명하는 문구예요.
 
-<table><thead><tr><th width="220">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>글자 수</strong></td><td><ul><li>공백 포함 5~18자</li></ul></td></tr><tr><td><strong>사용 가능 문자</strong></td><td><ul><li>한글, 영문, 숫자, 공백</li><li><code>?</code> 허용, <code>:</code> <code>∙</code> 사용 불가</li><li>이모지 사용 불가</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>글자 수</strong></td><td><ul><li>공백 포함 5~18자</li></ul></td></tr><tr><td><strong>사용 가능 문자</strong></td><td><ul><li>한글, 영문, 숫자, 공백</li><li><code>?</code> 허용, <code>:</code> <code>·</code> 사용 불가</li><li>이모지 사용 불가</li></ul></td></tr></tbody></table>
