@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 머니알림
@@ -87,7 +89,7 @@ layout:
 {% endstep %}
 {% endstepper %}
 
-## 2. [키워드형](keyword.md)
+## 2. [키워드형](/broken/pages/gmWNQh7Limq0KoG3oxRG)
 
 {% stepper %}
 {% step %}

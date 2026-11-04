@@ -60,7 +60,6 @@
 * [머니알림](reward/money-notifications/README.md)
   * [일반형](reward/money-notifications/basic.md)
   * [라이브형](reward/money-notifications/live.md)
-  * [키워드형](reward/money-notifications/keyword.md)
   * [성과 보기](reward/money-notifications/data.md)
 * [행운퀴즈](reward/luckyquiz/README.md)
   * [소재 가이드](reward/luckyquiz/creative.md)
