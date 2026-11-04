@@ -31,7 +31,7 @@ layout:
 
 #### 1-2) 브랜드 로고
 
-![브랜드 로고.png](<../../.gitbook/assets/브랜드 로고 (1).png>)
+<figure><img src="../../.gitbook/assets/브랜드 로고 (4).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="219.91796875">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li><code>800*800px</code> 이상</li><li><strong>투명·반투명한 부분이 없는 이미지</strong>를 올리거나, JPG로 변환해서 올려 주세요.</li><li><strong>안전 노출 영역 등</strong> 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>로고 형태가 가로로 긴 경우, 실제 지면에서 가독성이 떨어질 수 있어 권장하지 않음</li><li>심볼, 짧은 텍스트 위주 형태 권장</li></ul></td></tr></tbody></table>
 
@@ -39,11 +39,11 @@ layout:
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
 {% endhint %}
 
-{% file src="../../.gitbook/assets/TossAds_image_BrandLogo.psd" %}
+<figure><img src="../../.gitbook/assets/TossAds_Brand_CI_image (1).psd" alt=""><figcaption></figcaption></figure>
 
-{% file src="../../.gitbook/assets/TossAds_image_BrandLogo.ai" %}
+{% file src="../../.gitbook/assets/TossAds_Brand_CI_image (1).ai" %}
 
-{% file src="../../.gitbook/assets/TossAds_image_BrandLogo.fig" %}
+{% file src="../../.gitbook/assets/TossAds_Brand_CI_image (1).fig" %}
 
 #### 1-3) 브랜드 로고 예시
 
@@ -67,11 +67,21 @@ layout:
 
 #### 2-2) 비디오 규격
 
-![비디오 배너 - 가로형](<../../.gitbook/assets/영상 배너 - 가로형.png>)
+<figure><img src="../../.gitbook/assets/영상 배너 - 가로형 (1).png" alt=""><figcaption><p>비디오 : 가로형</p></figcaption></figure>
 
-![비디오 배너 - 세로형](<../../.gitbook/assets/영상 배너 - 세로형.png>)
+<figure><img src="../../.gitbook/assets/영상 배너 - 세로형_9_16.png" alt=""><figcaption><p>비디오 : 세로형 - 9:16</p></figcaption></figure>
+
+<div><figure><img src="../../.gitbook/assets/영상 배너 - 세로형_1_1.png" alt=""><figcaption><p>비디오 : 세로형 - 4:5</p></figcaption></figure> <figure><img src="../../.gitbook/assets/영상 배너 - 세로형_4_5.png" alt=""><figcaption><p>비디오 : 세로형 - 1:1</p></figcaption></figure></div>
 
 <table><thead><tr><th width="220.00390625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li><code>길이</code> 최소 3초 ~ 최대 120초 <strong>(15초・30초 사용 권장)</strong></li><li><code>지원 형식</code> MP4, MOV, WebM</li><li><code>파일 크기</code> 500MB 미만</li><li><code>프레임 속도</code> 24fps 또는 30fps</li><li><code>코덱 사양</code> H.264 / 오디오 AAC</li><li>버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li></ul></td></tr><tr><td><strong>가로형</strong></td><td><ul><li>16:9 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr><tr><td><strong>세로형</strong></td><td><ul><li>9:16 (권장), 4:5, 1:1 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr></tbody></table>
+
+{% hint style="info" %}
+아래 파일을 이용하면 쉽고 빠르게 소재를 확인할 수 있어요.
+{% endhint %}
+
+{% file src="../../.gitbook/assets/TossAds_Horizontalbanner_video.zip" %}
+
+{% file src="../../.gitbook/assets/TossAds_Verticalzbanner_video.zip" %}
 
 #### 2-3) 예시
 

@@ -31,7 +31,7 @@ layout:
 
 광고 이미지는 한 줄 배너에서 문구 옆에 노출되는 1:1 이미지예요. 광고의 혜택이나 정보를 시각적으로 보여줘요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FrWANwysxYZ6f4dTCcfM6%2F%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%8C%E1%85%AE%E1%86%AF%20%E1%84%87%E1%85%A2%E1%84%82%E1%85%A5.png?alt=media&#x26;token=9e619edb-4381-49f9-872c-30842cf66959" alt="한 줄 배너 이미지 규격과 안전 노출 영역"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/한 줄 배너 (2).png" alt=""><figcaption></figcaption></figure>
 
 이미지를 만들기 전에 **이미지 규격**과 **제작 기준** 탭을 모두 확인해 주세요.
 
@@ -42,6 +42,12 @@ layout:
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
 {% endhint %}
+
+{% file src="../../.gitbook/assets/TossAds_LineBanner_image.ai" %}
+
+{% file src="../../.gitbook/assets/TossAds_LineBanner_image.fig" %}
+
+<figure><img src="../../.gitbook/assets/TossAds_LineBanner_image.psd" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="제작 기준" %}
