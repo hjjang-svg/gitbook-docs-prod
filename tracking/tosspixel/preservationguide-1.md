@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 자사몰 픽셀 연동
@@ -30,36 +32,42 @@ layout:
 ## 토스 픽셀 설치하기
 
 {% hint style="info" %}
-#### **전환 추적 코드 발급하기**
+#### **전환 추적 코드 생성하기**
 
-* **토스 픽셀**은  [전환 추적 코드 생성하기 가이드](https://toss-ads.gitbook.io/guide/tracking/tag/code_generation)에 따라 **전환 추적 코드를 생성한 후에 사용**할 수 있어요. 발급받은 전환 추적 코드는 반드시 따옴표(`' '` 또는 `" "`)로 감싸서 스크립트에 입력해 주세요.
-* 예시의 `'전환 코드'` 부분을 발급받은 실제 값으로 바꾸고, 따옴표는 그대로 유지해 주세요.
+* **토스 픽셀**은 [전환 추적 코드 생성하기 가이드](https://toss-ads.gitbook.io/guide/tracking/tag/code_generation)에 따라 **전환 추적 코드를 생성한 후에 사용**할 수 있어요. 생성한 전환 추적 코드는 반드시 따옴표(`' '` 또는 `" "`)로 감싸서 이벤트 스크립트에 입력해 주세요.
+* 예시의 `"전환 코드"` 부분을 생성한 실제 값으로 바꾸고, 따옴표는 그대로 유지해 주세요.
 {% endhint %}
 
 {% stepper %}
 {% step %}
-**SDK 스크립트 설치**
+**설치 스크립트 삽입**
 
-모든 페이지에 공통으로 적용되는 레이아웃 파일의 \<head>태그 안에 아래 스크립트를 추가해 주세요.
+모든 페이지에 공통으로 적용되는 레이아웃 파일의 \<head> 태그 안에 아래 설치 스크립트를 추가해 주세요.
 
 {% code overflow="wrap" %}
-```javascript
-<head>
-    <!-- 기존 태그들 -->
-    <script src="https://static.toss.im/lex/v1.js"></script>
-</head>
+```html
+<script>
+!function(t){try{if("function"==typeof t.TossPixel)return;if("function"!=typeof Proxy)return
+;!function(t){function n(n){var r=new Proxy({},{get:function(e,i){
+if("string"==typeof i&&"then"!==i&&"toJSON"!==i){if(!(i in e))e[i]=function(){try{
+t._tpq.push([n,i,Array.prototype.slice.call(arguments)])}catch(t){}return r};return e[i]}}})
+;return r}n(),t._tpq=Array.isArray(t._tpq)?t._tpq:[],t.TossPixel=n}(t)
+;var n=t.document,r=n.createElement("script");r.type="text/javascript",r.async=!0,
+r.src="https://static.toss.im/lex/v1.js",(n.head||n.documentElement).appendChild(r)}catch(t){return}
+}(window);
+</script>
 ```
 {% endcode %}
 
-* SDK 스크립트는 사이트 전체에서 한 번만 로딩하면 돼요. 각 이벤트 코드마다 다시 넣을 필요는 없어요.
-* SDK 스크립트에는 async 또는 defer 속성을 사용하지 마세요. 이벤트 코드보다 먼저 로딩되어야 해요.
-* SDK 로딩에 실패하더라도 쇼핑몰의 기본 동작에는 영향을 주지 않아요.
+* 설치 스크립트는 사이트 전체에서 한 번만 넣으면 돼요. 각 이벤트 스크립트마다 다시 넣을 필요는 없어요.
+* 설치 스크립트는 이벤트 스크립트보다 위에 있어야 해요.
+* 토스 픽셀 로딩에 실패하더라도 쇼핑몰의 기본 동작에는 영향을 주지 않아요.
 {% endstep %}
 
 {% step %}
 **이벤트 스크립트 삽입**
 
-전환이 발생하는 지점에 아래 이벤트 스크립트를 추가해 주세요.
+전환이 발생하는 지점에 이벤트 스크립트를 추가해 주세요. 이벤트별 코드는 아래 "이벤트 스크립트 예시"에 있어요.
 
 토스 픽셀이 지원하는 이벤트와 파라미터는 아래와 같아요.
 
@@ -111,11 +119,11 @@ layout:
 | custom\_param5  | String | Custom Parameter 5          | "campaign\_01"                                    |
 
 {% hint style="info" %}
-모든 이벤트의 파라미터는 선택사항이에요.
+모든 이벤트의 파라미터는 선택 사항이에요.
 
 파라미터 없이 메서드만 호출해도 정상 수집돼요.
 
-다만, 파라미터를 함께 전달하면 광고 성과를 더 정확하게 분석할 수 있어요.
+다만 파라미터를 함께 전달하면 광고 성과를 더 정확하게 분석할 수 있어요.
 {% endhint %}
 {% endstep %}
 {% endstepper %}
@@ -124,34 +132,36 @@ layout:
 
 ### event\_id로 전환 이벤트 식별하기
 
-event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값이에요. 모든 이벤트에 함께 보낼 수 있어요.
+`event_id`는 **같은 이벤트가 여러 번 전송됐을 때 이를 중복으로 판단하기 위한 값**이에요. 예를 들어 한 번의 구매에 대한 이벤트가 여러 번 전송되더라도 같은 `event_id`를 사용하면 중복 집계를 방지할 수 있어요.
 
 **기본 규칙**
 
-* 같은 전환을 가리키는 이벤트에는 **같은 의미를 가진 값**을 넣어주세요.
-* 발생한 전환 이벤트에는 **서로 다른 값**을 넣어주세요.
-* 같은 전환추적코드로 보내는 이벤트끼리 겹치지 않으면 돼요. 다른 광고주와 값이 겹치는 건 괜찮아요.
-* 다른 파라미터와 마찬가지로 선택사항이에요. 값 없이 보내도 이벤트는 정상적으로 수집돼요.
+* **같은 이벤트를 다시 보낼 때는 정확히 같은 값을 사용해 주세요.** 같은 이벤트를 다시 전송한다면 처음 사용한 `event_id`를 그대로 전달해 주세요.
+* **별도로 발생한 이벤트에는 서로 다른 값을 사용해 주세요.** 같은 고객이 같은 상품을 다시 구매해도 별개의 구매 이벤트이므로 새로운 값이 필요해요. 고객 ID나 상품 ID만으로는 이를 구분할 수 없어요.
+* **이벤트가 발생할 때 값을 한 번 정하고, 다시 전송할 때도 유지해 주세요.** 구매라면 `purchase-주문번호`처럼 구성할 수 있어요. 임의의 고유 값을 생성하는 경우에도 전송할 때마다 새로 만들지 말고, 해당 이벤트와 함께 저장해 재사용해 주세요.
+* **`event_id`는 광고주가 직접 설정해야 해요.** 픽셀이 자동으로 생성하거나 주문번호를 대신 넣어주지는 않아요.
+* **선택 사항이므로 생략해도 이벤트를 보낼 수 있어요.** 다만 `event_id`를 이용해 중복을 제거하려면 같은 이벤트를 전송할 때마다 동일한 값을 전달해야 해요.
 
 **어떤 값을 쓰면 되나요**
 
-이미 서비스에 존재하는 유일 값을 그대로 쓰는 걸 가장 권장해요.
+이미 서비스에 있는 고유 값을 그대로 쓰는 걸 가장 권장해요.
 
 | 이벤트 성격   | 권장 값             | 예시                        |
 | -------- | ---------------- | ------------------------- |
 | 구매·결제    | 주문번호, 결제 트랜잭션 ID | "ORD-20260722-001"        |
 | 리드·양식 제출 | 폼 제출 ID          | "LEAD-20260722-0031"      |
 | 회원가입·로그인 | 가입/세션 처리 ID      | "SIGNUP-20260722-0142"    |
-| 조회·클릭 등  | 서비스에서 직접 만든 유일 값 | "PV-20260722-093245-4c1b" |
+| 조회·클릭 등  | 서비스에서 직접 만든 고유 값 | "PV-20260722-093245-4c1b" |
 
 **어떻게 보내나요**
 
-다른 파라미터와 동일하게 파라미터 객체 안에 event\_id를 넣어주세요.
+다른 파라미터와 동일하게 파라미터 객체 안에 event\_id를 넣어 주세요.
 
 ```html
 <script>
-  TossPixel('전환 코드').purchase({
-    event_id: "ORD-20260722-001",
+  // "이벤트 고유 값" 대신 이벤트마다 겹치지 않는 값을 넣어 주세요
+  TossPixel("전환 코드").purchase({
+    event_id: "이벤트 고유 값",
     order_id: "ORD-20260722-001",
     revenue: 78000,
     total_quantity: 2,
@@ -161,35 +171,15 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 ```
 
 {% hint style="info" %}
-* 서로 다른 전환 이벤트에 동일한 `event_id`를 반복해서 사용하면 중복 이벤트로 처리되어 전환 수집 또는 집계에 이상이 발생할 수 있어요. `event_id`는 전환 이벤트마다 고유한 값을 입력할 수 있을 때만 사용해 주세요.&#x20;
-* 고유한 값을 지정하기 어렵다면 `event_id`를 생략해 주세요.
+* **별도로 발생한 이벤트에 같은 `event_id`를 사용하면 중복으로 처리되어 실제 발생 횟수보다 적게 집계될 수 있어요.** 새로 발생한 이벤트에는 다른 값을 사용하고, 같은 이벤트를 다시 보낼 때는 기존 값을 유지해 주세요.
+* **이 기준에 맞게 값을 생성하고 관리하기 어렵다면 `event_id`를 생략해 주세요.** 생략해도 이벤트를 보낼 수 있지만, `event_id`를 이용한 중복 제거는 적용되지 않아요.
 {% endhint %}
 
 ### 이벤트 스크립트 예시
 
 아래 예시는 표준 이벤트 / 표준 파라미터 활용 방식을 이해하기 위한 샘플이에요.
 
-실제 연동 시에는 자사 서비스 구조와 수집 가능한 데이터에 맞게 필요한 파라미터만 선택해서 적용해 주세요.
-
-#### 구매 purchase()
-
-결제 및 주문이 완료된 시점에 호출해 주세요.
-
-```html
-<script>
-  TossPixel('전환 코드').purchase({
-    event_id: "ORD-20260722-001",
-    order_id: "ORDER_20260423_0001",
-    revenue: 78000,
-    total_quantity: 2,
-    currency: "KRW",
-    purchase_type: "CARD",
-    products: [ /* ... 기존과 동일 ... */ ],
-    custom_param1: "member_purchase",
-    custom_param2: "spring_campaign"
-  });
-</script>
-```
+실제로 연동할 때는 자사 서비스 구조와 수집할 수 있는 데이터에 맞춰 필요한 파라미터만 골라서 적용해 주세요.
 
 #### 회원가입 signUp()
 
@@ -197,8 +187,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').signUp({
-    event_id: "SIGNUP-20260722-0142",
+  TossPixel("전환 코드").signUp({
     custom_param1: "email",
     custom_param2: "normal_signup"
   });
@@ -211,8 +200,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').lead({
-    event_id: "LEAD-20260722-0031",
+  TossPixel("전환 코드").lead({
     lead_type: "Consultation",
     custom_param1: "insurance",
     custom_param2: "landing_form"
@@ -222,7 +210,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 **lead\_type**
 
-* lead\_type 원하는 문자열을 자유롭게 입력할 수 있어요. 아래는 업종별 권장 값이에요.
+* `lead_type`에는 원하는 문자열을 자유롭게 입력할 수 있어요. 아래는 업종별 권장 값이에요.
 
 | 리드 유형   | 권장 값         |
 | ------- | ------------ |
@@ -230,7 +218,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 | 상담 신청   | Consultation |
 | 시승 신청   | TestDrive    |
 | 무료체험 신청 | FreeTrial    |
-| 사전예약    | Preorder     |
+| 사전 예약   | Preorder     |
 | 보험료 조회  | QuoteCheck   |
 | 대출한도 조회 | LoanCheck    |
 
@@ -241,7 +229,6 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 ```html
 <script>
   TossPixel("전환 코드").productView({
-    event_id: "PV-20260722-093245-4c1b",
     currency: "KRW",
     products: [
       {
@@ -263,7 +250,6 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 ```html
 <script>
   TossPixel("전환 코드").purchase({
-    event_id: "ORD-20260722-001",
     order_id: "ORDER_20260423_0001",
     revenue: 78000,
     total_quantity: 2,
@@ -292,7 +278,6 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 ```html
 <script>
   TossPixel("전환 코드").addToCart({
-    event_id: "CART-20260722-093512-7a2e",
     revenue: 78000,
     total_quantity: 2,
     currency: "KRW",
@@ -318,7 +303,6 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 ```html
 <script>
   TossPixel("전환 코드").initiateCheckout({
-    event_id: "CHK-20260722-0087",
     order_id: "ORDER_20260423_0001",
     revenue: 78000,
     total_quantity: 2,
@@ -344,12 +328,8 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').search({
-    event_id: "SRCH-20260722-093820-9e5f",
-    category_id: "C100",
-    category_name: "상의",
-    custom_param1: "오가닉 코튼 티셔츠",
-    custom_param2: "search_result"
+  TossPixel("전환 코드").search({
+    search_string: "search_result"
   });
 </script>
 ```
@@ -360,8 +340,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').signIn({
-    event_id: "SIGNIN-20260722-093412-8f3a",
+  TossPixel("전환 코드").signIn({
     custom_param1: "email",
     custom_param2: "existing_user"
   });
@@ -374,8 +353,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').pageView({
-    event_id: "PAGE-20260722-093010-1a7c",
+  TossPixel("전환 코드").pageView({
     custom_param1: "all_page",
     custom_param2: "web"
   });
@@ -388,22 +366,20 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').viewHome({
-    event_id: "HOME-20260722-092955-3d8e",
+  TossPixel("전환 코드").viewHome({
     custom_param1: "main_home",
     custom_param2: "logged_in"
   });
 </script>
 ```
 
-#### 첫 구매 `firstPurchase()`
+#### 첫 구매 firstPurchase()
 
 첫 구매가 완료된 시점에 호출해 주세요.
 
 ```html
 <script>
   TossPixel("전환 코드").firstPurchase({
-    event_id: "ORD-20260722-002",
     order_id: "ORDER_20260423_0002",
     revenue: 39000,
     total_quantity: 1,
@@ -430,8 +406,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').getOffer({
-    event_id: "OFFER-20260722-0221",
+  TossPixel("전환 코드").getOffer({
     custom_param1: "WELCOME10",
     custom_param2: "download_coupon"
   });
@@ -444,15 +419,17 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').addToWishlist({
-    event_id: "WISH-20260722-094010-2b9d",
-    product_id: "P12345",
-    product_name: "오가닉 코튼 티셔츠",
-    category_id: "C100",
-    category_name: "상의",
-    price: 39000,
-    quantity: 1,
-    currency: "KRW"
+  TossPixel("전환 코드").addToWishlist({
+    currency: "KRW",
+    products: [
+      {
+        product_id: "P12345",
+        product_name: "오가닉 코튼 티셔츠",
+        category_id: "C100",
+        category_name: "상의",
+        price: 39000
+      }
+    ]
   });
 </script>
 ```
@@ -463,8 +440,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').subscribe({
-    event_id: "SUB-20260722-0455",
+  TossPixel("전환 코드").subscribe({
     lead_type: "Newsletter",
     custom_param1: "push_opt_in",
     custom_param2: "app"
@@ -478,8 +454,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').preRegister({
-    event_id: "PRE-20260722-0113",
+  TossPixel("전환 코드").preRegister({
     product_id: "PRD_PRE_001",
     product_name: "신규 멤버십",
     lead_type: "Preorder",
@@ -494,8 +469,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').viewLimit({
-    event_id: "LIMIT-20260722-0762",
+  TossPixel("전환 코드").viewLimit({
     lead_type: "LoanCheck",
     custom_param1: "credit_loan",
     custom_param2: "mobile_web"
@@ -509,8 +483,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 ```html
 <script>
-  TossPixel('전환 코드').applyScreening({
-    event_id: "SCR-20260722-0338",
+  TossPixel("전환 코드").applyScreening({
     lead_type: "PreScreening",
     custom_param1: "mortgage",
     custom_param2: "qualified_check"
@@ -525,23 +498,20 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 * 표준 이벤트에 해당하지 않는 전환을 추적할 때 사용해요.
 * 이벤트명은 직접 지정할 수 있고, 표준 이벤트와 같은 파라미터를 사용할 수 있어요.
 
-{% code overflow="wrap" %}
 ```html
-<!-- Toss Pixel 커스텀 이벤트 -->
 <script>
-    TossPixel('전환 코드').custom('BUTTON_CLICK', {
-        event_id: "고유 값",
-    });
+  TossPixel("전환 코드").custom("BUTTON_CLICK", {
+    custom_param1: "button_1",
+  });
 </script>
 ```
-{% endcode %}
 
 **파라미터**
 
 | 파라미터                | 타입     | 필수 | 설명                                         |
 | ------------------- | ------ | -- | ------------------------------------------ |
-| eventName (첫 번째 인자) | string | 필수 | 이벤트명 (예: "BUTTON\_CLICK", "WISHLIST\_ADD") |
-| params (두 번째 인자)    | object | 선택 | 이벤트에 포함할 추가 데이터                            |
+| eventName (첫 번째 인자) | String | 필수 | 이벤트명 (예: "BUTTON\_CLICK", "WISHLIST\_ADD") |
+| params (두 번째 인자)    | Object | 선택 | 이벤트에 포함할 추가 데이터                            |
 
 * 두 번째 인자에는 product\_id, price, currency 등 표준 이벤트에서 사용하는 파라미터를 전달할 수 있어요.
 * 추적하려는 전환에 맞는 값을 선택해 포함해 주세요.
@@ -550,7 +520,7 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 **표준 이벤트와의 차이**
 
 * 표준 이벤트는 메서드명이 곧 이벤트명이에요.
-* 커스텀 이벤트는 첫 번째 인자에 이벤트명을 직접 입력해요
+* 커스텀 이벤트는 첫 번째 인자에 이벤트명을 직접 입력해요.
   * **그 외 파라미터 사용 방식은 동일해요.**
 {% endhint %}
 
@@ -560,27 +530,23 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 * 모든 이벤트(표준 이벤트, 커스텀 이벤트)에 custom\_param1 \~ custom\_param5를 추가할 수 있어요.
 * product\_id, price 같은 표준 파라미터로 표현하기 어려운 추가 정보를 전달할 때 사용해요.
-  * 예를 들어, 캠페인 구분값, 프로모션 코드, A/B 테스트 그룹, 유입 경로 등 필요에 따라 정의한 값을 담을 수 있어요.
+  * 예를 들어 캠페인 구분값, 프로모션 코드, A/B 테스트 그룹, 유입 경로 등 필요에 따라 정의한 값을 담을 수 있어요.
 
 ```html
 <!-- 표준 이벤트에 커스텀 프로퍼티 추가 -->
 <script>
-    // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
-    TossPixel('전환 코드').pageView({
-		    event_id: "고유 값",
-        custom_param1: "summer_sale",
-        custom_param2: "landing_A"
-    });
+  TossPixel("전환 코드").pageView({
+    custom_param1: "summer_sale",
+    custom_param2: "landing_A"
+  });
 </script>
 
 <!-- 커스텀 이벤트에 커스텀 프로퍼티 추가 -->
 <script>
-    // '전환 코드' 대신 생성한 전환코드 값을 넣어주세요
-    TossPixel('전환 코드').custom('BUTTON_CLICK', {
-		    event_id: "고유 값",
-        custom_param1: "cta_top",
-        custom_param2: "variant_B"
-    });
+  TossPixel("전환 코드").custom("BUTTON_CLICK", {
+    custom_param1: "cta_top",
+    custom_param2: "variant_B"
+  });
 </script>
 ```
 
@@ -588,40 +554,36 @@ event\_id는 수집된 전환 이벤트 하나하나를 구분하는 고유 값�
 
 | 프로퍼티           | 타입     | 설명         |
 | -------------- | ------ | ---------- |
-| custom\_param1 | string | 커스텀 프로퍼티 1 |
-| custom\_param2 | string | 커스텀 프로퍼티 2 |
-| custom\_param3 | string | 커스텀 프로퍼티 3 |
-| custom\_param4 | string | 커스텀 프로퍼티 4 |
-| custom\_param5 | string | 커스텀 프로퍼티 5 |
+| custom\_param1 | String | 커스텀 프로퍼티 1 |
+| custom\_param2 | String | 커스텀 프로퍼티 2 |
+| custom\_param3 | String | 커스텀 프로퍼티 3 |
+| custom\_param4 | String | 커스텀 프로퍼티 4 |
+| custom\_param5 | String | 커스텀 프로퍼티 5 |
 
 ***
 
 #### SPA(Single Page Application) 환경
 
-*   React, Next.js, Vue 등 SPA 프레임워크를 사용하는 경우,페이지 이동 시 HTML이 새로 로딩되지 않아요.
+*   React, Next.js, Vue 등 SPA 프레임워크를 사용하면 페이지를 이동할 때 HTML이 새로 로딩되지 않아요.
 
     따라서 라우트가 변경되는 시점에 이벤트를 직접 호출해 주세요.
 
-- [x] React 예시
+**React 예시**
 
-{% code overflow="wrap" %}
 ```javascript
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function usePageView() {
-    const location = useLocation();
+  const location = useLocation();
 
-    useEffect(() => {
-        TossPixel('전환 코드').pageView({
-            event_id: "PAGE-20260722-093010-1a7c"
-        });
-    }, [location.pathname]);
+  useEffect(() => {
+    TossPixel("전환 코드").pageView();
+  }, [location.pathname]);
 }
 ```
-{% endcode %}
 
-* TossPixel 객체는 1단계에서 추가한 SDK 스크립트(v1.js)가 window에 등록해요. SPA 환경에서도 SDK 스크립트는 index.html의 \<head>에 한 번만 추가하면 돼요.
+* TossPixel 객체는 1단계에서 추가한 설치 스크립트가 window에 등록해요. SPA 환경에서도 설치 스크립트는 index.html의 \<head>에 한 번만 추가하면 돼요.
 
 ***
 
@@ -629,11 +591,11 @@ function usePageView() {
 
 토스 픽셀이 정상적으로 설치되었는지 아래 방법으로 확인할 수 있어요.
 
-1. Toss Pixel Helper 크롬 확장프로그램
+**Toss Pixel Helper 크롬 확장 프로그램**
 
-[Toss Pixel Helper](https://chromewebstore.google.com/detail/toss-pixel-helper/kbbggbgnfmbpjpaieklnbbjfkjkkpcbi?hl=ko\&gl=US\&pli=1)를 설치하면, 현재 페이지에서 수집된 토스 픽셀 이벤트를 실시간으로 확인할 수 있어요.
+[Toss Pixel Helper](https://chromewebstore.google.com/detail/toss-pixel-helper/kbbggbgnfmbpjpaieklnbbjfkjkkpcbi?hl=ko\&gl=US\&pli=1)를 설치하면 현재 페이지에서 수집된 토스 픽셀 이벤트를 실시간으로 확인할 수 있어요.
 
-자세한 사용 방법은 [픽셀 이벤트 수집 확인하기](pixel_event.md) 페이지를 참고해주세요.
+자세한 사용 방법은 [픽셀 이벤트 수집 확인하기](pixel_event.md) 페이지를 참고해 주세요.
 
 <figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -641,9 +603,9 @@ function usePageView() {
 
 ## 자주 묻는 질문
 
-**Q. SDK 스크립트 로딩이 실패하면 쇼핑몰에 영향이 있나요?**
+**Q. 토스 픽셀 로딩이 실패하면 쇼핑몰에 영향이 있나요?**
 
-A. 영향은 없어요. SDK 로딩이 실패하면 TossPixel 호출만 무시되고, 쇼핑몰의 정상 동작에는 영향을 주지 않아요.
+A. 영향은 없어요. 토스 픽셀 로딩이 실패하면 TossPixel 호출만 무시되고, 쇼핑몰의 정상 동작에는 영향을 주지 않아요.
 
 **Q. 구매 완료 페이지에서 새로고침하면 이벤트가 중복 전송되나요?**
 
@@ -651,13 +613,13 @@ A. 중복 전송될 수 있어요. 주문 완료 여부를 서버에서 한 번 
 
 **Q. 파라미터를 보내지 않아도 되나요?**
 
-A. 가능해요. 모든 파라미터는 선택사항이에요. 메서드만 호출해도 정상 수집돼요.
+A. 가능해요. 모든 파라미터는 선택 사항이에요. 메서드만 호출해도 정상 수집돼요.
 
-다만, 파라미터를 함께 전달하면 광고 성과를 더 정확하게 분석할 수 있어요.
+다만 파라미터를 함께 전달하면 광고 성과를 더 정확하게 분석할 수 있어요.
 
 **Q. event\_id는 꼭 보내야 하나요?**
 
-A. 필수는 아니에요. 다른 파라미터와 마찬가지로 선택사항이라 값 없이 보내도 이벤트는 정상적으로 수집돼요. 다만 광고주 시스템의 주문·리드 데이터와 수집된 이벤트를 대조하려면 채워서 보내는 걸 권장해요.
+A. 필수는 아니에요. 다른 파라미터와 마찬가지로 선택 사항이라 값 없이 보내도 이벤트는 정상적으로 수집돼요. 다만 광고주 시스템의 주문·리드 데이터와 수집된 이벤트를 대조하려면 채워서 보내는 걸 권장해요.
 
 **Q. event\_id는 어떤 값으로 만들어야 하나요?**
 
@@ -665,7 +627,7 @@ A. 같은 전환추적코드로 보내는 이벤트끼리 겹치지 않는 값�
 
 **Q. 조회 이벤트처럼 고유 ID가 없는 경우에는요?**
 
-A. 서비스에서 겹치지 않는 값을 직접 만들어 넣어주세요. 값을 만들기 어렵다면 `event_id` 없이 보내도 이벤트는 정상적으로 수집돼요.
+A. 서비스에서 겹치지 않는 값을 직접 만들어 넣어 주세요. 값을 만들기 어렵다면 `event_id` 없이 보내도 이벤트는 정상적으로 수집돼요.
 
 **Q. order\_id가 있는데 event\_id를 또 보내야 하나요?**
 
