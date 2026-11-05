@@ -43,11 +43,7 @@ layout:
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
 {% endhint %}
 
-{% file src="../../.gitbook/assets/TossAds_LineBanner_image.ai" %}
-
-{% file src="../../.gitbook/assets/TossAds_LineBanner_image.fig" %}
-
-<figure><img src="../../.gitbook/assets/TossAds_LineBanner_image.psd" alt=""><figcaption></figcaption></figure>
+{% file src="../../.gitbook/assets/TossAds_LineBanner_image (1).zip" %}
 {% endtab %}
 
 {% tab title="제작 기준" %}

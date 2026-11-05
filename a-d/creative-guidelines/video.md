@@ -39,11 +39,9 @@ layout:
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
 {% endhint %}
 
+{% file src="../../.gitbook/assets/TossAds_Brand_CI_image (1).zip" %}
+
 <figure><img src="../../.gitbook/assets/TossAds_Brand_CI_image (1).psd" alt=""><figcaption></figcaption></figure>
-
-{% file src="../../.gitbook/assets/TossAds_Brand_CI_image (1).ai" %}
-
-{% file src="../../.gitbook/assets/TossAds_Brand_CI_image (1).fig" %}
 
 #### 1-3) 브랜드 로고 예시
 
