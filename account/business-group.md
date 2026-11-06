@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 비즈니스 그룹 생성·운영
@@ -142,7 +144,7 @@ layout:
 
 <figure><img src="../.gitbook/assets/09_위임장·인감증명서 (대리인 신청·공동대표일 때만 제출).png" alt=""><figcaption></figcaption></figure>
 
-
+{% file src="../.gitbook/assets/TossAds_광고 위임장 (1).docx" %}
 {% endstep %}
 
 {% step %}
@@ -204,8 +206,6 @@ layout:
 신청한 비즈니스 그룹은 영업일 기준 최대 **1\~2일 이내**에 확인하고, **이메일**로 승인 또는 반려 결과를 안내드려요.
 
 <figure><img src="../.gitbook/assets/13_신청 완료.png" alt=""><figcaption></figcaption></figure>
-
-
 
 심사가 반려되면 반려 사유를 확인하고 \[다시 제출하기]로 재신청할 수 있어요. 재제출 시 기존 그룹이 유지되고 새 그룹이 만들어지지 않아요.
 
