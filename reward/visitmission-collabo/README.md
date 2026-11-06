@@ -17,13 +17,15 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 일주일 방문 미션(협력광고)
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F17vLpleXPnAQ34szTeAd%2Fimage%20(6).png?alt=media&#x26;token=1eaca189-dd78-4999-a5e7-0df86c710ce9" alt=""><figcaption></figcaption></figure>
 
-### 광고 상품 소개
+### 광고 상품 소개 <a href="#overview" id="overview"></a>
 
 일주일 방문 미션은 상품 좋아요 누르기, 장바구니 담기, 구경하기 같은 미션을 통해 사용자의 인게이지먼트를 올릴 수 있는 광고 상품이에요. 단기간에 트래픽을 확보할 뿐 아니라 탐색 과정에서 자연스럽게 구매까지 유도해요.
 
@@ -32,7 +34,7 @@ layout:
 * 미션을 완료한 사용자에게 포인트가 지급돼요.
 * 올리브영에서 발생한 구매 성과를 트래킹할 수 있어요.
 
-### **미션 종류**
+### **미션 종류** <a href="#mission-types" id="mission-types"></a>
 
 |            |                                     |
 | ---------- | ----------------------------------- |
@@ -44,7 +46,7 @@ layout:
 
 ***
 
-### 캠페인 생성하기
+### 캠페인 생성하기 <a href="#create-campaign" id="create-campaign"></a>
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FybzICrxA1JcN4VBMpAJE%2F%E1%84%8F%E1%85%A2%E1%86%B7%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20(8).png?alt=media&#x26;token=4c6437e3-f948-4a93-bb16-50a223afc2c8" alt=""><figcaption></figcaption></figure>
 

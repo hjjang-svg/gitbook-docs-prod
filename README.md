@@ -25,15 +25,17 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 토스애즈를 소개해요
 
-#### **기능에 녹아든 자연스러운 광고**
+#### **기능에 녹아든 자연스러운 광고** <a href="#native-ads" id="native-ads"></a>
 
 * 고객에게 필요한 순간, 콘텐츠와 자연스럽게 이어지는 광고를 보여줘요.
 
-#### **결제 행동 프로파일**
+#### **결제 행동 프로파일** <a href="#payment-profile" id="payment-profile"></a>
 
 * 실제 소비를 바탕으로 고객의 소비 성향·라이프사이클·관심사를 파악해요.
 
@@ -41,7 +43,7 @@ layout:
 
 * 머신러닝이 광고에 반응하거나 전환할 가능성이 높은 고객을 자동으로 찾아요.
 
-## 어떤 광고를 만들 수 있나요
+## 어떤 광고를 만들 수 있나요 <a href="#ad-types" id="ad-types"></a>
 
 토스애즈의 광고는 성격이 다른 두 가지 유형으로 나뉘어요. 이루려는 전환 목표가 명확하다면 디스플레이 광고를, 리워드 지면과 미션형 상품으로 고객의 참여를 이끌고 싶다면 리워드 광고를 선택해요.
 
@@ -49,13 +51,13 @@ layout:
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>디스플레이 광고</strong></td><td>구매·앱 설치·잠재고객·방문 네 가지 캠페인 목표 가운데 하나를 골라 캠페인을 만들고, 예산·입찰·타겟을 설정해 직접 운영하는 광고예요.</td><td><a href="a-d/display-ads.md">display-ads.md</a></td></tr><tr><td><strong>리워드 광고</strong></td><td>머니알림·행운퀴즈·라이브 마켓·숏폼·미션처럼 토스 앱의 리워드 지면을 기반으로 하는 상품을 골라 집행하는 광고예요. 참여 방식과 리워드 제공 여부는 상품마다 달라요.</td><td><a href="reward/reward-ads.md">reward-ads.md</a></td></tr></tbody></table>
 
-## 이런 목표가 있다면
+## 이런 목표가 있다면 <a href="#by-goal" id="by-goal"></a>
 
 만들려는 광고가 아직 막연하다면, 이루고 싶은 목표에서 출발해 보세요.
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>구매 유도하기</strong></td><td>쇼핑 탐색 맥락에서 상품을 노출하고 구매 동선으로 연결해요.</td><td><a href="a-d/purchase/">purchase</a></td></tr><tr><td><strong>앱 설치 유도하기</strong></td><td>앱 정보를 소개하고 설치와 실행으로 연결해요.</td><td><a href="a-d/app-install/">app-install</a></td></tr><tr><td><strong>잠재고객 모으기</strong></td><td>상담 신청·가입처럼 다음 영업으로 이어질 고객 정보를 수집해요.</td><td><a href="a-d/lead-generation/">lead-generation</a></td></tr><tr><td><strong>방문 유도하기</strong></td><td>광고를 클릭한 고객을 랜딩 페이지로 바로 연결해요.</td><td><a href="a-d/website-visit/">website-visit</a></td></tr><tr><td><strong>리워드 광고</strong></td><td>메시지·퀴즈·라이브·숏폼·미션으로 고객의 참여를 유도해요.</td><td><a href="reward/reward-ads.md">reward-ads.md</a></td></tr></tbody></table>
 
-## 광고 시작하기
+## 광고 시작하기 <a href="#get-started" id="get-started"></a>
 
 처음 광고를 시작한다면 세 단계면 충분해요.
 
@@ -67,7 +69,7 @@ layout:
 
 집행을 시작한 뒤에는 [광고 성과 확인하기](reports/performance.md)에서 성과를, [광고비 결제·정산 알아보기](billing/adjustment.md)에서 결제·정산 내역을 확인할 수 있어요.
 
-## 함께 보면 좋아요
+## 함께 보면 좋아요 <a href="#see-also" id="see-also"></a>
 
 * 광고 운영을 맡길 파트너를 찾고 있다면 [토스애즈 TEP 에이전시](intro/agency.md)를 확인해 주세요.
 * 집행하려는 업종이 광고 가능한지 먼저 확인하려면 [광고 불가 업종 안내](review/restrictedindustry.md)를 참고해 주세요.

@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 두근두근 1등 찍기
@@ -25,7 +27,7 @@ layout:
 
 * [x] 두근두근 1등 찍기는 서로 다른 SKU를 카탈로그 형태로 노출하고 하루 최대 2번 커스텀한 질문에 유저들이 투표하도록 유도해 **광고 관여도를 극대화**하며, **낮은 CPC 단가로 대량의 트래픽을 기대할 수 있는 상품**이에요.
 
-### 1. 광고 생성하기
+### 1. 광고 생성하기 <a href="#step-create-ad" id="step-create-ad"></a>
 
 두근두근 1등 찍기 메뉴에 접속하신 뒤 상단의 \[광고 생성하기] 버튼을 눌러 광고 신청 입력 폼을 작성해 주세요.
 
@@ -50,11 +52,11 @@ layout:
 • 광고 소재는 사전 검토를 거쳐야 하며, 토스애즈 광고 가이드 기준에 부합해야 해요.
 {% endhint %}
 
-### **2. 소재 작성하기**
+### **2. 소재 작성하기** <a href="#step-write-creative" id="step-write-creative"></a>
 
 \[[소재 만들기 가이드](creative.md)]를 참고하여 소재를 만들어 주세요.
 
-### **3. 심사 제출하기**
+### **3. 심사 제출하기** <a href="#step-submit-review" id="step-submit-review"></a>
 
 소재 작성이 완료 되었다면, 우측 상단에 있는 ‘심사 제출하기’ 버튼을 눌러 소재를 제출해 주세요.
 
@@ -66,13 +68,13 @@ layout:
 
 <figure><img src="../../.gitbook/assets/심사 제출하기 (5).png" alt=""><figcaption></figcaption></figure>
 
-### **4. 보류된 소재 수정하기**
+### **4. 보류된 소재 수정하기** <a href="#step-edit-on-hold" id="step-edit-on-hold"></a>
 
 소재 심사 중에는 수정 할 수 없으며 제출한 소재가 반려 되었다면, \[**반려사유]** 를 확인하고 \[[소재 만들기 가이드](creative.md)]에 맞추어 수정 후 제출 해주세요.
 
 <figure><img src="../../.gitbook/assets/심사 제출하기 (3).png" alt=""><figcaption></figcaption></figure>
 
-### **5. 광고 집행하기**
+### **5. 광고 집행하기** <a href="#step-run-ad" id="step-run-ad"></a>
 
 최종 승인된 소재는 설정한 광고 시작일에 노출돼요.
 

@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 광고 불가 업종 안내
 
-## 광고 제한 업종
+## 광고 제한 업종 <a href="#restricted-industries" id="restricted-industries"></a>
 
 아래의 경우 토스에서 광고 집행이 불가하거나 제한될 수 있으며, 플랫폼 정책 또는 법령 위반 여부가 추가 확인될 경우, 광고 집행이 중단될 수 있습니다.
 

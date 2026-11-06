@@ -23,7 +23,7 @@ layout:
 
 # 소재 가이드
 
-### 소재 심사 제출
+### 소재 심사 제출 <a href="#submit-review" id="submit-review"></a>
 
 일주일 방문 미션(협력 광고)는 집행 당일 소재를 만들 수 없어요.
 
@@ -49,7 +49,7 @@ layout:
 
 ***
 
-### **필요한 정보**
+### **필요한 정보** <a href="#required-info" id="required-info"></a>
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2Fddb2SKoS1GG1VFJMwUQH%2F%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%86%E1%85%AE%E1%86%AB%20%E1%84%86%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB.png?alt=media&#x26;token=17dcf58e-8ffc-4b47-8e68-8be9aa986ea1" alt=""><figcaption></figcaption></figure>
 
@@ -61,7 +61,7 @@ layout:
 | 4. 상품 이미지     | ✓       | ✓     | ✓          |
 | 5. 랜딩 페이지 url | ✓       | ✓     | ✓          |
 
-### 소재 만들기
+### 소재 만들기 <a href="#create-creative" id="create-creative"></a>
 
 {% hint style="warning" %}
 [**소재 심사 규정**](https://toss-ads.gitbook.io/guide/policy/creativeguide)**을 반드시 확인해주세요.**

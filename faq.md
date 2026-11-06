@@ -26,7 +26,7 @@ layout:
 
 광고를 운영하면서 자주 겪는 문제를 빠르게 해결할 수 있어요. 자세한 설정 방법과 정책은 각 답변에 연결된 기준 문서를 확인해 주세요.
 
-### 계정·가입
+### 계정·가입 <a href="#account-signup" id="account-signup"></a>
 
 <details>
 
@@ -40,7 +40,7 @@ layout:
 
 <summary><strong>대표자가 바뀌었거나 담당자가 퇴사해서 계정을 넘기고 싶어요</strong></summary>
 
-위임장(PDF), 사업자등록증, 새 담당자가 가입한 이메일 정보를 채널톡으로 제출해 주세요. 확인 후 새 담당자에게 수기로 권한을 부여해요. 필요한 서류는 [비즈니스 그룹 생성·운영](account/business-group.md#power-of-attorney) 가이드를 확인해 주세요.
+위임장(PDF), 사업자등록증, 새 담당자가 가입한 이메일 정보를 채널톡으로 제출해 주세요. 확인 후 새 담당자에게 수기로 권한을 부여해요. 필요한 서류는 [비즈니스 그룹 생성·운영](account/business-group.md#step-power-of-attorney) 가이드를 확인해 주세요.
 
 </details>
 
@@ -56,7 +56,7 @@ layout:
 
 <summary><strong>위임장을 어떤 형식으로 제출해야 하나요?</strong></summary>
 
-위임 범위와 대표자명, 날인을 포함한 PDF 파일로 제출해 주세요. [위임장 템플릿 내려받기](account/business-group.md#power-of-attorney)에서 파일을 확인해 주세요.
+위임 범위와 대표자명, 날인을 포함한 PDF 파일로 제출해 주세요. [위임장 템플릿 내려받기](account/business-group.md#step-power-of-attorney)에서 파일을 확인해 주세요.
 
 </details>
 
@@ -114,7 +114,7 @@ layout:
 
 </details>
 
-### 캠페인·소재
+### 캠페인·소재 <a href="#campaign-creative" id="campaign-creative"></a>
 
 <details>
 
@@ -176,8 +176,8 @@ layout:
 
 <summary><strong>특정 브랜드 구매자를 타겟으로 광고하고 싶어요</strong></summary>
 
-관심·속성이나 업종 카테고리 등 결제 이력에 기반한 타겟을 설정할 수 있어요.  \
-구매 유도하기 [광고세트 만들기 설정](a-d/purchase/#direct-settings)과 방문 유도하기 [광고 세트 만들기 설정](a-d/website-visit/#undefined-3)을 확인해주세요.
+관심·속성이나 업종 카테고리 등 결제 이력에 기반한 타겟을 설정할 수 있어요.\
+구매 유도하기 [광고세트 만들기 설정](a-d/purchase/#direct-settings)과 방문 유도하기 [광고 세트 만들기 설정](a-d/website-visit/#create-adset)을 확인해주세요.
 
 </details>
 
@@ -198,7 +198,7 @@ JPG로 변환하면 투명한 부분이 흰색이나 검은색으로 채워질 �
 
 </details>
 
-### 타겟·연동·측정
+### 타겟·연동·측정 <a href="#targeting-tracking" id="targeting-tracking"></a>
 
 <details>
 
@@ -226,7 +226,7 @@ JPG로 변환하면 투명한 부분이 흰색이나 검은색으로 채워질 �
 
 </details>
 
-### 결제·정산
+### 결제·정산 <a href="#billing-settlement" id="billing-settlement"></a>
 
 <details>
 
@@ -308,7 +308,7 @@ JPG로 변환하면 투명한 부분이 흰색이나 검은색으로 채워질 �
 
 </details>
 
-### 리워드 광고
+### 리워드 광고 <a href="#reward-ads" id="reward-ads"></a>
 
 <details>
 

@@ -23,7 +23,7 @@ layout:
 
 # 맞춤 보고서
 
-## 맞춤 보고서란?
+## 맞춤 보고서란? <a href="#what-is-custom-report" id="what-is-custom-report"></a>
 
 광고 성과를 원하는 지표로 자유롭게 분석할 수 있는 보고서 생성 기능이에요. 성과 대시보드에서 주요 지표를 확인하고, 맞춤 보고서를 통해 **세밀한 분석**과 **광고 운영 전략**을 수립할 수 있어요.
 
@@ -42,23 +42,23 @@ layout:
 
 ***
 
-## 맞춤 보고서 주요 기능 활용하기
+## 맞춤 보고서 주요 기능 활용하기 <a href="#key-features" id="key-features"></a>
 
-### 전환 집계 기준 변경하여 성과 확인하기
+### 전환 집계 기준 변경하여 성과 확인하기 <a href="#conversion-basis" id="conversion-basis"></a>
 
 전환 집계 기준(Attribution Window)은 광고를 클릭한 뒤 며칠까지 발생한 전환을 성과로 인정할지 정하는 기준이에요. 맞춤 보고서에서는 이 기준을 직접 바꿔가며 성과를 확인할 수 있어요.
 
-기본값은 30일이고, 1일 · 7일 · 30일 · 90일 중에서 고를 수 있어요. 보고서에서 기간을 고르면 전환 지표가 바로 다시 계산돼요.&#x20;
+기본값은 30일이고, 1일 · 7일 · 30일 · 90일 중에서 고를 수 있어요. 보고서에서 기간을 고르면 전환 지표가 바로 다시 계산돼요.
 
 전환 기준은 전환 성과를 선택했을 때 설정할 수 있어요.
 
 <figure><img src="../.gitbook/assets/맞춤 보고서_어뷰.png" alt=""><figcaption></figcaption></figure>
 
-**기간에 따라 달라지는 지표는 아래와 같아요.**&#x20;
+**기간에 따라 달라지는 지표는 아래와 같아요.**
 
 전환 수, 전환 매출, 전환율(CVR), 전환당 비용(CPA), ROAS 등 전환 성과와 관련된 지표의 성과가 달라져요.
 
-**기간과 상관없이 동일한 지표는 아래와 같아요.**&#x20;
+**기간과 상관없이 동일한 지표는 아래와 같아요.**
 
 노출 수, 클릭 수, 소진 비용은 광고를 클릭한 시점에 집계되기 때문이에요.
 
@@ -68,7 +68,7 @@ layout:
 * 보고서에서 보이는 숫자만 바뀌고, 광고비가 청구되는 기준이나 광고 최적화 방식은 바뀌지 않아요.
 * 모바일 측정 파트너(MMP)로 측정하는 전환은 보고서의 전환 기준 기간을 넓혀도 숫자가 늘지 않을 수 있어요. MMP의 집계 기간은 광고주가 직접 설정하며, MMP에서 설정한 기간과 토스에서 설정한 기간 중 더 짧은 쪽이 적용되기 때문이에요. 기간을 넓혔는데 전환 수가 그대로라면, MMP에 설정한 집계 기준이 보고서에서 설정한 기준보다 더 짧지 않은지 확인해 주세요.
 
-### 다양한 기준 매핑으로 성과 비교하기
+### 다양한 기준 매핑으로 성과 비교하기 <a href="#mapping-compare" id="mapping-compare"></a>
 
 분석 목적에 따라 여러 가지 성과・기준 항목을 조합하여 성과 지표를 확인해 보세요.
 
@@ -79,7 +79,7 @@ layout:
 
 <figure><img src="../.gitbook/assets/맞춤 보고서_만들기 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-### 기간별 분석으로 트렌드 파악하기
+### 기간별 분석으로 트렌드 파악하기 <a href="#period-trend" id="period-trend"></a>
 
 맞춤 보고서는 5가지 기간 옵션으로 다양한 분석이 가능해요.
 
@@ -101,7 +101,7 @@ layout:
 
 <figure><img src="../.gitbook/assets/맞춤 보고서_기간 (3).png" alt=""><figcaption></figcaption></figure>
 
-### 병합 ・ 집계 보기
+### 병합 ・ 집계 보기 <a href="#merge-aggregate" id="merge-aggregate"></a>
 
 병합・집계 보기 기능은 기준을 1개 이상 선택해야 사용할 수 있고 상위 기준별로<mark style="color:$info;">(캠페인명)</mark>을 중심으로 하위 항목<mark style="color:$info;">(세트명, 소재명)</mark>을 묶어 그룹 단위의 총합을 표시해요.
 
@@ -115,7 +115,7 @@ layout:
 
 <figure><img src="../.gitbook/assets/맞춤 보고서 병합 집계 보기 OFF (2).png" alt=""><figcaption></figcaption></figure>
 
-### 필터로 필요한 데이터만 확인하기
+### 필터로 필요한 데이터만 확인하기 <a href="#filters" id="filters"></a>
 
 원하는 데이터만 요약해서 보고 싶을 때는 필터 기능을 활용해보세요.
 
@@ -126,7 +126,7 @@ layout:
 
 <figure><img src="../.gitbook/assets/image (297).png" alt=""><figcaption></figcaption></figure>
 
-### 주요 보고서 유형 한 번에 생성하기
+### 주요 보고서 유형 한 번에 생성하기 <a href="#report-templates" id="report-templates"></a>
 
 매번 지표와 기준을 새로 설정하지 않아도 템플릿을 활용하여 3가지의 보고서 유형을 한 번의 클릭만으로 생성할 수 있어요.
 
@@ -137,7 +137,7 @@ layout:
 
 <figure><img src="../.gitbook/assets/image (298).png" alt=""><figcaption></figcaption></figure>
 
-### 보고서 저장 및 공유하기
+### 보고서 저장 및 공유하기 <a href="#save-share" id="save-share"></a>
 
 자주 사용하는 맞춤 보고서 설정을 저장해두면, 맞춤 보고서 지표와 기준을 다시 세팅할 필요 없이 클릭 한 번으로 불러올 수 있어요.
 

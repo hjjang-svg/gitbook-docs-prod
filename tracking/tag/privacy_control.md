@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 전환 추적 코드 공유·이관
@@ -28,7 +30,7 @@ layout:
 
 ***
 
-### 1. 공유하기
+### 1. 공유하기 <a href="#share" id="share"></a>
 
 다른 광고계정에서 동일한 전환 추적 코드를 **함께 사용**할 수 있도록 공유할 수 있어요.
 
@@ -50,7 +52,7 @@ layout:
 
 ***
 
-### 2. 이관하기
+### 2. 이관하기 <a href="#transfer" id="transfer"></a>
 
 전환 추적 코드의 **소유권을 다른 광고계정으로 이전**할 수 있어요.
 
@@ -70,7 +72,7 @@ layout:
 
 ***
 
-### 3. 전환 추적 코드 권한 안내
+### 3. 전환 추적 코드 권한 안내 <a href="#permissions" id="permissions"></a>
 
 <table><thead><tr><th width="106.49462890625">권한</th><th>상세</th></tr></thead><tbody><tr><td>소유</td><td><ul><li>전환 추적 코드를 직접 생성했거나 소유권을 이관 받은 경우에요.</li><li>전환 추적 코드의 수정, 공유, 삭제가 가능해요.</li><li>전환 추적 코드를 사용하는 모든 광고계정명을 조회할 수 있어요.</li></ul></td></tr><tr><td>사용</td><td><ul><li>다른 광고계정으로부터 전환 추적 코드를 공유받은 경우에요.</li><li>전환 추적 코드의 수정, 공유, 삭제가 불가해요.</li><li>전환 추적 코드를 소유한 광고계정과 본인 광고계정명만 조회가 가능해요.</li></ul></td></tr></tbody></table>
 

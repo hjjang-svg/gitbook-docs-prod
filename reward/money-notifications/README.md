@@ -35,11 +35,11 @@ layout:
 
 <figure><img src="../../.gitbook/assets/광고주가이드_머니알림2.png" alt=""><figcaption></figcaption></figure>
 
-## 1. [일반형](basic.md) / [라이브형](live.md)
+## 1. [일반형](basic.md) / [라이브형](live.md) <a href="#basic-live" id="basic-live"></a>
 
 {% stepper %}
 {% step %}
-#### 광고 생성을 위해 각 항목에 맞는 정보를 입력해주세요
+#### 광고 생성을 위해 각 항목에 맞는 정보를 입력해주세요 <a href="#basic-live-info" id="basic-live-info"></a>
 
 <figure><img src="../../.gitbook/assets/광고 유형 설정_기본 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -63,7 +63,7 @@ layout:
 {% endstep %}
 
 {% step %}
-#### 광고 집행 일시 선택하기
+#### 광고 집행 일시 선택하기 <a href="#basic-live-schedule" id="basic-live-schedule"></a>
 
 <figure><img src="../../.gitbook/assets/집행 일시 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -79,7 +79,7 @@ layout:
 {% endstep %}
 
 {% step %}
-#### 약관 동의 확인 및 체크
+#### 약관 동의 확인 및 체크 <a href="#basic-live-terms" id="basic-live-terms"></a>
 
 <figure><img src="../../.gitbook/assets/약관 체크-1.png" alt=""><figcaption></figcaption></figure>
 

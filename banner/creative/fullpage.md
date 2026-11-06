@@ -1,6 +1,6 @@
 # 전체 이미지 배너
 
-## 페이지 - 전체 이미지 소재 설정 가이드 <a href="#common" id="common"></a>
+## 페이지 - 전체 이미지 소재 설정 가이드 <a href="#fullpage-guide" id="fullpage-guide"></a>
 
 <figure><img src="../../.gitbook/assets/전체 이미지 배너_영역 안내.png" alt=""><figcaption></figcaption></figure>
 

@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 대행수수료 정산
@@ -28,7 +30,7 @@ layout:
 * 일부 광고 상품의 경우, 각 상품 별 고정 대행수수료가 적용돼요.
 * 쇼핑 CPC 배너 광고의 경우 대행 수수료가 지급되지 않는 광고 상품이에요.
 
-### 비즈머니 **정산**
+### 비즈머니 **정산** <a href="#bizmoney-settlement" id="bizmoney-settlement"></a>
 
 **\[토스 → 광고주]** 광고계정 정보로 세금계산서 발행
 
@@ -51,7 +53,7 @@ layout:
 6. 수신 이메일주소 : 해당 광고계정의 세금계산서 이메일 주소
 
 {% hint style="warning" %}
-#### 대행 수수료 정산 기준
+#### 대행 수수료 정산 기준 <a href="#commission-criteria" id="commission-criteria"></a>
 
 * 대행 수수료는 광고 캠페인 단위로 계산된 광고비에 대행 수수료율을 적용해 계산하고 1원 미만을 제외하고 정산해요.
 {% endhint %}
@@ -69,7 +71,7 @@ layout:
     예) 2023-08월 집행된 비즈머니에 대한 대행 수수료 입금은 2023-10-10에 진행
 * **기한 내 역발행 미승인 시**에는 **대행 수수료가 지급되지 않으며**, 지급 방법은 [toss-ads@toss.im](mailto:toss-ads@toss.im) 으로 문의 부탁드려요.
 
-#### **역발행 세금계산서 승인 방법**
+#### **역발행 세금계산서 승인 방법** <a href="#reverse-tax-invoice" id="reverse-tax-invoice"></a>
 
 자세한 역발행 세금계산서 승인 방법은 하기 공유해 드리는 파일 참고 부탁드려요.
 

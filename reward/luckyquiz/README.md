@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 행운퀴즈
@@ -25,7 +27,7 @@ layout:
 
 ***
 
-## 광고 생성하기
+## 광고 생성하기 <a href="#create-ad" id="create-ad"></a>
 
 <figure><img src="../../.gitbook/assets/광고 생성하기 (2).png" alt=""><figcaption></figcaption></figure>
 

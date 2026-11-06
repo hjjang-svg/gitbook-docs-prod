@@ -23,7 +23,7 @@ layout:
 
 # 소재 가이드
 
-### 소재 심사 제출
+### 소재 심사 제출 <a href="#submit-review" id="submit-review"></a>
 
 두근두근 1등 찍기는 집행 당일 소재를 만들 수 없어요.
 

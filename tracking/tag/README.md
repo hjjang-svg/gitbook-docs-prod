@@ -25,7 +25,7 @@ layout:
 
 앱 또는 웹 광고 성과 측정에 사용할 전환 추적 코드를 준비하고 관리해요. 처음 연동한다면 코드 생성부터 시작하고, 필요한 작업에 따라 다음 문서를 확인해 주세요.
 
-## 새 코드 만들기
+## 새 코드 만들기 <a href="#create-code" id="create-code"></a>
 
 광고계정에서 사용할 전환 추적 코드를 처음 만든다면 생성 방법을 확인해요.
 
@@ -33,7 +33,7 @@ layout:
 [code\_generation.md](code_generation.md)
 {% endcontent-ref %}
 
-## 코드 공유·이관하기
+## 코드 공유·이관하기 <a href="#share-transfer" id="share-transfer"></a>
 
 기존 코드를 다른 광고계정과 함께 사용하거나 소유권을 옮기려면 공유·이관 방법을 확인해요.
 
@@ -41,7 +41,7 @@ layout:
 [privacy\_control.md](privacy_control.md)
 {% endcontent-ref %}
 
-## 추적할 전환 이벤트 확인하기
+## 추적할 전환 이벤트 확인하기 <a href="#events" id="events"></a>
 
 토스애즈에서 지원하는 앱·웹 전환 이벤트와 연동 문서를 확인해요.
 
@@ -49,7 +49,7 @@ layout:
 [tracked-events.md](tracked-events.md)
 {% endcontent-ref %}
 
-## 연동 상태 확인하기
+## 연동 상태 확인하기 <a href="#status" id="status"></a>
 
 코드를 연동한 뒤에는 전환 추적 및 연동 현황에서 상태를 확인해요.
 

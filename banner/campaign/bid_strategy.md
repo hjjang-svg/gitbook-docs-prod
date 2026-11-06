@@ -6,7 +6,7 @@
 
 {% stepper %}
 {% step %}
-#### 자동 입찰 클릭 최대화
+#### 자동 입찰 클릭 최대화 <a href="#auto-click-max" id="auto-click-max"></a>
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +28,7 @@
 {% endstep %}
 
 {% step %}
-#### 자동 입찰 전환 최대화
+#### 자동 입찰 전환 최대화 <a href="#auto-conversion-max" id="auto-conversion-max"></a>
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -42,7 +42,7 @@
 {% endstep %}
 
 {% step %}
-#### 자동 입찰 전환 최대 목표 비용 설정
+#### 자동 입찰 전환 최대 목표 비용 설정 <a href="#auto-conversion-cost-cap" id="auto-conversion-cost-cap"></a>
 
 <figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 

@@ -50,7 +50,7 @@ layout:
   * 광고 대행사는 에이전시 대시보드 접근 권한이 있는 계정이 그룹장으로 임명돼요.
 * 그룹장 권한이 필요하면 [채널톡](http://toss-business.channel.io/)으로 문의해주세요. 경우에 따라 위임장 제출이 필요할 수 있어요
 
-### 권한 구분
+### 권한 구분 <a href="#roles" id="roles"></a>
 
 비즈니스 그룹의 권한은 **그룹장**과 **구성원**으로 구분돼요. 구성원은 기본 권한을 가지고, 추가 권한이 필요하면 그룹장에게 권한을 요청해요. 그룹장은 구성원을 관리하고 권한 부여 요청을 검토하고 처리할 수 있어요.
 
@@ -62,83 +62,69 @@ layout:
 * 기본 권한 외에 추가 권한이 필요하면 그룹장에게 **권한 요청**으로 추가 권한을 신청할 수 있어요.
 * 그룹장이라도 생성된 각 광고계정의 계정장 초대가 없다면 광고계정에 접근할 수 없어요. 각 광고계정의 계정장을 통해 별도의 권한을 받아야 해요.
 
-## 비즈니스 그룹 만들기
+## 비즈니스 그룹 만들기 <a href="#create-business-group" id="create-business-group"></a>
 
 {% stepper %}
 {% step %}
-### 비즈니스 그룹 만들기를 클릭해주세요
+### 비즈니스 그룹 만들기를 클릭해주세요 <a href="#step-click-create" id="step-click-create"></a>
 
 <figure><img src="../.gitbook/assets/01_비즈니스 그룹 만들기 (2).png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
-### 생성할 비즈니스 그룹의 사업자 등록번호를 입력해주세요
+### 생성할 비즈니스 그룹의 사업자 등록번호를 입력해주세요 <a href="#step-business-number" id="step-business-number"></a>
 
 <figure><img src="../.gitbook/assets/02_비즈니스 그룹 사업자번호 입력 (1).png" alt=""><figcaption></figcaption></figure>
 
 * 입력한 사업자 등록번호를 기준으로 **광고비 정산**과 **세금계산서 발행**이 진행돼요.
   * 한 번 입력한 사업자 등록번호는 수정할 수 없어요. 여러 개의 비즈니스 그룹을 만들어 운영한다면 정산까지 고려해 입력해주세요.
 * **휴업, 폐업** 상태의 사업자로는 비즈니스 그룹을 만들 수 없어요.
-
-
 {% endstep %}
 
 {% step %}
-### 사업자 등록번호로 비즈니스 그룹을 만들어주세요
+### 사업자 등록번호로 비즈니스 그룹을 만들어주세요 <a href="#step-create-by-number" id="step-create-by-number"></a>
 
 * 입력한 사업자 등록번호를 기준으로 이미 존재하는 비즈니스 그룹 목록을 확인할 수 있어요.
 * 동일한 사업자 등록번호를 사용해 새로운 비즈니스 그룹을 만들려면 **\[새로 만들기]**&#xB97C; 눌러주세요.
-  * 기존에 만들어진 비즈니스 그룹에 참여하고 싶다면 새로 만들지 않고 아래의 [비즈니스 그룹 참여 방법](business-group.md#undefined-18)을 확인해주세요.
+  * 기존에 만들어진 비즈니스 그룹에 참여하고 싶다면 새로 만들지 않고 아래의 [비즈니스 그룹 참여 방법](business-group.md#member-request-join)을 확인해주세요.
 
 <figure><img src="../.gitbook/assets/03_비즈니스 그룹 생성 (2).png" alt=""><figcaption></figcaption></figure>
 
 * 비즈니스 그룹 이름을 입력한 뒤, \[확인] 버튼을 선택해주세요.
 
 <figure><img src="../.gitbook/assets/04_비즈니스 그룹 정보 입력.png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
-### 토스애즈 약관에 동의해주세요
+### 토스애즈 약관에 동의해주세요 <a href="#step-agree-terms" id="step-agree-terms"></a>
 
 필요 서류도 함께 확인해주세요.
 
 <figure><img src="../.gitbook/assets/05_약관 동의 · 필요 서류 안내.png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
-### 대표자 직접 신청 여부와 대표 유형을 선택해주세요
+### 대표자 직접 신청 여부와 대표 유형을 선택해주세요 <a href="#step-representative-type" id="step-representative-type"></a>
 
 <figure><img src="../.gitbook/assets/06_대표자 직접 신청 여부 (1).png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
-### 사업자 등록증을 올려주세요
+### 사업자 등록증을 올려주세요 <a href="#step-upload-registration" id="step-upload-registration"></a>
 
 <figure><img src="../.gitbook/assets/08_사업자등록증 업로드.png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
-### 사업자 정보를 확인해주세요
+### 사업자 정보를 확인해주세요 <a href="#step-check-business-info" id="step-check-business-info"></a>
 
 사업자 정보에 실제와 다른 경우 \[수정하기] 버튼을 선택해 직접 내용을 수정해주세요.
 
 <figure><img src="../.gitbook/assets/08_사업자등록증에서 가져온 정보 확인 (1).png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
-### 대리인 신청 또는 공동대표일 경우, 위임장과 인감증명서를 올려주세요
+### 대리인 신청 또는 공동대표일 경우, 위임장과 인감증명서를 올려주세요 <a href="#step-power-of-attorney" id="step-power-of-attorney"></a>
 
 \[양식 다운로드] 버튼을 눌러 위임장 양식을 다운로드해주세요. 위임장 양식에 맞춰 내용을 입력하고 제출해주세요.
 
@@ -148,27 +134,23 @@ layout:
 {% endstep %}
 
 {% step %}
-### 계좌 정보를 입력해주세요
+### 계좌 정보를 입력해주세요 <a href="#step-bank-account" id="step-bank-account"></a>
 
 정산 및 세금계산서에 사용돼요.
 
 <figure><img src="../.gitbook/assets/10_정산 계좌 · 통장 사본.png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
-### 정산 담당자 정보를 입력해주세요
+### 정산 담당자 정보를 입력해주세요 <a href="#step-billing-contact" id="step-billing-contact"></a>
 
 정산 담당자의 이름과 이메일을 입력해주세요. 입력한 이메일로 세금계산서를 보내드려요.
 
 <figure><img src="../.gitbook/assets/11_정산 담당자 정보 (1).png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
-### 에이전시 여부를 선택해주세요
+### 에이전시 여부를 선택해주세요 <a href="#step-agency" id="step-agency"></a>
 
 에이전시(대행사)인지 선택해주세요. 에이전시라면 토스 광고팀과의 수수료 협의 여부를 함께 선택하고, 협의가 필요한 경우 토스애즈에서 연락드려요.
 
@@ -196,12 +178,10 @@ layout:
 
 위 조건에 해당하신다면, adsbiz.team@toss.im 으로 대행 계약 체결 요청 메일을 발송해주세요.
 {% endhint %}
-
-
 {% endstep %}
 
 {% step %}
-### 비즈니스 그룹 신청 완료
+### 비즈니스 그룹 신청 완료 <a href="#request-complete" id="request-complete"></a>
 
 신청한 비즈니스 그룹은 영업일 기준 최대 **1\~2일 이내**에 확인하고, **이메일**로 승인 또는 반려 결과를 안내드려요.
 
@@ -213,13 +193,13 @@ layout:
 {% endstep %}
 {% endstepper %}
 
-## 비즈니스 그룹 운영하기
+## 비즈니스 그룹 운영하기 <a href="#manage-business-group" id="manage-business-group"></a>
 
 ### 비즈니스 그룹에 참여 및 초대하기 <a href="#business-group-members" id="business-group-members"></a>
 
 보통은 회사나 팀에서 **이미 비즈니스 그룹을 만들어둔 경우**가 많아요. 이때 광고를 집행하려면 먼저 **그 비즈니스 그룹에 참여**해야 해요. 참여 방법은 두 가지예요.
 
-#### 구성원이 비즈니스 그룹에 참여 요청하기
+#### 구성원이 비즈니스 그룹에 참여 요청하기 <a href="#member-request-join" id="member-request-join"></a>
 
 토스애즈에 가입한 구성원은 **토스애즈 로그인 > 사업자 등록번호 입력 > 참여할 비즈니스 그룹 오른쪽의 \[참여하기]** 버튼으로 비즈니스 그룹에 참여 요청을 할 수 있어요.
 
@@ -233,7 +213,7 @@ layout:
 
 <figure><img src="../.gitbook/assets/비즈니스 그룹 참여 요청 선택.png" alt=""><figcaption></figcaption></figure>
 
-#### 그룹장이 비즈니스 그룹에 구성원 초대하기
+#### 그룹장이 비즈니스 그룹에 구성원 초대하기 <a href="#owner-invite-member" id="owner-invite-member"></a>
 
 **그룹장 권한**을 가진 구성원은 비즈니스 그룹에 **구성원**을 초대할 수 있어요.
 
@@ -249,13 +229,13 @@ layout:
 
 <figure><img src="../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
 
-### 대시보드 확인하기
+### 대시보드 확인하기 <a href="#dashboard" id="dashboard"></a>
 
 그룹장은 그룹 대시보드에서 비즈니스 그룹에 속한의 전체 광고계정 정보와 광고계정별 통합 소진 금액 등을 확인할 수 있어요.
 
 <figure><img src="../.gitbook/assets/image (47) (1).png" alt=""><figcaption></figcaption></figure>
 
-### 구성원 요청 승인 하기
+### 구성원 요청 승인 하기 <a href="#approve-member" id="approve-member"></a>
 
 <figure><img src="../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -271,7 +251,7 @@ layout:
 * 비즈니스 그룹 대시보드 조회하기
 * 비즈니스 그룹 정산 정보 조회하기
 
-### **구성원 권한 수정하기**
+### **구성원 권한 수정하기** <a href="#edit-member-role" id="edit-member-role"></a>
 
 * 구성원 관리 메뉴에서 비즈니스 그룹 내 모든 구성원의 리스트 확인이 가능해요.
 * 구성원이 보유하고 있는 권한을 **조회**하거나 구성원이 요청하지 않았더라도 필요에 따라 권한을 **수정**할 수 있어요.

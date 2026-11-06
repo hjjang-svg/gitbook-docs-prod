@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 토스 픽셀 TCID 보존 가이드
@@ -37,7 +39,7 @@ layout:
 
 ***
 
-#### 꼭 확인해 주세요
+#### 꼭 확인해 주세요 <a href="#must-check" id="must-check"></a>
 
 * 광고 랜딩 URL의 <mark style="color:red;">`tcid`</mark>를 삭제하거나 이름을 변경하지 마세요.
 * CDN, WAF, 서버 리다이렉트, 프론트엔드 라우터가 쿼리 스트링을 유지하는지 확인해 주세요.
@@ -46,7 +48,7 @@ layout:
 
 ***
 
-#### 픽셀이 읽는 키
+#### 픽셀이 읽는 키 <a href="#pixel-keys" id="pixel-keys"></a>
 
 픽셀은 URL쿼리 스트링에서 <mark style="color:red;">`tcid`</mark>키를 확인해요
 
@@ -123,7 +125,7 @@ window.history.replaceState({}, '', url);
 {% endstep %}
 
 {% step %}
-#### 가능하면 쿼리 스트링 전체를 유지해 주세요.
+#### 가능하면 쿼리 스트링 전체를 유지해 주세요. <a href="#keep-query-string" id="keep-query-string"></a>
 
 리다이렉트나 라우팅 과정에서는 기존 쿼리 스트링 전체를 유지하는 것을 권장해요.
 
@@ -145,7 +147,7 @@ window.history.replaceState({}, '', url);
 
 ***
 
-## 유실 원인별 대응 방법
+## 유실 원인별 대응 방법 <a href="#fixes-by-cause" id="fixes-by-cause"></a>
 
 #### CDN 또는 Edge Rewrite
 
@@ -162,7 +164,7 @@ CDN이나 Edge Function에서 rewrite 또는 redirect할 때 쿼리 스트링이
 
 ***
 
-#### 서버 리다이렉트
+#### 서버 리다이렉트 <a href="#server-redirect" id="server-redirect"></a>
 
 HTTP 응답의 <mark style="color:red;">`Location`</mark> 헤더로 다른 페이지에 보내는 과정에서 query string이 빠질 수 있습니다. 예를 들어 비로그인 사용자를 로그인 페이지로 보내거나, 모바일 경로로 보내거나, trailing slash를 붙이는 리다이렉트가 여기에 해당해요.
 
@@ -225,7 +227,7 @@ Single Page Application에서는 첫 진입 이후 페이지 이동이 브라우
 
 ***
 
-#### 도메인 또는 서브도메인 이동
+#### 도메인 또는 서브도메인 이동 <a href="#domain-change" id="domain-change"></a>
 
 광고 랜딩은 <mark style="color:red;">`www.example.com`</mark>이고 결제 완료는 <mark style="color:red;">`order.example.com`</mark> 또는 외부 결제 도메인에서 발생할 수 있어요.
 
@@ -238,7 +240,7 @@ Single Page Application에서는 첫 진입 이후 페이지 이동이 브라우
 
 ***
 
-#### 마케팅 링크 단축과 추적 링크
+#### 마케팅 링크 단축과 추적 링크 <a href="#link-shortener" id="link-shortener"></a>
 
 광고 클릭 URL 앞에 링크 단축 서비스, 내부 추적 링크 또는 캠페인 라우터를 사용하는 경우, 중간 과정에서 query string이 변경되거나 삭제될 수 있어요.
 
@@ -252,7 +254,7 @@ Single Page Application에서는 첫 진입 이후 페이지 이동이 브라우
 
 ***
 
-#### 캐시와 정적 페이지 생성
+#### 캐시와 정적 페이지 생성 <a href="#cache-static" id="cache-static"></a>
 
 정적 페이지, CDN 캐시, 서버 사이드 렌더링(SSR) 캐시에서는 query string을 제외하도록 설정하는 경우가 많아요.
 
@@ -292,7 +294,7 @@ https://lex.toss.im/api/lex/event/v2
 
 ***
 
-## 개발팀 확인 사항
+## 개발팀 확인 사항 <a href="#dev-checklist" id="dev-checklist"></a>
 
 아래 항목을 개발팀 또는 인프라 담당자에게 전달해 주세요.
 

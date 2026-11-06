@@ -15,13 +15,17 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # 광고 고지 문구(심의필)
 
-## 광고 고지 문구(심의필)
+## 광고 고지 문구(심의필) <a href="#legal-notice" id="legal-notice"></a>
 
-<figure><img src="../../../.gitbook/assets/10.광고 고지 문구.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/10.광고 고지 문구.png" alt=""><figcaption></figcaption></figure>
 
 * **광고 고지 문구란에는 관련 법령에 따라 표기가 필요한 법적고지문구를 소재에 삽입해주세요.**
   * 문구 입력란에 광고 문구 또는 단순 정보 전달성 문구 입력 시 심사 승인이 불가해요.

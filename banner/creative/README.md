@@ -26,13 +26,13 @@
   * 위 제한 사항보다 갯수를 초과하여 생성했던 캠페인은 더 이상 광고세트와 소재를 추가할 수 없도록 추가 버튼이 비활성화 돼요.
   * 추가로 소재를 세팅해야 하는 경우 새로운 캠페인을 생성하여 세팅해주세요.
 
-### 캠페인 운영 기능 <a href="#common" id="common"></a>
+### 캠페인 운영 기능 <a href="#campaign-features" id="campaign-features"></a>
 
 * 광고 세트 및 소재 **on/off** 기능으로 직접 운영하실 수 있어요.
   * off 된 소재는 과금되지 않아요.
 * 심사 승인된 소재는 삭제할 수 없어요.
 
-## 소재 공통 가이드 <a href="#common" id="common"></a>
+## 소재 공통 가이드 <a href="#creative-common-guide" id="creative-common-guide"></a>
 
 * 소재 검수 시간은 평일 **10:00 \~ 19:00**이며, 모든 소재는 순차적으로 검수되고 있어요.
   * <mark style="color:blue;">원활한 소재 검수 및 광고 캠페인 운영을 위해 반드시 집행일 기준</mark> <mark style="color:blue;">**2-3영업일 전**</mark> <mark style="color:blue;">소재를 제출해 주세요.</mark>

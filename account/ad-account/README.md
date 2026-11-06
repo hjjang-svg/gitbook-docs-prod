@@ -17,19 +17,21 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 광고계정 생성·운영
 
 광고계정은 토스애즈에서 광고를 집행하기 위한 최소 단위예요. 이 문서에서는 광고계정을 만들고, 구성원을 초대하고, 더 이상 사용하지 않는 광고계정을 삭제하는 방법까지 안내해요.
 
-## 광고계정이란?
+## 광고계정이란? <a href="#what-is-ad-account" id="what-is-ad-account"></a>
 
 <figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 광고계정은 토스애즈에서 광고를 집행하기 위한 최소 단위로, 비즈니스 그룹 안에 만들 수 있어요.
 
-### 광고계정 권한 구분
+### 광고계정 권한 구분 <a href="#account-roles" id="account-roles"></a>
 
 광고계정 권한은 크게 두 가지로 나뉘어요.
 
@@ -38,11 +40,11 @@ layout:
 | 계정장 | <ul><li>계정 내 모든 광고 조회와 관리</li><li>계정 구성원 초대 및 관리</li><li>캠페인 집행 중단 처리</li><li>환불 신청</li></ul> |
 | 구성원 | 계정 내 모든 광고 조회와 관리                                                                             |
 
-## 광고계정 만들기
+## 광고계정 만들기 <a href="#create-ad-account" id="create-ad-account"></a>
 
 {% stepper %}
 {% step %}
-### **광고계정을 추가하는 비즈니스 그룹명을 확인한 뒤 \[+] 버튼을 클릭해주세요**
+### **광고계정을 추가하는 비즈니스 그룹명을 확인한 뒤 \[+] 버튼을 클릭해주세요** <a href="#step-click-plus" id="step-click-plus"></a>
 
 * 비즈니스 그룹의 구성원 또는 그룹장 권한이 있어야 광고계정을 만들 수 있어요.
 
@@ -50,7 +52,7 @@ layout:
 {% endstep %}
 
 {% step %}
-### **광고계정 정보를 입력해주세요**
+### **광고계정 정보를 입력해주세요** <a href="#step-enter-info" id="step-enter-info"></a>
 
 * 광고계정명은 사업자명과 같게 입력하지 않아도 되고, 만든 뒤에도 언제든지 수정할 수 있어요.
 
@@ -58,7 +60,7 @@ layout:
 {% endstep %}
 
 {% step %}
-### **광고계정 생성을 신청해요**
+### **광고계정 생성을 신청해요** <a href="#step-request" id="step-request"></a>
 
 * 신청을 완료하면 비즈니스 그룹장에게 심사 요청이 전달돼요.
 
@@ -66,7 +68,7 @@ layout:
 {% endstep %}
 
 {% step %}
-### **그룹장이 광고계정 생성을 승인해요**
+### **그룹장이 광고계정 생성을 승인해요** <a href="#step-owner-approval" id="step-owner-approval"></a>
 
 * 비즈니스 그룹의 구성원이 새롭게 신청한 광고계정은 그룹장이 승인해야 생성이 완료돼요.
 * 광고계정 승인은 **토스애즈 로그인 > 그룹 관리 > 승인 요청**에서 진행할 수 있어요.
@@ -91,7 +93,7 @@ layout:
 위 조건에 해당하신다면, adsbiz.team@toss.im 으로 대행 계약 체결 요청 메일을 발송해주세요.
 {% endhint %}
 
-## 광고계정에 참여하기
+## 광고계정에 참여하기 <a href="#join-ad-account" id="join-ad-account"></a>
 
 광고를 집행하려면 반드시 **광고계정에 초대되어 있어야 해요.**
 
@@ -102,9 +104,9 @@ layout:
 
 <figure><img src="../../.gitbook/assets/image (55) (1).png" alt=""><figcaption></figcaption></figure>
 
-## 광고계정 운영하기
+## 광고계정 운영하기 <a href="#manage-ad-account" id="manage-ad-account"></a>
 
-### 내 광고계정 확인하기
+### 내 광고계정 확인하기 <a href="#my-ad-accounts" id="my-ad-accounts"></a>
 
 * 내가 참여 중인 광고계정은 왼쪽 위 메뉴에서 내 광고계정 탭을 선택해 확인할 수 있어요.
 * 광고계정을 추가하려면 비즈니스 그룹명 옆 \[+] 버튼을 클릭해주세요.

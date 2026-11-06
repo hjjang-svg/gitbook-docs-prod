@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 심사·운영 정책 알아보기
@@ -25,7 +27,7 @@ layout:
 
 <figure><img src="../.gitbook/assets/review.png" alt="광고 만들기 전, 심사 요청 전, 게재 중 단계별 심사·운영 정책 확인 흐름"><figcaption></figcaption></figure>
 
-## 광고할 수 있는 업종인지 확인하기
+## 광고할 수 있는 업종인지 확인하기 <a href="#check-industry" id="check-industry"></a>
 
 광고를 만들기 전에 집행이 불가하거나 제한될 수 있는 업종인지 확인해요.
 
@@ -33,7 +35,7 @@ layout:
 [restrictedindustry.md](restrictedindustry.md)
 {% endcontent-ref %}
 
-## 모든 광고에 적용되는 기준 확인하기
+## 모든 광고에 적용되는 기준 확인하기 <a href="#common-criteria" id="common-criteria"></a>
 
 심사 진행 방식, 모든 광고가 지켜야 하는 기준, 광고 운영 중 제한될 수 있는 행위를 확인해요.
 
@@ -41,7 +43,7 @@ layout:
 [basicguide.md](basicguide.md)
 {% endcontent-ref %}
 
-## 소재별 기준 확인하기
+## 소재별 기준 확인하기 <a href="#creative-criteria" id="creative-criteria"></a>
 
 광고에 사용한 문구, 이미지, 동영상, 랜딩 페이지와 딥링크에 적용되는 기준을 확인해요. 광고가 반려됐다면 반려 사유와 관련된 기준도 이 문서에서 찾아볼 수 있어요.
 
@@ -49,7 +51,7 @@ layout:
 [creativeguide.md](creativeguide.md)
 {% endcontent-ref %}
 
-## 업종별 기준 확인하기
+## 업종별 기준 확인하기 <a href="#industry-criteria" id="industry-criteria"></a>
 
 사전 심의, 심의필 기재, 별도 집행 조건이 필요한 업종인지 확인해요.
 
@@ -57,7 +59,7 @@ layout:
 [industryguide.md](industryguide.md)
 {% endcontent-ref %}
 
-## 카탈로그 광고 기준 확인하기
+## 카탈로그 광고 기준 확인하기 <a href="#catalog-criteria" id="catalog-criteria"></a>
 
 구매 유도하기(카탈로그) 광고를 집행한다면 상품 정보, 상품 이미지, 랜딩 페이지, 모니터링과 제재 기준을 확인해요.
 
@@ -65,7 +67,7 @@ layout:
 [catalog.md](catalog.md)
 {% endcontent-ref %}
 
-## 광고 게재 중 적용되는 운영 정책 확인하기
+## 광고 게재 중 적용되는 운영 정책 확인하기 <a href="#operation-policy" id="operation-policy"></a>
 
 토스애즈 약관의 일부를 구성하는 운영 정책 원문이에요. 광고의 등록·검수·게재·제한 기준과 집행 취소·위약금, 정산 규정을 확인해요.
 
@@ -73,7 +75,7 @@ layout:
 [policy-1.md](policy-1.md)
 {% endcontent-ref %}
 
-## 심사를 요청하기 전에 점검하기
+## 심사를 요청하기 전에 점검하기 <a href="#pre-review-check" id="pre-review-check"></a>
 
 * 광고할 수 있는 업종인지 확인해요.
 * 모든 광고에 적용되는 공통 심사 정책을 확인해요.

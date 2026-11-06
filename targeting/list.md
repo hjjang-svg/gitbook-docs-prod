@@ -17,20 +17,22 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 고객 목록 타겟 설정
 
-### 1. 고객 목록 타겟
+### 1. 고객 목록 타겟 <a href="#customer-list" id="customer-list"></a>
 
 * 직접 수집한 고객 목록을 활용하여 정밀하게 타겟을 설정할 수 있어요.
   * 타겟 페이지에서 다운로드 받은 고객 목록(adid, ifa) CSV 파일을 업로드하여 **\[배너광고]** 캠페인에 적용 가능해요.
 
-### 설정방법
+### 설정방법 <a href="#how-to-set" id="how-to-set"></a>
 
 {% stepper %}
 {% step %}
-#### **고객 목록 추가**
+#### **고객 목록 추가** <a href="#add-list" id="add-list"></a>
 
 <figure><img src="../.gitbook/assets/고객 목록 추가.png" alt=""><figcaption></figcaption></figure>
 
@@ -40,7 +42,7 @@ layout:
 {% endstep %}
 
 {% step %}
-#### **고객 목록 추가 설정**
+#### **고객 목록 추가 설정** <a href="#list-settings" id="list-settings"></a>
 
 <figure><img src="../.gitbook/assets/고객 목록 추가 설정.png" alt=""><figcaption></figcaption></figure>
 
@@ -51,7 +53,7 @@ layout:
 {% endstep %}
 
 {% step %}
-#### 광고세트에서 가져오기
+#### 광고세트에서 가져오기 <a href="#import-from-adset" id="import-from-adset"></a>
 
 <figure><img src="../.gitbook/assets/광고 세트에서 가져오기 (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -67,7 +69,7 @@ layout:
 {% endstep %}
 {% endstepper %}
 
-### 2. 타겟수 계산 기준
+### 2. 타겟수 계산 기준 <a href="#audience-size" id="audience-size"></a>
 
 * 검증된 고객 목록 중 최근 180일 이내 토스 앱을 이용한 고객만 집계에 포함돼요.
 * 업로드한 파일에 있는 ID 수와 실제 타겟수 다를 수 있어요.

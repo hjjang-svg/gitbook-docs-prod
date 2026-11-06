@@ -6,20 +6,20 @@
 
 ***
 
-#### 토스애즈가 제공하는 캠페인 목표와 주요 기능은 다음과 같아요.
+#### 토스애즈가 제공하는 캠페인 목표와 주요 기능은 다음과 같아요. <a href="#objective-overview" id="objective-overview"></a>
 
-### 방문 유도하기
+### 방문 유도하기 <a href="#website-visit" id="website-visit"></a>
 
-<figure><img src="../../.gitbook/assets/방문 유도하기_광고 유형.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/방문 유도하기_광고 유형.png" alt=""><figcaption></figcaption></figure>
 
 * [x] **주요 기능 및 광고 효과**
 
 - 광고의 클릭률을 높여 트래픽을 확보할 수 있어요.
   * 광고 클릭 후 유저들이 링크를 방문하도록 유도하는데 적합해요.
 
-### 도달률 높이기
+### 도달률 높이기 <a href="#reach" id="reach"></a>
 
-<figure><img src="../../.gitbook/assets/도달률 높이기_광고 유형.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/도달률 높이기_광고 유형.png" alt=""><figcaption></figcaption></figure>
 
 * [x] **주요 기능 및 광고 효과**
 
@@ -35,9 +35,9 @@
 * 캠페인 집행 도중 **신규 소재 추가**가 가능하지만, 광고 캠페인 단위로 노출 빈도가 최적화되기 때문에, 이미 **이전 소재로 도달된 유저**에게는 신규 소재가 노출되지 않을 수 있어요.
 {% endhint %}
 
-### 잠재고객 모으기
+### 잠재고객 모으기 <a href="#lead-generation" id="lead-generation"></a>
 
-<figure><img src="../../.gitbook/assets/잠재고객 모으기_광고 유형.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/잠재고객 모으기_광고 유형.png" alt=""><figcaption></figcaption></figure>
 
 * [x] **주요 기능 및 광고 효과**
 
@@ -54,9 +54,9 @@
 * 수집된 정보는 엑셀 파일로 제공하고 그 외 형식은 지원하지 않아요.
 {% endhint %}
 
-### 10대 인지도 높이기
+### 10대 인지도 높이기 <a href="#teen-awareness" id="teen-awareness"></a>
 
-<figure><img src="../../.gitbook/assets/10대 인지도 높이기_광고 유형.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/10대 인지도 높이기_광고 유형.png" alt=""><figcaption></figcaption></figure>
 
 * [x] **주요 기능 및 광고 효과**
 

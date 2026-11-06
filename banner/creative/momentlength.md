@@ -1,6 +1,6 @@
 # 비디오 배너
 
-## 페이지 - 비디오 소재 설정 가이드
+## 페이지 - 비디오 소재 설정 가이드 <a href="#video-banner-guide" id="video-banner-guide"></a>
 
 <figure><img src="../../.gitbook/assets/2) 세로형 영상 깃북.png" alt=""><figcaption></figcaption></figure>
 

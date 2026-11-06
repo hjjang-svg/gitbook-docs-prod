@@ -23,7 +23,7 @@ layout:
 
 # 픽셀 이벤트 테스트 가이드
 
-## 픽셀 이벤트 테스트 가이드
+## 픽셀 이벤트 테스트 가이드 <a href="#event-test-guide" id="event-test-guide"></a>
 
 <figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 13.png" alt=""><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 ***
 
-#### 픽셀 이벤트 테스트란?
+#### 픽셀 이벤트 테스트란? <a href="#what-is-event-test" id="what-is-event-test"></a>
 
 픽셀 이벤트 테스트는 사이트에 설치한 토스 웹 픽셀이 정상적으로 동작하는지 확인하는 기능입니다.
 
@@ -49,7 +49,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 ***
 
-#### 사용 전 확인 사항
+#### 사용 전 확인 사항 <a href="#before-you-start" id="before-you-start"></a>
 
 이벤트 테스트를 시작하기 전에 아래 내용을 확인해 주세요.
 
@@ -64,11 +64,11 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 ***
 
-#### 사용 방법
+#### 사용 방법 <a href="#how-to-use" id="how-to-use"></a>
 
 {% stepper %}
 {% step %}
-#### 전환추적 코드를 선택합니다
+#### 전환추적 코드를 선택합니다 <a href="#step-select-code" id="step-select-code"></a>
 
 <figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -79,7 +79,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 {% endstep %}
 
 {% step %}
-#### 이벤트 테스트 탭으로 이동합니다
+#### 이벤트 테스트 탭으로 이동합니다 <a href="#step-open-test-tab" id="step-open-test-tab"></a>
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -119,7 +119,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 {% endstep %}
 
 {% step %}
-#### 테스트 결과를 확인합니다
+#### 테스트 결과를 확인합니다 <a href="#step-check-results" id="step-check-results"></a>
 
 <figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 21.png" alt=""><figcaption></figcaption></figure>
 
@@ -142,9 +142,9 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 ***
 
-## 테스트 결과에서 확인할 수 있는 내용
+## 테스트 결과에서 확인할 수 있는 내용 <a href="#result-details" id="result-details"></a>
 
-#### 픽셀 연결 상태
+#### 픽셀 연결 상태 <a href="#pixel-status" id="pixel-status"></a>
 
 <figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -164,7 +164,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 | URL 일치 여부     | 테스트 화면의 URL과 실제 테스트한 URL이 일치하는지 확인  |
 | 이벤트 발생 여부     | 사이트에서 실제로 이벤트가 발생하는 행동을 했는지 확인      |
 
-#### 이벤트 수집 여부
+#### 이벤트 수집 여부 <a href="#event-collected" id="event-collected"></a>
 
 <figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 22.png" alt=""><figcaption></figcaption></figure>
 
@@ -173,7 +173,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 * 예를 들어 구매 이벤트를 테스트하는 경우, 구매 완료 페이지에 도달했을 때 구매 이벤트가 테스트 결과에 표시되어야 합니다.
 * 이벤트가 표시되더라도 이벤트명이 예상과 다르거나 필요한 매개변수가 누락되어 있다면 설치 값을 다시 확인해야 합니다.
 
-#### 이벤트 수집 시각
+#### 이벤트 수집 시각 <a href="#event-time" id="event-time"></a>
 
 <figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 19.png" alt=""><figcaption></figcaption></figure>
 
@@ -182,7 +182,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 * 같은 이벤트를 여러 번 테스트하는 경우, 수집 시각을 기준으로 어떤 테스트 행동에서 발생한 이벤트인지 구분할 수 있습니다.
 * 테스트 시에는 이벤트를 발생시킨 시간과 테스트 결과의 수집 시각을 함께 비교해 주세요. 이벤트가 수집되는 데 최대 1분까지 소요될 수 있습니다.
 
-#### 이벤트 상세 값
+#### 이벤트 상세 값 <a href="#event-details" id="event-details"></a>
 
 <figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 24.png" alt=""><figcaption></figcaption></figure>
 
@@ -201,7 +201,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 ***
 
-## 토스 기여 여부 확인하기
+## 토스 기여 여부 확인하기 <a href="#toss-attribution" id="toss-attribution"></a>
 
 <figure><img src="../../.gitbook/assets/픽셀 이벤트 테스트 - 23.png" alt=""><figcaption></figcaption></figure>
 
@@ -224,7 +224,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 ## 자주 발생하는 상황 (FAQ)
 
 {% hint style="info" %}
-### 지원 범위 및 주의사항
+### 지원 범위 및 주의사항 <a href="#scope-notes" id="scope-notes"></a>
 
 * PC 웹과 실제 모바일 기기에서 웹 픽셀의 연결 및 이벤트 수집 여부를 테스트할 수 있습니다.
 * 모바일 화면 크기, 모바일 브라우저, 카메라 등 모바일 환경에서만 재현되는 흐름을 확인할 때 QR 테스트를 사용할 수 있습니다.
@@ -247,7 +247,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 {% endstep %}
 
 {% step %}
-#### 모바일에서 이벤트를 발생시켰지만 결과가 표시되지 않아요
+#### 모바일에서 이벤트를 발생시켰지만 결과가 표시되지 않아요 <a href="#mobile-not-shown" id="mobile-not-shown"></a>
 
 아래 항목을 순서대로 확인해 주세요.
 
@@ -259,7 +259,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 {% endstep %}
 
 {% step %}
-#### 이벤트가 테스트 결과에 표시되지 않아요
+#### 이벤트가 테스트 결과에 표시되지 않아요 <a href="#event-not-shown" id="event-not-shown"></a>
 
 아래 항목을 순서대로 확인해 주세요.
 
@@ -272,7 +272,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 {% endstep %}
 
 {% step %}
-#### 이벤트는 표시되지만 매개변수가 비어 있어요
+#### 이벤트는 표시되지만 매개변수가 비어 있어요 <a href="#params-empty" id="params-empty"></a>
 
 이벤트 코드는 실행되었지만 상세 값이 전달되지 않았을 가능성이 있습니다.
 
@@ -280,7 +280,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 {% endstep %}
 
 {% step %}
-#### 다른 이벤트가 표시돼요
+#### 다른 이벤트가 표시돼요 <a href="#other-events" id="other-events"></a>
 
 사이트에서 의도한 이벤트가 아닌 다른 이벤트가 실행되고 있을 수 있습니다.
 
@@ -292,7 +292,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 {% endstep %}
 
 {% step %}
-#### 토스 기여 여부가 기대와 달라요
+#### 토스 기여 여부가 기대와 달라요 <a href="#attribution-mismatch" id="attribution-mismatch"></a>
 
 이벤트는 수집되었지만 <mark style="color:$danger;">`토스 기여: 아니오`</mark>로 표시된다면 광고 유입 정보가 이벤트 발생 시점까지 유지되지 않았을 수 있습니다.
 
@@ -302,7 +302,7 @@ PC에서 직접 사이트를 열어 테스트하는 방식과 함께, 이벤트 
 
 ***
 
-## 테스트 시 권장 방식
+## 테스트 시 권장 방식 <a href="#recommended-test" id="recommended-test"></a>
 
 정확한 확인을 위해 아래 방식으로 테스트하는 것을 권장합니다.
 

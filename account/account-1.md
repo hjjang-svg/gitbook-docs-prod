@@ -17,33 +17,35 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 회원가입과 로그인
 
 토스애즈에서 광고를 시작하는 첫 단계는 회원가입이에요. 아래 순서대로 가입을 마치고 로그인해주세요.
 
-## 회원가입
+## 회원가입 <a href="#sign-up" id="sign-up"></a>
 
 {% stepper %}
 {% step %}
-### [토스애즈](https://tossads.toss.im/)에 접속한 뒤, 오른쪽 위 \[광고 시작하기]를 눌러주세요
+### [토스애즈](https://tossads.toss.im/)에 접속한 뒤, 오른쪽 위 \[광고 시작하기]를 눌러주세요 <a href="#step-start-ads" id="step-start-ads"></a>
 
 <figure><img src="../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 로그인 화면에서 \[회원가입] 버튼을 눌러주세요
+### 로그인 화면에서 \[회원가입] 버튼을 눌러주세요 <a href="#step-click-signup" id="step-click-signup"></a>
 
 <figure><img src="../.gitbook/assets/image (1).avif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 회원가입을 위해 \[이메일주소]를 입력해주세요
+### 회원가입을 위해 \[이메일주소]를 입력해주세요 <a href="#step-enter-email" id="step-enter-email"></a>
 
 <figure><img src="../.gitbook/assets/image (1) (1).avif" alt=""><figcaption></figcaption></figure>
 
-#### 유의사항
+#### 유의사항 <a href="#signup-notes" id="signup-notes"></a>
 
 * 동일한 이메일 주소로는 1개의 계정만 생성할 수 있어요.
 * 이메일로 발송된 8자리 인증번호를 입력하는 인증 과정을 거쳐야 계정이 생성돼요.
@@ -52,7 +54,7 @@ layout:
 {% endstep %}
 
 {% step %}
-### 본인 인증을 진행해주세요
+### 본인 인증을 진행해주세요 <a href="#step-verify-identity" id="step-verify-identity"></a>
 
 <figure><img src="../.gitbook/assets/image (2).avif" alt=""><figcaption></figcaption></figure>
 
@@ -64,7 +66,7 @@ layout:
 {% endstep %}
 
 {% step %}
-### 회원가입이 완료됐어요
+### 회원가입이 완료됐어요 <a href="#signup-complete" id="signup-complete"></a>
 
 {% hint style="info" %}
 **기존 회원의 토스 비즈니스 회원 전환**
@@ -80,13 +82,13 @@ layout:
 {% endstep %}
 {% endstepper %}
 
-## 로그인
+## 로그인 <a href="#login" id="login"></a>
 
 토스애즈에 회원가입 후 로그인해주세요.
 
 처음 로그인하면 상황에 따라 다른 첫 화면이 나와요. 아직 참여한 비즈니스 그룹이 없는 상황, 초대받은 비즈니스 그룹이 있는 상황, 초대받은 광고계정이 있는 상황에 따라 다음 단계를 확인해주세요.
 
-### 아직 참여한 비즈니스 그룹이 없어요
+### 아직 참여한 비즈니스 그룹이 없어요 <a href="#no-business-group" id="no-business-group"></a>
 
 비즈니스 그룹을 새로 만들거나 기존에 만들어진 그룹에 참여할 수 있어요.
 
@@ -98,7 +100,7 @@ layout:
 
 비즈니스 그룹을 만들거나 참여하는 방법은 [비즈니스 그룹 생성·운영](business-group.md)에서, 광고계정에 참여하는 방법은 [광고계정 생성·운영](ad-account/)에서 확인해주세요.
 
-### 초대받은 비즈니스 그룹이 있어요
+### 초대받은 비즈니스 그룹이 있어요 <a href="#invited-business-group" id="invited-business-group"></a>
 
 비즈니스 그룹에는 초대받았지만, 아직 광고계정에는 초대받지 않았을 때 이런 화면을 보게 돼요. 광고계정에 초대받는 방법은 [광고계정 생성·운영](ad-account/)에서 확인할 수 있어요.
 
@@ -106,7 +108,7 @@ layout:
 
 <figure><img src="../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
-### 초대받은 광고계정이 있어요
+### 초대받은 광고계정이 있어요 <a href="#invited-ad-account" id="invited-ad-account"></a>
 
 내 광고계정 화면에서 각 비즈니스 그룹과 연결된 광고계정 목록이 보여요. 광고계정에서 바로 캠페인을 만들 수 있어요.
 

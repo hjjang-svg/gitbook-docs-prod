@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 오늘의 포인트 미션
 
-### 광고 상품 소개
+### 광고 상품 소개 <a href="#overview" id="overview"></a>
 
 <오늘의 포인트 미션>은 유저에게 광고 참여에 대한 보상을 제공하여 사용자 경험을 높여주면서 효율적인 광고 집행이 가능한 오퍼월(Offerwall) 상품입니다.
 
@@ -33,7 +35,7 @@ layout:
 
 ***
 
-### **노출 지면**
+### **노출 지면** <a href="#placements" id="placements"></a>
 
 <figure><img src="../.gitbook/assets/2-1) 세로형 영상 깃북 (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -43,10 +45,10 @@ layout:
 
 ***
 
-### 과금 정책
+### 과금 정책 <a href="#pricing" id="pricing"></a>
 
 특정 액션 유도, 구매, 이벤트 참여, SNS 홍보 등 다양한 KPI 달성을 위해 활용할 수 있습니다.
 
-* 광고 상품별 단가 및 최소 집행 기준은 TNK와 협의하여 진행하게 됩니다. \
+* 광고 상품별 단가 및 최소 집행 기준은 TNK와 협의하여 진행하게 됩니다.\
   ※ TNK 채널 컨택 포인트 : [toss\_tnk\_sales@neowiz.com](mailto:toss_tnk_sales@neowiz.com)
 * 광고 상품에 서명 시 되어 있지 않은 상품 종류가 있을 수 있으며 자세한 사항은 TNK를 통해 확인해 주세요.

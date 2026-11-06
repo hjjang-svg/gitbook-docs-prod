@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 광고 성과 측정 연동 알아보기
@@ -25,7 +27,7 @@ layout:
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FbGIS7WpOZAYONLpc67qM%2Ftracking.png?alt=media&#x26;token=de71ed18-21fb-46e1-baa8-5596e8af7310" alt="전환 추적 코드에서 MMP와 토스 픽셀로 이어지는 광고 성과 측정 연동 구조"><figcaption><p>MMP와 토스 픽셀을 활용한 광고 성과 측정 연동 방법</p></figcaption></figure>
 
-## 전환 추적 코드 준비하기
+## 전환 추적 코드 준비하기 <a href="#tracking-code" id="tracking-code"></a>
 
 앱 또는 웹 광고 성과 측정에 사용할 전환 추적 코드를 만들고 관리해요. 기존 코드를 공유·이관하거나 지원하는 전환 이벤트와 연동 상태도 확인할 수 있어요.
 
@@ -41,7 +43,7 @@ layout:
 [mat](mat/)
 {% endcontent-ref %}
 
-## 토스 픽셀로 웹 광고 성과 측정하기
+## 토스 픽셀로 웹 광고 성과 측정하기 <a href="#toss-pixel" id="toss-pixel"></a>
 
 웹사이트에서 발생한 전환 이벤트를 수집하려면 토스 픽셀을 설치해요. 자사몰, 카페24, 메이크샵 가운데 사용하는 환경에 맞는 설치 문서를 확인할 수 있어요.
 
@@ -51,7 +53,7 @@ layout:
 
 웹 광고 성과는 MMP나 토스 픽셀로 측정할 수 있어요. 사용 중인 도구와 지원 범위를 기준으로 연동 방법을 선택해 주세요.
 
-## 잠재고객 정보를 자동으로 받기
+## 잠재고객 정보를 자동으로 받기 <a href="#lead-webhook" id="lead-webhook"></a>
 
 잠재고객 모으기 캠페인에서 제출된 정보를 광고주 서버로 자동 전송하려면 웹훅을 연동해요.
 

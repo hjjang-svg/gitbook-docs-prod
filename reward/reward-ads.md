@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 리워드 광고 알아보기
@@ -25,9 +27,9 @@ layout:
 
 <figure><img src="../.gitbook/assets/reward-ads.png" alt="메시지·참여·콘텐츠·미션 방식에서 리워드 광고 상품 8종으로 이어지는 구조"><figcaption></figcaption></figure>
 
-## 원하는 방식에 따라 상품 고르기
+## 원하는 방식에 따라 상품 고르기 <a href="#choose-product" id="choose-product"></a>
 
-### 메시지로 알리기
+### 메시지로 알리기 <a href="#message" id="message"></a>
 
 설정한 대상에게 메시지를 보내거나 라이브 방송 시작과 특정 결제 발생 시점에 맞춰 알림을 보내려면 머니알림을 선택해요. 일반형, 라이브형, 키워드형 가운데 목적에 맞는 유형을 고를 수 있어요.
 
@@ -35,7 +37,7 @@ layout:
 [money-notifications](money-notifications/)
 {% endcontent-ref %}
 
-### 퀴즈와 투표로 참여시키기
+### 퀴즈와 투표로 참여시키기 <a href="#quiz-vote" id="quiz-vote"></a>
 
 사용자가 퀴즈에 참여한 뒤 광고주 페이지로 이동하게 하려면 행운퀴즈를 선택해요.
 
@@ -49,7 +51,7 @@ layout:
 [catalog\_vote](catalog_vote/)
 {% endcontent-ref %}
 
-### 라이브와 영상으로 보여주기
+### 라이브와 영상으로 보여주기 <a href="#live-video" id="live-video"></a>
 
 토스 앱에서 라이브 방송을 소개하고 방송으로 연결하려면 라이브 마켓을 선택해요.
 
@@ -63,7 +65,7 @@ layout:
 [shortform](shortform/)
 {% endcontent-ref %}
 
-### 버튼과 미션으로 행동 유도하기
+### 버튼과 미션으로 행동 유도하기 <a href="#button-mission" id="button-mission"></a>
 
 사용자가 버튼이나 상품 이미지를 누르고 광고주가 지정한 페이지로 이동하게 하려면 버튼 누르기를 선택해요.
 

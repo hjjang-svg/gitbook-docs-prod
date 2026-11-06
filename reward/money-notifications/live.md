@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 라이브형
@@ -35,7 +37,7 @@ layout:
   * **집행 중단 일자에 따라 위약금이 부과될 수 있으니 유의해주세요.**
 {% endhint %}
 
-## 1. 이벤트 소개 영역
+## 1. 이벤트 소개 영역 <a href="#event-intro" id="event-intro"></a>
 
 <figure><img src="../../.gitbook/assets/이벤트 소개 영역 (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -104,7 +106,7 @@ layout:
 {% endtab %}
 {% endtabs %}
 
-## 2. 상품 소개 영역
+## 2. 상품 소개 영역 <a href="#product-intro" id="product-intro"></a>
 
 <figure><img src="../../.gitbook/assets/상품 소개 영역.png" alt=""><figcaption></figcaption></figure>
 
@@ -146,7 +148,7 @@ layout:
 {% endtab %}
 {% endtabs %}
 
-## 3. 액션 영역
+## 3. 액션 영역 <a href="#action-area" id="action-area"></a>
 
 <figure><img src="../../.gitbook/assets/액션 영역 (1).png" alt=""><figcaption></figcaption></figure>
 

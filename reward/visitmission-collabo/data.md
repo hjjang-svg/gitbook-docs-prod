@@ -23,11 +23,9 @@ layout:
 
 # 성과 보기
 
-### 캠페인 대시보드
+### 캠페인 대시보드 <a href="#campaign-dashboard" id="campaign-dashboard"></a>
 
 <figure><img src="../../.gitbook/assets/올방미 소재 정보 (7).png" alt=""><figcaption></figcaption></figure>
-
-
 
 1. **성과 대시보드**
    * 왼쪽 메뉴에서 일주일 방문 미션을 눌러 성과를 확인할 수 있어요.
@@ -46,7 +44,7 @@ layout:
 
 ***
 
-### 소재 대시보드
+### 소재 대시보드 <a href="#creative-dashboard" id="creative-dashboard"></a>
 
 <figure><img src="../../.gitbook/assets/올방미 소재 정보 (8) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -69,7 +67,7 @@ layout:
 
 ***
 
-### 제공 성과&#x20;
+### 제공 성과 <a href="#metrics" id="metrics"></a>
 
 <figure><img src="../../.gitbook/assets/올방미 소재 정보 (6).png" alt=""><figcaption></figcaption></figure>
 
@@ -81,8 +79,7 @@ layout:
   * 캠페인 집행 이후 **1시간 뒤부터** 성과를 확인할 수 있어요.
     * 기본 성과 데이터는 **30분마다**, 전환 성과 데이터는 **1시간마다** 업데이트 돼요.
 
-#### **성과 다운로드**
+#### **성과 다운로드** <a href="#download-performance" id="download-performance"></a>
 
 * 집행 시작 1시간 이후부터 성과를 다운로드할 수 있어요.
 * 다운로드 하면 엑셀 파일로 성과를 확인할 수 있어요.
-

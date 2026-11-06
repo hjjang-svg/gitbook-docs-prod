@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 소재 가이드
 
-### **숏폼 소재 가이드**
+### **숏폼 소재 가이드** <a href="#creative-guide" id="creative-guide"></a>
 
 <figure><img src="../../.gitbook/assets/숏폼_영역 안내.png" alt=""><figcaption></figcaption></figure>
 

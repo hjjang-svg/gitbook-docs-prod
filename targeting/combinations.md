@@ -23,15 +23,15 @@ layout:
 
 # 타겟 조합·제외
 
-### 1. 타겟 조합하기 <a href="#id-1" id="id-1"></a>
+### 1. 타겟 조합하기 <a href="#combine-targets" id="combine-targets"></a>
 
 * 자주 사용하는 **나이, 성별, 지역** 같은 정보와 맞춤 타겟 조건을 조합해 저장하고 반복해서다시 쓸 수 있어요.
 
-### 설정방법
+### 설정방법 <a href="#how-to-set" id="how-to-set"></a>
 
 {% stepper %}
 {% step %}
-#### **타겟 조합 추가**
+#### **타겟 조합 추가** <a href="#add-combination" id="add-combination"></a>
 
 *   타겟 조합 추가는 두 가지의 경로에서 조합하고 저장할 수 있어요.
 
@@ -49,7 +49,7 @@ layout:
 {% endstep %}
 
 {% step %}
-#### **광고세트에서 가져오기**
+#### **광고세트에서 가져오기** <a href="#import-from-adset" id="import-from-adset"></a>
 
 <figure><img src="../.gitbook/assets/광고 세트에서 가져오기 (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -59,7 +59,7 @@ layout:
 {% endstep %}
 {% endstepper %}
 
-### 2. 타겟 조합 활용하기
+### 2. 타겟 조합 활용하기 <a href="#use-combination" id="use-combination"></a>
 
 * 저장된 타겟 조합들은 **기본 정보** ,**맞춤 타겟 ,변경 이력** 을 확인하고 관리할 수 있어요.
   * 25년 7월 이전에 생성된 일부 타겟 조합은 변경 이력이 보이지 않을 수 있어요.

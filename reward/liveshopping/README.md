@@ -29,7 +29,7 @@ layout:
 
 ***
 
-## **광고 생성하기**
+## **광고 생성하기** <a href="#create-ad" id="create-ad"></a>
 
 {% stepper %}
 {% step %}
@@ -60,7 +60,7 @@ layout:
 {% endstep %}
 
 {% step %}
-#### 약관 동의 확인 및 체크
+#### 약관 동의 확인 및 체크 <a href="#agree-terms" id="agree-terms"></a>
 
 <figure><img src="../../.gitbook/assets/광고주가이드 수정 (1).png" alt=""><figcaption></figcaption></figure>
 

@@ -23,9 +23,9 @@ layout:
 
 # 성과 보기
 
-## 1. 성과 조회하기
+## 1. 성과 조회하기 <a href="#view-performance" id="view-performance"></a>
 
-#### 기본 성과 조회
+#### 기본 성과 조회 <a href="#basic-performance" id="basic-performance"></a>
 
 행운퀴즈 페이지에 접속하시면 집행 완료된 광고들의 성과를 확인하실 수 있어요.
 
@@ -40,7 +40,7 @@ layout:
 * 추가 혜택 화면 노출 수
 * 추가 혜택 버튼 클릭 수
 
-#### 전환 성과 조회
+#### 전환 성과 조회 <a href="#conversion-performance" id="conversion-performance"></a>
 
 행운퀴즈 광고의 전환 성과를 확인하실 수 있어요. 전환 성과는 광고를 통해 유저가 실제로 수행한 행동을 측정한 지표예요.
 
@@ -66,9 +66,9 @@ layout:
 **참고:** 행운퀴즈의 전환율 지표(상세페이지 조회율, 앱 설치율, 회원가입률, 장바구니 담기 전환율, 구매 전환율)는 **힌트 클릭 수**를 분모로 계산돼요. 예를 들어, 구매 전환율 = 구매 완료 수 / 힌트 클릭 수 x 100 이에요.
 {% endhint %}
 
-## 2. 성과 다운로드하기
+## 2. 성과 다운로드하기 <a href="#download-performance" id="download-performance"></a>
 
-#### 성과 다운로드
+#### 성과 다운로드 <a href="#download-steps" id="download-steps"></a>
 
 진행하신 광고 별로 성과를 다운로드 하실 수 있어요. 다운로드는 집행 시작 1시간 이후부터 가능해요.
 

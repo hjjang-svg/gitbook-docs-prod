@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 소재 가이드
 
-#### 행운퀴즈 **소재 설정 가이드**
+#### 행운퀴즈 **소재 설정 가이드** <a href="#creative-settings" id="creative-settings"></a>
 
 <figure><img src="../../.gitbook/assets/행운퀴즈_영역 안내.png" alt=""><figcaption></figcaption></figure>
 

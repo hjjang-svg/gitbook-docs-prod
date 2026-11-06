@@ -1,10 +1,10 @@
 # 광고 세트 설정하기
 
-## 배너 광고 세트 만들기
+## 배너 광고 세트 만들기 <a href="#create-banner-adset" id="create-banner-adset"></a>
 
 {% stepper %}
 {% step %}
-**광고 세트 정보**
+#### **광고 세트 정보** <a href="#adset-info" id="adset-info"></a>
 
 <figure><img src="../../.gitbook/assets/광고세트_세트 설정.png" alt=""><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@
 {% endstep %}
 
 {% step %}
-**광고 타겟 설정하기**
+#### **광고 타겟 설정하기** <a href="#target-setting" id="target-setting"></a>
 
 * **타겟이란?**
   * 배너 광고가 노출 될 대상 사용자 (오디언스) 그룹을 의미해요.
@@ -140,7 +140,7 @@
 {% endstep %}
 
 {% step %}
-**광고 타겟 정보 확인하기**
+#### **광고 타겟 정보 확인하기** <a href="#target-check" id="target-check"></a>
 
 <figure><img src="../../.gitbook/assets/타겟수 확인.png" alt=""><figcaption></figcaption></figure>
 
@@ -161,7 +161,7 @@
 {% endstep %}
 
 {% step %}
-**타겟 최적화(beta)**
+#### **타겟 최적화(beta)** <a href="#beta" id="beta"></a>
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -174,7 +174,7 @@
 {% endstep %}
 
 {% step %}
-**광고 세트 삭제**
+#### **광고 세트 삭제** <a href="#adset-delete" id="adset-delete"></a>
 
 * 광고 세트는 삭제 후 되돌릴 수 없어요.
   * 노출 (광고 집행) 이력이 없는 캠페인 및 광고 세트는 삭제할 수 있어요.

@@ -1,8 +1,8 @@
 # 양식 등록 방식 - 토스 양식
 
-토스 양식은 토스 안에서 바로 고객 정보를 받는 **고객 수집 양식**을 만드는 방식이에요.&#x20;
+토스 양식은 토스 안에서 바로 고객 정보를 받는 **고객 수집 양식**을 만드는 방식이에요.
 
-이 가이드를 보면 토스 양식을 선택한 캠페인의 고객 수집 양식을 처음부터 끝까지 만들 수 있어요.&#x20;
+이 가이드를 보면 토스 양식을 선택한 캠페인의 고객 수집 양식을 처음부터 끝까지 만들 수 있어요.
 
 유저가 양식으로 들어오기 위해 누르는 **광고 배너**는 [배너 소재 가이드](banner-guide/)에서 확인해 주세요.
 
@@ -16,48 +16,40 @@
 
 캠페인 설정의 **양식 등록 방식**에서 **토스 양식**을 선택했다면, 소재 설정에서 아래 순서대로 고객 수집 양식을 만들어 주세요.
 
-
-
 {% stepper %}
 {% step %}
-### 양식 추가하기
+### 양식 추가하기 <a href="#add-form" id="add-form"></a>
 
 소재 설정의 **연결 페이지 > 고객 수집 양식**에서 **양식 추가하기**를 눌러 주세요.
 
 이미 만든 양식을 다시 쓰려면 **가져오기**를 눌러 주세요.
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FCBBExxcBcLv4xiUJaayH%2Fimage.png?alt=media&#x26;token=a2cf9a27-1493-469b-b25f-ab7562f882da" alt="소재 설정의 연결 페이지에서 고객 수집 양식의 양식 추가하기를 누르는 화면"><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
-### 양식 이름 입력하기
+### 양식 이름 입력하기 <a href="#form-name" id="form-name"></a>
 
 **고객 수집 양식 만들기** 창에 양식 이름을 입력하고 **다음**을 눌러 주세요.
 
 * 공백 포함 최대 50자까지 입력할 수 있어요.
 * 저장한 뒤에도 편집 화면 왼쪽 위 **이름 수정**으로 바꿀 수 있어요.
 
-
-
 <figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 제목 작성하기
+### 제목 작성하기 <a href="#form-title" id="form-title"></a>
 
 유저에게 보여줄 **공개 제목**을 입력해 주세요.
 
 * 공백 포함 최대 14자까지 입력할 수 있어요.
-* 제목에 입력한 내용은 설문 조사 종료 직전까지 상단에 계속 보여요.&#x20;
+* 제목에 입력한 내용은 설문 조사 종료 직전까지 상단에 계속 보여요.
 * 광고 효율을 위해 브랜드명을 포함해서 입력하는 것을 권장해요.
 * 유저가 설문을 완료한 것으로 오해할 수 있는 문장으로 구성하면 정보 수집이 원활하지 않을 수 있어요.
   * 예시) 연락처만 입력하면 완료!/이벤트 선착순 종료 등
 
 <figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
@@ -84,12 +76,12 @@
 
 전달하려는 정보는 이미지에 넣지 말고 **설명 문구** 입력란을 활용해 주세요.
 
-브랜드명과 제목이 얹히는 이미지 위쪽 영역은 자동으로 블러·그라디언트 처리돼요.&#x20;
+브랜드명과 제목이 얹히는 이미지 위쪽 영역은 자동으로 블러·그라디언트 처리돼요.
 
-| 입력란      | 규정                                              |
-| -------- | ----------------------------------------------- |
-| **브랜드명** | 공백 포함 최대 20자.                                   |
-| **제목**   | <p>공백 포함 최대 24자. </p><p>줄바꿈해서 두 줄로 입력해 주세요.</p> |
+| 입력란      | 규정                                             |
+| -------- | ---------------------------------------------- |
+| **브랜드명** | 공백 포함 최대 20자.                                  |
+| **제목**   | <p>공백 포함 최대 24자.</p><p>줄바꿈해서 두 줄로 입력해 주세요.</p> |
 {% endtab %}
 
 {% tab title="배경 이미지" %}
@@ -102,19 +94,15 @@
 
 소개 화면의 배경으로 보이는 이미지예요. 위쪽은 상단 문구가 얹혀서 흐려지고, 아래쪽은 혜택 카드에 가려져요.
 
-
-
 **입력 규정**
 
 * 크기: 900px x 1200px
 * 형식: JPG, JPEG, PNG (파일당 10MB 이하)
 * 텍스트가 없는 이미지를 사용해 주세요. (전달하려는 정보는 **설명 문구** 입력란을 활용해 주세요.)
 
-
-
 **영역별 노출 방식**
 
-<table><thead><tr><th width="128">영역</th><th width="107.5">위치</th><th>이렇게 보여요</th><th>문구를 넣으면</th></tr></thead><tbody><tr><td>자동 블러·그라디언트 영역</td><td>위쪽 500px</td><td><p>브랜드명과 제목이 겹치고, 자동으로 흐려져요. </p><p></p><p>주요 피사체를 두지 말고 대비가 약한 배경으로 채워 주세요.</p></td><td>반려하지 않아요. 다만 잘 안 보여요.</td></tr><tr><td>안전 노출 영역</td><td>가운데 640px</td><td>이미지가 그대로 보여요.<br><br>주요 피사체와 그래픽은 여기에 두세요.</td><td><strong>반려돼요.</strong> 혜택 문구는 설명 문구에 써 주세요.</td></tr><tr><td>가려지는 영역</td><td>아래쪽 60px</td><td>혜택 카드에 가려질 수 있어요.<br><br>중요한 요소를 두지 말아 주세요.</td><td>반려하지 않아요. 다만 가려져요.</td></tr></tbody></table>
+<table><thead><tr><th width="128">영역</th><th width="107.5">위치</th><th>이렇게 보여요</th><th>문구를 넣으면</th></tr></thead><tbody><tr><td>자동 블러·그라디언트 영역</td><td>위쪽 500px</td><td><p>브랜드명과 제목이 겹치고, 자동으로 흐려져요.</p><p>주요 피사체를 두지 말고 대비가 약한 배경으로 채워 주세요.</p></td><td>반려하지 않아요. 다만 잘 안 보여요.</td></tr><tr><td>안전 노출 영역</td><td>가운데 640px</td><td>이미지가 그대로 보여요.<br><br>주요 피사체와 그래픽은 여기에 두세요.</td><td><strong>반려돼요.</strong> 혜택 문구는 설명 문구에 써 주세요.</td></tr><tr><td>가려지는 영역</td><td>아래쪽 60px</td><td>혜택 카드에 가려질 수 있어요.<br><br>중요한 요소를 두지 말아 주세요.</td><td>반려하지 않아요. 다만 가려져요.</td></tr></tbody></table>
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FijllDbQT6ENVPjjqMzb5%2Fimage.png?alt=media&#x26;token=68420e40-b6a9-40f9-aa11-aeb51b907a2e" alt="배경 이미지의 안전 노출 영역"><figcaption></figcaption></figure>
 {% endtab %}
@@ -178,8 +166,6 @@
 * 초성은 쓸 수 없어요.
 {% endhint %}
 
-
-
 **입력 규정**
 
 * 리스트는 최소 2개, 최대 6개까지 넣을 수 있어요. **리스트 추가하기**로 추가하고, 필요 없는 리스트는 빼 주세요.
@@ -198,7 +184,7 @@
 이 항목은 반려 기준이 없어요. 아래 선택지 중에서 고르면 돼요.
 {% endhint %}
 
-소개 화면 맨 아래 버튼에 들어가는 문구예요. 유저가 이 버튼을 누르면 정보 입력 단계로 넘어가요.&#x20;
+소개 화면 맨 아래 버튼에 들어가는 문구예요. 유저가 이 버튼을 누르면 정보 입력 단계로 넘어가요.
 
 유저가 다음 화면에서 하게 될 행동과 맞는 문구를 아래 선택지 중에서 골라 주세요.
 
@@ -217,8 +203,6 @@
 {% endhint %}
 {% endtab %}
 {% endtabs %}
-
-
 {% endstep %}
 
 {% step %}
@@ -239,17 +223,15 @@
 {% endtab %}
 
 {% tab title="이용 및 보유 기간" %}
-이용 및 보유 기간은 제공되는 옵션 중에서 선택해 주세요.&#x20;
+이용 및 보유 기간은 제공되는 옵션 중에서 선택해 주세요.
 
 12개월 이상으로는 설정할 수 없어요.
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2Fj6NFYdaAQknxTxeU9eev%2Fimage.png?alt=media&#x26;token=295ee219-12a0-46b0-8654-cffcd5bdfe9b" alt="이용 및 보유 기간 선택 옵션"><figcaption></figcaption></figure>
 
-
-
 <mark style="color:orange;">**리드 수집 후 이용 기간**</mark>
 
-* <mark style="color:orange;">토스의 개인정보 이용 및 보유 기간 정책에 따라 수집한 리드는 수집 후</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**30일 동안 보관돼요.**</mark>
+* <mark style="color:orange;">토스의 개인정보 이용 및 보유 기간 정책에 따라 수집한 리드는 수집 후</mark> <mark style="color:orange;">**30일 동안 보관돼요.**</mark>
 * <mark style="color:orange;">30일이 지난 리드는 다운로드할 수 없어요.</mark>
 {% endtab %}
 
@@ -264,8 +246,6 @@
 직접 만든 동의문은 최대 10개까지 추가할 수 있어요.
 {% endtab %}
 {% endtabs %}
-
-
 {% endstep %}
 
 {% step %}
@@ -296,8 +276,6 @@
 * 날짜: 날짜를 기준으로 답변 수집이 필요한 경우
 * 조건부 선택: 첫 번째 질문의 답변에 따라 두 번째 질문 내용이 달라지는 경우
 
-
-
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2Fctf1xE6QBEbUkeKJ3P96%2F5.%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%89%E1%85%AE%E1%84%8C%E1%85%B5%E1%86%B8%20%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8%20%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3_0909.png?alt=media&#x26;token=2e35bcdb-84f7-4b3f-9d14-a82a829127e2" alt="질문 유형 선택 옵션"><figcaption></figcaption></figure>
 {% endtab %}
 
@@ -305,8 +283,6 @@
 질문 유형에 따라 필수 값 여부와 복수 선택(**여러 개 선택 가능**) 여부를 선택할 수 있어요.
 
 꼭 받아야 하는 답변이라면 필수로 설정해 주세요.
-
-
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FMkxaFaLRNXkLVGEkfAxu%2F%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%2C%20%E1%84%83%E1%85%A1%E1%86%B8%E1%84%87%E1%85%A7%E1%86%AB_%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%20%E1%84%8B%E1%85%B2%E1%84%92%E1%85%A7%E1%86%BC%20%E1%84%89%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A2%E1%86%A8%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5-1.png?alt=media&#x26;token=0a54c003-2329-43b1-8bb9-ca900c4e67ec" alt="필수 값과 복수 선택 설정"><figcaption></figcaption></figure>
 {% endtab %}
@@ -333,10 +309,6 @@
 * 여러 개를 고를 수 있게 하려면 여러 개 선택 가능을 켜 주세요.
 {% endtab %}
 {% endtabs %}
-
-
-
-
 {% endstep %}
 
 {% step %}
@@ -346,8 +318,6 @@
 
 * 연락처 (필수): 휴대전화 번호, 이메일
 * 사용자 정보 (선택): 이름, 성별, 생년월일
-
-
 {% endstep %}
 
 {% step %}
@@ -365,8 +335,6 @@
 {% tab title="참조 URL (필수)" %}
 * 소재 심사에 활용할 이벤트 페이지 랜딩 URL을 입력해 주세요.
 * 랜딩 URL이 없으면 배너 소재와 양식을 심사할 수 없어서 승인되지 않아요.
-
-
 
 **유의사항:**
 
@@ -391,16 +359,12 @@
 * 전화 응답률을 높이기 위해 전화할 시간을 안내할 수 있어요.
 * 보조 문구를 쓰지 않으려면 **보조문구 사용 안함**을 선택해 주세요.
 
-
-
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FalyV1O5u0q3rMOPl82UQ%2Fimage.png?alt=media&#x26;token=d6dd0a0a-51d7-4cb7-b5d5-d0741b1a16a5" alt="완료 화면 설정"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="양식 유형" %}
-* 양식 유형은 5가지 옵션 중에서 선택할 수 있어요.&#x20;
+* 양식 유형은 5가지 옵션 중에서 선택할 수 있어요.
 * 구성한 양식에 맞는 유형이 없다면 **해당 없음**을 선택해 주세요.
-
-
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FtWoIj7FvUiBzueC91DJ2%2Fimage.png?alt=media&#x26;token=9f8da561-8d5f-490c-99a9-d1fc3c6628df" alt="양식 유형 선택 옵션"><figcaption></figcaption></figure>
 {% endtab %}
@@ -409,8 +373,6 @@
 [잠재고객 모으기 웹훅 연동 가이드](../../tracking/webhook.md)를 참고해 주세요.
 {% endtab %}
 {% endtabs %}
-
-
 {% endstep %}
 
 {% step %}
@@ -421,10 +383,5 @@
 * 유저에게는 아래와 같은 흐름으로 보여요.
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F3X8WlLXzoyYRGP6We9lX%2F%E1%84%8C%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%A2%20%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%86%E1%85%A9%E1%84%8B%E1%85%B3%E1%84%80%E1%85%B5%20%E1%84%8C%E1%85%B5%E1%84%86%E1%85%A7%E1%86%AB.png?alt=media&#x26;token=8c70729e-b590-4510-ad8a-0014ed5f7e7b" alt="토스 양식에서 유저가 보는 질문, 정보 검토, 완료 화면 예시"><figcaption></figcaption></figure>
-
-
 {% endstep %}
 {% endstepper %}
-
-
-

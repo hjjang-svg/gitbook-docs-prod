@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 숏폼
@@ -27,13 +29,13 @@ layout:
 
 ***
 
-### 광고 생성하기
+### 광고 생성하기 <a href="#create-ad" id="create-ad"></a>
 
 <figure><img src="../../.gitbook/assets/광고 생성하기 (4).png" alt=""><figcaption></figcaption></figure>
 
 {% stepper %}
 {% step %}
-#### 광고 생성을 위해 각 항목에 맞는 정보를 입력해주세요.
+#### 광고 생성을 위해 각 항목에 맞는 정보를 입력해주세요. <a href="#ad-info" id="ad-info"></a>
 
 ✔ **시작 일시 :** 숏폼 '영상이 재생되는 부스팅 시간'이에요.
 
@@ -43,7 +45,7 @@ layout:
 {% endstep %}
 
 {% step %}
-#### 약관 동의 확인 및 체크
+#### 약관 동의 확인 및 체크 <a href="#agree-terms" id="agree-terms"></a>
 
 <figure><img src="../../.gitbook/assets/약관 동의 확인 (3).png" alt=""><figcaption></figcaption></figure>
 

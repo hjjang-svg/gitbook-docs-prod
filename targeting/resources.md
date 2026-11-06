@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 타겟 설정 알아보기
@@ -27,15 +29,15 @@ layout:
 
 <figure><img src="../.gitbook/assets/targeting.png" alt="오토 타겟팅과 직접 타겟팅에서 타겟 조합과 광고 적용으로 이어지는 흐름"><figcaption></figcaption></figure>
 
-## 타겟팅 방식 정하기
+## 타겟팅 방식 정하기 <a href="#choose-method" id="choose-method"></a>
 
 오토 타겟팅은 토스애즈가 캠페인 목표에 맞는 사용자를 자동으로 찾아요. 직접 타겟팅은 광고 반응, 전환 이벤트, 고객 목록 등의 조건으로 광고주가 대상을 만들고 적용해요.
 
 캠페인 목표와 등록 방식에 따라 사용할 수 있는 타겟팅이 다르므로, 직접 타겟을 만들기 전에 해당 캠페인 문서에서 지원 여부를 확인해 주세요.
 
-## 직접 타겟 만들기
+## 직접 타겟 만들기 <a href="#create-target" id="create-target"></a>
 
-### 이전 광고 반응으로 만들기
+### 이전 광고 반응으로 만들기 <a href="#from-ad-response" id="from-ad-response"></a>
 
 기존 광고를 보거나 클릭한 사용자에게 다시 광고를 보여주려면 광고 반응 타겟을 만들어요.
 
@@ -43,7 +45,7 @@ layout:
 [retarget.md](retarget.md)
 {% endcontent-ref %}
 
-### 앱·웹 전환으로 만들기
+### 앱·웹 전환으로 만들기 <a href="#from-conversion" id="from-conversion"></a>
 
 앱 광고 성과 측정 연동(MAT)이나 웹 광고 성과 측정 연동(토스 픽셀)으로 수집한 전환 이벤트가 발생한 사용자를 대상으로 삼으려면 전환 추적 타겟을 만들어요.
 
@@ -51,7 +53,7 @@ layout:
 [switch.md](switch.md)
 {% endcontent-ref %}
 
-### 고객 목록으로 만들기
+### 고객 목록으로 만들기 <a href="#from-customer-list" id="from-customer-list"></a>
 
 직접 수집한 고객 목록을 광고에 활용하려면 고객 목록 타겟을 만들어요.
 
@@ -59,7 +61,7 @@ layout:
 [list.md](list.md)
 {% endcontent-ref %}
 
-## 만든 타겟 조합·제외하기
+## 만든 타겟 조합·제외하기 <a href="#combine-exclude" id="combine-exclude"></a>
 
 나이·성별·지역 등의 조건과 만든 타겟을 조합하거나 광고에서 제외할 대상을 설정해요. 자주 사용하는 조합은 저장해 다시 쓸 수 있어요.
 

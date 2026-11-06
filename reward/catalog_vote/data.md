@@ -23,7 +23,7 @@ layout:
 
 # 성과 보기
 
-### 1. 성과 조회하기
+### 1. 성과 조회하기 <a href="#view-performance" id="view-performance"></a>
 
 캠페인 집행 후 대시보드 및 엑셀 파일을 통해 주요 지표를 확인할 수 있어요.
 
@@ -40,7 +40,7 @@ layout:
   * **Click** (클릭 수): 해당 상품을 클릭한 총 횟수
   * **CTR** (Click-Through Rate): 클릭률, (Click ÷ PV) × 100% 로 계산
 
-### 2. 성과 다운로드 하기
+### 2. 성과 다운로드 하기 <a href="#download-performance" id="download-performance"></a>
 
 <figure><img src="../../.gitbook/assets/두두찍_성과 확인하기.png" alt=""><figcaption></figcaption></figure>
 

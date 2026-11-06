@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 광고 위약금 안내
 
-## **집행 중단 및 위약금 규정**
+## **집행 중단 및 위약금 규정** <a href="#stop-and-penalty-rules" id="stop-and-penalty-rules"></a>
 
 1. “토스애즈 회원”은 집행 예정인 광고를 "토스애즈(Toss Ads)"를 통해 집행 중단할 수 있어요.
 2. 광고 집행 중단 신청 시점 및 광고 상품에 따라 위약금이 발생할 수 있어요.
@@ -37,7 +39,7 @@ layout:
 
 ***
 
-## **광고 상품별 위약금 산정 기준**
+## **광고 상품별 위약금 산정 기준** <a href="#penalty-by-product" id="penalty-by-product"></a>
 
 | 광고 상품      | 광고 비용 기준 | 집행일 기준        |
 | ---------- | -------- | ------------- |
@@ -59,7 +61,7 @@ layout:
 
 ***
 
-## 위약금 면제 케이스
+## 위약금 면제 케이스 <a href="#penalty-exemption" id="penalty-exemption"></a>
 
 {% hint style="info" icon="message-exclamation" %}
 **\[운영 정책 변경 안내]**

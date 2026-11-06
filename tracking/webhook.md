@@ -33,7 +33,7 @@ layout:
 웹훅을 연동하지 않아도 잠재고객 목록은 토스애즈 대시보드에서 30일간 엑셀 파일로 다운로드할 수 있어요.
 {% endhint %}
 
-## 잠재고객 모으기 웹훅 동작 방식
+## 잠재고객 모으기 웹훅 동작 방식 <a href="#how-it-works" id="how-it-works"></a>
 
 잠재고객 모으기 웹훅은 유저가 리드폼을 제출하면 토스애즈가 잠재고객 정보를 HTTPS `POST`로 수신 서버에 보내요.
 
@@ -48,7 +48,7 @@ sequenceDiagram
     Server-->>TossAds: 200 OK
 ```
 
-## 웹훅 사용 설정하기
+## 웹훅 사용 설정하기 <a href="#enable-webhook" id="enable-webhook"></a>
 
 웹훅을 받으려면 잠재고객 모으기 정보입력 양식에 웹훅 URL을 등록하고 시크릿 키를 받아야 해요.
 
@@ -74,7 +74,7 @@ sequenceDiagram
 시크릿 키가 노출되었다고 의심되면 즉시 재발급해 주세요.
 {% endhint %}
 
-#### 시크릿 키 알아두기
+#### 시크릿 키 알아두기 <a href="#secret-key" id="secret-key"></a>
 
 잠재고객 모으기 웹훅은 시크릿 키로 **HMAC-SHA256 서명을 만들어 헤더에 담는 방식**으로 발신자를 인증해요. 수신 서버는 같은 시크릿 키로 서명을 다시 계산해 비교하면 돼요. 자세한 방법은 아래 서명 검증하기에서 확인할 수 있어요.
 
@@ -96,15 +96,15 @@ sequenceDiagram
 웹훅은 두 센터 중 하나에서 발송될 수 있어요. 한 대역만 허용하면 일부 요청이 차단될 수 있어요.
 {% endhint %}
 
-## 웹훅 살펴보기
+## 웹훅 살펴보기 <a href="#webhook-overview" id="webhook-overview"></a>
 
 토스애즈는 등록된 웹훅 URL로 HTTPS `POST` 요청을 보내요. 헤더에는 서명과 메타데이터, 본문에는 잠재고객 정보가 담겨요.
 
-### 웹훅 헤더
+### 웹훅 헤더 <a href="#headers" id="headers"></a>
 
 <table><thead><tr><th width="215.84765625">헤더</th><th width="183.29296875">값 예시</th><th>설명</th></tr></thead><tbody><tr><td><code>Content-Type</code></td><td><code>application/json</code></td><td>웹훅 본문은 JSON으로 전달돼요.</td></tr><tr><td><code>X-TossAds-Webhook-Type</code></td><td><code>standard</code></td><td>웹훅 타입이에요. 현재는 <code>standard</code> 한 종류만 사용해요.</td></tr><tr><td><code>X-TossAds-Timestamp</code></td><td><code>1776326400</code></td><td>토스애즈가 웹훅을 보낸 시각이에요. 초 단위 Unix timestamp로 전달돼요. 유저가 리드폼을 제출한 시각은 본문의 <code>lead_submit_time</code>을 사용해 주세요. 처리 지연이 있으면 두 값이 다를 수 있어요.</td></tr><tr><td><code>X-TossAds-Signature</code></td><td><code>v1=ab12cd34...</code></td><td>시크릿 키로 <code>{timestamp}.{body}</code>에 만든 HMAC-SHA256 서명(소문자 hex)이에요. <code>v1</code>은 서명에 사용한 시크릿 키 버전이에요.</td></tr></tbody></table>
 
-### 웹훅 본문
+### 웹훅 본문 <a href="#body" id="body"></a>
 
 웹훅 본문은 JSON으로 전달돼요.
 
@@ -169,11 +169,11 @@ sequenceDiagram
 웹훅에는 기존 필드를 유지하면서 새 필드가 추가될 수 있어요. 수신 서버는 모르는 필드를 무시하도록 구현해 주세요.
 {% endhint %}
 
-## 수신 서버 만들기
+## 수신 서버 만들기 <a href="#build-receiver" id="build-receiver"></a>
 
 등록한 URL로 들어오는 웹훅을 처리할 수신 서버를 만들어주세요. 수신 서버는 정상 요청만 받아 중복 없이 저장하기 위해 서명을 검증하고, 응답을 보내고, 중복을 처리할 수 있어야 해요.
 
-### 서명 검증하기
+### 서명 검증하기 <a href="#verify-signature" id="verify-signature"></a>
 
 토스애즈는 `X-TossAds-Timestamp` 값과 요청 본문을 `.`으로 이어 붙인 `{timestamp}.{body}`를 시크릿 키로 HMAC-SHA256 서명한 값을 `X-TossAds-Signature` 헤더에 담아 보내요. 결과는 소문자 hex로 인코딩돼요(`v1=ab12cd34...`).
 
@@ -204,7 +204,7 @@ X-TossAds-Signature: v2=bbb222...,v3=ccc333...
 X-TossAds-Signature: v3=ccc333...
 ```
 
-#### 서명 검증 코드 예시
+#### 서명 검증 코드 예시 <a href="#signature-code" id="signature-code"></a>
 
 Kotlin, Java, Python, Node.js로 작성한 수신 서버 예시예요. 서명 검증과 다중 서명 처리 방법이 포함되어 있어요.
 
@@ -454,7 +454,7 @@ app.listen(3000);
 같은 리드가 두 번 이상 도달하거나 도착 순서가 제출 순서와 다를 수 있어요. `lead_id` 기준으로 멱등 처리해 주세요. 이미 처리한 `lead_id`는 새로 저장하지 않고 `200 OK`만 반환하면 돼요.
 {% endhint %}
 
-### 응답 보내기
+### 응답 보내기 <a href="#send-response" id="send-response"></a>
 
 훅을 받았다면 토스애즈로 응답을 보내주세요. `2xx(200~299)`만 성공으로 처리해요. 그 외 모든 응답과 응답 없음은 실패로 처리해요.
 
@@ -466,7 +466,7 @@ app.listen(3000);
 토스애즈는 연결 3초, 응답 대기 5초 타임아웃을 적용해요. 연결이 된 뒤에는 5초 안에 `2xx`를 반환해 주세요. 무거운 작업은 응답 후 비동기로 처리해 주세요.
 {% endhint %}
 
-#### 재전송 정책 확인하기
+#### 재전송 정책 확인하기 <a href="#retry-policy" id="retry-policy"></a>
 
 실패한 요청은 같은 웹훅을 **5분 간격으로 최대 2회 재전송**해요. 최초 발송까지 포함하면 총 3번 시도해요.
 
@@ -494,7 +494,7 @@ app.listen(3000);
 `is_test: true` 데이터는 실제 리드와 섞이지 않게 분리해서 저장해 주세요.
 {% endhint %}
 
-## 실제 서비스 전 점검하기
+## 실제 서비스 전 점검하기 <a href="#pre-launch-check" id="pre-launch-check"></a>
 
 라이브 광고에 적용하기 전에 다음을 확인해 주세요. 가급적 적은 예산의 캠페인으로 검증한 뒤 확대해 주세요.
 
@@ -507,17 +507,17 @@ app.listen(3000);
 * [ ] 4XX·5XX 에러를 추적할 수 있는 로그·모니터링이 설정돼 있어요.
 * [ ] `is_test: true` 데이터를 실제 리드와 구분해서 저장해요.
 
-## 문제 해결하기
+## 문제 해결하기 <a href="#troubleshooting" id="troubleshooting"></a>
 
 웹훅을 연동할 때 자주 발생하는 문제를 확인해 보세요.
 
-### 웹훅 전송 실패
+### 웹훅 전송 실패 <a href="#delivery-failed" id="delivery-failed"></a>
 
 정보입력 양식 웹훅 전송에 실패했다는 이메일을 받으셨다면 아래 내용에 따라 문제를 해결해 주세요.
 
 {% stepper %}
 {% step %}
-#### **연결 상태 확인하기**
+#### **연결 상태 확인하기** <a href="#check-connection" id="check-connection"></a>
 
 * 웹훅 URL이 정확히 등록되어 있는지, HTTPS인지 확인해 주세요.
 * 외부에서 접근 가능한 URL인지, 방화벽이 요청을 차단하지 않는지 확인해 주세요.
@@ -525,7 +525,7 @@ app.listen(3000);
 {% endstep %}
 
 {% step %}
-#### **테스트 발송 확인하기**
+#### **테스트 발송 확인하기** <a href="#test-delivery" id="test-delivery"></a>
 
 [테스트 발송](webhook.md#test-webhook)을 시도해서 데이터가 정상적으로 전송되는지 검증해 주세요.
 
@@ -539,7 +539,7 @@ app.listen(3000);
 {% endstep %}
 
 {% step %}
-#### **누락된 잠재고객 목록 받기 (선택)**
+#### **누락된 잠재고객 목록 받기 (선택)** <a href="#missing-leads" id="missing-leads"></a>
 
 토스애즈 광고 상품 대시보드에서 해당 캠페인을 선택한 뒤 하단 **\[잠재고객]** 버튼을 누르면 목록을 받을 수 있어요. 정보 수집 시점부터 30일간 엑셀 파일로 다운로드할 수 있고, 받을 내역이 없으면 버튼이 비활성화돼요.
 
@@ -547,17 +547,17 @@ app.listen(3000);
 {% endstep %}
 {% endstepper %}
 
-### 서명 검증 실패
+### 서명 검증 실패 <a href="#signature-failed" id="signature-failed"></a>
 
 서명이 맞지 않는 건 대부분 서명 계산에 쓴 입력값이 토스애즈가 보낸 원본과 달라서예요. 아래에서 해당하는 원인을 찾아 수정해 주세요.
 
 <table><thead><tr><th width="324.5382080078125">원인</th><th>해결 방법</th></tr></thead><tbody><tr><td>JSON 파싱 후 다시 직렬화한 값으로 서명 계산</td><td><code>X-TossAds-Timestamp + "." + raw body</code>로 서명을 계산하도록 수정</td></tr><tr><td>타임스탬프를 빼고 서명 계산</td><td><code>X-TossAds-Timestamp</code> 값을 서명 입력값에 함께 포함하도록 수정</td></tr><tr><td>최근 2개 서명 미처리</td><td>서명 값을 콤마로 나눈 뒤, 하나라도 일치하면 통과하도록 구현</td></tr></tbody></table>
 
-### 같은 리드를 여러 번 수신
+### 같은 리드를 여러 번 수신 <a href="#duplicate-leads" id="duplicate-leads"></a>
 
 웹훅은 재전송이나 네트워크 상황에 따라 같은 리드가 여러 번 전달될 수 있어요. `lead_id`를 기준으로 한 번만 저장하도록 멱등 처리해 주세요.
 
-### 5초 내 응답하기 어려움
+### 5초 내 응답하기 어려움 <a href="#respond-within-5s" id="respond-within-5s"></a>
 
 웹훅을 받으면 수신 서버가 5초 안에 `200 OK`를 보내줘야 해요. CRM 저장 같은 무거운 작업을 응답 전에 처리하면 이 시간을 넘기기 쉬워요.
 

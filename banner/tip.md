@@ -1,18 +1,18 @@
 # 유용한 기능
 
-## 토스 앱에서 미리보기
+## 토스 앱에서 미리보기 <a href="#preview-in-app" id="preview-in-app"></a>
 
 휴대폰에서 QR 코드를 스캔하거나 링크를 복사해서 광고 소재가 토스 앱에서 어떻게 보이는지 광고 화면을 미리 확인할 수 있는 기능이에요.
 
-<figure><img src="../../.gitbook/assets/미리보기 QR 예시.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/미리보기 QR 예시.png" alt=""><figcaption></figcaption></figure>
 
-### 사용 방법
+### 사용 방법 <a href="#preview-how-to" id="preview-how-to"></a>
 
 {% stepper %}
 {% step %}
 **배너 광고 캠페인 생성**
 
-<figure><img src="../../.gitbook/assets/미리 보기 위치.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/미리 보기 위치.png" alt=""><figcaption></figcaption></figure>
 
 * [x] 캠페인 생성 → 소재 설정 화면 우측 상단 \[미리보기] 버튼 클릭 → \[토스 앱에서 미리보기] 버튼 클릭
 {% endstep %}
@@ -20,7 +20,7 @@
 {% step %}
 **토스 앱에서 미리보기**
 
-<figure><img src="../../.gitbook/assets/미리보기 QR 예시.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/미리보기 QR 예시.png" alt=""><figcaption></figcaption></figure>
 
 * 미리보기 기능은 아래와 같이 두 가지 방법으로 사용할 수 있어요.
   * 생성된 **QR 코드**를 휴대폰 카메라로 스캔
@@ -30,7 +30,7 @@
 {% step %}
 **모바일 환경에서 소재 확인하기**
 
-<figure><img src="../../.gitbook/assets/미리 보기 화면_예시-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/미리 보기 화면_예시-1.png" alt=""><figcaption></figcaption></figure>
 
 * 토스 앱이 설치되지 않은 경우 미리보기 기능을 사용하기 어려워요.
   * 미리보기 (토스 앱) 화면에서는 내 소재의 랜딩 페이지를 눌러보는 것 외에 다른 기능은 동작하지 않아요.
@@ -47,17 +47,17 @@
 
 ***
 
-## 소재 가져오기
+## 소재 가져오기 <a href="#import-creative" id="import-creative"></a>
 
 소재 설정 화면에서 기존 소재들을 간편하게 살펴보고 소재명으로 검색해서 가져올 수 있는 기능이에요.
 
-### 사용 방법
+### 사용 방법 <a href="#import-how-to" id="import-how-to"></a>
 
 {% stepper %}
 {% step %}
 **배너 광고 캠페인 생성**
 
-<figure><img src="../../.gitbook/assets/소재 가져오기 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/소재 가져오기 (1).png" alt=""><figcaption></figcaption></figure>
 
 * [x] 캠페인 생성 → 소재 설정 화면 우측 상단 \[소재 가져오기] 버튼 클릭
 {% endstep %}
@@ -65,7 +65,7 @@
 {% step %}
 **가져올 소재 선택하기**
 
-<figure><img src="../../.gitbook/assets/가져올 소재 선택하기.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/가져올 소재 선택하기.png" alt=""><figcaption></figcaption></figure>
 
 * 기존 소재들을 한 눈에 살펴보고 필요한 소재를 선택해서 새로운 캠페인에 간편하게 불러올 수 있어요.
   * 소재명으로 검색하면 원하는 소재를 빠르게 찾을 수 있어요.
@@ -76,7 +76,7 @@
 
 배너 소재와 동일하게 정보입력 양식도 기존 양식을 불러올 수 있어요 정보입력 양식 불러오기 경로는 아래와 같아요.
 
-<figure><img src="../../.gitbook/assets/잠재고객 모으기 정보 입력 약식 불러오기 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/잠재고객 모으기 정보 입력 약식 불러오기 (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

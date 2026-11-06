@@ -23,9 +23,9 @@ layout:
 
 # 성과 보기
 
-## 1. 성과 조회하기
+## 1. 성과 조회하기 <a href="#view-performance" id="view-performance"></a>
 
-#### 기본 성과 조회
+#### 기본 성과 조회 <a href="#basic-performance" id="basic-performance"></a>
 
 라이브 마켓 페이지에 접속하시면 집행 완료된 광고들의 성과를 확인하실 수 있어요.
 
@@ -37,7 +37,7 @@ layout:
 * 라이브 보고 랜덤 포인트 받기 CTA 클릭 수 : 방송 중인 라이브 상세 페이지에서 라이브 보고 랜덤 포인트 받기 버튼이 클릭된 총 횟수예요.
 * 라이브 보고 랜덤 포인트 받기 CTA 클릭자 수 : 라이브 보고 랜덤 포인트 받기 버튼을 한 번 이상 클릭한 사용자 수예요.
 
-## 2. 성과 다운로드하기
+## 2. 성과 다운로드하기 <a href="#download-performance" id="download-performance"></a>
 
 #### 캠페인 별 성과 다운로드 <a href="#live-performance-download" id="live-performance-download"></a>
 

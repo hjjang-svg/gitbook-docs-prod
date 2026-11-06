@@ -1,6 +1,6 @@
 # 1:1 이미지 배너
 
-## 페이지 - 1:1 이미지 소재 설정 가이드 <a href="#common" id="common"></a>
+## 페이지 - 1:1 이미지 소재 설정 가이드 <a href="#moment-guide" id="moment-guide"></a>
 
 <figure><img src="../../.gitbook/assets/1_1 이미지_영역 안내.png" alt=""><figcaption></figcaption></figure>
 

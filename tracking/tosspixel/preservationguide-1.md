@@ -29,10 +29,10 @@ layout:
 
 ***
 
-## 토스 픽셀 설치하기
+## 토스 픽셀 설치하기 <a href="#install-pixel" id="install-pixel"></a>
 
 {% hint style="info" %}
-#### **전환 추적 코드 생성하기**
+#### **전환 추적 코드 생성하기** <a href="#create-code" id="create-code"></a>
 
 * **토스 픽셀**은 [전환 추적 코드 생성하기 가이드](https://toss-ads.gitbook.io/guide/tracking/tag/code_generation)에 따라 **전환 추적 코드를 생성한 후에 사용**할 수 있어요. 생성한 전환 추적 코드는 반드시 따옴표(`' '` 또는 `" "`)로 감싸서 이벤트 스크립트에 입력해 주세요.
 * 예시의 `"전환 코드"` 부분을 생성한 실제 값으로 바꾸고, 따옴표는 그대로 유지해 주세요.
@@ -175,7 +175,7 @@ r.src="https://static.toss.im/lex/v1.js",(n.head||n.documentElement).appendChild
 * **이 기준에 맞게 값을 생성하고 관리하기 어렵다면 `event_id`를 생략해 주세요.** 생략해도 이벤트를 보낼 수 있지만, `event_id`를 이용한 중복 제거는 적용되지 않아요.
 {% endhint %}
 
-### 이벤트 스크립트 예시
+### 이벤트 스크립트 예시 <a href="#event-script-example" id="event-script-example"></a>
 
 아래 예시는 표준 이벤트 / 표준 파라미터 활용 방식을 이해하기 위한 샘플이에요.
 
@@ -526,7 +526,7 @@ r.src="https://static.toss.im/lex/v1.js",(n.head||n.documentElement).appendChild
 
 ***
 
-#### 커스텀 프로퍼티
+#### 커스텀 프로퍼티 <a href="#custom-properties" id="custom-properties"></a>
 
 * 모든 이벤트(표준 이벤트, 커스텀 이벤트)에 custom\_param1 \~ custom\_param5를 추가할 수 있어요.
 * product\_id, price 같은 표준 파라미터로 표현하기 어려운 추가 정보를 전달할 때 사용해요.
@@ -587,7 +587,7 @@ function usePageView() {
 
 ***
 
-## 설치 확인
+## 설치 확인 <a href="#verify-install" id="verify-install"></a>
 
 토스 픽셀이 정상적으로 설치되었는지 아래 방법으로 확인할 수 있어요.
 
@@ -601,7 +601,7 @@ function usePageView() {
 
 ***
 
-## 자주 묻는 질문
+## 자주 묻는 질문 <a href="#faq" id="faq"></a>
 
 **Q. 토스 픽셀 로딩이 실패하면 쇼핑몰에 영향이 있나요?**
 

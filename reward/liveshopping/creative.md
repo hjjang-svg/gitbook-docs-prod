@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # 소재 가이드
 
-#### 라이브 마켓 소재 설정 가이드
+#### 라이브 마켓 소재 설정 가이드 <a href="#creative-settings" id="creative-settings"></a>
 
 <figure><img src="../../.gitbook/assets/라이브 마켓_영역 안내.png" alt=""><figcaption></figcaption></figure>
 
