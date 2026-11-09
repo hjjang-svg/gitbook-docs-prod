@@ -37,12 +37,15 @@ layout:
 
 ✔**광고 시작 일시**: 집행 일시는 날짜와 시간까지 설정할 수 있어요.
 
-✔ **비용**: 비용은 최소 100만원 \~ 최대 2,000만원 중 선택할 수 있어요.
+✔ **비용**: 비용은 최소 100만 원 \~ 최대 1,500만 원 중 선택할 수 있어요.
 
 * 선택한 비용에 따라 광고 노출 시간과 퀴즈 예상 참여자 수가 달라져요.
-  *   상세한 사항은 아래 이미지를 참고해주세요.
+  * 광고 상품 단가별 예상 참여자 수와 노출 보장 시간은 아래 표를 참고해주세요.
 
-      <div align="left"><figure><img src="../../.gitbook/assets/광고생성하기_1.PNG" alt=""><figcaption></figcaption></figure></div>
+<table data-search="false"><thead><tr><th width="84.69140625" valign="middle">노출 영역</th><th width="85.11328125">광고 상품</th><th>과금 기준</th><th>광고 상품 단가
+(VAT 별도)</th><th>예상 참여자 수 (UV)</th><th>노출 보장 시간</th></tr></thead><tbody><tr><td rowspan="6" valign="middle">혜택 탭 </td><td rowspan="6">행운 퀴즈 </td><td rowspan="6">노출 보장형<br>(퀴즈 참여인원) </td><td>100만 원 </td><td>2.5만 명+</td><td rowspan="2">12시간</td></tr><tr><td>200만 원 </td><td>6만 명+</td></tr><tr><td>300만 원 </td><td>10만 명+</td><td>24시간</td></tr><tr><td>500만 원 </td><td>16만 명+</td><td>48시간</td></tr><tr><td>1,000만 원</td><td>33만 명+</td><td>72시간</td></tr><tr><td>1,500만원</td><td>55만 명+</td><td>84시간</td></tr></tbody></table>
+
+<p align="right"><mark style="color:$secondary;">※ 상기 단가는 추후 변경될 수 있습니다.</mark></p>
 {% endstep %}
 
 {% step %}
