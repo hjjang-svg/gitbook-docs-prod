@@ -132,7 +132,7 @@ layout:
 
 <figure><img src="../.gitbook/assets/7. 환불요청.png" alt=""><figcaption></figcaption></figure>
 
-* 비즈머니 환불 권한은 비즈니스 월렛 정책을 따라요. ([비즈니스 월렛 가이드](https://business-wallet.gitbook.io/guide/money/withdraw))
+* 비즈머니 환불 권한은 비즈니스 월렛 정책을 따라요. '[비즈니스 월렛 가이드](https://business-wallet.gitbook.io/guide/money/withdraw)'
   * 환불 요청: 마스터회원과 멤버회원 모두 가능해요.
   * 환불 계좌 등록, 변경: 마스터회원만 가능해요.
 * **집행 중이거나 집행 완료된 광고의 비용이 모두 확정된 이후에만 환불을 요청할 수 있어요.**
