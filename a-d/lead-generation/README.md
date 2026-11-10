@@ -39,7 +39,7 @@ layout:
 
 **토스 양식 사용(네이티브 광고)**: 토스 안에서 고객 수집 양식을 작성해 정보를 수집해요. 한 줄 배너·이미지·비디오 중에서 선택할 수 있어요. [한 줄 배너의 토스 양식 사용 추가 문구 기준 보기](../creative-guidelines/single-line-banner.md#copy)
 
-**URL로 사용**: 알리고 싶은 외부 페이지로 유저를 보내요. 한 줄 배너·이미지·비디오 중에서 선택할 수 있어요. [URL 방식 배너 소재 가이드 보기](banner-guide/)
+**URL로 사용**: 알리고 싶은 외부 페이지로 유저를 보내요. 한 줄 배너·이미지·비디오 중에서 선택할 수 있어요. [URL 방식 배너 소재 가이드 보기](/broken/pages/ybN3f0RF02UDaKDfjIQE)
 {% endhint %}
 
 ## 광고를 만드는 3단계 구조 <a href="#three-step-structure" id="three-step-structure"></a>
@@ -229,4 +229,4 @@ tCPA는 머신러닝이 전환 데이터를 학습하며 입찰을 최적화하�
   * 노출 시간대 설정을 클릭하실 경우 간단하게 노출 시간대를 설정할 수 있어요.
   * 요일별 시간대 설정을 클릭하실 경우 노출 요일과 시간을 설정할 수 있어요.
 
-광고세트까지 설정했다면, [배너 소재 가이드](banner-guide/)에서 소재를 등록하고 [소재별 심사 정책](../../review/creativeguide.md)에 따라 심사를 신청해 주세요. 집행을 시작한 뒤에는 [성과 보기](../performance.md)에서 성과를 확인할 수 있어요.
+광고세트까지 설정했다면, [배너 소재 가이드](/broken/pages/ybN3f0RF02UDaKDfjIQE)에서 소재를 등록하고 [소재별 심사 정책](../../review/creativeguide.md)에 따라 심사를 신청해 주세요. 집행을 시작한 뒤에는 [성과 보기](../performance.md)에서 성과를 확인할 수 있어요.
