@@ -34,7 +34,7 @@
     * [비디오](a-d/creative-guidelines/video.md)
   * [성과 보기](a-d/performance.md)
 * [잠재고객 모으기](a-d/lead-generation/README.md)
-  * [잠재고객 모으기 캠페인(토스 양식 사용) 문구 기준](a-d/lead-generation/undefined.md)
+  * [문구 기준](a-d/lead-generation/undefined.md)
   * [양식 등록 방식 - 토스 양식](a-d/lead-generation/toss-form.md)
   * [양식 등록 방식 - 외부 URL](a-d/lead-generation/url.md)
   * [배너 소재 가이드](a-d/lead-generation/banner-guide/README.md)
