@@ -2,15 +2,9 @@
 hidden: true
 ---
 
-# Page 1
+# 잠재고객 모으기 캠페인 문구 가이드
 
-## 잠재고객 모으기 캠페인(토스 양식 사용) 문구 기준
-
-​[잠재고객 모으기 캠페인](https://app.gitbook.com/o/0jQIihOsngIZuei1colS/sites/site_b82pv/s/6C6VnjnrKC0ixISOKw0d/~/diff/~/changes/2089/a-d/lead-generation)에서 **토스 양식 사용(네이티브 광고)**&#xC744; 선택하면 배너에 아래 문구 작성 기준이 추가로 적용돼요. 유저가 배너만 보고도 **‘신청하면 무엇을 얻는지’** 알 수 있어야 해요.
-
-{% hint style="info" %}
-​[**토스 양식 사용(네이티브 광고)**](https://app.gitbook.com/o/0jQIihOsngIZuei1colS/sites/site_b82pv/s/6C6VnjnrKC0ixISOKw0d/~/diff/~/changes/2089/a-d/lead-generation#toss-form-flow): 아래에서 설명하는 추가 문구 기준을 적용해요.​[**URL로 사용**](https://app.gitbook.com/o/0jQIihOsngIZuei1colS/sites/site_b82pv/s/6C6VnjnrKC0ixISOKw0d/~/diff/~/changes/2089/a-d/lead-generation#url-flow): 이 전용 문구 기준은 적용하지 않고, 위의 문구 작성 기준과 문구 규격을 따라 주세요.
-{% endhint %}
+&#x20;잠재고객 모으기 광고의 한 줄 배너에 아래 문구 작성 기준이 추가로 적용돼요. 유저가 배너만 보고도 **‘신청하면 무엇을 얻는지’** 알 수 있어야 해요.
 
 **작성 기준**
 
@@ -36,7 +30,11 @@ hidden: true
 
 ## 예시
 
-잠재고객 모으기로 등록한 한줄 배너는 토스앱의 최근본 딜, 혜택탭의 광고 지면에 아래와 같이 노출돼요.**주요문구 한 줄 만으로도 서비스의 가치가 드러나게 써 주세요.**
+잠재고객 모으기로 등록한 한줄 배너는 토스앱 혜택탭의 광고 지면에 아래와 같이 노출돼요.
+
+<figure><img src="../../.gitbook/assets/Frame 46 (18).png" alt=""><figcaption></figcaption></figure>
+
+**주요문구 한 줄 만으로도 서비스의 가치가 드러나게 써 주세요.**
 
 | <mark style="color:blue;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
 | ----------------------------------------- | ----------------------------------------------- |
