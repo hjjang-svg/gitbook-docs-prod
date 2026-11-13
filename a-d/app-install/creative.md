@@ -130,13 +130,13 @@ layout:
 
 앱 서비스를 표현하는 제목이에요. 앱스토어 또는 플레이스토어에 등록된 앱 이름과 일치해야 해요.
 
-<table><thead><tr><th width="220">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>글자 수</strong></td><td><ul><li>공백 포함 1~20자</li></ul></td></tr><tr><td><strong>사용 가능 문자</strong></td><td><ul><li>한글, 영문, 숫자, 공백</li><li><code>:</code> <code>∙</code> <code>?</code> 등 특수문자 허용</li><li>이모지 사용 불가</li></ul></td></tr></tbody></table>
-
 {% hint style="info" %}
 한국어 앱 이름과 영어 앱 이름은 iOS 사용자에게 앱 추적 허용을 안내할 때 검색어로 보여요. 띄어쓰기를 빼거나 더하지 말고 앱 이름 그대로 입력해 주세요.
 
 iOS에 설치된 뒤 표시되는 앱 이름이 앱스토어 등록 이름과 다르면, 사용자가 설정에서 앱을 찾기 어려울 수 있어요.
 {% endhint %}
+
+<table><thead><tr><th width="220">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>글자 수</strong></td><td><ul><li>공백 포함 1~20자</li></ul></td></tr><tr><td><strong>사용 가능 문자</strong></td><td><ul><li>한글, 영문, 숫자, 공백</li><li><code>:</code> <code>∙</code> <code>?</code> 등 특수문자 허용</li><li>이모지 사용 불가</li></ul></td></tr></tbody></table>
 
 ### 영어 앱 이름 <a href="#english-app-name" id="english-app-name"></a>
 
