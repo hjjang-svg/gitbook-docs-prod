@@ -65,6 +65,13 @@ layout:
 
 {% hint style="warning" %}
 [**소재 심사 규정**](https://toss-ads.gitbook.io/guide/policy/creativeguide)**을 반드시 확인해주세요.**
+
+* 집행할 수 없는 상품
+  * 일주일 방문 미션(협력광고)은 연령 타겟을 설정할 수 없어, 토스애즈 청소년 보호정책에 해당하는 상품은 심사 단계에서 승인할 수 없어요.
+    * 성형, 미용 시술, 신체 변형, 다이어트(체중 감량) 및 이와 관련 있다고 판단되는 제품, 서비스&#x20;
+      * 예시) 체지방 감소 건강기능식품, 다이어트 보조 식품 등 &#x20;
+    * 연애, 결혼, 데이트 서비스 및 이와 관련 있다고 판단되는 제품, 서비스&#x20;
+    * 그 외 [토스애즈 청소년 보호정책](https://toss-ads.gitbook.io/guide/review/basicguide#minor-protection)에 해당하는 제품, 서비스
 {% endhint %}
 
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FvZJ8ATcJqW5cfqoCelcR%2F%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%87%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%20%E1%84%89%E1%85%A9%E1%84%8C%E1%85%A2%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20(1).png?alt=media&#x26;token=ad89b32c-b4f3-40b0-b6cd-2c4e938d06c0" alt=""><figcaption></figcaption></figure>
