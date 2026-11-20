@@ -21,7 +21,7 @@ layout:
     visible: true
 ---
 
-# 한 줄 배너
+# 문구 유형
 
 {% hint style="warning" %}
 잠재고객 모으기 캠페인에는 소개 화면이 반드시 필요해요. 소개 화면이 없으면 소재 심사에서 반려돼요.
@@ -172,7 +172,7 @@ layout:
 
 #### 공통 <a href="#disclosure-common" id="disclosure-common"></a>
 
-<table><thead><tr><th width="173.34893798828125">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>한 줄 배너</strong></td><td>• <a href="../../review/industryguide.md">업종별 심사 가이드</a>에 따라 심의필 제출이 필요한 경우, <code>광고 고지 문구란</code>에 제출 필요. 제출 시 자동 반영<br>• 최대 80자까지 가능</td></tr></tbody></table>
+<table><thead><tr><th width="173.34893798828125">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>한 줄 배너</strong></td><td>• <a href="../../review/industryguide.md">업종별 심사 가이드</a>에 따라 심의필 제출이 필요한 경우, <code>광고 고지 문구란</code>에 제출 필요. 제출 시 자동 반영<br>• 최대 110자까지 가능</td></tr></tbody></table>
 
 ## 연결 URL <a href="#landing-url" id="landing-url"></a>
 
