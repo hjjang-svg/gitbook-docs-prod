@@ -111,7 +111,3 @@ layout:
 {% content-ref url="24.md" %}
 [24.md](24.md)
 {% endcontent-ref %}
-
-{% content-ref url="makeshop.md" %}
-[makeshop.md](makeshop.md)
-{% endcontent-ref %}
