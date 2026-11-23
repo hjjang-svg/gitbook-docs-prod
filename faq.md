@@ -314,6 +314,22 @@ JPG로 변환하면 투명한 부분이 흰색이나 검은색으로 채워질 �
 
 </details>
 
+<details>
+
+<summary><strong>쿠폰이 남아 있는데 광고가 노출되지 않아요</strong></summary>
+
+쿠폰 사용 시작일 전이거나 유효 기간이 끝났는지 **\[쿠폰함]**&#xC5D0;서 확인해 주세요. 자세한 내용은 [쿠폰](billing/coupon.md#notes)을 확인해 주세요.
+
+</details>
+
+<details>
+
+<summary><strong>[쿠폰함] 버튼이 보이지 않아요</strong></summary>
+
+쿠폰을 한 번도 받은 적이 없는 광고계정에는 버튼이 보이지 않아요. 자세한 내용은 [쿠폰](billing/coupon.md#coupon-box)을 확인해 주세요.
+
+</details>
+
 ### 리워드 광고 <a href="#reward-ads" id="reward-ads"></a>
 
 <details>

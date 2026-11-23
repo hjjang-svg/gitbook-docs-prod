@@ -35,6 +35,14 @@ layout:
 [ad\_money.md](ad_money.md)
 {% endcontent-ref %}
 
+## 쿠폰 확인하기 <a href="#check-coupons" id="check-coupons"></a>
+
+받은 쿠폰을 쿠폰함에서 확인하고, 쿠폰이 캠페인에서 어떻게 쓰이는지 알아봐요.
+
+{% content-ref url="coupon.md" %}
+[coupon.md](coupon.md)
+{% endcontent-ref %}
+
 ## 광고계정 정산 확인하기 <a href="#account-settlement" id="account-settlement"></a>
 
 광고계정의 정산 내역과 세금계산서, 선불·후불 계정의 정산 문서를 확인해요.
