@@ -154,7 +154,7 @@ layout:
 
 ## 캠페인·광고세트·소재 상태 <a href="#status-by-level" id="status-by-level"></a>
 
-![](../.gitbook/assets/Frame_79_16.png)
+<figure><img src="../.gitbook/assets/Frame 79 (18).png" alt=""><figcaption></figcaption></figure>
 
 ### 캠페인 상태 <a href="#campaign-status" id="campaign-status"></a>
 
