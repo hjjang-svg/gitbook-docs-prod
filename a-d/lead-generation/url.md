@@ -1,4 +1,4 @@
-# 양식 등록 방식 - 외부 URL
+# 잠재고객 수집 방식 - 외부 URL
 
 외부 URL은 토스에서 **소개 화면**(브릿지 페이지)으로 혜택을 보여준 뒤, 유저를 광고주의 **랜딩 페이지**로 보내는 방식이에요.
 
@@ -7,42 +7,40 @@
 유저가 소개 화면으로 들어오기 위해 누르는 **광고 배너**는 [배너 소재 가이드](/broken/pages/ybN3f0RF02UDaKDfjIQE)에서 확인해 주세요.
 
 {% hint style="info" %}
-**캠페인에서 양식 등록 방식을 토스 양식으로 선택했나요?**
+**캠페인에서 잠재고객 수집 방식을 토스 리드폼으로 선택했나요?**
 
-[토스 양식 가이드](toss-form.md)를 확인해 주세요.
+[토스 리드폼 가이드](toss-form.md)를 확인해 주세요.
 {% endhint %}
 
 ## 소개 화면 만들고 URL 연결하기
 
-캠페인 설정의 **양식 등록 방식**에서 **외부 URL**을 선택했다면, 소재 설정에서 아래 순서대로 진행해 주세요.
+캠페인 설정의 **잠재고객 수집 방식**에서 **외부 URL**을 선택했다면, 소재 설정에서 아래 순서대로 진행해 주세요.
 
 {% stepper %}
 {% step %}
-### 소개 화면 추가하기 <a href="#add-intro" id="add-intro"></a>
+### 소개 화면 새로 만들기 <a href="#add-intro" id="add-intro"></a>
 
-* 소재 설정의 **연결 페이지 > 소개 화면**에서 **추가하기**를 눌러 주세요.
-* 이미 만든 소개 화면을 다시 쓰려면 **가져오기**를 눌러 주세요.
+* 소재 설정의 **연결 페이지 > 소개 화면**에서 **새로 만들기**를 눌러 주세요.
+* 이미 만든 소개 화면을 연결하려면 **소개 화면 선택**을 눌러 주세요.
 
-<figure><img src="../../.gitbook/assets/1.소개 화면 가이드_1008.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/leadform-xlth-01.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### 소개 화면 이름 입력하기 <a href="#intro-name" id="intro-name"></a>
 
-**소개 화면 만들기** 창에 양식 이름을 입력하고 **다음**을 눌러 주세요.
+**소개 화면 생성** 창에 소개 화면 이름을 입력하고 **다음**을 눌러 주세요.
 
 * 공백 포함 최대 50자까지 입력할 수 있어요.
 * 저장한 뒤에도 편집 화면 왼쪽 위 **이름 수정**으로 바꿀 수 있어요.
 
-<figure><img src="../../.gitbook/assets/2.소개 화면 가이드_1008.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/leadform-xlth-02.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### 소개 화면 작성하기 <a href="#write-intro" id="write-intro"></a>
 
 소개 화면은 유저가 광고를 눌렀을 때 가장 먼저 보는 화면이에요. 어떤 혜택을 받을 수 있는지 보여주고, 유저가 버튼을 눌러 랜딩 페이지로 넘어가게 해요.
-
-<mark style="color:red;">**소개 화면은 필수예요. 소개 화면이 없으면 소재 심사에서 반려될 수 있어요.**</mark>
 
 <mark style="color:red;">**반드시 아래 탭 내용을 확인해 주세요.**</mark>
 
@@ -130,7 +128,7 @@
 
 * 심의필이 필요하지 않은 업종은 **문구 없음**을 선택해 주세요.
 * 광고 고지 문구 외에 추가로 상세 설명이 필요한 업종은 이 기능을 사용할 수 있어요.
-* 최대 **2000자**까지 입력할 수 있어요. **심의필 번호는 위의 ‘광고 고지 문구’**&#xB780;에 따로 입력해주시고, 그 외의 상세 설명 문구만 여기에 입력해주세요.
+* 최대 **2000자**까지 입력할 수 있어요. **심의필 번호는 위의 ‘광고 고지 문구’**&#xB780;에 따로 입력해 주시고, 그 외의 상세 설명 문구만 여기에 입력해 주세요.
 
 {% hint style="warning" %}
 - 법적으로 필수 기재해야 하는 정보가 아닌 내용을 입력하면 심사 승인이 어려워요.
@@ -201,7 +199,7 @@
 
 연결 페이지의 **URL 연결**에 유저를 보낼 랜딩 페이지 주소를 입력해 주세요. 줄이지 않은 원본 URL을 입력해야 해요.
 
-<figure><img src="../../.gitbook/assets/3.SAT_URL_1008.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/leadform-xlth-03.png" alt=""><figcaption></figcaption></figure>
 
 * [**유저가 접속할 때 이상이 없어야 해요**](https://toss-ads.gitbook.io/guide/review/creativeguide#landing-access)**.**
   * 앱으로 랜딩된다면, 앱 미설치 유저는 앱 스토어/구글 플레이스토어로 랜딩될 수 있어야 해요.

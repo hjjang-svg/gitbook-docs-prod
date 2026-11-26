@@ -23,7 +23,7 @@ layout:
 
 # 잠재고객 모으기 웹훅 연동 가이드
 
-토스애즈 잠재고객 모으기([토스 양식](../a-d/lead-generation/toss-form.md)/[외부 URL](../a-d/lead-generation/url.md))는 광고 폼에 제출된 잠재고객 정보를 광고주 서버로 자동 전송하는 웹훅을 제공해요. 웹훅을 연동하면 잠재고객 목록을 직접 다운로드하지 않아도 광고주의 CRM, 상담 시스템, 마케팅 자동화 도구로 잠재고객 정보를 바로 받을 수 있어요.
+토스애즈 잠재고객 모으기([토스 리드폼](../a-d/lead-generation/toss-form.md)/[외부 URL](../a-d/lead-generation/url.md))는 광고 폼에 제출된 잠재고객 정보를 광고주 서버로 자동 전송하는 웹훅을 제공해요. 웹훅을 연동하면 잠재고객 목록을 직접 다운로드하지 않아도 광고주의 CRM, 상담 시스템, 마케팅 자동화 도구로 잠재고객 정보를 바로 받을 수 있어요.
 
 이 가이드에서는 웹훅 등록, 서명 검증, 재전송 정책 등 연동에 필요한 내용을 다뤄요.
 
@@ -50,11 +50,11 @@ sequenceDiagram
 
 ## 웹훅 사용 설정하기 <a href="#enable-webhook" id="enable-webhook"></a>
 
-웹훅을 받으려면 잠재고객 모으기 정보입력 양식에 웹훅 URL을 등록하고 시크릿 키를 받아야 해요.
+웹훅을 받으려면 리드폼에 웹훅 URL을 등록하고 시크릿 키를 받아야 해요.
 
 <figure><img src="../.gitbook/assets/이미지_웹훅사용설정하기.png" alt=""><figcaption></figcaption></figure>
 
-1. **잠재고객 모으기 정보입력 양식 > 웹훅 연동** 영역에서 **\[사용]** 토글을 켜주세요.
+1. **리드폼 편집 화면의 완료 화면 > 웹훅 연동** 영역에서 **\[사용]** 토글을 켜 주세요.
 
 {% hint style="info" %}
 **웹훅 설정은 리드폼 상태와 무관하게 수정할 수 있어요**.
@@ -161,7 +161,7 @@ sequenceDiagram
 }
 ```
 
-<table><thead><tr><th width="200.44921875">필드</th><th width="88.925048828125">타입</th><th width="65.41015625">필수</th><th>설명</th></tr></thead><tbody><tr><td><code>api_version</code></td><td>string</td><td>필수</td><td>페이로드 스키마 버전이에요. 현재는 <code>v1</code>이에요.</td></tr><tr><td><code>is_test</code></td><td>boolean</td><td>필수</td><td>테스트 발송이면 <code>true</code>, 실제 리드면 <code>false</code>예요.</td></tr><tr><td><code>lead_id</code></td><td>number</td><td>필수</td><td>잠재고객 정보의 고유 ID예요. 유저가 폼을 제출할 때 생성돼요. 유저 응답의 중복 처리 기준으로 사용해요.</td></tr><tr><td><code>form_id</code></td><td>number</td><td>필수</td><td>리드폼 양식 ID예요. 하나의 리드폼 양식에 여러 유저가 응답할 수 있어요.</td></tr><tr><td><code>campaign_id</code></td><td>number</td><td>필수</td><td>광고 캠페인(계약) ID예요.</td></tr><tr><td><code>ad_set_id</code></td><td>number</td><td>필수</td><td>광고세트 ID예요.</td></tr><tr><td><code>ad_id</code></td><td>number</td><td>필수</td><td>광고 소재 ID예요.</td></tr><tr><td><code>tracking_click_id</code></td><td>string</td><td>필수</td><td>광고 클릭 추적용 ID로, 광고 성과 분석(어트리뷰션)에 사용해요.</td></tr><tr><td><code>lead_submit_time</code></td><td>string</td><td>필수</td><td>유저가 리드폼을 제출한 시각이에요. ISO 8601, KST로 전달돼요.</td></tr><tr><td><code>user_column_data</code></td><td>array</td><td>필수</td><td>유저가 입력한 개인정보 항목이에요. 각 항목은 <code>column_id</code>, <code>column_name</code>, <code>string_value</code>로 구성돼요.</td></tr><tr><td><code>submitted_content</code></td><td>array</td><td>선택</td><td><p>유저가 제출한 설문 답변이에요. 각 항목은 아래처럼 구성돼요.<br><br>• <code>id</code> : 질문 ID예요.<br>• <code>question</code> : 질문 텍스트예요.<br>• <code>answer</code> : 유저 답변이에요. 모든 답변은 문자열 배열로 전달돼요.</p><p><br>설문이 없으면 빈 배열이에요.</p></td></tr><tr><td><code>consensus_histories</code></td><td>array</td><td>필수</td><td>유저의 약관 동의 이력이에요. 각 항목은 <code>terms_id</code>(number, 동의문 ID)와 <code>agreed_at</code>(동의 시각)으로 구성돼요.</td></tr></tbody></table>
+<table><thead><tr><th width="200.44921875">필드</th><th width="88.925048828125">타입</th><th width="65.41015625">필수</th><th>설명</th></tr></thead><tbody><tr><td><code>api_version</code></td><td>string</td><td>필수</td><td>페이로드 스키마 버전이에요. 현재는 <code>v1</code>이에요.</td></tr><tr><td><code>is_test</code></td><td>boolean</td><td>필수</td><td>테스트 발송이면 <code>true</code>, 실제 리드면 <code>false</code>예요.</td></tr><tr><td><code>lead_id</code></td><td>number</td><td>필수</td><td>잠재고객 정보의 고유 ID예요. 유저가 폼을 제출할 때 생성돼요. 유저 응답의 중복 처리 기준으로 사용해요.</td></tr><tr><td><code>form_id</code></td><td>number</td><td>필수</td><td>리드폼 ID예요. 하나의 리드폼에 여러 유저가 응답할 수 있어요.</td></tr><tr><td><code>campaign_id</code></td><td>number</td><td>필수</td><td>광고 캠페인(계약) ID예요.</td></tr><tr><td><code>ad_set_id</code></td><td>number</td><td>필수</td><td>광고세트 ID예요.</td></tr><tr><td><code>ad_id</code></td><td>number</td><td>필수</td><td>광고 소재 ID예요.</td></tr><tr><td><code>tracking_click_id</code></td><td>string</td><td>필수</td><td>광고 클릭 추적용 ID로, 광고 성과 분석(어트리뷰션)에 사용해요.</td></tr><tr><td><code>lead_submit_time</code></td><td>string</td><td>필수</td><td>유저가 리드폼을 제출한 시각이에요. ISO 8601, KST로 전달돼요.</td></tr><tr><td><code>user_column_data</code></td><td>array</td><td>필수</td><td>유저가 입력한 개인정보 항목이에요. 각 항목은 <code>column_id</code>, <code>column_name</code>, <code>string_value</code>로 구성돼요.</td></tr><tr><td><code>submitted_content</code></td><td>array</td><td>선택</td><td><p>유저가 제출한 설문 답변이에요. 각 항목은 아래처럼 구성돼요.<br><br>• <code>id</code> : 질문 ID예요.<br>• <code>question</code> : 질문 텍스트예요.<br>• <code>answer</code> : 유저 답변이에요. 모든 답변은 문자열 배열로 전달돼요.</p><p><br>설문이 없으면 빈 배열이에요.</p></td></tr><tr><td><code>consensus_histories</code></td><td>array</td><td>필수</td><td>유저의 약관 동의 이력이에요. 각 항목은 <code>terms_id</code>(number, 동의문 ID)와 <code>agreed_at</code>(동의 시각)으로 구성돼요.</td></tr></tbody></table>
 
 {% hint style="info" %}
 **새 필드가 추가될 수 있어요**.
@@ -171,7 +171,7 @@ sequenceDiagram
 
 ## 수신 서버 만들기 <a href="#build-receiver" id="build-receiver"></a>
 
-등록한 URL로 들어오는 웹훅을 처리할 수신 서버를 만들어주세요. 수신 서버는 정상 요청만 받아 중복 없이 저장하기 위해 서명을 검증하고, 응답을 보내고, 중복을 처리할 수 있어야 해요.
+등록한 URL로 들어오는 웹훅을 처리할 수신 서버를 만들어 주세요. 수신 서버는 정상 요청만 받아 중복 없이 저장하기 위해 서명을 검증하고, 응답을 보내고, 중복을 처리할 수 있어야 해요.
 
 ### 서명 검증하기 <a href="#verify-signature" id="verify-signature"></a>
 
@@ -456,7 +456,7 @@ app.listen(3000);
 
 ### 응답 보내기 <a href="#send-response" id="send-response"></a>
 
-훅을 받았다면 토스애즈로 응답을 보내주세요. `2xx(200~299)`만 성공으로 처리해요. 그 외 모든 응답과 응답 없음은 실패로 처리해요.
+훅을 받았다면 토스애즈로 응답을 보내 주세요. `2xx(200~299)`만 성공으로 처리해요. 그 외 모든 응답과 응답 없음은 실패로 처리해요.
 
 <table><thead><tr><th width="199.11328125">응답</th><th>토스애즈 서버 동작</th></tr></thead><tbody><tr><td><code>2XX</code></td><td>정상 수신으로 처리해요.</td></tr><tr><td>그 외 모든 응답 또는 응답 없음(타임아웃)</td><td>실패로 처리하고 재전송 정책에 따라 최대 2번 다시 보내요.</td></tr></tbody></table>
 
@@ -484,7 +484,7 @@ app.listen(3000);
 
 ## 테스트 발송 <a href="#test-webhook" id="test-webhook"></a>
 
-**잠재고객 모으기 정보입력 양식 > 웹훅 연동** 영역의 **\[테스트 발송]** 버튼을 누르면 `is_test: true`인 고정 더미 페이로드(`lead_id`를 포함하고, 이름은 `홍길동`, 연락처는 `010-0000-0000` 등)가 등록된 URL로 전송돼요. 실제 요청과 동일하게 서명되므로 검증 로직까지 함께 검증할 수 있어요.
+**리드폼 편집 화면의 완료 화면 > 웹훅 연동** 영역에서 **\[테스트 발송]** 버튼을 누르면 `is_test: true`인 고정 더미 페이로드(`lead_id`를 포함하고, 이름은 `홍길동`, 연락처는 `010-0000-0000` 등)가 등록된 URL로 전송돼요. 실제 요청과 동일하게 서명되므로 검증 로직까지 함께 검증할 수 있어요.
 
 <figure><img src="../.gitbook/assets/이미지_웹훅사용설정하기 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -513,7 +513,7 @@ app.listen(3000);
 
 ### 웹훅 전송 실패 <a href="#delivery-failed" id="delivery-failed"></a>
 
-정보입력 양식 웹훅 전송에 실패했다는 이메일을 받으셨다면 아래 내용에 따라 문제를 해결해 주세요.
+리드폼 웹훅 전송에 실패했다는 이메일을 받으셨다면 아래 내용에 따라 문제를 해결해 주세요.
 
 {% stepper %}
 {% step %}
@@ -559,6 +559,6 @@ app.listen(3000);
 
 ### 5초 내 응답하기 어려움 <a href="#respond-within-5s" id="respond-within-5s"></a>
 
-웹훅을 받으면 수신 서버가 5초 안에 `200 OK`를 보내줘야 해요. CRM 저장 같은 무거운 작업을 응답 전에 처리하면 이 시간을 넘기기 쉬워요.
+웹훅을 받으면 수신 서버가 5초 안에 `200 OK`를 보내 줘야 해요. CRM 저장 같은 무거운 작업을 응답 전에 처리하면 이 시간을 넘기기 쉬워요.
 
 요청을 받은 즉시 큐나 작업 테이블에만 저장하고 200 OK를 먼저 응답해 주세요. CRM 저장 같은 무거운 작업은 그 뒤에 비동기로 처리해 주세요.

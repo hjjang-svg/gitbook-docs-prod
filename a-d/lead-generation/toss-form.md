@@ -1,41 +1,68 @@
-# 양식 등록 방식 - 토스 양식
+# 잠재고객 수집 방식 - 토스 리드폼
 
-토스 양식은 토스 안에서 바로 고객 정보를 받는 **고객 수집 양식**을 만드는 방식이에요.
+토스 리드폼은 토스 안에서 바로 고객 정보를 받는 잠재고객 수집 방식이에요. 리드폼은 한 번 만들어 심사받으면 여러 소재에 연결해 쓸 수 있어요.
 
-이 가이드를 보면 토스 양식을 선택한 캠페인의 고객 수집 양식을 처음부터 끝까지 만들 수 있어요.
+이 가이드를 보면 리드폼을 만들고 소재에 연결하는 방법을 처음부터 끝까지 확인할 수 있어요.
 
-유저가 양식으로 들어오기 위해 누르는 **광고 배너**는 [배너 소재 가이드](/broken/pages/ybN3f0RF02UDaKDfjIQE)에서 확인해 주세요.
+유저가 리드폼에 들어오려고 누르는 **광고 배너**는 [배너 소재 가이드](/broken/pages/ybN3f0RF02UDaKDfjIQE)에서 확인해 주세요.
 
 {% hint style="info" %}
-**캠페인에서 양식 등록 방식을 외부 URL로 선택했나요?**
+**캠페인에서 잠재고객 수집 방식을 외부 URL로 선택했나요?**
 
 [**외부 URL** 가이드](url.md)를 확인해 주세요.
 {% endhint %}
 
-## 고객 수집 양식 만들기 <a href="#create-toss-form" id="create-toss-form"></a>
+## 리드폼 알아보기 <a href="#about-leadform" id="about-leadform"></a>
 
-캠페인 설정의 **양식 등록 방식**에서 **토스 양식**을 선택했다면, 소재 설정에서 아래 순서대로 고객 수집 양식을 만들어 주세요.
+리드폼을 미리 만들고 심사받아 두면 소재에 바로 연결할 수 있어요.
+
+* 리드폼은 **광고 도구 > 리드폼**과 소재 설정 화면 어디서든 만들 수 있어요.
+* 하나의 리드폼을 여러 소재에 연결할 수 있어요.
+* 소재에 연결할 수 있는 리드폼은 **심사 중**이거나 **승인**된 리드폼이에요.
+
+**리드폼 상태**
+
+| 상태        | 설명                             | 수정 | 소재에 연결             |
+| --------- | ------------------------------ | -- | ------------------ |
+| **임시 저장** | 저장만 하고 아직 심사를 신청하지 않았어요.       | 가능 | 수정해서 심사 신청하면 연결돼요. |
+| **심사 중**  | 심사를 기다리고 있어요.                  | 불가 | 가능                 |
+| **승인**    | 심사를 통과했어요.                     | 불가 | 가능                 |
+| **반려**    | 심사를 통과하지 못했어요. 반려 사유를 확인해 주세요. | 가능 | 수정해서 심사 신청하면 연결돼요. |
+
+{% hint style="info" %}
+심사 중이거나 승인된 리드폼은 수정할 수 없어요. 내용을 바꾸려면 복제해서 새로 만들어 주세요.
+{% endhint %}
+
+## 리드폼 만들기 <a href="#create-toss-form" id="create-toss-form"></a>
+
+캠페인 설정의 **잠재고객 수집 방식**에서 **토스 리드폼**을 선택했다면, 소재 설정에서 아래 순서대로 리드폼을 만들어 주세요.
+
+소재 없이 리드폼만 미리 만들어 두려면 **광고 도구 > 리드폼**에서 **리드폼 생성**을 눌러 주세요. 이후 입력 순서는 아래와 같아요.
+
+<figure><img src="../../.gitbook/assets/leadform-wfqh-01.png" alt="광고 도구 > 리드폼에서 생성하기를 누르는 화면"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/leadform-wfqh-02.png" alt="광고 도구 > 리드폼 목록에서 리드폼 생성을 누르는 화면"><figcaption></figcaption></figure>
 
 {% stepper %}
 {% step %}
-### 양식 추가하기 <a href="#add-form" id="add-form"></a>
+### 새로 만들기 <a href="#add-form" id="add-form"></a>
 
-소재 설정의 **연결 페이지 > 고객 수집 양식**에서 **양식 추가하기**를 눌러 주세요.
+소재 설정의 **연결 페이지 > 리드폼**에서 **새로 만들기**를 눌러 주세요.
 
-이미 만든 양식을 다시 쓰려면 **가져오기**를 눌러 주세요.
+이미 만든 리드폼을 연결하려면 **리드폼 선택**을 눌러 주세요. 자세한 방법은 [리드폼 연결하기](toss-form.md#connect-leadform)를 확인해 주세요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FCBBExxcBcLv4xiUJaayH%2Fimage.png?alt=media&#x26;token=a2cf9a27-1493-469b-b25f-ab7562f882da" alt="소재 설정의 연결 페이지에서 고객 수집 양식의 양식 추가하기를 누르는 화면"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/leadform-wfqh-03.png" alt="소재 설정의 연결 페이지 > 리드폼에서 새로 만들기를 누르는 화면"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 양식 이름 입력하기 <a href="#form-name" id="form-name"></a>
+### 리드폼 이름 입력하기 <a href="#form-name" id="form-name"></a>
 
-**고객 수집 양식 만들기** 창에 양식 이름을 입력하고 **다음**을 눌러 주세요.
+**리드폼 생성** 창에 리드폼 이름을 입력하고 **다음**을 눌러 주세요.
 
 * 공백 포함 최대 50자까지 입력할 수 있어요.
-* 저장한 뒤에도 편집 화면 왼쪽 위 **이름 수정**으로 바꿀 수 있어요.
+* 저장한 뒤에도 편집 화면 왼쪽 위 **이름 수정**이나 **광고 도구 > 리드폼**에서 바꿀 수 있어요.
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/leadform-wfqh-04.png" alt="리드폼 생성 창에서 리드폼 이름을 입력하는 화면"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -49,15 +76,13 @@
 * 유저가 설문을 완료한 것으로 오해할 수 있는 문장으로 구성하면 정보 수집이 원활하지 않을 수 있어요.
   * 예시) 연락처만 입력하면 완료!/이벤트 선착순 종료 등
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/leadform-wfqh-05.png" alt="리드폼 편집 화면에서 공개 제목을 입력하는 화면"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### 소개 화면 작성하기 <a href="#toss-form-intro" id="toss-form-intro"></a>
 
 소개 화면은 유저가 광고를 눌렀을 때 가장 먼저 보는 화면이에요. 어떤 혜택을 받을 수 있는지 보여주고, 유저가 버튼을 눌러 정보 입력 단계로 넘어가게 해요.
-
-<mark style="color:red;">**소개 화면은 필수예요. 소개 화면이 없으면 소재 심사에서 반려될 수 있어요.**</mark>
 
 <mark style="color:red;">**반드시 아래 탭 내용을 확인해 주세요.**</mark>
 
@@ -147,7 +172,7 @@
 
 * 심의필이 필요하지 않은 업종은 **문구 없음**을 선택해 주세요.
 * 광고 고지 문구 외에 추가로 상세 설명이 필요한 업종은 이 기능을 사용할 수 있어요.
-* 최대 **2000자**까지 입력할 수 있어요. **심의필 번호는 위의 ‘광고 고지 문구’**&#xB780;에 따로 입력해주시고, 그 외의 상세 설명 문구만 여기에 입력해주세요.
+* 최대 **2000자**까지 입력할 수 있어요. **심의필 번호는 위의 ‘광고 고지 문구’**&#xB780;에 따로 입력해 주시고, 그 외의 상세 설명 문구만 여기에 입력해 주세요.
 
 {% hint style="warning" %}
 - 법적으로 필수 기재해야 하는 정보가 아닌 내용을 입력하면 심사 승인이 어려워요.
@@ -199,7 +224,7 @@
 * 가입하기
 
 {% hint style="info" %}
-토스 양식은 유저가 이 버튼을 누를 때 과금돼요.
+토스 리드폼은 유저가 이 버튼을 누를 때 과금돼요.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
@@ -236,7 +261,7 @@
 {% endtab %}
 
 {% tab title="동의문 직접 만들기" %}
-직접 작성한 동의문이 포함되면 토스 개인정보보호팀의 별도 심사가 진행돼서, 일반 소재보다 약 1일 더 걸릴 수 있어요.
+직접 작성한 동의문이 포함되면 토스 개인정보보호팀의 별도 심사가 진행돼서, 리드폼 심사가 약 1일 더 걸릴 수 있어요. 이 리드폼을 연결한 소재는 리드폼이 승인된 뒤에 심사가 시작돼요.
 
 설정 항목
 
@@ -276,7 +301,7 @@
 * 날짜: 날짜를 기준으로 답변 수집이 필요한 경우
 * 조건부 선택: 첫 번째 질문의 답변에 따라 두 번째 질문 내용이 달라지는 경우
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2Fctf1xE6QBEbUkeKJ3P96%2F5.%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%89%E1%85%AE%E1%84%8C%E1%85%B5%E1%86%B8%20%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8%20%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3_0909.png?alt=media&#x26;token=2e35bcdb-84f7-4b3f-9d14-a82a829127e2" alt="질문 유형 선택 옵션"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/leadform-wfqh-06.png" alt="질문 유형 선택 옵션"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="필수 값/복수 여부" %}
@@ -284,7 +309,7 @@
 
 꼭 받아야 하는 답변이라면 필수로 설정해 주세요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FMkxaFaLRNXkLVGEkfAxu%2F%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%2C%20%E1%84%83%E1%85%A1%E1%86%B8%E1%84%87%E1%85%A7%E1%86%AB_%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%20%E1%84%8B%E1%85%B2%E1%84%92%E1%85%A7%E1%86%BC%20%E1%84%89%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A2%E1%86%A8%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5-1.png?alt=media&#x26;token=0a54c003-2329-43b1-8bb9-ca900c4e67ec" alt="필수 값과 복수 선택 설정"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/leadform-wfqh-07.png" alt="필수 값과 복수 선택 설정"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="질문" %}
@@ -332,11 +357,11 @@
   * 이벤트 페이지로 이동: 설정한 랜딩 URL 페이지로 이동
 {% endtab %}
 
-{% tab title="참조 URL (필수)" %}
-* 소재 심사에 활용할 이벤트 페이지 랜딩 URL을 입력해 주세요.
-* 랜딩 URL이 없으면 배너 소재와 양식을 심사할 수 없어서 승인되지 않아요.
+{% tab title="참고 URL (필수)" %}
+* 리드폼 심사에 활용할 이벤트 페이지 랜딩 URL을 입력해 주세요.
+* 랜딩 URL이 없으면 리드폼과 배너 소재를 심사할 수 없어서 승인되지 않아요.
 
-**유의사항:**
+**유의사항**
 
 * [**유저가 접속할 때 이상이 없어야 해요**](https://toss-ads.gitbook.io/guide/review/creativeguide#landing-access)**.**
   * 앱으로 랜딩된다면, 앱 미설치 유저는 앱 스토어/구글 플레이스토어로 랜딩될 수 있어야 해요.
@@ -362,26 +387,93 @@
 <figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FalyV1O5u0q3rMOPl82UQ%2Fimage.png?alt=media&#x26;token=d6dd0a0a-51d7-4cb7-b5d5-d0741b1a16a5" alt="완료 화면 설정"><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="양식 유형" %}
-* 양식 유형은 5가지 옵션 중에서 선택할 수 있어요.
-* 구성한 양식에 맞는 유형이 없다면 **해당 없음**을 선택해 주세요.
+{% tab title="리드폼 유형" %}
+* 리드폼 유형은 5가지 옵션 중에서 선택할 수 있어요. 선택한 유형에 따라 완료 화면의 문구가 다르게 보여요.
+* 구성한 리드폼에 맞는 유형이 없다면 **해당 없음**을 선택해 주세요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FtWoIj7FvUiBzueC91DJ2%2Fimage.png?alt=media&#x26;token=9f8da561-8d5f-490c-99a9-d1fc3c6628df" alt="양식 유형 선택 옵션"><figcaption></figcaption></figure>
+<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2FtWoIj7FvUiBzueC91DJ2%2Fimage.png?alt=media&#x26;token=9f8da561-8d5f-490c-99a9-d1fc3c6628df" alt="리드폼 유형 선택 옵션"><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="웹 훅 연동" %}
+{% tab title="웹훅 연동" %}
 [잠재고객 모으기 웹훅 연동 가이드](../../tracking/webhook.md)를 참고해 주세요.
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### 저장하기 <a href="#toss-form-save" id="toss-form-save"></a>
+### 임시 저장·심사 신청하기 <a href="#toss-form-save" id="toss-form-save"></a>
 
-* 왼쪽 목록에서 **미완료** 표시가 모두 사라졌는지 확인하고, 오른쪽 위 **저장**을 눌러 주세요.
-* 저장한 양식은 소재 설정의 **연결 페이지 > 고객 수집 양식**에 연결돼요.
+* 다 채우지 못했다면 오른쪽 위 **임시 저장**을 눌러 주세요. 임시 저장한 리드폼은 소재에 연결되지 않고, 나중에 이어서 작성할 수 있어요. 임시 저장한 리드폼은 마지막으로 수정한 때부터 14일 동안 보관된 뒤 삭제돼요.
+* 왼쪽 목록에서 **미완료** 표시가 모두 사라졌는지 확인하고, 오른쪽 위 **심사 신청**을 눌러 주세요. 모두 입력해야 심사 신청할 수 있어요.
+* 심사를 신청할 때 **심사에 참고할 의견**과 **증빙 자료**를 함께 낼 수 있어요(선택). 증빙 자료는 JPG, JPEG, PNG, PDF 형식으로 3MB 이하만 올릴 수 있어요.
+* 심사를 신청하면 리드폼이 **심사 중**이 되고, 소재에 연결할 수 있어요. 심사가 끝날 때까지 리드폼을 수정할 수 없어요.
 * 유저에게는 아래와 같은 흐름으로 보여요.
 
-<figure><img src="https://1103230780-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6C6VnjnrKC0ixISOKw0d%2Fuploads%2F3X8WlLXzoyYRGP6We9lX%2F%E1%84%8C%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%A2%20%E1%84%80%E1%85%A9%E1%84%80%E1%85%A2%E1%86%A8%20%E1%84%86%E1%85%A9%E1%84%8B%E1%85%B3%E1%84%80%E1%85%B5%20%E1%84%8C%E1%85%B5%E1%84%86%E1%85%A7%E1%86%AB.png?alt=media&#x26;token=8c70729e-b590-4510-ad8a-0014ed5f7e7b" alt="토스 양식에서 유저가 보는 질문, 정보 검토, 완료 화면 예시"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/잠재 고객 모으기 지면 (2).png" alt="토스 리드폼에서 유저가 보는 질문, 정보 검토, 완료 화면 예시"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
+
+## 리드폼 연결하기 <a href="#connect-leadform" id="connect-leadform"></a>
+
+1. 소재 설정의 **연결 페이지 > 리드폼**에서 **리드폼 선택**을 눌러 주세요.
+2. **리드폼 선택** 창에서 연결할 리드폼을 골라 주세요.
+3. 리드폼 상태에 따라 아래처럼 연결돼요.
+
+| 리드폼 상태           | 연결 방법                                         |
+| ---------------- | --------------------------------------------- |
+| **심사 중**, **승인** | **선택**을 누르면 바로 연결돼요.                          |
+| **반려**           | **수정**을 눌러 반려 사유를 확인하고 고친 뒤 **심사 신청**하면 연결돼요. |
+| **임시 저장**        | **수정**을 눌러 남은 항목을 채우고 **심사 신청**하면 연결돼요.       |
+
+<figure><img src="../../.gitbook/assets/leadform-wfqh-08.png" alt="소재 설정의 연결 페이지 > 리드폼에서 리드폼 선택을 누르는 화면"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/leadform-wfqh-09.png" alt="리드폼 선택 창에서 연결할 리드폼을 고르는 화면"><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**리드폼을 수정하면 연결된 모든 소재에 함께 반영돼요.** 이 리드폼을 쓰는 모든 소재의 리드폼이 같이 바뀌니 확인한 뒤 진행해 주세요.
+{% endhint %}
+
+* **리드폼 선택** 창의 더보기 메뉴에서 이름 수정, 복제, 삭제를 할 수 있어요.
+* 임시 저장·반려 소재는 연결된 리드폼을 다른 리드폼으로 바꿀 수 있어요. 심사 중이거나 승인된 소재는 리드폼을 바꿀 수 없어요.
+* 임시 저장 소재를 지워도 연결된 리드폼은 지워지지 않아요.
+
+## 리드폼 심사와 소재 심사 <a href="#leadform-review" id="leadform-review"></a>
+
+리드폼과 소재는 따로 심사받아요. 소재 심사는 연결된 리드폼이 승인된 뒤에 시작돼요.
+
+**소재 심사를 신청할 수 있는 경우**
+
+| 연결된 리드폼  | 소재 심사 신청                                          |
+| -------- | ------------------------------------------------- |
+| **승인**   | 신청할 수 있어요. 소재 심사가 바로 시작돼요.                        |
+| **심사 중** | 신청할 수 있어요. 리드폼이 승인되면 소재 심사가 이어서 시작돼요.             |
+| **반려**   | 신청할 수 없어요. 리드폼을 수정해서 다시 심사 신청하거나 다른 리드폼으로 바꿔 주세요. |
+
+**소재 심사 중에 리드폼이 반려되면**
+
+* 소재는 반려되지 않고 심사가 멈춰요. **심사 반려** 뱃지를 확인하고, 리드폼을 수정해 다시 심사 신청해 주세요.
+* 리드폼을 수정해 다시 심사 신청하면 리드폼이 승인된 뒤 소재 심사가 이어져요. 소재는 다시 제출하지 않아도 돼요.
+* 심사 반려 상태에서는 연결된 리드폼을 다른 리드폼으로 바꿀 수 없어요.
+
+{% hint style="info" %}
+리드폼 심사 결과(승인·반려)는 심사를 신청한 계정의 이메일로 알려드려요.
+{% endhint %}
+
+## 광고 도구에서 리드폼 관리하기 <a href="#manage-leadform" id="manage-leadform"></a>
+
+왼쪽 메뉴 **광고 도구 > 리드폼**에서 광고계정의 리드폼을 한 번에 보고 관리할 수 있어요.
+
+<figure><img src="../../.gitbook/assets/leadform-wfqh-10.png" alt="광고 도구 > 리드폼 목록 화면"><figcaption></figcaption></figure>
+
+* **리드폼** 탭에서는 심사 중·승인·반려 리드폼을, **임시 저장** 탭에서는 임시 저장한 리드폼을 확인할 수 있어요.
+* 리드폼별로 ID, 이름, 심사 상태, 연결된 소재 수, 제출 수, 생성 일시, 최종 수정 일시를 볼 수 있어요.
+* **연결된 소재** 수를 누르면 이 리드폼을 쓰는 소재 목록을 확인할 수 있어요. 심사 중이거나 승인·반려·종료된 소재만 보이고, 임시 저장한 소재는 보이지 않아요.
+* 오른쪽 위 **리드폼 생성**을 누르면 소재 없이 리드폼만 만들 수 있어요.
+
+**더보기 메뉴**
+
+| 메뉴        | 이렇게 동작해요                                                  |
+| --------- | --------------------------------------------------------- |
+| **이름 수정** | 공백 포함 최대 50자까지 바꿀 수 있어요. 이름을 수정해도 심사 상태는 달라지지 않아요.        |
+| **복제**    | 복제본 이름을 정하고 새 리드폼을 만들 수 있어요.                              |
+| **삭제**    | 심사 중·승인·반려·종료 소재에 연결된 리드폼은 삭제할 수 없어요. 삭제한 리드폼은 되돌릴 수 없어요. |
