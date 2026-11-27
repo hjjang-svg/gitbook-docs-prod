@@ -37,11 +37,9 @@ layout:
 {% hint style="info" %}
 **잠재고객 수집 방식에 따라 사용할 수 있는 소재와 적용 기준이 달라요.**
 
-**토스 리드폼(네이티브 광고)**: 토스 안에서 리드폼을 만들어 정보를 수집해요. 문구 유형·이미지 유형·비디오 유형 중에서 선택할 수 있어요. [문구 유형 공통 문구 기준 보기](../creative-guidelines/single-line-banner.md#copy)
+**토스 리드폼(네이티브 광고)**: 토스 안에서 리드폼을 만들어 정보를 수집해요. 문구 유형·이미지 유형·비디오 유형 중에서 선택할 수 있어요. [문구 유형 문구 기준 보기](banner-guide/single-line-banner.md#copy)
 
 **외부 URL**: 알리고 싶은 외부 페이지로 유저를 보내요. 문구 유형·이미지 유형·비디오 유형 중에서 선택할 수 있어요. [외부 URL 배너 소재 가이드 보기](banner-guide/)
-
-**공통 추가 문구 기준**: 어떤 잠재고객 수집 방식을 쓰든 문구 유형 소재에는 잠재고객 모으기 추가 문구 기준이 함께 적용돼요. [잠재고객 모으기 소재 가이드 보기](creative.md)
 {% endhint %}
 
 ## 광고를 만드는 3단계 구조 <a href="#three-step-structure" id="three-step-structure"></a>
@@ -147,7 +145,7 @@ tCPA는 머신러닝이 전환 데이터를 학습하며 입찰을 최적화하�
   * 노출 시간대 설정을 클릭하실 경우 간단하게 노출 시간대를 설정할 수 있어요.
   * 요일별 시간대 설정을 클릭하실 경우 노출 요일과 시간을 설정할 수 있어요.
 
-광고세트까지 설정했다면, 잠재고객 수집 방식 가이드 ([토스 리드폼](toss-form.md)/[외부 URL](url.md))에서 리드폼을 만들거나 이미 만든 리드폼을 연결하고 [문구 유형 공통 문구 기준](../creative-guidelines/single-line-banner.md#copy)과 [잠재고객 모으기 추가 문구 기준](creative.md)에 따라 소재를 등록한 뒤, [소재별 심사 정책](../../review/creativeguide.md)에 따라 심사를 신청해 주세요. 집행을 시작한 뒤에는 [성과 보기](../performance.md)에서 성과를 확인할 수 있어요.
+광고세트까지 설정했다면, 잠재고객 수집 방식 가이드 ([토스 리드폼](toss-form.md)/[외부 URL](url.md))에서 리드폼을 만들거나 이미 만든 리드폼을 연결하고 [문구 유형 문구 기준](banner-guide/single-line-banner.md#copy)에 따라 소재를 등록한 뒤, [소재별 심사 정책](../../review/creativeguide.md)에 따라 심사를 신청해 주세요. 집행을 시작한 뒤에는 [성과 보기](../performance.md)에서 성과를 확인할 수 있어요.
 
 ## ‘외부 URL’로 광고 만들기 <a href="#url-flow" id="url-flow"></a>
 

@@ -37,7 +37,7 @@ layout:
 
 {% tabs %}
 {% tab title="이미지 규격" %}
-<table><thead><tr><th width="220.11328125">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><p>• jpg, jpeg, png<br>• 10mb 이하</p><p>• <strong>투명·반투명한 부분이 없는 이미지</strong>를 올리거나, JPG로 변환해서 올려 주세요.<br>• 텍스트, 버튼 등 광고 요소와 겹치거나 가리는 경우 사용 불가<br>• 세이프 영역 등 여백 가이드는 하단 파일 참조</p></td></tr><tr><td><strong>한 줄 배너 이미지</strong></td><td>• 1:1 비율<br>• <code>400*400px</code> 이상</td></tr></tbody></table>
+<table><thead><tr><th width="220.11328125">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li>jpg, jpeg, png</li><li>10mb 이하</li><li><strong>투명·반투명한 부분이 없는 이미지</strong>를 올리거나, JPG로 변환해서 올려 주세요.</li><li>텍스트, 버튼 같은 광고 요소와 겹치거나 가리는 이미지는 쓸 수 없어요.</li><li>세이프 영역 같은 여백 가이드는 아래 파일을 참고해 주세요.</li></ul></td></tr><tr><td><strong>한 줄 배너 이미지</strong></td><td><ul><li>1:1 비율</li><li><code>400*400px</code> 이상</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
@@ -47,7 +47,7 @@ layout:
 {% endtab %}
 
 {% tab title="제작 기준" %}
-<table data-header-hidden><thead><tr><th width="222.38104248046875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택・정보가 드러나는 이미지</li><li>적절한 크기와 밀도 권장</li></ul></td></tr><tr><td><strong>불쾌감 ・ 시각적 피로함</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>불쾌감 ・ 혐오감을 유발하는 경우</li><li>브랜드와 상관없는 붉은 톤 ・ 형광빛 고채도 색상을 사용한 경우</li></ul></li></ul></td></tr><tr><td><strong>가독성 ・ 문구 과다</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>문구가 과하게 포함되어 어떤 의미인지 알아볼 수 없는 경우</li></ul><p><strong>⚠️ 한 줄 배너 이미지는 문구를 포함하지 않는 것을 권장</strong></p><ul><li>실제 기기 화면에서는 이미지가 작게 보이므로 의미가 전달되지 않을 수 있음</li></ul></li></ul></td></tr><tr><td><strong>과한 크롭 ・ 클로즈업</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>크롭 ・ 클로즈업 이미지, 분할 이미지를 쓴 경우</li></ul></li></ul></td></tr><tr><td><strong>내부 서비스로 오인</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li><p>토스의 서비스나 알림, 프로모션으로 오인할 수 있는 이미지를 쓴 경우</p><ul><li>서비스 ・ 알림 아이콘과 유사한 경우</li><li>UI 구성을 캡처하거나 그대로 재현한 경우</li><li>토스의 브랜드명 ・ 로고를 사전 협의 없이 쓴 경우</li></ul></li></ul></li></ul></td></tr><tr><td><strong>광고 고지 문구(심의필)</strong></td><td><ul><li>심의필 고지 문구가 필요한 경우 광고 고지 문구란에 작성 시 자동 반영 (최대 80자)</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="222.38104248046875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택이나 정보가 드러나는 이미지를 써 주세요.</li><li>크기와 밀도가 적절한 이미지를 권장해요.</li></ul></td></tr><tr><td><strong>불쾌감 ・ 시각적 피로함</strong></td><td><p>아래 이미지는 쓸 수 없어요.</p><ul><li>불쾌감이나 혐오감을 주는 이미지</li><li>브랜드와 상관없이 붉은 톤이나 형광빛 고채도 색상을 쓴 이미지</li></ul></td></tr><tr><td><strong>가독성 ・ 문구 과다</strong></td><td><ul><li>문구가 너무 많아 무슨 뜻인지 알아볼 수 없는 이미지는 쓸 수 없어요.</li><li>⚠️ 한 줄 배너 이미지에는 문구를 넣지 않는 것을 권장해요. 실제 기기 화면에서는 이미지가 작게 보여서 문구의 뜻이 전달되지 않을 수 있기 때문이에요.</li></ul></td></tr><tr><td><strong>과한 크롭 ・ 클로즈업</strong></td><td><p>아래 이미지는 쓸 수 없어요.</p><ul><li>과하게 자르거나 확대한 이미지</li><li>여러 장으로 분할한 이미지</li></ul></td></tr><tr><td><strong>내부 서비스로 오인</strong></td><td><p>토스의 서비스, 알림, 프로모션으로 오해할 수 있는 이미지는 쓸 수 없어요.</p><ul><li>서비스나 알림 아이콘과 비슷한 이미지</li><li>토스 화면을 캡처하거나 그대로 재현한 이미지</li><li>사전 협의 없이 토스의 브랜드명이나 로고를 쓴 이미지</li></ul></td></tr><tr><td><strong>광고 고지 문구(심의필)</strong></td><td><ul><li>심의필 고지 문구가 필요하면 광고 고지 문구란에 적어 주세요. 적은 내용은 배너에 자동으로 반영돼요. (최대 80자)</li></ul></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
@@ -97,30 +97,24 @@ layout:
 
 {% tabs %}
 {% tab title="문구 규격" %}
-<table><thead><tr><th width="129.1978759765625">규칙</th><th width="324.152099609375">내용</th><th></th></tr></thead><tbody><tr><td><strong>주요 문구 (18자)</strong></td><td><p></p><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li></ul></td><td><ul><li><strong>인터넷 바꾸면 최대 145만원</strong></li><li><strong>답답한 채무 무료 상담 받기</strong></li></ul></td></tr><tr><td><strong>보조 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>이미지에 로고가 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td><td><ul><li>신규 가입시 혜택</li><li>약정 끝난 인터넷</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="129.1978759765625">규칙</th><th width="324.152099609375">내용</th><th></th></tr></thead><tbody><tr><td><strong>주요 문구 (18자)</strong></td><td><ul><li>최소 5자, 최대 18자까지 쓸 수 있어요.</li><li>이미지에 로고가 없으면 브랜드명을 꼭 적어 주세요.</li></ul></td><td><ul><li><strong>인터넷 바꾸면 최대 145만원</strong></li><li><strong>답답한 채무 무료 상담 받기</strong></li></ul></td></tr><tr><td><strong>보조 문구 (18자)</strong></td><td><ul><li>최소 5자, 최대 18자까지 쓸 수 있어요.</li><li>이미지에 로고가 없으면 브랜드명을 꼭 적어 주세요.</li><li>주요 문구와 같은 문구는 쓸 수 없어요.</li></ul></td><td><ul><li>신규 가입 시 혜택</li><li>약정 끝난 인터넷</li></ul></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="작성 기준" %}
-| 규칙                 | 내용                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **일반**             | <ul><li>혜택・정보가 드러나는 문구</li><li>명사형 또는 ~해요체 권장</li></ul>                                                                                                                                                                                                                                                                                                                                        |
-| **평어체 (반말) ・ 맞춤법** | <ul><li>평어체(반말), 맞춤법에 어긋나는 표현 사용 불가</li></ul>                                                                                                                                                                                                                                                                                                                                                  |
-| **신조어 ・ 밈**        | <ul><li>신조어, 밈, 초성 사용 불가</li></ul>                                                                                                                                                                                                                                                                                                                                                             |
-| **특수문자**           | <ul><li>과도한 강조 ・ 과장 표현의 불필요한 특수 문자는 사용 제한</li><li><p>사용할 수 있는 특수문자</p><ul><li><strong><code>% &#x26; - + = · ? / → ‘ ’ " " ~ ! ( ) , . []</code></strong></li></ul></li><li><p>허용된 특수 문자라 하더라도 반복 사용 불가</p><ul><li>예: <code>!!!</code>, <code>~~</code>, <code>??</code>, <code>%%</code></li></ul></li><li>온점(.)은 문장의 끝에 사용 불가</li><li>특수 문자를 사용해 공지 ・ 알림성 정보로 보이는 경우, 심사가 반려될 수 있음</li></ul> |
-| **조건부 혜택**         | <ul><li>가입 ・ 응모와 같이 조건이 있는 혜택은 광고 문구 내에 반드시 기재</li><li>랜딩 페이지에서 확인할 수 없는 혜택 ・ 정보는 사용 불가</li></ul>                                                                                                                                                                                                                                                                                              |
+<table><thead><tr><th width="180">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택이나 정보가 드러나게 써 주세요.</li><li>명사형이나 해요체로 쓰는 것을 권장해요.</li></ul></td></tr><tr><td><strong>평어체 (반말) ・ 맞춤법</strong></td><td><ul><li>평어체(반말)나 맞춤법에 어긋나는 표현은 쓸 수 없어요.</li></ul></td></tr><tr><td><strong>신조어 ・ 밈</strong></td><td><ul><li>신조어, 밈, 초성은 쓸 수 없어요.</li></ul></td></tr><tr><td><strong>특수문자</strong></td><td><ul><li>과하게 강조하거나 과장하기 위한 특수문자는 쓸 수 없어요.</li><li>쓸 수 있는 특수문자는 <code>% &#x26; - + = · ? / → ‘ ’ " " ~ ! ( ) , . []</code>예요.</li><li><p>쓸 수 있는 특수문자도 같은 문자를 반복해서 쓸 수 없어요.</p><ul><li>불가능: <code>!!!</code>, <code>~~</code>, <code>??</code>, <code>%%</code></li></ul></li><li>문장 끝에는 온점(.)을 쓸 수 없어요.</li><li>특수문자 때문에 공지나 알림처럼 보이면 심사에서 반려될 수 있어요.</li></ul></td></tr><tr><td><strong>조건부 혜택</strong></td><td><ul><li>가입・응모처럼 조건이 있는 혜택은 문구에 조건을 꼭 적어 주세요.</li><li>랜딩 페이지에서 확인할 수 없는 혜택이나 정보는 쓸 수 없어요.</li></ul></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
 {% hint style="warning" %}
 **쓸 수 없는 문구**
 
-* 문장을 `~고`, `~며`, `~면`, `~해서` 같은 연결어미로 끝낼 수 없어요. 문장이 끊겨서 그 줄만으로는 뜻이 전해지지 않아요.
+* 문장을 `~고`, `~며`, `~면`, `~해서` 같은 연결어미로 끝낼 수 없어요. 문장이 끊겨서 그 줄만으로는 뜻이 전해지지 않기 때문이에요.
 * 주요 문구와 보조 문구에 같은 단어를 반복해서 쓸 수 없어요. (브랜드명 · 상품명 포함)
 {% endhint %}
 
 #### 예시 <a href="#copy-examples" id="copy-examples"></a>
 
-**짧고 쉽게, 누구나 이해할 수 있게 써 주세요.**  &#x20;
+**짧고 쉽게, 누구나 이해할 수 있게 써 주세요.**
 
 | <mark style="color:blue;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
 | ----------------------------------------- | ----------------------------------------------- |
@@ -172,13 +166,13 @@ layout:
 
 #### 공통 <a href="#disclosure-common" id="disclosure-common"></a>
 
-<table><thead><tr><th width="173.34893798828125">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>한 줄 배너</strong></td><td>• <a href="../../review/industryguide.md">업종별 심사 가이드</a>에 따라 심의필 제출이 필요한 경우, <code>광고 고지 문구란</code>에 제출 필요. 제출 시 자동 반영<br>• 최대 110자까지 가능</td></tr></tbody></table>
+<table><thead><tr><th width="173.34893798828125">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>한 줄 배너</strong></td><td><ul><li><a href="../../review/industryguide.md">업종별 심사 가이드</a>에 따라 심의필을 제출해야 하면 <code>광고 고지 문구란</code>에 적어 주세요. 적은 내용은 배너에 자동으로 반영돼요.</li><li>최대 110자까지 쓸 수 있어요.</li></ul></td></tr></tbody></table>
 
 ## 연결 URL <a href="#landing-url" id="landing-url"></a>
 
 #### 공통 <a href="#landing-url-common" id="landing-url-common"></a>
 
-<table><thead><tr><th width="279.966552734375">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>광고의 내용과 연결되는 랜딩 페이지</li></ul></td></tr><tr><td><strong>유저가 접속할 때 이상이 없어야함</strong></td><td><ul><li><p>웹으로 랜딩</p><ul><li>오류 ・ 접근 불가 페이지, 이벤트 오픈 전 페이지는 사용 불가<br>‣ 랜딩 페이지를 만들기 전 심사를 받는 경우, 증빙 자료를 함께 제출하면 가능</li><li>접속하는 데 5초 이상 걸리는 경우, 브릿지 페이지 제작</li></ul></li><li><p>앱으로 랜딩</p><ul><li>앱 미설치 유저는 앱 스토어・플레이스토어로 랜딩</li></ul></li></ul></td></tr><tr><td><strong>랜딩 페이지의 내용과 소재 내용이 일치해야 함</strong></td><td><ul><li>랜딩 페이지에서 확인할 수 없는 혜택 ・ 정보는 사용 불가</li><li>가입 ・ 응모와 같이 조건부 혜택은 광고 문구에 기재</li></ul></td></tr><tr><td><strong>URL 주소는 영문으로 제출</strong></td><td><ul><li>주소에 한글이 있는 경우에는 사용 불가</li><li>링크 내에 <code>{ } ^ #</code> 문구가 있으면 반려될 수 있음</li><li>^ 대신 _(언더바) 사용 권장</li><li><code>http://</code>는 사용 불가 → <code>https://</code> 사용 권장</li></ul></td></tr><tr><td><strong>URL 축약 불가</strong></td><td><ul><li>앱플라이어로 만든 원링크의 경우, 파라미터가 단축되지 않은 원본 제출</li><li>숏 링크 / 단축 URL 사용 불가(비틀리 포함)</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>이 외의 이유로 문제가 있는 경우, URL 수정을 요청할 수 있음</li><li>그 외 공통으로 적용되는 규정은 <a href="../../review/creativeguide.md">소재 심사 규정</a> 참고</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="279.966552734375">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>광고 내용과 이어지는 랜딩 페이지를 연결해 주세요.</li></ul></td></tr><tr><td><strong>접속 오류가 없어야 해요</strong></td><td><ul><li><p>웹으로 연결할 때</p><ul><li>오류가 나거나 접근할 수 없는 페이지, 이벤트를 열기 전 페이지는 쓸 수 없어요. 랜딩 페이지를 만들기 전에 심사를 받는다면 증빙 자료를 함께 제출해 주세요.</li><li>접속하는 데 5초 이상 걸리면 브릿지 페이지를 만들어 주세요.</li></ul></li><li><p>앱으로 연결할 때</p><ul><li>앱을 설치하지 않은 유저는 앱스토어나 플레이스토어로 연결해 주세요.</li></ul></li></ul></td></tr><tr><td><strong>랜딩 페이지와 소재 내용이 같아야 해요</strong></td><td><ul><li>랜딩 페이지에서 확인할 수 없는 혜택이나 정보는 쓸 수 없어요.</li><li>가입・응모처럼 조건이 있는 혜택은 광고 문구에 조건을 적어 주세요.</li></ul></td></tr><tr><td><strong>URL 주소는 영문으로 제출해 주세요</strong></td><td><ul><li>주소에 한글이 있으면 쓸 수 없어요.</li><li>링크에 <code>{ } ^ #</code>가 있으면 반려될 수 있어요.</li><li><code>^</code> 대신 <code>_</code>(언더바)를 쓰는 것을 권장해요.</li><li><code>http://</code>는 쓸 수 없어요. <code>https://</code>를 쓰는 것을 권장해요.</li></ul></td></tr><tr><td><strong>URL을 줄이지 말아 주세요</strong></td><td><ul><li>앱스플라이어로 만든 원링크는 파라미터를 줄이지 않은 원본으로 제출해 주세요.</li><li>숏 링크나 단축 URL(비틀리 포함)은 쓸 수 없어요.</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>이 밖의 이유로 문제가 있으면 URL 수정을 요청할 수 있어요.</li><li>그 밖에 공통으로 적용되는 규정은 <a href="../../review/creativeguide.md">소재 심사 규정</a>에서 확인해 주세요.</li></ul></td></tr></tbody></table>
 
 #### 예시 <a href="#landing-url-examples" id="landing-url-examples"></a>
 

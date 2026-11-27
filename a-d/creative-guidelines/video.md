@@ -21,19 +21,19 @@ layout:
     visible: true
 ---
 
-# 비디오
+# 비디오 유형
 
 ## 1. 브랜드명・브랜드 로고 <a href="#brand" id="brand"></a>
 
 #### 1-1) 브랜드명 <a href="#brand-name" id="brand-name"></a>
 
-<table><thead><tr><th width="219.9921875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td>• 브랜드명 또는 서비스 ・ 제품명<br>• 최대 20자<br>• 랜딩 페이지에서 확인할 수 있는 실제 명칭만 가능<br>• 혜택 ・ 정보가 포함된 문구는 사용 불가</td></tr></tbody></table>
+<table><thead><tr><th width="219.9921875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>브랜드명이나 서비스・제품명을 적어 주세요.</li><li>최대 20자까지 쓸 수 있어요.</li><li>랜딩 페이지에서 확인할 수 있는 실제 이름만 쓸 수 있어요.</li><li>혜택이나 정보가 들어간 문구는 쓸 수 없어요.</li></ul></td></tr></tbody></table>
 
 #### 1-2) 브랜드 로고 <a href="#brand-logo" id="brand-logo"></a>
 
 <figure><img src="../../.gitbook/assets/브랜드 로고 (4).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="219.91796875">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li><code>800*800px</code> 이상</li><li><strong>투명·반투명한 부분이 없는 이미지</strong>를 올리거나, JPG로 변환해서 올려 주세요.</li><li><strong>안전 노출 영역 등</strong> 여백 가이드는 하단 파일 참조</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>로고 형태가 가로로 긴 경우, 실제 지면에서 가독성이 떨어질 수 있어 권장하지 않음</li><li>심볼, 짧은 텍스트 위주 형태 권장</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="219.91796875">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>로고 이미지</strong></td><td><ul><li>jpg, jpeg, png</li><li>1:1 비율</li><li><code>800*800px</code> 이상</li><li><strong>투명·반투명한 부분이 없는 이미지</strong>를 올리거나, JPG로 변환해서 올려 주세요.</li><li><strong>안전 노출 영역</strong> 같은 여백 가이드는 아래 파일을 참고해 주세요.</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>가로로 긴 로고는 실제 지면에서 잘 읽히지 않을 수 있어서 권장하지 않아요.</li><li>심볼이나 짧은 텍스트 위주의 로고를 권장해요.</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 만들 수 있어요.
@@ -53,15 +53,15 @@ layout:
 
 **가로 로고보다 심볼을 사용해주세요.**
 
-| <mark style="color:$danger;">**`Don't`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
-| ----------------------------------------------- | ----------------------------------------------- |
-| 가로로 길어 식별할 수 없는 로고                              | 중앙에 적절한 크기로 들어간 로고                              |
+| <mark style="color:blue;">**`DO`**</mark> | <mark style="color:$danger;">**`Don't`**</mark> |
+| ----------------------------------------- | ----------------------------------------------- |
+| 중앙에 적절한 크기로 들어간 로고                        | 가로로 길어 식별할 수 없는 로고                              |
 
 ## 2. 비디오 <a href="#video" id="video"></a>
 
 #### 2-1) 공통 <a href="#video-common" id="video-common"></a>
 
-<table><thead><tr><th width="219.578125">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>브랜드에서 강조하고자 하는 내용이 잘 드러나는 비디오</li><li>적절한 길이와 밀도 권장</li></ul></td></tr><tr><td><strong>정적인 이미지 ・ 문구 과다</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>비디오 속 텍스트 ・ 스틸컷의 비중이 높은 경</li><li>제품 ・ 실사, 인물 위주가 아닌 텍스트가 50% 이상을 차지하는 경우</li></ul></li></ul></td></tr><tr><td><strong>가시성 ・ 화질 저하</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>같은 장면이 연속으로 반복되는 경우</li><li>화질이 지나치게 낮은 경우</li></ul></li></ul></td></tr><tr><td><strong>지나친 섬광 ・ 공포 유발</strong></td><td><ul><li>아래 이미지는 사용 불가</li><li><p>섬광, 피, 흉기, 귀신, 괴물 등이 노출되는 경우</p><ul><li>시작 후 초반 10초 이내, 3초 이상 지속 노출</li><li>5초 이상 길게 연속해서 노출</li><li>비디오의 길이・영역의 50% 이상 노출</li></ul></li><li>짧은 장면이라도 놀라게 할 목적으로 갑자기 화면이 바뀌거나, 공포 소재가 등장하는 경우</li></ul></td></tr><tr><td><strong>소리</strong></td><td><ul><li>소리의 여부와 상관없이 집행 가능</li></ul></td></tr><tr><td><strong>화면 분할</strong></td><td><ul><li><p>아래 이미지는 사용 불가</p><ul><li>3초 이상 연속해서 분할컷 이미지가 노출되는 경우</li></ul></li></ul></td></tr><tr><td><strong>광고 고지 문구(심의필)</strong></td><td><ul><li>업종에 따라 심의필 문구 고지가 필요한 경우, 소재 내에 직접 삽입하여 제출</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="219.578125">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>브랜드가 강조하고 싶은 내용이 잘 드러나는 비디오를 써 주세요.</li><li>길이와 밀도가 적절한 비디오를 권장해요.</li></ul></td></tr><tr><td><strong>정적인 이미지 ・ 문구 과다</strong></td><td><p>아래 비디오는 쓸 수 없어요.</p><ul><li>텍스트나 스틸컷 비중이 높은 비디오</li><li>제품, 실사, 인물이 아닌 텍스트가 화면의 50% 이상을 차지하는 비디오</li></ul></td></tr><tr><td><strong>가시성 ・ 화질 저하</strong></td><td><p>아래 비디오는 쓸 수 없어요.</p><ul><li>같은 장면이 연속으로 반복되는 비디오</li><li>화질이 지나치게 낮은 비디오</li></ul></td></tr><tr><td><strong>지나친 섬광 ・ 공포 유발</strong></td><td><p>섬광, 피, 흉기, 귀신, 괴물 등이 아래처럼 나오는 비디오는 쓸 수 없어요.</p><ul><li>시작 후 10초 안에 3초 이상 이어서 나오는 경우</li><li>5초 이상 연속해서 나오는 경우</li><li>비디오 길이나 화면의 50% 이상에 나오는 경우</li></ul><p>짧은 장면이라도 놀라게 할 목적으로 화면이 갑자기 바뀌거나 공포 소재가 나오는 비디오도 쓸 수 없어요.</p></td></tr><tr><td><strong>소리</strong></td><td><ul><li>소리가 있든 없든 집행할 수 있어요.</li></ul></td></tr><tr><td><strong>화면 분할</strong></td><td><ul><li>분할 화면이 3초 이상 이어서 나오는 비디오는 쓸 수 없어요.</li></ul></td></tr><tr><td><strong>광고 고지 문구(심의필)</strong></td><td><ul><li>업종에 따라 심의필 문구를 고지해야 하면 비디오 안에 직접 넣어서 제출해 주세요.</li></ul></td></tr></tbody></table>
 
 #### 2-2) 비디오 규격 <a href="#video-spec" id="video-spec"></a>
 
@@ -71,7 +71,7 @@ layout:
 
 <div><figure><img src="../../.gitbook/assets/영상 배너 - 세로형_1_1.png" alt=""><figcaption><p>비디오 : 세로형 - 4:5</p></figcaption></figure> <figure><img src="../../.gitbook/assets/영상 배너 - 세로형_4_5.png" alt=""><figcaption><p>비디오 : 세로형 - 1:1</p></figcaption></figure></div>
 
-<table><thead><tr><th width="220.00390625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li><code>길이</code> 최소 3초 ~ 최대 120초 <strong>(15초・30초 사용 권장)</strong></li><li><code>지원 형식</code> MP4, MOV, WebM</li><li><code>파일 크기</code> 500MB 미만</li><li><code>프레임 속도</code> 24fps 또는 30fps</li><li><code>코덱 사양</code> H.264 / 오디오 AAC</li><li>버튼 등 광고 요소와 겹치거나 가리는 경우 심사 반려</li></ul></td></tr><tr><td><strong>가로형</strong></td><td><ul><li>16:9 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr><tr><td><strong>세로형</strong></td><td><ul><li>9:16 (권장), 4:5, 1:1 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220.00390625">규격</th><th>내용</th></tr></thead><tbody><tr><td><strong>공통 양식</strong></td><td><ul><li><code>길이</code> 최소 3초, 최대 120초 <strong>(15초・30초 권장)</strong></li><li><code>지원 형식</code> MP4, MOV, WebM</li><li><code>파일 크기</code> 500MB 미만</li><li><code>프레임 속도</code> 24fps 또는 30fps</li><li><code>코덱 사양</code> H.264 / 오디오 AAC</li><li>버튼 같은 광고 요소와 겹치거나 가리면 심사에서 반려돼요.</li></ul></td></tr><tr><td><strong>가로형</strong></td><td><ul><li>16:9 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr><tr><td><strong>세로형</strong></td><td><ul><li>9:16 (권장), 4:5, 1:1 비율</li><li>최소 <code>720p</code> 이상 (1080p 권장)</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 아래 파일을 이용하면 쉽고 빠르게 소재를 확인할 수 있어요.
@@ -111,13 +111,13 @@ layout:
 
 #### 3-1) 공통 <a href="#copy-common" id="copy-common"></a>
 
-<table><thead><tr><th width="220.2760009765625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택・정보가 드러나는 문구</li><li>명사형 또는 ~해요체 권장</li></ul></td></tr><tr><td><strong>평어체 (반말) ・ 맞춤법</strong></td><td><ul><li>평어체(반말), 맞춤법에 어긋나는 표현 사용 불가</li></ul></td></tr><tr><td><strong>신조어 ・ 밈</strong></td><td><ul><li>신조어, 밈, 초성 사용 불가</li></ul></td></tr><tr><td><strong>특수문자</strong></td><td><ul><li>과도한 강조 ・ 과장 표현의 불필요한 특수 문자는 사용 제한</li><li><p>사용할 수 있는 특수문자</p><ul><li><strong><code>% &#x26; - + = · ? / → ‘ ’ " " ~ ! ( ) , . []</code></strong></li></ul></li><li><p>허용된 특수 문자라 하더라도 반복 사용 불가</p><ul><li>예: !!!, ~~, ??, %%</li></ul></li><li>온점(.)은 문장의 끝에 사용 불가</li><li>특수 문자를 사용해 공지,알림성 정보로 보이는 경우, 심사가 반려될 수 있음</li></ul></td></tr><tr><td><strong>조건부 혜택</strong></td><td><ul><li>가입 ・ 응모와 같이 조건이 있는 혜택은 광고 문구 내에 반드시 기재</li><li>랜딩 페이지에서 확인할 수 없는 혜택 ・ 정보는 사용 불가</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220.2760009765625">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>혜택이나 정보가 드러나게 써 주세요.</li><li>명사형이나 해요체로 쓰는 것을 권장해요.</li></ul></td></tr><tr><td><strong>평어체 (반말) ・ 맞춤법</strong></td><td><ul><li>평어체(반말)나 맞춤법에 어긋나는 표현은 쓸 수 없어요.</li></ul></td></tr><tr><td><strong>신조어 ・ 밈</strong></td><td><ul><li>신조어, 밈, 초성은 쓸 수 없어요.</li></ul></td></tr><tr><td><strong>특수문자</strong></td><td><ul><li>과하게 강조하거나 과장하기 위한 특수문자는 쓸 수 없어요.</li><li>쓸 수 있는 특수문자는 <code>% &#x26; - + = · ? / → ‘ ’ " " ~ ! ( ) , . []</code>예요.</li><li><p>쓸 수 있는 특수문자도 같은 문자를 반복해서 쓸 수 없어요.</p><ul><li>불가능: <code>!!!</code>, <code>~~</code>, <code>??</code>, <code>%%</code></li></ul></li><li>문장 끝에는 온점(.)을 쓸 수 없어요.</li><li>특수문자 때문에 공지나 알림처럼 보이면 심사에서 반려될 수 있어요.</li></ul></td></tr><tr><td><strong>조건부 혜택</strong></td><td><ul><li>가입・응모처럼 조건이 있는 혜택은 문구에 조건을 꼭 적어 주세요.</li><li>랜딩 페이지에서 확인할 수 없는 혜택이나 정보는 쓸 수 없어요.</li></ul></td></tr></tbody></table>
 
 #### 3-2) 문구 규격 <a href="#copy-spec" id="copy-spec"></a>
 
-<table><thead><tr><th width="220.150146484375">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>주요 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>영상에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li></ul></td></tr><tr><td><strong>보조 문구 (18자)</strong></td><td><ul><li>최소 5자 ~ 최대 18자</li><li>영상에 로고 또는 브랜드명이 없는 경우, 브랜드명 표기 필수</li><li>주요 문구와 동일한 문구 사용 불가</li></ul></td></tr><tr><td><strong>cta 버튼 문구</strong></td><td><ul><li><p>다음 문구 중 선택</p><ul><li>구경하기</li><li>구독하기</li><li>구매하기</li><li>더 보기</li><li>받기</li><li>보러가기</li><li>사러가기</li><li>설치하기</li><li>시작하기</li><li>신청하기</li><li>알아보기</li><li>앱 열기</li><li>자세히 보기</li><li>조회하기</li><li>확인하기</li></ul></li><li>cta 버튼 문구는 고정으로, 직접 작성할 수 없음</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220.150146484375">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>주요 문구 (18자)</strong></td><td><ul><li>최소 5자, 최대 18자까지 쓸 수 있어요.</li><li>비디오에 로고나 브랜드명이 없으면 브랜드명을 꼭 적어 주세요.</li></ul></td></tr><tr><td><strong>보조 문구 (18자)</strong></td><td><ul><li>최소 5자, 최대 18자까지 쓸 수 있어요.</li><li>비디오에 로고나 브랜드명이 없으면 브랜드명을 꼭 적어 주세요.</li><li>주요 문구와 같은 문구는 쓸 수 없어요.</li></ul></td></tr><tr><td><strong>CTA 버튼 문구</strong></td><td><ul><li><p>아래 문구 중 하나를 골라 주세요.</p><ul><li>구경하기</li><li>구독하기</li><li>구매하기</li><li>더 보기</li><li>받기</li><li>보러가기</li><li>사러가기</li><li>설치하기</li><li>시작하기</li><li>신청하기</li><li>알아보기</li><li>앱 열기</li><li>자세히 보기</li><li>조회하기</li><li>확인하기</li></ul></li><li>CTA 버튼 문구는 정해져 있어서 직접 쓸 수 없어요.</li></ul></td></tr></tbody></table>
 
-#### 3-3. 예시 <a href="#copy-examples" id="copy-examples"></a>
+#### 3-3) 예시 <a href="#copy-examples" id="copy-examples"></a>
 
 **짧고 쉽게, 누구나 이해할 수 있게 써주세요.**
 
@@ -171,7 +171,7 @@ layout:
 
 #### 4-1) 공통 <a href="#disclosure-common" id="disclosure-common"></a>
 
-<table><thead><tr><th width="220.3875732421875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>비디오 배너</strong></td><td><ul><li><a href="../../review/industryguide.md">업종별 심사 가이드</a>에 따라 심의필 제출이 필요한 경우, <code>비디오</code>에 <strong>직접 기재</strong></li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="220.3875732421875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>비디오 배너</strong></td><td><ul><li><a href="../../review/industryguide.md">업종별 심사 가이드</a>에 따라 심의필을 제출해야 하면 <code>비디오</code> 안에 <strong>직접 적어 주세요.</strong></li></ul></td></tr></tbody></table>
 
 #### 4-2) 예시 <a href="#disclosure-examples" id="disclosure-examples"></a>
 
@@ -191,7 +191,7 @@ layout:
 
 #### 5-1) 공통 <a href="#landing-url-common" id="landing-url-common"></a>
 
-<table><thead><tr><th width="280.2421875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>광고의 내용과 연결되는 랜딩 페이지</li></ul></td></tr><tr><td><strong>유저가 접속할 때 이상이 없어야함</strong></td><td><ul><li><p>웹으로 랜딩</p><ul><li><p>오류 ・ 접근 불가 페이지, 이벤트 오픈 전 페이지는 사용 불가</p><ul><li>랜딩 페이지를 만들기 전 심사를 받는 경우, 증빙 자료를 함께 제출하면 가능</li></ul></li><li>접속하는데 5초 이상 걸리는 경우, 브릿지 페이지 제작</li></ul></li><li><p>앱으로 랜딩</p><ul><li>앱 미설치 유저는 앱 스토어・플레이스토어로 랜딩</li></ul></li></ul></td></tr><tr><td><strong>랜딩 페이지의 내용과 소재 내용이 일치해야 함</strong></td><td><ul><li>랜딩 페이지에서 확인할 수 없는 혜택 ・ 정보는 사용 불가</li><li>가입 ・ 응모와 같이 조건부 혜택은 광고 문구에 기재</li></ul></td></tr><tr><td><strong>URL 주소는 영문으로 제출</strong></td><td><ul><li>주소에 한글이 있는 경우에는 사용 불가</li><li>링크 내에 <code>{ } ^ #</code> 문구가 있으면 반려될 수 있음</li><li>^ 대신 _(언더바) 사용 권장</li><li><code>http://</code>는 사용 불가 → <code>https://</code> 사용 권장</li></ul></td></tr><tr><td><strong>URL 축약 불가</strong></td><td><ul><li>앱플라이어로 만든 윈링크의 경우, 피라미터가 단축되지 않은 원본 제출</li><li>숏 링크 / 단축 URL 사용 불가(비틀리 포함)</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>이 외의 이유로 문제가 있는 경우, URL 수정을 요청할 수 있음</li><li>그 외 공통으로 적용되는 규정은 <a href="../../review/creativeguide.md">소재 심사 규정</a> 참고</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="280.2421875">규칙</th><th>내용</th></tr></thead><tbody><tr><td><strong>일반</strong></td><td><ul><li>광고 내용과 이어지는 랜딩 페이지를 연결해 주세요.</li></ul></td></tr><tr><td><strong>접속 오류가 없어야 해요</strong></td><td><ul><li><p>웹으로 연결할 때</p><ul><li>오류가 나거나 접근할 수 없는 페이지, 이벤트를 열기 전 페이지는 쓸 수 없어요. 랜딩 페이지를 만들기 전에 심사를 받는다면 증빙 자료를 함께 제출해 주세요.</li><li>접속하는 데 5초 이상 걸리면 브릿지 페이지를 만들어 주세요.</li></ul></li><li><p>앱으로 연결할 때</p><ul><li>앱을 설치하지 않은 유저는 앱스토어나 플레이스토어로 연결해 주세요.</li></ul></li></ul></td></tr><tr><td><strong>랜딩 페이지와 소재 내용이 같아야 해요</strong></td><td><ul><li>랜딩 페이지에서 확인할 수 없는 혜택이나 정보는 쓸 수 없어요.</li><li>가입・응모처럼 조건이 있는 혜택은 광고 문구에 조건을 적어 주세요.</li></ul></td></tr><tr><td><strong>URL 주소는 영문으로 제출해 주세요</strong></td><td><ul><li>주소에 한글이 있으면 쓸 수 없어요.</li><li>링크에 <code>{ } ^ #</code>가 있으면 반려될 수 있어요.</li><li><code>^</code> 대신 <code>_</code>(언더바)를 쓰는 것을 권장해요.</li><li><code>http://</code>는 쓸 수 없어요. <code>https://</code>를 쓰는 것을 권장해요.</li></ul></td></tr><tr><td><strong>URL을 줄이지 말아 주세요</strong></td><td><ul><li>앱스플라이어로 만든 원링크는 파라미터를 줄이지 않은 원본으로 제출해 주세요.</li><li>숏 링크나 단축 URL(비틀리 포함)은 쓸 수 없어요.</li></ul></td></tr><tr><td><strong>기타</strong></td><td><ul><li>이 밖의 이유로 문제가 있으면 URL 수정을 요청할 수 있어요.</li><li>그 밖에 공통으로 적용되는 규정은 <a href="../../review/creativeguide.md">소재 심사 규정</a>에서 확인해 주세요.</li></ul></td></tr></tbody></table>
 
 #### 5-2) 예시 <a href="#landing-url-examples" id="landing-url-examples"></a>
 
